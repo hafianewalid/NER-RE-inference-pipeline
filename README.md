@@ -1,1 +1,1 @@
-# -BERT-NER-BERT-RE-inference-pipeline
+# NER-RE-inference-pipeline
