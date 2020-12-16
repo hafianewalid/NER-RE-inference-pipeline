@@ -1,0 +1,16 @@
+T1	Pharmacokinetic_phenotype	14 47	cyclosporine dose-adjusted C0 was
+T2	Phenotype	58 79	CYP3A5 non-expressors
+T3	Phenotype	85 95	expressors
+T4	Disease	120 143	renal transplantation .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	increases	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T3	Arg2:T1
+R8	influences	Arg1:T3	Arg2:T2
+R9	influences	Arg1:T3	Arg2:T4
+R10	increases	Arg1:T4	Arg2:T1
+R11	isAssociatedWith	Arg1:T4	Arg2:T2
+R12	isAssociatedWith	Arg1:T4	Arg2:T3

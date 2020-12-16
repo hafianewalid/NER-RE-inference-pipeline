@@ -1,0 +1,9 @@
+T1	Pharmacodynamic_phenotype	67 101	lack of response to 5-fluorouracil
+T2	Pharmacodynamic_phenotype	106 119	mitomycin and
+T3	Limited_variation	120 178	mutations affecting the L2/L3 domains of the p53 protein .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

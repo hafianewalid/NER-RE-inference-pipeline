@@ -1,0 +1,100 @@
+T1	Haplotype	79 95	CYP2C9 * 3 , CYP
+T2	Limited_variation	95 119	2C9 C-65 ( rs9332127 ) ,
+T3	Gene_or_protein	120 132	CYP4F2 rs210
+T4	Limited_variation	71 141	between CYP2C9 * 3 , CYP2C9 C-65 ( rs9332127 ) , CYP4F2 rs2108622 , GG
+T5	Gene_or_protein	141 149	CX rs127
+T6	Limited_variation	141 160	CX rs12714145 , EPH
+T7	Gene_or_protein	161 169	1 rs4653
+T8	Limited_variation	161 176	1 rs4653436 and
+T9	Limited_variation	182 196	rs1799809 with
+T10	Pharmacodynamic_phenotype	197 219	warfarin sensitivity .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T1	Arg2:T6
+R6	isAssociatedWith	Arg1:T1	Arg2:T7
+R7	isAssociatedWith	Arg1:T1	Arg2:T8
+R8	isAssociatedWith	Arg1:T1	Arg2:T9
+R9	isAssociatedWith	Arg1:T1	Arg2:T10
+R10	isAssociatedWith	Arg1:T2	Arg2:T1
+R11	isAssociatedWith	Arg1:T2	Arg2:T3
+R12	isAssociatedWith	Arg1:T2	Arg2:T4
+R13	isAssociatedWith	Arg1:T2	Arg2:T5
+R14	isAssociatedWith	Arg1:T2	Arg2:T6
+R15	isAssociatedWith	Arg1:T2	Arg2:T7
+R16	isAssociatedWith	Arg1:T2	Arg2:T8
+R17	isAssociatedWith	Arg1:T2	Arg2:T9
+R18	isAssociatedWith	Arg1:T2	Arg2:T10
+R19	isAssociatedWith	Arg1:T3	Arg2:T1
+R20	isAssociatedWith	Arg1:T3	Arg2:T2
+R21	isAssociatedWith	Arg1:T3	Arg2:T4
+R22	isAssociatedWith	Arg1:T3	Arg2:T5
+R23	isAssociatedWith	Arg1:T3	Arg2:T6
+R24	isAssociatedWith	Arg1:T3	Arg2:T7
+R25	isAssociatedWith	Arg1:T3	Arg2:T8
+R26	isAssociatedWith	Arg1:T3	Arg2:T9
+R27	isAssociatedWith	Arg1:T3	Arg2:T10
+R28	isAssociatedWith	Arg1:T4	Arg2:T1
+R29	isAssociatedWith	Arg1:T4	Arg2:T2
+R30	isAssociatedWith	Arg1:T4	Arg2:T3
+R31	isAssociatedWith	Arg1:T4	Arg2:T5
+R32	isAssociatedWith	Arg1:T4	Arg2:T6
+R33	isAssociatedWith	Arg1:T4	Arg2:T7
+R34	isAssociatedWith	Arg1:T4	Arg2:T8
+R35	isAssociatedWith	Arg1:T4	Arg2:T9
+R36	isAssociatedWith	Arg1:T4	Arg2:T10
+R37	isAssociatedWith	Arg1:T5	Arg2:T1
+R38	isAssociatedWith	Arg1:T5	Arg2:T2
+R39	isAssociatedWith	Arg1:T5	Arg2:T3
+R40	isAssociatedWith	Arg1:T5	Arg2:T4
+R41	isAssociatedWith	Arg1:T5	Arg2:T6
+R42	isAssociatedWith	Arg1:T5	Arg2:T7
+R43	isAssociatedWith	Arg1:T5	Arg2:T8
+R44	isAssociatedWith	Arg1:T5	Arg2:T9
+R45	isAssociatedWith	Arg1:T5	Arg2:T10
+R46	isAssociatedWith	Arg1:T6	Arg2:T1
+R47	isAssociatedWith	Arg1:T6	Arg2:T2
+R48	isAssociatedWith	Arg1:T6	Arg2:T3
+R49	isAssociatedWith	Arg1:T6	Arg2:T4
+R50	isAssociatedWith	Arg1:T6	Arg2:T5
+R51	isAssociatedWith	Arg1:T6	Arg2:T7
+R52	isAssociatedWith	Arg1:T6	Arg2:T8
+R53	isAssociatedWith	Arg1:T6	Arg2:T9
+R54	isAssociatedWith	Arg1:T6	Arg2:T10
+R55	isAssociatedWith	Arg1:T7	Arg2:T1
+R56	isAssociatedWith	Arg1:T7	Arg2:T2
+R57	isAssociatedWith	Arg1:T7	Arg2:T3
+R58	isAssociatedWith	Arg1:T7	Arg2:T4
+R59	isAssociatedWith	Arg1:T7	Arg2:T5
+R60	isAssociatedWith	Arg1:T7	Arg2:T6
+R61	isAssociatedWith	Arg1:T7	Arg2:T8
+R62	isAssociatedWith	Arg1:T7	Arg2:T9
+R63	isAssociatedWith	Arg1:T7	Arg2:T10
+R64	isAssociatedWith	Arg1:T8	Arg2:T1
+R65	isAssociatedWith	Arg1:T8	Arg2:T2
+R66	isAssociatedWith	Arg1:T8	Arg2:T3
+R67	isAssociatedWith	Arg1:T8	Arg2:T4
+R68	isAssociatedWith	Arg1:T8	Arg2:T5
+R69	isAssociatedWith	Arg1:T8	Arg2:T6
+R70	isAssociatedWith	Arg1:T8	Arg2:T7
+R71	isAssociatedWith	Arg1:T8	Arg2:T9
+R72	isAssociatedWith	Arg1:T8	Arg2:T10
+R73	isAssociatedWith	Arg1:T9	Arg2:T1
+R74	isAssociatedWith	Arg1:T9	Arg2:T2
+R75	isAssociatedWith	Arg1:T9	Arg2:T3
+R76	isAssociatedWith	Arg1:T9	Arg2:T4
+R77	isAssociatedWith	Arg1:T9	Arg2:T5
+R78	isAssociatedWith	Arg1:T9	Arg2:T6
+R79	isAssociatedWith	Arg1:T9	Arg2:T7
+R80	isAssociatedWith	Arg1:T9	Arg2:T8
+R81	isAssociatedWith	Arg1:T9	Arg2:T10
+R82	isAssociatedWith	Arg1:T10	Arg2:T1
+R83	isAssociatedWith	Arg1:T10	Arg2:T2
+R84	isAssociatedWith	Arg1:T10	Arg2:T3
+R85	isAssociatedWith	Arg1:T10	Arg2:T4
+R86	isAssociatedWith	Arg1:T10	Arg2:T5
+R87	isAssociatedWith	Arg1:T10	Arg2:T6
+R88	isAssociatedWith	Arg1:T10	Arg2:T7
+R89	isAssociatedWith	Arg1:T10	Arg2:T8
+R90	isAssociatedWith	Arg1:T10	Arg2:T9

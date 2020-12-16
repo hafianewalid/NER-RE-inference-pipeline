@@ -1,0 +1,9 @@
+T1	Pharmacodynamic_phenotype	14 50	co-trimoxazole -induced SJS / TEN in
+T2	Haplotype	69 103	HLA-B * 15:02 , HLA-C * 06:02 , or
+T3	Haplotype	108 124	C * 08:01 allele
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T2	Arg2:T1
+R4	increases	Arg1:T2	Arg2:T3
+R5	increases	Arg1:T3	Arg2:T1
+R6	increases	Arg1:T3	Arg2:T2

@@ -1,0 +1,13 @@
+T1	Disease	13 36	Gastric cancer patients
+T2	Limited_variation	42 65	ERCC1 -118 C/C genotype
+T3	Limited_variation	70 88	XRCC1 -399A / G or
+T4	Chemical	122 164	oxaliplatin -based adjuvant chemotherapy .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T2	Arg2:T4
+R6	influences	Arg1:T3	Arg2:T1
+R7	isAssociatedWith	Arg1:T3	Arg2:T2
+R8	influences	Arg1:T3	Arg2:T4
+R9	treats	Arg1:T4	Arg2:T1

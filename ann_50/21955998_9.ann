@@ -1,0 +1,62 @@
+T1	Chemical	89 98	BSC alone
+T2	Chemical	101 111	anti- EGFR
+T3	Gene_or_protein	99 115	, anti- EGFR mAb
+T4	Chemical	99 136	, anti- EGFR mAb with chemotherapy or
+T5	Chemical	139 148	C reduces
+T6	Phenotype	161 176	progression and
+T7	Phenotype	177 199	death of mCRC and that
+T8	Disease	253 266	KRAS tumors .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	decreases	Arg1:T1	Arg2:T5
+R5	decreases	Arg1:T1	Arg2:T6
+R6	decreases	Arg1:T1	Arg2:T7
+R7	treats	Arg1:T1	Arg2:T8
+R8	influences	Arg1:T2	Arg2:T1
+R9	influences	Arg1:T2	Arg2:T3
+R10	influences	Arg1:T2	Arg2:T4
+R11	decreases	Arg1:T2	Arg2:T5
+R12	decreases	Arg1:T2	Arg2:T6
+R13	decreases	Arg1:T2	Arg2:T7
+R14	treats	Arg1:T2	Arg2:T8
+R15	influences	Arg1:T3	Arg2:T1
+R16	influences	Arg1:T3	Arg2:T2
+R17	influences	Arg1:T3	Arg2:T4
+R18	decreases	Arg1:T3	Arg2:T5
+R19	decreases	Arg1:T3	Arg2:T6
+R20	decreases	Arg1:T3	Arg2:T7
+R21	treats	Arg1:T3	Arg2:T8
+R22	influences	Arg1:T4	Arg2:T1
+R23	influences	Arg1:T4	Arg2:T2
+R24	influences	Arg1:T4	Arg2:T3
+R25	decreases	Arg1:T4	Arg2:T5
+R26	decreases	Arg1:T4	Arg2:T6
+R27	decreases	Arg1:T4	Arg2:T7
+R28	treats	Arg1:T4	Arg2:T8
+R29	influences	Arg1:T5	Arg2:T1
+R30	influences	Arg1:T5	Arg2:T4
+R31	decreases	Arg1:T5	Arg2:T6
+R32	decreases	Arg1:T5	Arg2:T7
+R33	treats	Arg1:T5	Arg2:T8
+R34	isAssociatedWith	Arg1:T6	Arg2:T1
+R35	isAssociatedWith	Arg1:T6	Arg2:T2
+R36	isAssociatedWith	Arg1:T6	Arg2:T3
+R37	isAssociatedWith	Arg1:T6	Arg2:T4
+R38	isAssociatedWith	Arg1:T6	Arg2:T5
+R39	decreases	Arg1:T6	Arg2:T7
+R40	isAssociatedWith	Arg1:T6	Arg2:T8
+R41	isAssociatedWith	Arg1:T7	Arg2:T1
+R42	isAssociatedWith	Arg1:T7	Arg2:T2
+R43	isAssociatedWith	Arg1:T7	Arg2:T3
+R44	isAssociatedWith	Arg1:T7	Arg2:T4
+R45	isAssociatedWith	Arg1:T7	Arg2:T5
+R46	isAssociatedWith	Arg1:T7	Arg2:T6
+R47	isAssociatedWith	Arg1:T7	Arg2:T8
+R48	influences	Arg1:T8	Arg2:T1
+R49	influences	Arg1:T8	Arg2:T2
+R50	influences	Arg1:T8	Arg2:T3
+R51	influences	Arg1:T8	Arg2:T4
+R52	influences	Arg1:T8	Arg2:T5
+R53	influences	Arg1:T8	Arg2:T6
+R54	influences	Arg1:T8	Arg2:T7

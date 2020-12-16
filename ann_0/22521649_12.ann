@@ -1,0 +1,33 @@
+T1	Disease	45 65	lung cancer patients
+T2	Limited_variation	71 90	EGFR -mutations had
+T3	Phenotype	98 106	PFS with
+T4	Chemical	107 118	taxane than
+T5	Chemical	119 135	gemcitabine when
+T6	Chemical	148 181	platinum -based doublet regimen .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T6
+R5	isAssociatedWith	Arg1:T2	Arg2:T1
+R6	increases	Arg1:T2	Arg2:T3
+R7	influences	Arg1:T2	Arg2:T4
+R8	influences	Arg1:T2	Arg2:T5
+R9	influences	Arg1:T2	Arg2:T6
+R10	treats	Arg1:T3	Arg2:T1
+R11	isAssociatedWith	Arg1:T3	Arg2:T2
+R12	increases	Arg1:T3	Arg2:T4
+R13	treats	Arg1:T4	Arg2:T1
+R14	isAssociatedWith	Arg1:T4	Arg2:T2
+R15	increases	Arg1:T4	Arg2:T3
+R16	influences	Arg1:T4	Arg2:T5
+R17	treats	Arg1:T4	Arg2:T6
+R18	treats	Arg1:T5	Arg2:T1
+R19	isAssociatedWith	Arg1:T5	Arg2:T2
+R20	increases	Arg1:T5	Arg2:T3
+R21	influences	Arg1:T5	Arg2:T4
+R22	influences	Arg1:T5	Arg2:T6
+R23	treats	Arg1:T6	Arg2:T1
+R24	isAssociatedWith	Arg1:T6	Arg2:T2
+R25	increases	Arg1:T6	Arg2:T3
+R26	influences	Arg1:T6	Arg2:T4
+R27	treats	Arg1:T6	Arg2:T5

@@ -1,0 +1,16 @@
+T1	Chemical	27 30	LDF
+T2	Pharmacodynamic_phenotype	41 70	LPS -induced nitric oxide and
+T3	Pharmacodynamic_phenotype	71 103	prostaglandin E(2) production in
+T4	Phenotype	147 239	expression of inducible nitric oxide synthase ( iNOS ) and cyclooxygenase 2 ( COX-2 ) in RAW
+R1	decreases	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	decreases	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	decreases	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	decreases	Arg1:T3	Arg2:T2
+R9	decreases	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	decreases	Arg1:T4	Arg2:T2
+R12	decreases	Arg1:T4	Arg2:T3

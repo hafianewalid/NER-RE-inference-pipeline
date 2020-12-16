@@ -1,0 +1,49 @@
+T1	Gene_or_protein	7 11	cFos
+T2	Genomic_factor	3 20	the cFos promoter
+T3	Pharmacodynamic_phenotype	24 42	4 hyperacetylation
+T4	Chemical	77 94	cocaine injection
+T5	Pharmacodynamic_phenotype	108 134	histone modifications were
+T6	Chemical	153 173	cocaine , consistent
+T7	Chemical	179 197	cocaine 's ability
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T1	Arg2:T6
+R6	isAssociatedWith	Arg1:T1	Arg2:T7
+R7	isAssociatedWith	Arg1:T2	Arg2:T1
+R8	isAssociatedWith	Arg1:T2	Arg2:T3
+R9	isAssociatedWith	Arg1:T2	Arg2:T4
+R10	isAssociatedWith	Arg1:T2	Arg2:T5
+R11	isAssociatedWith	Arg1:T2	Arg2:T6
+R12	isAssociatedWith	Arg1:T2	Arg2:T7
+R13	isAssociatedWith	Arg1:T3	Arg2:T1
+R14	isAssociatedWith	Arg1:T3	Arg2:T2
+R15	isAssociatedWith	Arg1:T3	Arg2:T4
+R16	isAssociatedWith	Arg1:T3	Arg2:T5
+R17	isAssociatedWith	Arg1:T3	Arg2:T6
+R18	isAssociatedWith	Arg1:T3	Arg2:T7
+R19	isAssociatedWith	Arg1:T4	Arg2:T1
+R20	isAssociatedWith	Arg1:T4	Arg2:T2
+R21	isAssociatedWith	Arg1:T4	Arg2:T3
+R22	isAssociatedWith	Arg1:T4	Arg2:T5
+R23	influences	Arg1:T4	Arg2:T6
+R24	isAssociatedWith	Arg1:T4	Arg2:T7
+R25	isAssociatedWith	Arg1:T5	Arg2:T1
+R26	isAssociatedWith	Arg1:T5	Arg2:T2
+R27	isAssociatedWith	Arg1:T5	Arg2:T3
+R28	isAssociatedWith	Arg1:T5	Arg2:T4
+R29	isAssociatedWith	Arg1:T5	Arg2:T6
+R30	isAssociatedWith	Arg1:T5	Arg2:T7
+R31	influences	Arg1:T6	Arg2:T1
+R32	influences	Arg1:T6	Arg2:T2
+R33	isAssociatedWith	Arg1:T6	Arg2:T3
+R34	influences	Arg1:T6	Arg2:T4
+R35	isAssociatedWith	Arg1:T6	Arg2:T5
+R36	isAssociatedWith	Arg1:T6	Arg2:T7
+R37	influences	Arg1:T7	Arg2:T1
+R38	causes	Arg1:T7	Arg2:T2
+R39	causes	Arg1:T7	Arg2:T3
+R40	influences	Arg1:T7	Arg2:T4
+R41	causes	Arg1:T7	Arg2:T5
+R42	influences	Arg1:T7	Arg2:T6

@@ -1,0 +1,4 @@
+T1	Disease	47 57	restenosis
+T2	Limited_variation	65 84	ACE DD genotype was
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

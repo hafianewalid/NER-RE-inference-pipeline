@@ -1,0 +1,25 @@
+T1	Gene_or_protein	0 14	CREB antisense
+T2	Pharmacodynamic_phenotype	44 59	dose of cocaine
+T3	Phenotype	73 112	reinstating cocaine self-administration
+T4	Gene_or_protein	149 160	CREB levels
+T5	Pharmacodynamic_phenotype	174 207	incentive properties of cocaine .
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T1	Arg2:T5
+R5	causes	Arg1:T2	Arg2:T1
+R6	causes	Arg1:T2	Arg2:T3
+R7	causes	Arg1:T2	Arg2:T4
+R8	causes	Arg1:T2	Arg2:T5
+R9	causes	Arg1:T3	Arg2:T1
+R10	causes	Arg1:T3	Arg2:T2
+R11	influences	Arg1:T3	Arg2:T4
+R12	influences	Arg1:T3	Arg2:T5
+R13	influences	Arg1:T4	Arg2:T1
+R14	influences	Arg1:T4	Arg2:T2
+R15	influences	Arg1:T4	Arg2:T3
+R16	influences	Arg1:T4	Arg2:T5
+R17	influences	Arg1:T5	Arg2:T1
+R18	influences	Arg1:T5	Arg2:T2
+R19	influences	Arg1:T5	Arg2:T3
+R20	influences	Arg1:T5	Arg2:T4

@@ -1,0 +1,11 @@
+T1	Chemical	15 56	Gefitinib in combination with bevacizumab
+T2	Disease	159 169	NSCLC with
+T3	Limited_variation	181 213	EGFR gene mutations , especially
+T4	Limited_variation	230 267	exon 19 deletion mutations , although
+R1	treats	Arg1:T1	Arg2:T2
+R2	treats	Arg1:T1	Arg2:T4
+R3	influences	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T4
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T4	Arg2:T1
+R7	treats	Arg1:T4	Arg2:T2

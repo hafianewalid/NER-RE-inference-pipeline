@@ -1,0 +1,41 @@
+T1	Chemical	19 30	selumetinib
+T2	Chemical	33 40	AZD6244
+T3	Chemical	43 54	ARRY-142866
+T4	Gene_or_protein	61 77	MEK1/2 inhibitor
+T5	Chemical	59 79	a MEK1/2 inhibitor ,
+T6	Chemical	83 112	combination with cetuximab in
+T7	Disease	113 140	refractory solid tumors and
+T8	Disease	146 172	mutant colorectal cancer .
+R1	isEquivalentTo	Arg1:T1	Arg2:T2
+R2	treats	Arg1:T1	Arg2:T6
+R3	treats	Arg1:T1	Arg2:T7
+R4	treats	Arg1:T1	Arg2:T8
+R5	isEquivalentTo	Arg1:T2	Arg2:T1
+R6	isEquivalentTo	Arg1:T2	Arg2:T3
+R7	treats	Arg1:T2	Arg2:T6
+R8	treats	Arg1:T2	Arg2:T7
+R9	treats	Arg1:T2	Arg2:T8
+R10	isEquivalentTo	Arg1:T3	Arg2:T1
+R11	isEquivalentTo	Arg1:T3	Arg2:T2
+R12	isEquivalentTo	Arg1:T3	Arg2:T4
+R13	isEquivalentTo	Arg1:T3	Arg2:T5
+R14	treats	Arg1:T3	Arg2:T7
+R15	treats	Arg1:T3	Arg2:T8
+R16	isEquivalentTo	Arg1:T4	Arg2:T1
+R17	treats	Arg1:T4	Arg2:T6
+R18	treats	Arg1:T4	Arg2:T7
+R19	treats	Arg1:T4	Arg2:T8
+R20	isEquivalentTo	Arg1:T5	Arg2:T1
+R21	treats	Arg1:T5	Arg2:T6
+R22	treats	Arg1:T5	Arg2:T7
+R23	treats	Arg1:T5	Arg2:T8
+R24	isEquivalentTo	Arg1:T6	Arg2:T1
+R25	treats	Arg1:T6	Arg2:T7
+R26	treats	Arg1:T6	Arg2:T8
+R27	isEquivalentTo	Arg1:T7	Arg2:T1
+R28	treats	Arg1:T7	Arg2:T8
+R29	isAssociatedWith	Arg1:T8	Arg2:T2
+R30	isAssociatedWith	Arg1:T8	Arg2:T3
+R31	isAssociatedWith	Arg1:T8	Arg2:T4
+R32	isAssociatedWith	Arg1:T8	Arg2:T5
+R33	isAssociatedWith	Arg1:T8	Arg2:T6

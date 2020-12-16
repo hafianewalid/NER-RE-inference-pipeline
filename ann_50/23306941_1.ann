@@ -1,0 +1,19 @@
+T1	Phenotype	14 42	sustained virologic response
+T2	Disease	83 100	hepatitis C virus
+T3	Limited_variation	83 120	hepatitis C virus genotype 1 patients
+T4	Chemical	134 174	peginterferon and ribavirin : assessment
+T5	Limited_variation	190 213	IL28B allele -prevalent
+R1	influences	Arg1:T1	Arg2:T4
+R2	isAssociatedWith	Arg1:T1	Arg2:T5
+R3	influences	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T5
+R5	treats	Arg1:T3	Arg2:T2
+R6	isAssociatedWith	Arg1:T3	Arg2:T5
+R7	influences	Arg1:T4	Arg2:T1
+R8	treats	Arg1:T4	Arg2:T2
+R9	treats	Arg1:T4	Arg2:T3
+R10	isAssociatedWith	Arg1:T4	Arg2:T5
+R11	influences	Arg1:T5	Arg2:T1
+R12	influences	Arg1:T5	Arg2:T2
+R13	influences	Arg1:T5	Arg2:T3
+R14	influences	Arg1:T5	Arg2:T4

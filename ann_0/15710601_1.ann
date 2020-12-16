@@ -1,0 +1,4 @@
+T1	Chemical	0 253	Evodiamine abolishes constitutive and inducible NF-kappaB activation by inhibiting IkappaBalpha kinase activation , thereby suppressing NF-kappaB -regulated antiapoptotic and metastatic gene expression , up-regulating apoptosis , and inhibiting invasion
+T2	Phenotype	254 255	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isEquivalentTo	Arg1:T2	Arg2:T1

@@ -1,0 +1,9 @@
+T1	Pharmacodynamic_phenotype	13 51	azathioprine -induced myelosuppression
+T2	Haplotype	77 114	heterozygous TPMT * 1 / * 3C genotype
+T3	Limited_variation	171 200	wild-type genotype ( adjusted
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T2	Arg2:T1
+R4	increases	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

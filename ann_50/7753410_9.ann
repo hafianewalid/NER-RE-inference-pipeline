@@ -1,0 +1,24 @@
+T1	Gene_or_protein	0 32	The angiotensin II -AT1 receptor
+T2	Chemical	0 43	The angiotensin II -AT1 receptor antagonist
+T3	Chemical	46 54	losartan
+T4	Chemical	111 127	angiotensin II ,
+T5	Pharmacodynamic_phenotype	142 207	angiotensin II -induced immediate early gene protein expression .
+R1	influences	Arg1:T1	Arg2:T3
+R2	influences	Arg1:T1	Arg2:T4
+R3	decreases	Arg1:T1	Arg2:T5
+R4	decreases	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	decreases	Arg1:T2	Arg2:T5
+R8	decreases	Arg1:T3	Arg2:T1
+R9	isEquivalentTo	Arg1:T3	Arg2:T2
+R10	influences	Arg1:T3	Arg2:T4
+R11	decreases	Arg1:T3	Arg2:T5
+R12	influences	Arg1:T4	Arg2:T1
+R13	influences	Arg1:T4	Arg2:T2
+R14	influences	Arg1:T4	Arg2:T3
+R15	decreases	Arg1:T4	Arg2:T5
+R16	isAssociatedWith	Arg1:T5	Arg2:T1
+R17	isAssociatedWith	Arg1:T5	Arg2:T2
+R18	isAssociatedWith	Arg1:T5	Arg2:T3
+R19	influences	Arg1:T5	Arg2:T4

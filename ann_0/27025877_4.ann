@@ -1,0 +1,4 @@
+T1	Phenotype	0 161	JAK2 inhibition restored sensitivity to the EGFR inhibitor erlotinib in TKI -resistant cell lines and xenograft models of EGFR -mutant TKI -resistant lung cancer
+T2	Disease	162 163	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

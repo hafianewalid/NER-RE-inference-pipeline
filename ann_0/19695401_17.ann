@@ -1,0 +1,9 @@
+T1	Disease	22 39	kidney transplant
+T2	Haplotype	78 94	TPMT * 3C allele
+T3	Pharmacodynamic_phenotype	121 164	azathioprine -induced myelosuppression than
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	treats	Arg1:T2	Arg2:T1
+R4	increases	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

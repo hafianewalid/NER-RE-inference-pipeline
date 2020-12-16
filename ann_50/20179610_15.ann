@@ -1,0 +1,4 @@
+T1	Limited_variation	0 131	A2143G was an important 23S rRNA mutation associated with clarithromycin resistance and affected the H. pylori eradication efficacy
+T2	Pharmacodynamic_phenotype	132 133	.
+R1	influences	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

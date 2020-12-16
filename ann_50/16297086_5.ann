@@ -1,0 +1,15 @@
+T1	Chemical	0 9	Tamoxifen
+T2	Disease	30 43	breast cancer
+T3	Limited_variation	47 71	BRCA-2 mutation carriers
+T4	Limited_variation	90 109	1 mutation carriers
+R1	decreases	Arg1:T1	Arg2:T2
+R2	treats	Arg1:T1	Arg2:T4
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T2	Arg2:T4
+R6	influences	Arg1:T3	Arg2:T1
+R7	influences	Arg1:T3	Arg2:T2
+R8	isAssociatedWith	Arg1:T3	Arg2:T4
+R9	influences	Arg1:T4	Arg2:T1
+R10	influences	Arg1:T4	Arg2:T2
+R11	influences	Arg1:T4	Arg2:T3

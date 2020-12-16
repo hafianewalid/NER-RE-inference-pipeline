@@ -1,0 +1,33 @@
+T1	Gene_or_protein	24 28	CCT5
+T2	Gene_or_protein	31 35	RGS3
+T3	Gene_or_protein	42 52	YKT6 genes
+T4	Disease	70 91	53 -mutated tumors in
+T5	Pharmacodynamic_phenotype	92 118	resistance to docetaxel in
+T6	Disease	125 141	breast cancers .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T1	Arg2:T5
+R5	influences	Arg1:T1	Arg2:T6
+R6	influences	Arg1:T2	Arg2:T1
+R7	influences	Arg1:T2	Arg2:T3
+R8	influences	Arg1:T2	Arg2:T4
+R9	influences	Arg1:T2	Arg2:T5
+R10	influences	Arg1:T2	Arg2:T6
+R11	influences	Arg1:T3	Arg2:T1
+R12	influences	Arg1:T3	Arg2:T2
+R13	influences	Arg1:T3	Arg2:T4
+R14	influences	Arg1:T3	Arg2:T5
+R15	influences	Arg1:T3	Arg2:T6
+R16	influences	Arg1:T4	Arg2:T1
+R17	influences	Arg1:T4	Arg2:T2
+R18	influences	Arg1:T4	Arg2:T3
+R19	influences	Arg1:T4	Arg2:T5
+R20	treats	Arg1:T4	Arg2:T6
+R21	influences	Arg1:T5	Arg2:T1
+R22	isAssociatedWith	Arg1:T5	Arg2:T4
+R23	treats	Arg1:T5	Arg2:T6
+R24	isAssociatedWith	Arg1:T6	Arg2:T1
+R25	isAssociatedWith	Arg1:T6	Arg2:T2
+R26	isAssociatedWith	Arg1:T6	Arg2:T3
+R27	isAssociatedWith	Arg1:T6	Arg2:T4

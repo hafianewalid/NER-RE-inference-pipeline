@@ -1,0 +1,7 @@
+T1	Limited_variation	13 27	CHEK2 mutation
+T2	Disease	71 98	-positive breast cancer and
+T3	Chemical	123 150	tamoxifen chemoprevention .
+R1	increases	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1
+R3	isAssociatedWith	Arg1:T2	Arg2:T3
+R4	isAssociatedWith	Arg1:T3	Arg2:T1

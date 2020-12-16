@@ -1,0 +1,4 @@
+T1	Limited_variation	36 51	CYP3A5 genotype
+T2	Pharmacokinetic_phenotype	87 133	enantioselective disposition of lansoprazole .
+R1	influences	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

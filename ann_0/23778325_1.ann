@@ -1,0 +1,9 @@
+T1	Limited_variation	10 31	genetic polymorphisms
+T2	Phenotype	35 53	adenoma recurrence
+T3	Pharmacodynamic_phenotype	58 106	toxicity in a COX2 inhibitor ( celecoxib ) trial
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

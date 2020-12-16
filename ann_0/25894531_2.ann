@@ -1,0 +1,49 @@
+T1	Limited_variation	40 117	single nucleotide polymorphisms ( SNPs ) in the adrenergic b2-receptor gene (
+T2	Gene_or_protein	118 128	ADRB2 , rs
+T3	Limited_variation	128 157	1042713 , and rs1042714 ) and
+T4	Limited_variation	158 190	epithelial Na channel gene ( SCN
+T5	Gene_or_protein	190 200	N1A , rs22
+T6	Limited_variation	200 218	28576 ) on cycling
+T7	Pharmacodynamic_phenotype	158 267	epithelial Na channel gene ( SCNN1A , rs2228576 ) on cycling performance after the inhalation of salbutamol .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T1	Arg2:T6
+R6	isAssociatedWith	Arg1:T1	Arg2:T7
+R7	isEquivalentTo	Arg1:T2	Arg2:T1
+R8	isAssociatedWith	Arg1:T2	Arg2:T3
+R9	isAssociatedWith	Arg1:T2	Arg2:T4
+R10	isAssociatedWith	Arg1:T2	Arg2:T5
+R11	isAssociatedWith	Arg1:T2	Arg2:T6
+R12	isAssociatedWith	Arg1:T2	Arg2:T7
+R13	isAssociatedWith	Arg1:T3	Arg2:T1
+R14	isAssociatedWith	Arg1:T3	Arg2:T2
+R15	isAssociatedWith	Arg1:T3	Arg2:T4
+R16	isAssociatedWith	Arg1:T3	Arg2:T5
+R17	isAssociatedWith	Arg1:T3	Arg2:T6
+R18	isAssociatedWith	Arg1:T3	Arg2:T7
+R19	isAssociatedWith	Arg1:T4	Arg2:T1
+R20	isAssociatedWith	Arg1:T4	Arg2:T2
+R21	isEquivalentTo	Arg1:T4	Arg2:T3
+R22	isAssociatedWith	Arg1:T4	Arg2:T5
+R23	isAssociatedWith	Arg1:T4	Arg2:T6
+R24	isAssociatedWith	Arg1:T4	Arg2:T7
+R25	isAssociatedWith	Arg1:T5	Arg2:T1
+R26	isAssociatedWith	Arg1:T5	Arg2:T2
+R27	isEquivalentTo	Arg1:T5	Arg2:T3
+R28	isEquivalentTo	Arg1:T5	Arg2:T4
+R29	isAssociatedWith	Arg1:T5	Arg2:T6
+R30	isAssociatedWith	Arg1:T5	Arg2:T7
+R31	isAssociatedWith	Arg1:T6	Arg2:T1
+R32	isAssociatedWith	Arg1:T6	Arg2:T2
+R33	isAssociatedWith	Arg1:T6	Arg2:T3
+R34	isAssociatedWith	Arg1:T6	Arg2:T4
+R35	isEquivalentTo	Arg1:T6	Arg2:T5
+R36	isAssociatedWith	Arg1:T6	Arg2:T7
+R37	isAssociatedWith	Arg1:T7	Arg2:T1
+R38	isAssociatedWith	Arg1:T7	Arg2:T2
+R39	isAssociatedWith	Arg1:T7	Arg2:T3
+R40	isAssociatedWith	Arg1:T7	Arg2:T4
+R41	isAssociatedWith	Arg1:T7	Arg2:T5
+R42	isAssociatedWith	Arg1:T7	Arg2:T6

@@ -1,0 +1,14 @@
+T1	Limited_variation	0 67	Genetic polymorphisms in the endothelial nitric oxide synthase gene
+T2	Phenotype	83 99	overall survival
+T3	Disease	112 147	non-small-cell lung cancer patients
+T4	Chemical	161 199	platinum -based doublet chemotherapy .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	isAssociatedWith	Arg1:T4	Arg2:T2
+R10	treats	Arg1:T4	Arg2:T3

@@ -1,0 +1,4 @@
+T1	Pharmacokinetic_phenotype	0 35	Many interactions affecting statins
+T2	Gene_or_protein	40 46	CYP3A4
+R1	causes	Arg1:T1	Arg2:T2
+R2	causes	Arg1:T2	Arg2:T1

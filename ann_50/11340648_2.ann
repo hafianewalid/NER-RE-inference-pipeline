@@ -1,0 +1,4 @@
+T1	Gene_or_protein	0 114	Neuropeptide Y ( NPY ) was previously shown in our laboratory to attenuate behavioral signs of morphine withdrawal
+T2	Phenotype	115 116	.
+R1	influences	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

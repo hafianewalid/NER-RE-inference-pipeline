@@ -1,0 +1,4 @@
+T1	Chemical	0 70	Trabectedin as a chemotherapy option for patients with BRCA deficiency
+T2	Phenotype	71 72	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isEquivalentTo	Arg1:T2	Arg2:T1

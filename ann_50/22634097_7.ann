@@ -1,0 +1,8 @@
+T1	Limited_variation	35 59	RAD51 G172T polymorphism
+T2	Disease	73 97	cervical cancer patients
+T3	Chemical	114 145	platinum -based chemotherapy in
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	treats	Arg1:T3	Arg2:T2

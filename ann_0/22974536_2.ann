@@ -1,0 +1,47 @@
+T1	Disease	73 99	acute coronary syndromes (
+T2	Disease	100 109	ACS ) and
+T3	Haplotype	138 162	CYP2C19 * 2 ( * 2 allele
+T4	Chemical	188 210	thienopyridines , have
+T5	Pharmacodynamic_phenotype	232 271	adverse cardiac events with clopidogrel
+T6	Chemical	232 281	adverse cardiac events with clopidogrel , but not
+T7	Chemical	297 298	.
+R1	treats	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	increases	Arg1:T1	Arg2:T5
+R5	increases	Arg1:T1	Arg2:T6
+R6	isAssociatedWith	Arg1:T1	Arg2:T7
+R7	isEquivalentTo	Arg1:T2	Arg2:T1
+R8	isAssociatedWith	Arg1:T2	Arg2:T3
+R9	isAssociatedWith	Arg1:T2	Arg2:T4
+R10	increases	Arg1:T2	Arg2:T5
+R11	increases	Arg1:T2	Arg2:T6
+R12	isAssociatedWith	Arg1:T2	Arg2:T7
+R13	influences	Arg1:T3	Arg2:T1
+R14	influences	Arg1:T3	Arg2:T2
+R15	influences	Arg1:T3	Arg2:T4
+R16	increases	Arg1:T3	Arg2:T5
+R17	increases	Arg1:T3	Arg2:T6
+R18	influences	Arg1:T3	Arg2:T7
+R19	treats	Arg1:T4	Arg2:T1
+R20	treats	Arg1:T4	Arg2:T2
+R21	isAssociatedWith	Arg1:T4	Arg2:T3
+R22	increases	Arg1:T4	Arg2:T5
+R23	increases	Arg1:T4	Arg2:T6
+R24	treats	Arg1:T4	Arg2:T7
+R25	treats	Arg1:T5	Arg2:T1
+R26	treats	Arg1:T5	Arg2:T2
+R27	isAssociatedWith	Arg1:T5	Arg2:T3
+R28	influences	Arg1:T5	Arg2:T4
+R29	isAssociatedWith	Arg1:T5	Arg2:T6
+R30	treats	Arg1:T6	Arg2:T1
+R31	isAssociatedWith	Arg1:T6	Arg2:T2
+R32	isAssociatedWith	Arg1:T6	Arg2:T3
+R33	influences	Arg1:T6	Arg2:T4
+R34	isAssociatedWith	Arg1:T6	Arg2:T5
+R35	isAssociatedWith	Arg1:T6	Arg2:T7
+R36	isAssociatedWith	Arg1:T7	Arg2:T2
+R37	influences	Arg1:T7	Arg2:T3
+R38	influences	Arg1:T7	Arg2:T4
+R39	influences	Arg1:T7	Arg2:T5
+R40	influences	Arg1:T7	Arg2:T6

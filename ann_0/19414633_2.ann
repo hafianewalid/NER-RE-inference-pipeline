@@ -1,0 +1,9 @@
+T1	Chemical	34 43	prasugrel
+T2	Gene_or_protein	95 112	cytochrome P450 (
+T3	Gene_or_protein	113 126	CYP ) enzymes
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	isEquivalentTo	Arg1:T3	Arg2:T2

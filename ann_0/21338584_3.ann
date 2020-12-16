@@ -1,0 +1,16 @@
+T1	Phenotype	39 58	PDYN mRNA levels in
+T2	Phenotype	140 183	cognitive control of addictive behavior and
+T3	Limited_variation	186 221	YN promoter SNP genotype in alcohol
+T4	Disease	186 244	YN promoter SNP genotype in alcohol -dependent and control
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	influences	Arg1:T3	Arg2:T2
+R9	isAssociatedWith	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	influences	Arg1:T4	Arg2:T2
+R12	isAssociatedWith	Arg1:T4	Arg2:T3

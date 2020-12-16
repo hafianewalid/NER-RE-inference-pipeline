@@ -1,0 +1,49 @@
+T1	Limited_variation	21 41	genotypes of CYP2C19
+T2	Limited_variation	46 61	MDRI C3435T are
+T3	Pharmacokinetic_phenotype	115 172	pharmacokinetic variability of lansoprazole ( LSZ ) , the
+T4	Limited_variation	237 252	CYP2C19 and MDR
+T5	Limited_variation	254 281	C3435T polymorphisms on the
+T6	Pharmacokinetic_phenotype	282 324	pharmacokinetics difference of LSZ and its
+T7	Pharmacodynamic_phenotype	347 408	 lansoprazole ( HLSZ ) and lansoprazole sulphone ( LSZS ) fol
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T1	Arg2:T5
+R5	influences	Arg1:T1	Arg2:T6
+R6	influences	Arg1:T1	Arg2:T7
+R7	influences	Arg1:T2	Arg2:T1
+R8	influences	Arg1:T2	Arg2:T3
+R9	influences	Arg1:T2	Arg2:T4
+R10	influences	Arg1:T2	Arg2:T5
+R11	influences	Arg1:T2	Arg2:T6
+R12	influences	Arg1:T2	Arg2:T7
+R13	isAssociatedWith	Arg1:T3	Arg2:T1
+R14	isAssociatedWith	Arg1:T3	Arg2:T2
+R15	isAssociatedWith	Arg1:T3	Arg2:T4
+R16	isAssociatedWith	Arg1:T3	Arg2:T5
+R17	influences	Arg1:T3	Arg2:T6
+R18	influences	Arg1:T3	Arg2:T7
+R19	influences	Arg1:T4	Arg2:T1
+R20	influences	Arg1:T4	Arg2:T2
+R21	influences	Arg1:T4	Arg2:T3
+R22	influences	Arg1:T4	Arg2:T5
+R23	influences	Arg1:T4	Arg2:T6
+R24	influences	Arg1:T4	Arg2:T7
+R25	influences	Arg1:T5	Arg2:T1
+R26	influences	Arg1:T5	Arg2:T2
+R27	influences	Arg1:T5	Arg2:T3
+R28	influences	Arg1:T5	Arg2:T4
+R29	influences	Arg1:T5	Arg2:T6
+R30	influences	Arg1:T5	Arg2:T7
+R31	isAssociatedWith	Arg1:T6	Arg2:T1
+R32	isAssociatedWith	Arg1:T6	Arg2:T2
+R33	influences	Arg1:T6	Arg2:T3
+R34	isAssociatedWith	Arg1:T6	Arg2:T4
+R35	isAssociatedWith	Arg1:T6	Arg2:T5
+R36	influences	Arg1:T6	Arg2:T7
+R37	isAssociatedWith	Arg1:T7	Arg2:T1
+R38	isAssociatedWith	Arg1:T7	Arg2:T2
+R39	isAssociatedWith	Arg1:T7	Arg2:T3
+R40	isAssociatedWith	Arg1:T7	Arg2:T4
+R41	isAssociatedWith	Arg1:T7	Arg2:T5
+R42	influences	Arg1:T7	Arg2:T6

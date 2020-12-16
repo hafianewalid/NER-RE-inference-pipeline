@@ -1,0 +1,9 @@
+T1	Limited_variation	71 105	BDNF val66met genetic polymorphism
+T2	Phenotype	115 137	ages of onset for hero
+T3	Disease	115 154	ages of onset for heroin abuse in males
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

@@ -1,0 +1,9 @@
+T1	Pharmacodynamic_phenotype	35 60	tacrolimus daily dose was
+T2	Haplotype	86 111	CYP3A5 * 1 / * 1 genotype
+T3	Haplotype	124 149	CYP3A5 * 3 / * 3 genotype
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

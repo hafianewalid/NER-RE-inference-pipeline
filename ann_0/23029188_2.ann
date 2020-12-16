@@ -1,0 +1,4 @@
+T1	Limited_variation	73 136	single nucleotide polymorphisms ( SNP ) near the IL28B gene and
+T2	Pharmacodynamic_phenotype	137 240	response to the combined treatments of pegylated-interferon ( PegIFN ) and ribavirin ( RBV ) in chronic
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

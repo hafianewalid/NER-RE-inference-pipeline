@@ -1,0 +1,4 @@
+T1	Haplotype	44 71	ht1 [ CG ] of the IL18 gene
+T2	Pharmacodynamic_phenotype	109 168	acute cutaneous inflammation sensitive to aspirin , leading
+R1	influences	Arg1:T1	Arg2:T2
+R2	causes	Arg1:T2	Arg2:T1

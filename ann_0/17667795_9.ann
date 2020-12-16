@@ -1,0 +1,4 @@
+T1	Pharmacodynamic_phenotype	46 78	haloperidol plasma concentration
+T2	Limited_variation	100 116	CYP2D6 alleles .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

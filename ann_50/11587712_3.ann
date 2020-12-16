@@ -1,0 +1,22 @@
+T1	Chemical	62 79	opioid antagonist
+T2	Chemical	82 101	naloxone methiodide
+T3	Phenotype	114 132	Fos expression but
+T4	Phenotype	169 193	neuronal activation than
+T5	Chemical	234 248	naloxone which
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	causes	Arg1:T1	Arg2:T4
+R4	isEquivalentTo	Arg1:T2	Arg2:T1
+R5	increases	Arg1:T2	Arg2:T3
+R6	causes	Arg1:T2	Arg2:T4
+R7	increases	Arg1:T3	Arg2:T1
+R8	increases	Arg1:T3	Arg2:T2
+R9	causes	Arg1:T3	Arg2:T4
+R10	causes	Arg1:T4	Arg2:T1
+R11	causes	Arg1:T4	Arg2:T2
+R12	increases	Arg1:T4	Arg2:T3
+R13	causes	Arg1:T4	Arg2:T5
+R14	causes	Arg1:T5	Arg2:T1
+R15	causes	Arg1:T5	Arg2:T2
+R16	increases	Arg1:T5	Arg2:T3
+R17	causes	Arg1:T5	Arg2:T4

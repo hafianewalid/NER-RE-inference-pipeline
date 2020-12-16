@@ -1,0 +1,15 @@
+T1	Phenotype	124 151	reduced CYP2D6 activity ( <
+T2	Phenotype	175 196	recurrence ( p = 0.02
+T3	Disease	211 227	cancer -specific
+T4	Phenotype	211 248	cancer -specific mortality ( p = 0.03
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T4
+R6	isAssociatedWith	Arg1:T3	Arg2:T1
+R7	isAssociatedWith	Arg1:T3	Arg2:T2
+R8	causes	Arg1:T3	Arg2:T4
+R9	isAssociatedWith	Arg1:T4	Arg2:T1
+R10	isAssociatedWith	Arg1:T4	Arg2:T2
+R11	isAssociatedWith	Arg1:T4	Arg2:T3

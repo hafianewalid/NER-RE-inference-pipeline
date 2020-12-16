@@ -1,0 +1,9 @@
+T1	Phenotype	0 26	Neither p53 overexpression
+T2	Phenotype	81 97	patient survival
+T3	Chemical	190 239	chemotherapy with 5-fluorouracil and levamisole .
+R1	decreases	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	treats	Arg1:T3	Arg2:T1
+R6	decreases	Arg1:T3	Arg2:T2

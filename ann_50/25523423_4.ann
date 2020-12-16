@@ -1,0 +1,15 @@
+T1	Gene_or_protein	47 69	APPswe , PSEN1dE985Dbo
+T2	Gene_or_protein	72 87	APP/PS1 ) mouse
+T3	Chemical	158 181	Bryostatin-1 to reverse
+T4	Phenotype	182 208	cognitive deficits in this
+R1	isEquivalentTo	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	isEquivalentTo	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	treats	Arg1:T3	Arg2:T1
+R7	treats	Arg1:T3	Arg2:T2
+R8	treats	Arg1:T3	Arg2:T4
+R9	isAssociatedWith	Arg1:T4	Arg2:T1
+R10	isAssociatedWith	Arg1:T4	Arg2:T2
+R11	influences	Arg1:T4	Arg2:T3

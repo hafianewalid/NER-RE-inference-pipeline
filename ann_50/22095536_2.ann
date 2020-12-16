@@ -1,0 +1,15 @@
+T1	Phenotype	45 72	early viral dynamics retain
+T2	Pharmacodynamic_phenotype	91 167	outcome of peginterferon ( PEG-IFN ) and ribavirin combination therapy based
+T3	Limited_variation	181 238	genetic polymorphisms near the IL28B gene , the strongest
+T4	Pharmacodynamic_phenotype	261 287	response to this therapy .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T4
+R6	influences	Arg1:T3	Arg2:T1
+R7	influences	Arg1:T3	Arg2:T2
+R8	influences	Arg1:T3	Arg2:T4
+R9	influences	Arg1:T4	Arg2:T1
+R10	influences	Arg1:T4	Arg2:T2
+R11	isAssociatedWith	Arg1:T4	Arg2:T3

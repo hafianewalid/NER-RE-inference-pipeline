@@ -1,0 +1,9 @@
+T1	Limited_variation	16 33	allele of TAS2R16
+T2	Disease	75 96	alcohol dependence is
+T3	Phenotype	129 148	Maxdrinks scores in
+R1	decreases	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	decreases	Arg1:T2	Arg2:T1
+R4	decreases	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	decreases	Arg1:T3	Arg2:T2

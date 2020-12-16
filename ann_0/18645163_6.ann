@@ -1,0 +1,4 @@
+T1	Phenotype	30 47	CPT II deficiency
+T2	Chemical	88 102	triheptanoin (
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	treats	Arg1:T2	Arg2:T1

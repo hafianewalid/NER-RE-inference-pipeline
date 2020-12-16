@@ -1,0 +1,4 @@
+T1	Limited_variation	52 84	CYP2C9 and SLCO1B1 polymorphisms
+T2	Pharmacokinetic_phenotype	93 121	metabolism of nateglinide in
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

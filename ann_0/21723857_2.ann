@@ -1,0 +1,4 @@
+T1	Phenotype	22 37	TPMT deficiency
+T2	Pharmacodynamic_phenotype	57 113	azathioprine ( AZA ) - induced myelosuppression ( MS ) .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

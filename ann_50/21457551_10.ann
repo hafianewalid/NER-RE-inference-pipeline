@@ -1,0 +1,23 @@
+T1	Chemical	39 78	combined estrogen - progestin therapy (
+T2	Chemical	79 87	EPT ) at
+T3	Disease	118 135	breast cancer was
+T4	Limited_variation	192 202	013 in SLC
+T5	Gene_or_protein	202 215	O1B1 ( P = 0.
+R1	influences	Arg1:T1	Arg2:T2
+R2	treats	Arg1:T1	Arg2:T3
+R3	isEquivalentTo	Arg1:T2	Arg2:T1
+R4	treats	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T2	Arg2:T4
+R6	isAssociatedWith	Arg1:T2	Arg2:T5
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	isAssociatedWith	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T3	Arg2:T5
+R11	influences	Arg1:T4	Arg2:T1
+R12	isAssociatedWith	Arg1:T4	Arg2:T2
+R13	isAssociatedWith	Arg1:T4	Arg2:T3
+R14	isAssociatedWith	Arg1:T4	Arg2:T5
+R15	influences	Arg1:T5	Arg2:T1
+R16	influences	Arg1:T5	Arg2:T2
+R17	isAssociatedWith	Arg1:T5	Arg2:T3
+R18	isAssociatedWith	Arg1:T5	Arg2:T4

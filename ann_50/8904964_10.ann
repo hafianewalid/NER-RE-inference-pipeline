@@ -1,0 +1,9 @@
+T1	Haplotype	59 74	ADH2 * 3 allele
+T2	Pharmacokinetic_phenotype	109 133	alcohol elimination than
+T3	Haplotype	148 161	2 * 1 alleles
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

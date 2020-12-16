@@ -1,0 +1,4 @@
+T1	Chemical	15 26	Kainic acid
+T2	Phenotype	68 95	expression of c-fos mRNA in
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T2	Arg2:T1

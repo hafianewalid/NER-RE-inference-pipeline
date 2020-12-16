@@ -1,0 +1,13 @@
+T1	Limited_variation	44 71	HFE coding region mutations
+T2	Phenotype	119 144	iron overload in patients
+T3	Disease	150 163	SCD receiving
+T4	Chemical	164 193	chronic transfusion therapy .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	treats	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T3	Arg2:T1
+R7	treats	Arg1:T3	Arg2:T4
+R8	treats	Arg1:T4	Arg2:T2
+R9	treats	Arg1:T4	Arg2:T3

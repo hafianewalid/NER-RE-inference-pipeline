@@ -1,0 +1,4 @@
+T1	Chemical	0 114	Sorafenib , an oral multikinase inhibitor , can inhibit FLT3 and improve clinical outcome of FLT3 mutated leukemia
+T2	Disease	115 116	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isEquivalentTo	Arg1:T2	Arg2:T1

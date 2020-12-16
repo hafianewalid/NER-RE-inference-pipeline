@@ -1,0 +1,9 @@
+T1	Limited_variation	0 85	Polymorphisms in 3-hydroxy-3-methylglutaryl-coenzyme A reductase ( HMGCR ) previously
+T2	Pharmacodynamic_phenotype	109 136	efficacy of pravastatin did
+T3	Pharmacodynamic_phenotype	180 215	of LDL cholesterol by fluvastatin .
+R1	influences	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	decreases	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

@@ -1,0 +1,4 @@
+T1	Chemical	0 74	Hydralazine is metabolized by the highly polymorphic N-acetyltransferase 2
+T2	Gene_or_protein	75 76	.
+R1	influences	Arg1:T1	Arg2:T2
+R2	isEquivalentTo	Arg1:T2	Arg2:T1

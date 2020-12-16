@@ -1,0 +1,9 @@
+T1	Haplotype	46 65	CYP3A4 * 1B genetic
+T2	Pharmacodynamic_phenotype	87 202	tacrolimus dose requirements and tacrolimus trough concentration/weight-adjusted tacrolimus daily dose ratio within
+T3	Disease	224 248	transplantation in adult
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	treats	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

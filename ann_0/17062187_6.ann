@@ -1,0 +1,36 @@
+T1	Limited_variation	20 25	M184V
+T2	Limited_variation	30 35	Q151M
+T3	Pharmacodynamic_phenotype	47 121	resistance to nucleoside reverse transcriptase inhibitors ( NRTIs ) in HIV
+T4	Disease	121 138	-1 infection were
+T5	Limited_variation	181 186	I and
+T6	Pharmacodynamic_phenotype	201 244	indinavir and nelfinavir resistance as well
+R1	causes	Arg1:T1	Arg2:T2
+R2	causes	Arg1:T1	Arg2:T3
+R3	causes	Arg1:T1	Arg2:T4
+R4	causes	Arg1:T1	Arg2:T5
+R5	causes	Arg1:T1	Arg2:T6
+R6	causes	Arg1:T2	Arg2:T1
+R7	causes	Arg1:T2	Arg2:T3
+R8	causes	Arg1:T2	Arg2:T4
+R9	causes	Arg1:T2	Arg2:T5
+R10	causes	Arg1:T2	Arg2:T6
+R11	causes	Arg1:T3	Arg2:T1
+R12	causes	Arg1:T3	Arg2:T2
+R13	causes	Arg1:T3	Arg2:T4
+R14	causes	Arg1:T3	Arg2:T5
+R15	causes	Arg1:T3	Arg2:T6
+R16	causes	Arg1:T4	Arg2:T1
+R17	causes	Arg1:T4	Arg2:T2
+R18	causes	Arg1:T4	Arg2:T3
+R19	causes	Arg1:T4	Arg2:T5
+R20	causes	Arg1:T4	Arg2:T6
+R21	causes	Arg1:T5	Arg2:T1
+R22	causes	Arg1:T5	Arg2:T2
+R23	causes	Arg1:T5	Arg2:T3
+R24	causes	Arg1:T5	Arg2:T4
+R25	causes	Arg1:T5	Arg2:T6
+R26	causes	Arg1:T6	Arg2:T1
+R27	causes	Arg1:T6	Arg2:T2
+R28	causes	Arg1:T6	Arg2:T3
+R29	causes	Arg1:T6	Arg2:T4
+R30	causes	Arg1:T6	Arg2:T5

@@ -1,0 +1,12 @@
+T1	Limited_variation	25 39	EGFR mutations
+T2	Phenotype	105 126	favorable outcomes in
+T3	Disease	150 165	NSCLC receiving
+T4	Chemical	166 205	docetaxel plus intercalated erlotinib .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T3	Arg2:T2
+R6	treats	Arg1:T4	Arg2:T1
+R7	isAssociatedWith	Arg1:T4	Arg2:T2
+R8	treats	Arg1:T4	Arg2:T3

@@ -1,0 +1,25 @@
+T1	Chemical	15 32	kinase inhibitors
+T2	Gene_or_protein	37 69	mitogen-activated protein kinase
+T3	Gene_or_protein	87 128	extracellular signal-regulated kinase and
+T4	Gene_or_protein	129 154	Jun N-terminal kinase are
+T5	Pharmacodynamic_phenotype	171 205	HQ -induced expression of CYP2C9 .
+R1	decreases	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	decreases	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T1	Arg2:T5
+R5	influences	Arg1:T2	Arg2:T1
+R6	influences	Arg1:T2	Arg2:T3
+R7	influences	Arg1:T2	Arg2:T4
+R8	influences	Arg1:T2	Arg2:T5
+R9	influences	Arg1:T3	Arg2:T1
+R10	influences	Arg1:T3	Arg2:T2
+R11	influences	Arg1:T3	Arg2:T4
+R12	influences	Arg1:T3	Arg2:T5
+R13	influences	Arg1:T4	Arg2:T1
+R14	influences	Arg1:T4	Arg2:T2
+R15	influences	Arg1:T4	Arg2:T3
+R16	influences	Arg1:T4	Arg2:T5
+R17	influences	Arg1:T5	Arg2:T1
+R18	causes	Arg1:T5	Arg2:T2
+R19	influences	Arg1:T5	Arg2:T3
+R20	influences	Arg1:T5	Arg2:T4

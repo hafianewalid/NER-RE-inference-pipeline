@@ -1,0 +1,4 @@
+T1	Gene_or_protein	30 45	DHFR inhibitors
+T2	Disease	92 122	AML1 - ETO -positive disease .
+R1	treats	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

@@ -1,0 +1,53 @@
+T1	Pharmacodynamic_phenotype	50 71	hematologic responses
+T2	Limited_variation	87 104	V617F ( molecular
+T3	Disease	136 161	polycythemia vera treated
+T4	Chemical	174 229	interferon ( rIFNa-2b : 28 , Peg-rIFNa-2a : 18 ) or non
+T5	Chemical	230 259	interferon drugs ( n = 27 ) ,
+T6	Chemical	282 324	urea ( n = 8 ) , imatinib ( n = 12 ) , das
+T7	Chemical	324 367	atinib ( n = 5 ) , busulfan ( n = 1 ) , and
+T8	Chemical	368 402	radioactive phosphorus ( n = 1 ) .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T1	Arg2:T6
+R6	isAssociatedWith	Arg1:T1	Arg2:T7
+R7	isAssociatedWith	Arg1:T1	Arg2:T8
+R8	isAssociatedWith	Arg1:T2	Arg2:T1
+R9	isAssociatedWith	Arg1:T2	Arg2:T3
+R10	isAssociatedWith	Arg1:T2	Arg2:T4
+R11	isAssociatedWith	Arg1:T2	Arg2:T5
+R12	isAssociatedWith	Arg1:T2	Arg2:T6
+R13	isAssociatedWith	Arg1:T2	Arg2:T7
+R14	isAssociatedWith	Arg1:T2	Arg2:T8
+R15	isAssociatedWith	Arg1:T3	Arg2:T1
+R16	isAssociatedWith	Arg1:T3	Arg2:T2
+R17	treats	Arg1:T4	Arg2:T1
+R18	treats	Arg1:T4	Arg2:T2
+R19	treats	Arg1:T4	Arg2:T3
+R20	treats	Arg1:T4	Arg2:T7
+R21	treats	Arg1:T4	Arg2:T8
+R22	treats	Arg1:T5	Arg2:T1
+R23	treats	Arg1:T5	Arg2:T2
+R24	treats	Arg1:T5	Arg2:T3
+R25	influences	Arg1:T5	Arg2:T4
+R26	influences	Arg1:T5	Arg2:T7
+R27	influences	Arg1:T5	Arg2:T8
+R28	treats	Arg1:T6	Arg2:T1
+R29	treats	Arg1:T6	Arg2:T2
+R30	treats	Arg1:T6	Arg2:T3
+R31	influences	Arg1:T6	Arg2:T4
+R32	influences	Arg1:T6	Arg2:T5
+R33	influences	Arg1:T6	Arg2:T7
+R34	treats	Arg1:T7	Arg2:T1
+R35	treats	Arg1:T7	Arg2:T2
+R36	treats	Arg1:T7	Arg2:T3
+R37	influences	Arg1:T7	Arg2:T4
+R38	influences	Arg1:T7	Arg2:T5
+R39	isAssociatedWith	Arg1:T8	Arg2:T1
+R40	isAssociatedWith	Arg1:T8	Arg2:T2
+R41	treats	Arg1:T8	Arg2:T3
+R42	influences	Arg1:T8	Arg2:T4
+R43	influences	Arg1:T8	Arg2:T5
+R44	influences	Arg1:T8	Arg2:T6
+R45	influences	Arg1:T8	Arg2:T7

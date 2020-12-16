@@ -1,0 +1,8 @@
+T1	Limited_variation	26 79	inosine triphosphatase ( ITPA ) gene variants protect
+T2	Pharmacodynamic_phenotype	88 116	ribavirin -induced anemia in
+T3	Disease	138 159	chronic hepatitis C .
+R1	decreases	Arg1:T1	Arg2:T2
+R2	treats	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	treats	Arg1:T2	Arg2:T3
+R5	decreases	Arg1:T3	Arg2:T2

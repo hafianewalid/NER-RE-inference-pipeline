@@ -1,0 +1,4 @@
+T1	Limited_variation	17 53	polymorphism in the Homer1 gene with
+T2	Disease	54 72	cocaine dependence
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

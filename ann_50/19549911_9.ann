@@ -1,0 +1,22 @@
+T1	Chemical	0 34	Combination of fludarabine with SY
+T2	Gene_or_protein	0 45	Combination of fludarabine with SYK Inhibitor
+T3	Chemical	0 66	Combination of fludarabine with SYK Inhibitor II or R406 increased
+T4	Chemical	94 113	fludarabine therapy
+T5	Chemical	120 121	.
+R1	increases	Arg1:T1	Arg2:T3
+R2	increases	Arg1:T1	Arg2:T4
+R3	increases	Arg1:T1	Arg2:T5
+R4	decreases	Arg1:T2	Arg2:T1
+R5	increases	Arg1:T2	Arg2:T3
+R6	increases	Arg1:T2	Arg2:T4
+R7	increases	Arg1:T2	Arg2:T5
+R8	increases	Arg1:T3	Arg2:T1
+R9	increases	Arg1:T3	Arg2:T2
+R10	increases	Arg1:T3	Arg2:T4
+R11	increases	Arg1:T3	Arg2:T5
+R12	causes	Arg1:T4	Arg2:T3
+R13	influences	Arg1:T4	Arg2:T5
+R14	isAssociatedWith	Arg1:T5	Arg2:T1
+R15	isAssociatedWith	Arg1:T5	Arg2:T2
+R16	isAssociatedWith	Arg1:T5	Arg2:T3
+R17	influences	Arg1:T5	Arg2:T4

@@ -1,0 +1,24 @@
+T1	Chemical	0 36	Combining Onartuzumab with Erlotinib
+T2	Phenotype	46 59	Growth of Non
+T3	Disease	46 87	Growth of Non-Small Cell Lung Cancer with
+T4	Limited_variation	99 117	EGFR Mutations and
+T5	Phenotype	118 138	HGF Overexpression .
+R1	decreases	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T1	Arg2:T4
+R4	increases	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T2	Arg2:T1
+R6	isAssociatedWith	Arg1:T2	Arg2:T3
+R7	increases	Arg1:T2	Arg2:T4
+R8	isAssociatedWith	Arg1:T2	Arg2:T5
+R9	isAssociatedWith	Arg1:T3	Arg2:T2
+R10	increases	Arg1:T3	Arg2:T4
+R11	increases	Arg1:T3	Arg2:T5
+R12	isAssociatedWith	Arg1:T4	Arg2:T1
+R13	decreases	Arg1:T4	Arg2:T2
+R14	decreases	Arg1:T4	Arg2:T3
+R15	increases	Arg1:T4	Arg2:T5
+R16	isAssociatedWith	Arg1:T5	Arg2:T1
+R17	decreases	Arg1:T5	Arg2:T2
+R18	decreases	Arg1:T5	Arg2:T3
+R19	increases	Arg1:T5	Arg2:T4

@@ -1,0 +1,14 @@
+T1	Disease	58 85	renal transplant recipients
+T2	Disease	108 113	) and
+T3	Chemical	120 129	rolimus -
+T4	Disease	137 156	transplant patients
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	treats	Arg1:T1	Arg2:T4
+R3	treats	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	treats	Arg1:T2	Arg2:T4
+R6	treats	Arg1:T3	Arg2:T1
+R7	treats	Arg1:T3	Arg2:T2
+R8	treats	Arg1:T3	Arg2:T4
+R9	treats	Arg1:T4	Arg2:T1
+R10	isAssociatedWith	Arg1:T4	Arg2:T2

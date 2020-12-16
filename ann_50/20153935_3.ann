@@ -1,0 +1,36 @@
+T1	Limited_variation	0 9	The A118G
+T2	Limited_variation	12 16	N40D
+T3	Limited_variation	74 87	C77G ( P26R )
+T4	Phenotype	162 180	ligand binding and
+T5	Phenotype	207 237	physiological measures as well
+T6	Phenotype	241 313	behavioral measures including predilection towards alcohol consumption .
+R1	isEquivalentTo	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T1	Arg2:T6
+R6	isEquivalentTo	Arg1:T2	Arg2:T1
+R7	isAssociatedWith	Arg1:T2	Arg2:T3
+R8	influences	Arg1:T2	Arg2:T4
+R9	isAssociatedWith	Arg1:T2	Arg2:T5
+R10	isAssociatedWith	Arg1:T2	Arg2:T6
+R11	isAssociatedWith	Arg1:T3	Arg2:T1
+R12	isAssociatedWith	Arg1:T3	Arg2:T2
+R13	influences	Arg1:T3	Arg2:T4
+R14	isAssociatedWith	Arg1:T3	Arg2:T5
+R15	isAssociatedWith	Arg1:T3	Arg2:T6
+R16	isAssociatedWith	Arg1:T4	Arg2:T1
+R17	isAssociatedWith	Arg1:T4	Arg2:T2
+R18	isAssociatedWith	Arg1:T4	Arg2:T3
+R19	isAssociatedWith	Arg1:T4	Arg2:T5
+R20	isAssociatedWith	Arg1:T4	Arg2:T6
+R21	isAssociatedWith	Arg1:T5	Arg2:T1
+R22	isAssociatedWith	Arg1:T5	Arg2:T2
+R23	isAssociatedWith	Arg1:T5	Arg2:T3
+R24	isAssociatedWith	Arg1:T5	Arg2:T4
+R25	isAssociatedWith	Arg1:T5	Arg2:T6
+R26	isAssociatedWith	Arg1:T6	Arg2:T1
+R27	isAssociatedWith	Arg1:T6	Arg2:T2
+R28	isAssociatedWith	Arg1:T6	Arg2:T3
+R29	isAssociatedWith	Arg1:T6	Arg2:T4
+R30	isAssociatedWith	Arg1:T6	Arg2:T5

@@ -1,0 +1,7 @@
+T1	Limited_variation	58 79	StAR gene mutations ,
+T2	Chemical	100 113	estrogens are
+T3	Phenotype	128 150	placental function ens
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T3
+R4	influences	Arg1:T3	Arg2:T2

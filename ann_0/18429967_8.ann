@@ -1,0 +1,36 @@
+T1	Haplotype	0 20	In CYP3A5 * 1 allele
+T2	Phenotype	32 49	CYP3A5 expressers
+T3	Pharmacokinetic_phenotype	80 93	clearance was
+T4	Phenotype	332 356	non-expressers ; however
+T5	Limited_variation	378 391	variation did
+T6	Pharmacokinetic_phenotype	417 441	chronopharmacokinetics .
+R1	treats	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	influences	Arg1:T1	Arg2:T6
+R6	isEquivalentTo	Arg1:T2	Arg2:T1
+R7	decreases	Arg1:T2	Arg2:T3
+R8	isAssociatedWith	Arg1:T2	Arg2:T4
+R9	isAssociatedWith	Arg1:T2	Arg2:T5
+R10	influences	Arg1:T2	Arg2:T6
+R11	isAssociatedWith	Arg1:T3	Arg2:T1
+R12	isAssociatedWith	Arg1:T3	Arg2:T2
+R13	isAssociatedWith	Arg1:T3	Arg2:T4
+R14	isAssociatedWith	Arg1:T3	Arg2:T5
+R15	isAssociatedWith	Arg1:T3	Arg2:T6
+R16	influences	Arg1:T4	Arg2:T1
+R17	influences	Arg1:T4	Arg2:T2
+R18	decreases	Arg1:T4	Arg2:T3
+R19	influences	Arg1:T4	Arg2:T5
+R20	influences	Arg1:T4	Arg2:T6
+R21	influences	Arg1:T5	Arg2:T1
+R22	influences	Arg1:T5	Arg2:T2
+R23	influences	Arg1:T5	Arg2:T3
+R24	influences	Arg1:T5	Arg2:T4
+R25	influences	Arg1:T5	Arg2:T6
+R26	isAssociatedWith	Arg1:T6	Arg2:T1
+R27	isAssociatedWith	Arg1:T6	Arg2:T2
+R28	decreases	Arg1:T6	Arg2:T3
+R29	isAssociatedWith	Arg1:T6	Arg2:T4
+R30	isAssociatedWith	Arg1:T6	Arg2:T5

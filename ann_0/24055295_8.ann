@@ -1,0 +1,16 @@
+T1	Chemical	15 21	JTC801
+T2	Phenotype	44 80	protein expression levels of FLG but
+T3	Phenotype	89 151	mRNA levels of other makers for keratinocyte differentiation ,
+T4	Phenotype	162 215	loricrin , keratin 10 , and transglutaminase 1 , in a
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	influences	Arg1:T3	Arg2:T2
+R9	isAssociatedWith	Arg1:T3	Arg2:T4
+R10	influences	Arg1:T4	Arg2:T1
+R11	influences	Arg1:T4	Arg2:T2
+R12	isAssociatedWith	Arg1:T4	Arg2:T3

@@ -1,0 +1,22 @@
+T1	Limited_variation	14 54	Single nucleotide polymorphisms of ABCA1
+T2	Limited_variation	57 62	APOA5
+T3	Limited_variation	65 99	APOC3 , APOE , and CETP contribute
+T4	Phenotype	103 178	plasma triglyceride and high-density lipoprotein- cholesterol levels during
+T5	Chemical	179 201	antiretroviral therapy
+R1	influences	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T1	Arg2:T5
+R5	influences	Arg1:T2	Arg2:T1
+R6	isAssociatedWith	Arg1:T2	Arg2:T3
+R7	influences	Arg1:T2	Arg2:T4
+R8	influences	Arg1:T2	Arg2:T5
+R9	influences	Arg1:T3	Arg2:T1
+R10	influences	Arg1:T3	Arg2:T2
+R11	influences	Arg1:T3	Arg2:T4
+R12	influences	Arg1:T3	Arg2:T5
+R13	influences	Arg1:T4	Arg2:T1
+R14	influences	Arg1:T4	Arg2:T2
+R15	isAssociatedWith	Arg1:T4	Arg2:T3
+R16	influences	Arg1:T4	Arg2:T5
+R17	influences	Arg1:T5	Arg2:T4

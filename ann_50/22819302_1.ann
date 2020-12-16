@@ -1,0 +1,15 @@
+T1	Pharmacodynamic_phenotype	0 10	Preventive
+T2	Pharmacodynamic_phenotype	15 46	protective effects of silymarin
+T3	Pharmacodynamic_phenotype	50 99	doxorubicin -induced testicular damages correlate
+T4	Phenotype	118 139	myc gene expression .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	causes	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	causes	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T2	Arg2:T4
+R7	causes	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T4
+R9	influences	Arg1:T4	Arg2:T1
+R10	influences	Arg1:T4	Arg2:T2
+R11	influences	Arg1:T4	Arg2:T3

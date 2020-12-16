@@ -1,0 +1,4 @@
+T1	Limited_variation	41 72	single nucleotide polymorphisms
+T2	Phenotype	113 156	prostate specific antigen concentration and
+R1	influences	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

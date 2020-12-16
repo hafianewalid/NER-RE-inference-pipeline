@@ -1,0 +1,8 @@
+T1	Phenotype	44 122	methylation status of RAS association domain family 1A ( RASSF1A ) in patients
+T2	Disease	128 166	advanced epithelial ovarian cancer and
+T3	Pharmacodynamic_phenotype	180 229	efficacy of cisplatin based neoadjuvant therapy .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1

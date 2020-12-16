@@ -1,0 +1,4 @@
+T1	Chemical	69 88	capsaicin injection
+T2	Phenotype	93 111	fos expression was
+R1	increases	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

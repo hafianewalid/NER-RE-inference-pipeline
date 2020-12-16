@@ -1,0 +1,4 @@
+T1	Gene_or_protein	23 27	PI3K
+T2	Chemical	55 75	tamoxifen exemestane
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

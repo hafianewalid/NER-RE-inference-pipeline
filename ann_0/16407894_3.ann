@@ -1,0 +1,4 @@
+T1	Genomic_factor	0 68	The Ras -controlled Raf - MEK - ERK protein kinase signaling cascade
+T2	Pharmacodynamic_phenotype	96 156	behavioral and neurobiological actions of cocaine in animals
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

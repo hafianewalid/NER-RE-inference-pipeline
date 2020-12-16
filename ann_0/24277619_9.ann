@@ -1,0 +1,9 @@
+T1	Limited_variation	0 10	When rs671
+T2	Pharmacodynamic_phenotype	98 121	flushing response , but
+T3	Chemical	122 141	alcohol consumption
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

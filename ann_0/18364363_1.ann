@@ -1,0 +1,9 @@
+T1	Limited_variation	0 68	The short allele of the serotonin transporter promote r polymorphism
+T2	Phenotype	80 98	relapse in alcohol
+T3	Disease	80 111	relapse in alcohol dependence .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

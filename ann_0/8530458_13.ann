@@ -1,0 +1,24 @@
+T1	Chemical	0 7	Insulin
+T2	Disease	25 50	streptozotocin - diabetic
+T3	Phenotype	75 91	CAT activity and
+T4	Phenotype	92 114	CAT mRNA levels driven
+T5	Genomic_factor	126 141	FAS promoter in
+R1	treats	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T1	Arg2:T4
+R4	increases	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T2	Arg2:T1
+R6	increases	Arg1:T2	Arg2:T3
+R7	increases	Arg1:T2	Arg2:T4
+R8	isAssociatedWith	Arg1:T3	Arg2:T1
+R9	isAssociatedWith	Arg1:T3	Arg2:T2
+R10	isAssociatedWith	Arg1:T3	Arg2:T4
+R11	isAssociatedWith	Arg1:T3	Arg2:T5
+R12	isAssociatedWith	Arg1:T4	Arg2:T1
+R13	isAssociatedWith	Arg1:T4	Arg2:T2
+R14	isAssociatedWith	Arg1:T4	Arg2:T3
+R15	isAssociatedWith	Arg1:T4	Arg2:T5
+R16	influences	Arg1:T5	Arg2:T1
+R17	influences	Arg1:T5	Arg2:T2
+R18	influences	Arg1:T5	Arg2:T3
+R19	isAssociatedWith	Arg1:T5	Arg2:T4

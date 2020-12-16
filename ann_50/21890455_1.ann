@@ -1,0 +1,4 @@
+T1	Gene_or_protein	0 108	Toll-like receptor 9 agonist IMO cooperates with cetuximab in K-ras mutant colorectal and pancreatic cancers
+T2	Disease	109 110	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

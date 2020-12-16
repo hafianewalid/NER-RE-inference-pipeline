@@ -1,0 +1,34 @@
+T1	Limited_variation	75 120	substitution ( S ) in one HLA-G allele in the
+T2	Haplotype	121 137	HLA-G 0101 group
+T3	Limited_variation	190 223	substitution ( N/S ) on HLA- G010
+T4	Haplotype	190 260	substitution ( N/S ) on HLA- G0103 , HLA- G010401 , HLA-G010403 or HLA
+T5	Haplotype	262 276	G0105N alleles
+T6	Disease	314 332	rejection episodes
+R1	increases	Arg1:T1	Arg2:T3
+R2	increases	Arg1:T1	Arg2:T4
+R3	increases	Arg1:T1	Arg2:T5
+R4	increases	Arg1:T1	Arg2:T6
+R5	increases	Arg1:T2	Arg2:T1
+R6	increases	Arg1:T2	Arg2:T3
+R7	increases	Arg1:T2	Arg2:T4
+R8	increases	Arg1:T2	Arg2:T5
+R9	increases	Arg1:T2	Arg2:T6
+R10	increases	Arg1:T3	Arg2:T1
+R11	influences	Arg1:T3	Arg2:T2
+R12	increases	Arg1:T3	Arg2:T4
+R13	increases	Arg1:T3	Arg2:T5
+R14	increases	Arg1:T3	Arg2:T6
+R15	increases	Arg1:T4	Arg2:T1
+R16	increases	Arg1:T4	Arg2:T2
+R17	increases	Arg1:T4	Arg2:T3
+R18	increases	Arg1:T4	Arg2:T5
+R19	increases	Arg1:T4	Arg2:T6
+R20	increases	Arg1:T5	Arg2:T1
+R21	increases	Arg1:T5	Arg2:T2
+R22	increases	Arg1:T5	Arg2:T3
+R23	increases	Arg1:T5	Arg2:T6
+R24	isAssociatedWith	Arg1:T6	Arg2:T1
+R25	isAssociatedWith	Arg1:T6	Arg2:T2
+R26	isAssociatedWith	Arg1:T6	Arg2:T3
+R27	isAssociatedWith	Arg1:T6	Arg2:T4
+R28	isAssociatedWith	Arg1:T6	Arg2:T5

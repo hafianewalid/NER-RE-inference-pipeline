@@ -1,0 +1,13 @@
+T1	Gene_or_protein	27 39	HER2 / TOP2A
+T2	Genomic_factor	43 56	chromosome 17
+T3	Genomic_variation	43 84	chromosome 17 , Ch17CEP duplication might
+T4	Pharmacodynamic_phenotype	155 184	benefit from anthracyclines .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T3	Arg2:T2
+R8	influences	Arg1:T3	Arg2:T4
+R9	influences	Arg1:T4	Arg2:T3

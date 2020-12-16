@@ -1,0 +1,9 @@
+T1	Disease	60 80	hyperhomocysteinemia
+T2	Disease	98 107	ESRD does
+T3	Limited_variation	137 171	677C-->T mutation in the MTHFR gen
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	causes	Arg1:T1	Arg2:T3
+R3	causes	Arg1:T2	Arg2:T1
+R4	causes	Arg1:T2	Arg2:T3
+R5	causes	Arg1:T3	Arg2:T1
+R6	causes	Arg1:T3	Arg2:T2

@@ -1,0 +1,21 @@
+T1	Disease	12 23	lung cancer
+T2	Genomic_variation	44 74	gene amplification of c-Met is
+T3	Pharmacodynamic_phenotype	75 93	sensitive to the c
+T4	Gene_or_protein	94 107	Met -targeted
+T5	Pharmacodynamic_phenotype	94 154	Met -targeted drug SU11274 but not to EGFR -targeted drugs .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T5
+R4	influences	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T2	Arg2:T4
+R6	influences	Arg1:T2	Arg2:T5
+R7	treats	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	influences	Arg1:T3	Arg2:T4
+R10	influences	Arg1:T3	Arg2:T5
+R11	treats	Arg1:T4	Arg2:T1
+R12	treats	Arg1:T4	Arg2:T2
+R13	influences	Arg1:T4	Arg2:T5
+R14	treats	Arg1:T5	Arg2:T1
+R15	treats	Arg1:T5	Arg2:T2
+R16	influences	Arg1:T5	Arg2:T4

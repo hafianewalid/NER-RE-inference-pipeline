@@ -1,0 +1,4 @@
+T1	Limited_variation	39 283	genetic polymorphisms of genes encoding for glutathione S -tranferases , xanthine oxidase , thiopurine S-methyltransferase , inosine triphosphate pyrophosphatase , hypoxanthine phosphoribosyltransferase , inosine monophosphate dehydrogenase and
+T2	Pharmacodynamic_phenotype	284 315	multidrug resistance proteins .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isEquivalentTo	Arg1:T2	Arg2:T1

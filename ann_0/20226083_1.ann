@@ -1,0 +1,4 @@
+T1	Limited_variation	0 139	RRM1 single nucleotide polymorphism -37C-->A correlates with progression-free survival in NSCLC patients after gemcitabine -based chemother
+T2	Chemical	139 140	a
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isEquivalentTo	Arg1:T2	Arg2:T1

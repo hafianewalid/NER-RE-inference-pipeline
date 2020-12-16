@@ -1,0 +1,14 @@
+T1	Gene_or_protein	25 68	glial cell line-derived neurotrophic factor
+T2	Gene_or_protein	71 81	GDNF ) was
+T3	Chemical	126 149	6-hydroxydopamine model
+T4	Disease	153 174	Parkinson's disease .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isEquivalentTo	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	influences	Arg1:T3	Arg2:T2
+R9	isAssociatedWith	Arg1:T4	Arg2:T1
+R10	influences	Arg1:T4	Arg2:T3

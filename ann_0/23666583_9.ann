@@ -1,0 +1,4 @@
+T1	Pharmacokinetic_phenotype	41 61	tacrolimus clearance
+T2	Limited_variation	81 98	CYP3A5 genotype (
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

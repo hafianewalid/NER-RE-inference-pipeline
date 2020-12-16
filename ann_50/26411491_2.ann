@@ -1,0 +1,14 @@
+T1	Chemical	7 23	6-mercaptopurine
+T2	Phenotype	44 64	TPMT gene expression
+T3	Gene_or_protein	72 83	MT promoter
+T4	Genomic_factor	72 92	MT promoter variable
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T3	Arg2:T1
+R8	influences	Arg1:T3	Arg2:T2
+R9	influences	Arg1:T4	Arg2:T1
+R10	influences	Arg1:T4	Arg2:T2

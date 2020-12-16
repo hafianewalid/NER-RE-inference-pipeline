@@ -1,0 +1,9 @@
+T1	Phenotype	63 95	International Normalized Ratio ,
+T2	Limited_variation	96 133	VKORC1 and CYP2C9 genotypes explained
+T3	Pharmacodynamic_phenotype	187 219	acenocoumarol dose requirement .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

@@ -1,0 +1,16 @@
+T1	Chemical	68 140	cetuximab plus folinic acid / 5-fluorouracil / irinotecan ( FOLFIRI ) in
+T2	Disease	146 172	wild-type mCRC as a second
+T3	Gene_or_protein	207 215	BRAF and
+T4	Gene_or_protein	220 233	CA genotyping
+R1	treats	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	isAssociatedWith	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	isAssociatedWith	Arg1:T4	Arg2:T2
+R12	isAssociatedWith	Arg1:T4	Arg2:T3

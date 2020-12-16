@@ -1,0 +1,4 @@
+T1	Limited_variation	0 44	The COMT gene polymorphism , SNP rs9606186 ,
+T2	Pharmacodynamic_phenotype	64 97	risperidone therapy efficiency in
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

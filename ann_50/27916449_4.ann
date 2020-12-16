@@ -1,0 +1,13 @@
+T1	Limited_variation	26 49	GNAO1 missense mutation
+T2	Phenotype	57 73	age of 18years ,
+T3	Chemical	74 94	topiramate treatment
+T4	Disease	130 146	chorea decreased
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	treats	Arg1:T3	Arg2:T2
+R7	isAssociatedWith	Arg1:T4	Arg2:T1
+R8	isAssociatedWith	Arg1:T4	Arg2:T2
+R9	isAssociatedWith	Arg1:T4	Arg2:T3

@@ -1,0 +1,4 @@
+T1	Pharmacodynamic_phenotype	68 110	irinotecan -induced neutropenia associated
+T2	Haplotype	116 135	UGT1A1 * 6 relative
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

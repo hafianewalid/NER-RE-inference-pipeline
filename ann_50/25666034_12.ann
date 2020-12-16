@@ -1,0 +1,9 @@
+T1	Gene_or_protein	37 50	TRb signaling
+T2	Pharmacodynamic_phenotype	58 85	effect of acute nicotine on
+T3	Phenotype	86 116	hippocampus-dependent memory .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

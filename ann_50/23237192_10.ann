@@ -1,0 +1,16 @@
+T1	Limited_variation	28 45	1494C> T mutation
+T2	Disease	91 96	HL of
+T3	Chemical	127 153	aminoglycoside antibiotics
+T4	Phenotype	169 203	hearing of the mutation carriers .
+R1	causes	Arg1:T1	Arg2:T2
+R2	causes	Arg1:T1	Arg2:T3
+R3	decreases	Arg1:T1	Arg2:T4
+R4	causes	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	decreases	Arg1:T2	Arg2:T4
+R7	causes	Arg1:T3	Arg2:T1
+R8	causes	Arg1:T3	Arg2:T2
+R9	decreases	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	isAssociatedWith	Arg1:T4	Arg2:T2
+R12	isAssociatedWith	Arg1:T4	Arg2:T3

@@ -1,0 +1,4 @@
+T1	Limited_variation	41 70	DTNBP1 rs3213207 polymorphism
+T2	Disease	125 153	methamphetamine dependence ,
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

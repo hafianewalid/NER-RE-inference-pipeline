@@ -1,0 +1,9 @@
+T1	Phenotype	0 25	Recurrence of proteinuria
+T2	Disease	55 107	NPHS2 -associated focal segmental glomerulosclerosis
+T3	Chemical	130 158	cyclosporin A to sirolimus .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	treats	Arg1:T3	Arg2:T1
+R6	treats	Arg1:T3	Arg2:T2

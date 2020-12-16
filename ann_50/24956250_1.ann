@@ -1,0 +1,4 @@
+T1	Haplotype	23 36	HLA-B * 57:01
+T2	Pharmacodynamic_phenotype	69 94	abacavir hypersensitivity
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

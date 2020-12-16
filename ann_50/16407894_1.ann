@@ -1,0 +1,9 @@
+T1	Genomic_variation	0 16	Knockout of ERK1
+T2	Pharmacodynamic_phenotype	26 73	cocaine -evoked immediate early gene expression
+T3	Phenotype	78 101	behavioral plasticity .
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	increases	Arg1:T3	Arg2:T2

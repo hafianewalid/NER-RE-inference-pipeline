@@ -1,0 +1,25 @@
+T1	Pharmacodynamic_phenotype	12 26	effective dose
+T2	Pharmacodynamic_phenotype	42 64	adverse drug reactions
+T3	Pharmacodynamic_phenotype	67 75	ADRs ) ,
+T4	Limited_variation	87 108	CYP2D6 genotype prior
+T5	Chemical	112 133	carvedilol initiation
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T2	Arg2:T1
+R6	isEquivalentTo	Arg1:T2	Arg2:T3
+R7	isAssociatedWith	Arg1:T2	Arg2:T4
+R8	isAssociatedWith	Arg1:T2	Arg2:T5
+R9	isAssociatedWith	Arg1:T3	Arg2:T1
+R10	isEquivalentTo	Arg1:T3	Arg2:T2
+R11	isAssociatedWith	Arg1:T3	Arg2:T4
+R12	influences	Arg1:T3	Arg2:T5
+R13	influences	Arg1:T4	Arg2:T1
+R14	influences	Arg1:T4	Arg2:T2
+R15	influences	Arg1:T4	Arg2:T3
+R16	influences	Arg1:T4	Arg2:T5
+R17	influences	Arg1:T5	Arg2:T1
+R18	causes	Arg1:T5	Arg2:T2
+R19	causes	Arg1:T5	Arg2:T3
+R20	isAssociatedWith	Arg1:T5	Arg2:T4

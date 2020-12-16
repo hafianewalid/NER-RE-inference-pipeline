@@ -1,0 +1,8 @@
+T1	Limited_variation	0 11	Egfr mutant
+T2	Phenotype	81 105	53 -positive cells after
+T3	Chemical	106 122	cyclophosphamide
+R1	decreases	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	decreases	Arg1:T3	Arg2:T2

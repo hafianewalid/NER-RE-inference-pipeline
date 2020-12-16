@@ -1,0 +1,16 @@
+T1	Phenotype	18 48	ESR1 promoter hypermethylation
+T2	Phenotype	53 70	low ER expression
+T3	Phenotype	92 149	atypia in Random Periareolar Fine Needle Aspiration after
+T4	Chemical	160 180	tamoxifen prevention
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	influences	Arg1:T3	Arg2:T4
+R10	influences	Arg1:T4	Arg2:T1
+R11	isAssociatedWith	Arg1:T4	Arg2:T2
+R12	influences	Arg1:T4	Arg2:T3

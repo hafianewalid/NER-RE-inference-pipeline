@@ -1,0 +1,16 @@
+T1	Pharmacodynamic_phenotype	75 96	response to therapy ,
+T2	Gene_or_protein	114 124	SLC6A4 and
+T3	Pharmacodynamic_phenotype	125 172	responses to the 5-HT3 antagonist alosetron and
+T4	Pharmacodynamic_phenotype	173 204	the 5-HT4 agonist , tegaserod .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	influences	Arg1:T3	Arg2:T4
+R10	influences	Arg1:T4	Arg2:T1
+R11	treats	Arg1:T4	Arg2:T2
+R12	influences	Arg1:T4	Arg2:T3

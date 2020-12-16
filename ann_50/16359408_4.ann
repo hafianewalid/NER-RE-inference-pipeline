@@ -1,0 +1,4 @@
+T1	Gene_or_protein	34 59	cytochrome P450 CYP2C8 to
+T2	Chemical	82 105	N-desethylaminodiaquine
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

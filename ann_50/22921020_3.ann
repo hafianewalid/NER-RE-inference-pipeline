@@ -1,0 +1,4 @@
+T1	Pharmacodynamic_phenotype	0 21	This steroid response
+T2	Limited_variation	50 86	alleles in the SFRS3 and FKBP4 genes
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

@@ -1,0 +1,16 @@
+T1	Disease	38 52	heroin abusers
+T2	Phenotype	67 88	expression of MOR and
+T3	Phenotype	89 140	extracellular regulated kinase signaling networks ,
+T4	Phenotype	158 217	dysregulation of the downstream transcription factor ELK1 .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	isAssociatedWith	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	isAssociatedWith	Arg1:T4	Arg2:T2
+R12	isAssociatedWith	Arg1:T4	Arg2:T3

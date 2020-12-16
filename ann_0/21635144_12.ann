@@ -1,0 +1,16 @@
+T1	Phenotype	23 38	CYP3A4 activity
+T2	Haplotype	54 78	CYP3A4 * 1 / * 1G may be
+T3	Pharmacokinetic_phenotype	155 188	tacrolimus pharmacokinetics among
+T4	Gene_or_protein	189 203	CYP3A5 express
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	isAssociatedWith	Arg1:T3	Arg2:T4
+R10	influences	Arg1:T4	Arg2:T1
+R11	influences	Arg1:T4	Arg2:T2
+R12	influences	Arg1:T4	Arg2:T3

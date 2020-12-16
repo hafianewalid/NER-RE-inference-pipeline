@@ -1,0 +1,4 @@
+T1	Chemical	0 212	Selumetinib ( AZD6244 , ARRY-142886 ) is a potent and selective inhibitor of MEK1/2 which has demonstrated significant efficacy in combination with docetaxel in patients with KRAS mutant pretreated advanced NSCLC
+T2	Disease	213 214	.
+R1	treats	Arg1:T1	Arg2:T2
+R2	isEquivalentTo	Arg1:T2	Arg2:T1

@@ -1,0 +1,4 @@
+T1	Gene_or_protein	0 173	Poly(ADP-ribose) polymerase-1 inhibitor treatment regresses autochthonous Brca2 / p53 -mutant mammary tumors in vivo and delays tumor relapse in combination with carboplatin
+T2	Chemical	174 175	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isEquivalentTo	Arg1:T2	Arg2:T1

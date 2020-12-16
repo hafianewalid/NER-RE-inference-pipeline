@@ -1,0 +1,4 @@
+T1	Chemical	0 182	Acetaminophen , 3'-azido-3'-deoxythymidine , muraglitazar , estradiol ( 17-OH ) , and ethinyl estradiol ( 17-OH ) were all found to show similar rates of metabolism regardless of UGT
+T2	Limited_variation	182 183	1
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isEquivalentTo	Arg1:T2	Arg2:T1

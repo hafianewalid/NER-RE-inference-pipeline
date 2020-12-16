@@ -1,0 +1,21 @@
+T1	Limited_variation	50 70	CHRNA5 polymorphisms
+T2	Phenotype	75 93	smoking topography
+T3	Chemical	128 148	nicotine -containing
+T4	Chemical	151 165	nicotine yield
+T5	Chemical	187 211	placebo ( nicotine yield
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T2	Arg2:T1
+R6	isAssociatedWith	Arg1:T2	Arg2:T3
+R7	isAssociatedWith	Arg1:T2	Arg2:T4
+R8	isAssociatedWith	Arg1:T2	Arg2:T5
+R9	influences	Arg1:T3	Arg2:T4
+R10	influences	Arg1:T3	Arg2:T5
+R11	isAssociatedWith	Arg1:T4	Arg2:T1
+R12	isAssociatedWith	Arg1:T4	Arg2:T2
+R13	isEquivalentTo	Arg1:T4	Arg2:T3
+R14	influences	Arg1:T4	Arg2:T5
+R15	influences	Arg1:T5	Arg2:T3
+R16	influences	Arg1:T5	Arg2:T4

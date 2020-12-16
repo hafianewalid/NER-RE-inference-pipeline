@@ -1,0 +1,9 @@
+T1	Gene_or_protein	60 78	CYP2C19 substrates
+T2	Pharmacokinetic_phenotype	138 181	escitalopram or omeprazole kinetics between
+T3	Limited_variation	186 203	genotypes appears
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

@@ -1,0 +1,4 @@
+T1	Chemical	0 172	RY10-4 plus DAPT increases apoptosis in both HER2 -overexpressing cell lines by two-fold compared to RY10-4 alone , while DAPT alone has no significant effects on apoptosis
+T2	Phenotype	173 174	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

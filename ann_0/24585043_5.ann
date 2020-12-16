@@ -1,0 +1,15 @@
+T1	Limited_variation	88 105	rs6465084 between
+T2	Disease	110 132	alcohol -dependent and
+T3	Limited_variation	188 215	of SNP rs6465084 in alcohol
+T4	Disease	188 232	of SNP rs6465084 in alcohol -dependent group
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	increases	Arg1:T2	Arg2:T3
+R5	increases	Arg1:T2	Arg2:T4
+R6	influences	Arg1:T3	Arg2:T1
+R7	influences	Arg1:T3	Arg2:T2
+R8	isAssociatedWith	Arg1:T3	Arg2:T4
+R9	influences	Arg1:T4	Arg2:T1
+R10	influences	Arg1:T4	Arg2:T2
+R11	isAssociatedWith	Arg1:T4	Arg2:T3

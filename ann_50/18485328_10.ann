@@ -1,0 +1,9 @@
+T1	Limited_variation	73 84	p.Gly143Glu
+T2	Limited_variation	89 103	p.Asp260fs are
+T3	Pharmacokinetic_phenotype	161 205	hydrolytic activity toward methylphenidate .
+R1	decreases	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	decreases	Arg1:T2	Arg2:T1
+R4	decreases	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

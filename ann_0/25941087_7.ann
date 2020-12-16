@@ -1,0 +1,4 @@
+T1	Gene_or_protein	0 16	Purified SULT1A3
+T2	Pharmacokinetic_phenotype	62 99	sulfating activity toward ritodrine .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

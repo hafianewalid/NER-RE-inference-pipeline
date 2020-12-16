@@ -1,0 +1,13 @@
+T1	Limited_variation	25 121	single nucleotide polymorphism ( SNP ) in the inosine triphosphate pyrophosphatase ( ITPA ) gene
+T2	Phenotype	126 156	reduction of hemoglobin during
+T3	Chemical	157 206	peg-interferon plus ribavirin combination therapy
+T4	Disease	225 275	chronic hepatitis C virus (HCV) infection has been
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	treats	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T3	Arg2:T2
+R8	treats	Arg1:T3	Arg2:T4
+R9	isAssociatedWith	Arg1:T4	Arg2:T1

@@ -1,0 +1,4 @@
+T1	Limited_variation	26 40	UGT1A9 I399C>T
+T2	Pharmacodynamic_phenotype	79 122	change in SN-38-glucuronide ( SN-38G ) ( 2.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

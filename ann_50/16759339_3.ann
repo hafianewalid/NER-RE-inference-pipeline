@@ -1,0 +1,16 @@
+T1	Limited_variation	16 87	-141 C Ins/Del polymorphism in the promoter region of the DRD2 gene and
+T2	Limited_variation	92 162	Ser9Gly ( BalI ) polymorphism in exon 1 of the DRD3 gene in 74 alcohol
+T3	Disease	88 183	the Ser9Gly ( BalI ) polymorphism in exon 1 of the DRD3 gene in 74 alcohol -dependent Caucasian
+T4	Disease	227 243	for alcoholism .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	isAssociatedWith	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	isAssociatedWith	Arg1:T4	Arg2:T2
+R12	isAssociatedWith	Arg1:T4	Arg2:T3

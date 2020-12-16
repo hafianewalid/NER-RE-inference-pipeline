@@ -1,0 +1,16 @@
+T1	Gene_or_protein	0 22	The mu-opioid receptor
+T2	Gene_or_protein	43 48	OPRM1
+T3	Disease	73 103	opiate , alcohol , cocaine and
+T4	Disease	104 124	nicotine addiction .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T3	Arg2:T1
+R8	influences	Arg1:T3	Arg2:T2
+R9	influences	Arg1:T3	Arg2:T4
+R10	influences	Arg1:T4	Arg2:T1
+R11	influences	Arg1:T4	Arg2:T2
+R12	influences	Arg1:T4	Arg2:T3

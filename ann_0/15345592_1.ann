@@ -1,0 +1,16 @@
+T1	Limited_variation	13 37	BCR-ABL kinase mutations
+T2	Disease	59 96	chronic myelogenous leukemia patients
+T3	Phenotype	113 134	ogenetic remission on
+T4	Chemical	135 162	imatinib mesylate treatment
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	treats	Arg1:T3	Arg2:T2
+R9	influences	Arg1:T3	Arg2:T4
+R10	treats	Arg1:T4	Arg2:T1
+R11	treats	Arg1:T4	Arg2:T2
+R12	treats	Arg1:T4	Arg2:T3

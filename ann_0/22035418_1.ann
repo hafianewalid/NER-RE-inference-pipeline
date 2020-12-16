@@ -1,0 +1,9 @@
+T1	Limited_variation	0 84	The T_T genotype within the NME1 promoter single nucleotide polymorphism -835 C/T is
+T2	Pharmacodynamic_phenotype	122 157	cytarabine induced neurotoxicity in
+T3	Disease	172 196	acute myeloid leukemia .
+R1	increases	Arg1:T1	Arg2:T2
+R2	treats	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	treats	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

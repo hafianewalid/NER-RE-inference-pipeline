@@ -1,0 +1,23 @@
+T1	Pharmacodynamic_phenotype	47 65	effect of curcumin
+T2	Phenotype	86 111	LDL receptor expression ,
+T3	Chemical	118 131	ol regulatory
+T4	Gene_or_protein	245 273	green fluorescence protein (
+T5	Gene_or_protein	339 348	element-1
+R1	increases	Arg1:T1	Arg2:T2
+R2	causes	Arg1:T1	Arg2:T3
+R3	causes	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T2	Arg2:T4
+R6	isAssociatedWith	Arg1:T2	Arg2:T5
+R7	causes	Arg1:T3	Arg2:T1
+R8	increases	Arg1:T3	Arg2:T2
+R9	influences	Arg1:T3	Arg2:T4
+R10	influences	Arg1:T3	Arg2:T5
+R11	isAssociatedWith	Arg1:T4	Arg2:T1
+R12	increases	Arg1:T4	Arg2:T2
+R13	isAssociatedWith	Arg1:T4	Arg2:T3
+R14	isAssociatedWith	Arg1:T4	Arg2:T5
+R15	isAssociatedWith	Arg1:T5	Arg2:T1
+R16	influences	Arg1:T5	Arg2:T2
+R17	influences	Arg1:T5	Arg2:T3
+R18	isAssociatedWith	Arg1:T5	Arg2:T4

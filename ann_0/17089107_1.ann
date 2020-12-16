@@ -1,0 +1,4 @@
+T1	Haplotype	10 26	CYP2D6 * 10 on H
+T2	Pharmacodynamic_phenotype	26 62	1-antihistamine -induced hypersomnia
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

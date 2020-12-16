@@ -1,0 +1,9 @@
+T1	Limited_variation	25 35	CCK -45C>T
+T2	Limited_variation	40 55	CCKBR Val125Ile
+T3	Disease	98 119	alcohol dependence in
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

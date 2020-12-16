@@ -1,0 +1,21 @@
+T1	Gene_or_protein	20 25	HSP90
+T2	Chemical	17 42	of HSP90 Inhibitor AUY922
+T3	Chemical	47 56	Erlotinib
+T4	Disease	61 90	EGFR -Mutant Lung Cancer With
+T5	Pharmacodynamic_phenotype	91 175	Acquired Resistance to Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitors .
+R1	influences	Arg1:T1	Arg2:T3
+R2	treats	Arg1:T1	Arg2:T4
+R3	decreases	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	treats	Arg1:T2	Arg2:T4
+R6	treats	Arg1:T2	Arg2:T5
+R7	influences	Arg1:T3	Arg2:T2
+R8	treats	Arg1:T3	Arg2:T4
+R9	treats	Arg1:T3	Arg2:T5
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	isAssociatedWith	Arg1:T4	Arg2:T2
+R12	isAssociatedWith	Arg1:T4	Arg2:T3
+R13	isAssociatedWith	Arg1:T4	Arg2:T5
+R14	isAssociatedWith	Arg1:T5	Arg2:T1
+R15	isAssociatedWith	Arg1:T5	Arg2:T2
+R16	isAssociatedWith	Arg1:T5	Arg2:T3

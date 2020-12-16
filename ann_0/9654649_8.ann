@@ -1,0 +1,4 @@
+T1	Chemical	0 116	G-Rg1 treatment also led to the down-regulation of intracellular GR content , which was similar to the effect of Dex
+T2	Pharmacodynamic_phenotype	117 118	.
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

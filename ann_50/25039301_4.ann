@@ -1,0 +1,9 @@
+T1	Limited_variation	98 118	OPRM1 A118G genotype
+T2	Pharmacodynamic_phenotype	132 156	responses to alcohol and
+T3	Chemical	169 181	alcohol self
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

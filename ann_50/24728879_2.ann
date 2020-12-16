@@ -1,0 +1,9 @@
+T1	Haplotype	43 77	ocyte antigen (HLA)-B * 58:01 alle
+T2	Pharmacodynamic_phenotype	82 144	d allopurinol -associated severe cutaneous adverse reactions (
+T3	Disease	145 149	SCAR
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isEquivalentTo	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isEquivalentTo	Arg1:T3	Arg2:T2

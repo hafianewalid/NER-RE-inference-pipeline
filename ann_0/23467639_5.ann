@@ -1,0 +1,15 @@
+T1	Gene_or_protein	21 37	P2Y12 inhibitors
+T2	Chemical	48 66	antiplatelet drugs
+T3	Phenotype	91 132	inhibition of platelet function increases
+T4	Disease	133 146	bleeding risk
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	increases	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T3	Arg2:T1
+R8	increases	Arg1:T3	Arg2:T4
+R9	isAssociatedWith	Arg1:T4	Arg2:T1
+R10	isAssociatedWith	Arg1:T4	Arg2:T2
+R11	isAssociatedWith	Arg1:T4	Arg2:T3

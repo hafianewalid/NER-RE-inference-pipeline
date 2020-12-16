@@ -1,0 +1,16 @@
+T1	Limited_variation	13 18	ABCB1
+T2	Limited_variation	23 42	ABCG2 polymorphisms
+T3	Pharmacokinetic_phenotype	46 69	doxorubicin disposition
+T4	Disease	79 101	breast cancer patients
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	treats	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	isAssociatedWith	Arg1:T4	Arg2:T2
+R12	influences	Arg1:T4	Arg2:T3

@@ -1,0 +1,32 @@
+T1	Limited_variation	13 24	MUT + group
+T2	Phenotype	44 70	axial signs preoperatively
+T3	Limited_variation	73 87	MUT - patients
+T4	Pharmacodynamic_phenotype	98 112	levodopa - and
+T5	Pharmacodynamic_phenotype	135 165	- resistant axial signs within
+T6	Disease	263 264	.
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T4
+R3	increases	Arg1:T1	Arg2:T5
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T2	Arg2:T5
+R8	isAssociatedWith	Arg1:T2	Arg2:T6
+R9	isAssociatedWith	Arg1:T3	Arg2:T1
+R10	increases	Arg1:T3	Arg2:T2
+R11	influences	Arg1:T3	Arg2:T4
+R12	influences	Arg1:T3	Arg2:T5
+R13	isAssociatedWith	Arg1:T4	Arg2:T1
+R14	increases	Arg1:T4	Arg2:T2
+R15	isAssociatedWith	Arg1:T4	Arg2:T3
+R16	influences	Arg1:T4	Arg2:T5
+R17	isAssociatedWith	Arg1:T4	Arg2:T6
+R18	isAssociatedWith	Arg1:T5	Arg2:T1
+R19	isAssociatedWith	Arg1:T5	Arg2:T3
+R20	influences	Arg1:T5	Arg2:T4
+R21	isAssociatedWith	Arg1:T5	Arg2:T6
+R22	isAssociatedWith	Arg1:T6	Arg2:T1
+R23	isAssociatedWith	Arg1:T6	Arg2:T2
+R24	isAssociatedWith	Arg1:T6	Arg2:T3
+R25	influences	Arg1:T6	Arg2:T4
+R26	isAssociatedWith	Arg1:T6	Arg2:T5

@@ -1,0 +1,4 @@
+T1	Phenotype	32 61	expression of preprodynorphin
+T2	Phenotype	131 160	cocaine self-administration .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T2	Arg2:T1

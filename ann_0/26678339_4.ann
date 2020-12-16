@@ -1,0 +1,16 @@
+T1	Chemical	18 47	metabolic therapeutic targets
+T2	Disease	103 127	IDH1 mutant cancer cells
+T3	Gene_or_protein	141 156	IDH1 inhibition
+T4	Phenotype	183 232	vulnerability to depletion of the coenzyme NAD+ .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T2	Arg2:T4
+R7	causes	Arg1:T3	Arg2:T1
+R8	causes	Arg1:T3	Arg2:T2
+R9	causes	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	influences	Arg1:T4	Arg2:T2
+R12	influences	Arg1:T4	Arg2:T3

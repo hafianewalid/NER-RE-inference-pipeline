@@ -1,0 +1,4 @@
+T1	Chemical	0 258	Trastuzumab , the humanized human epidermal growth factor receptor 2 ( HER2 ) monoclonal antibody , and lapatinib , an epidermal growth factor receptor / HER2 tyrosine kinase inhibitor , are both established treatments for HER2 -overexpressing breast cancers
+T2	Disease	259 260	.
+R1	treats	Arg1:T1	Arg2:T2
+R2	isEquivalentTo	Arg1:T2	Arg2:T1

@@ -1,0 +1,36 @@
+T1	Limited_variation	21 40	genetic variability
+T2	Genomic_variation	75 93	chromosomic damage
+T3	Genomic_factor	70 95	with chromosomic damage ,
+T4	Phenotype	127 147	blood groups as well
+T5	Phenotype	155 220	ability to taste PTC , ear lobe type and mid-digital hair , in 77
+T6	Chemical	252 253	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T1	Arg2:T6
+R6	isAssociatedWith	Arg1:T2	Arg2:T1
+R7	isAssociatedWith	Arg1:T2	Arg2:T3
+R8	isAssociatedWith	Arg1:T2	Arg2:T4
+R9	isAssociatedWith	Arg1:T2	Arg2:T5
+R10	isAssociatedWith	Arg1:T2	Arg2:T6
+R11	isAssociatedWith	Arg1:T3	Arg2:T1
+R12	isAssociatedWith	Arg1:T3	Arg2:T2
+R13	isAssociatedWith	Arg1:T3	Arg2:T4
+R14	isAssociatedWith	Arg1:T3	Arg2:T5
+R15	isAssociatedWith	Arg1:T3	Arg2:T6
+R16	isAssociatedWith	Arg1:T4	Arg2:T1
+R17	isAssociatedWith	Arg1:T4	Arg2:T2
+R18	isAssociatedWith	Arg1:T4	Arg2:T3
+R19	isAssociatedWith	Arg1:T4	Arg2:T5
+R20	isAssociatedWith	Arg1:T4	Arg2:T6
+R21	isAssociatedWith	Arg1:T5	Arg2:T1
+R22	isAssociatedWith	Arg1:T5	Arg2:T2
+R23	isAssociatedWith	Arg1:T5	Arg2:T3
+R24	isAssociatedWith	Arg1:T5	Arg2:T4
+R25	isAssociatedWith	Arg1:T5	Arg2:T6
+R26	isAssociatedWith	Arg1:T6	Arg2:T1
+R27	isAssociatedWith	Arg1:T6	Arg2:T2
+R28	isAssociatedWith	Arg1:T6	Arg2:T3
+R29	isAssociatedWith	Arg1:T6	Arg2:T4
+R30	isAssociatedWith	Arg1:T6	Arg2:T5

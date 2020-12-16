@@ -1,0 +1,9 @@
+T1	Limited_variation	43 69	CCR3 genetic polymorphisms
+T2	Disease	111 125	AERD phenotype
+T3	Pharmacodynamic_phenotype	204 239	aspirin hypersensitivity phenotypes
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

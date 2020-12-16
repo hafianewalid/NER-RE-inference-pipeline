@@ -1,0 +1,15 @@
+T1	Genomic_factor	27 39	exons of EPH
+T2	Gene_or_protein	27 47	exons of EPHX1 using
+T3	Chemical	152 165	warfarin with
+T4	Phenotype	175 207	international normalized ratio .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T2	Arg2:T4
+R7	treats	Arg1:T3	Arg2:T2
+R8	isAssociatedWith	Arg1:T3	Arg2:T4
+R9	isAssociatedWith	Arg1:T4	Arg2:T1
+R10	isAssociatedWith	Arg1:T4	Arg2:T2
+R11	isAssociatedWith	Arg1:T4	Arg2:T3

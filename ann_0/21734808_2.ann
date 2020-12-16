@@ -1,0 +1,15 @@
+T1	Limited_variation	28 71	cytosine deaminase ( bCD ) mutant D314A and
+T2	Chemical	72 88	5-fluorocytosine
+T3	Chemical	91 101	5-FC ) for
+T4	Disease	115 138	colon cancer in a mouse
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isEquivalentTo	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	treats	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	isEquivalentTo	Arg1:T3	Arg2:T2
+R9	treats	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	influences	Arg1:T4	Arg2:T2

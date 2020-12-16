@@ -1,0 +1,4 @@
+T1	Chemical	14 22	oridonin
+T2	Phenotype	37 81	activity of c-Kit ( + ) leukemia -initiating
+R1	decreases	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

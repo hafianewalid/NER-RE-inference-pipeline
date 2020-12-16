@@ -1,0 +1,25 @@
+T1	Phenotype	14 32	CyclinB1 induction
+T2	Chemical	36 49	Cycloheximide
+T3	Phenotype	53 66	CDK1 activity
+T4	Chemical	70 81	Roscovitine
+T5	Pharmacodynamic_phenotype	106 135	FQI -induced mitotic arrest .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	decreases	Arg1:T2	Arg2:T1
+R6	decreases	Arg1:T2	Arg2:T3
+R7	influences	Arg1:T2	Arg2:T4
+R8	influences	Arg1:T2	Arg2:T5
+R9	decreases	Arg1:T3	Arg2:T1
+R10	isAssociatedWith	Arg1:T3	Arg2:T2
+R11	isAssociatedWith	Arg1:T3	Arg2:T4
+R12	influences	Arg1:T3	Arg2:T5
+R13	decreases	Arg1:T4	Arg2:T1
+R14	decreases	Arg1:T4	Arg2:T2
+R15	decreases	Arg1:T4	Arg2:T3
+R16	influences	Arg1:T4	Arg2:T5
+R17	decreases	Arg1:T5	Arg2:T1
+R18	influences	Arg1:T5	Arg2:T2
+R19	decreases	Arg1:T5	Arg2:T3
+R20	influences	Arg1:T5	Arg2:T4

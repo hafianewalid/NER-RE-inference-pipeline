@@ -1,0 +1,9 @@
+T1	Phenotype	74 143	activity of alpha4beta2 neuronal nicotinic acetylcholine receptor and
+T2	Limited_variation	175 268	polymorphism of the nicotinic acetylcholine receptor alpha4 subunit gene ( CHRNA4 ) modulates
+T3	Pharmacodynamic_phenotype	269 324	enhancement of nicotinic receptor function by ethanol .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	increases	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

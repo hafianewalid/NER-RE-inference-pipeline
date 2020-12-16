@@ -1,0 +1,4 @@
+T1	Phenotype	184 208	B mRNA expression in the
+T2	Pharmacokinetic_phenotype	262 263	.
+R1	influences	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

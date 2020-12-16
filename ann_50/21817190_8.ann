@@ -1,0 +1,37 @@
+T1	Limited_variation	18 43	variants of the ITPA gene
+T2	Disease	74 96	haemolytic anaemia and
+T3	Pharmacodynamic_phenotype	99 122	V dose reduction , were
+T4	Pharmacodynamic_phenotype	154 160	SVR by
+T5	Pharmacodynamic_phenotype	170 184	PEG-IFN and RB
+T6	Pharmacodynamic_phenotype	184 193	V therapy
+T7	Limited_variation	250 282	genotype at rs8099917 of IL28B .
+R1	decreases	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	increases	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T2	Arg2:T7
+R8	decreases	Arg1:T3	Arg2:T2
+R9	increases	Arg1:T3	Arg2:T4
+R10	increases	Arg1:T3	Arg2:T6
+R11	isAssociatedWith	Arg1:T3	Arg2:T7
+R12	isAssociatedWith	Arg1:T4	Arg2:T1
+R13	decreases	Arg1:T4	Arg2:T2
+R14	isAssociatedWith	Arg1:T4	Arg2:T7
+R15	decreases	Arg1:T5	Arg2:T2
+R16	influences	Arg1:T5	Arg2:T3
+R17	increases	Arg1:T5	Arg2:T4
+R18	influences	Arg1:T5	Arg2:T6
+R19	isAssociatedWith	Arg1:T6	Arg2:T1
+R20	decreases	Arg1:T6	Arg2:T2
+R21	influences	Arg1:T6	Arg2:T3
+R22	increases	Arg1:T6	Arg2:T4
+R23	influences	Arg1:T6	Arg2:T5
+R24	isAssociatedWith	Arg1:T6	Arg2:T7
+R25	influences	Arg1:T7	Arg2:T1
+R26	influences	Arg1:T7	Arg2:T2
+R27	influences	Arg1:T7	Arg2:T3
+R28	influences	Arg1:T7	Arg2:T4
+R29	influences	Arg1:T7	Arg2:T5
+R30	influences	Arg1:T7	Arg2:T6

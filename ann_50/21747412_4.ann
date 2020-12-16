@@ -1,0 +1,8 @@
+T1	Limited_variation	38 52	MTHFR genotype
+T2	Pharmacodynamic_phenotype	69 82	MTX dosage in
+T3	Disease	124 136	ALL patients
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	treats	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1

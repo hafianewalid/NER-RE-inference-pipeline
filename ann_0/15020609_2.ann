@@ -1,0 +1,36 @@
+T1	Chemical	31 51	adding the multidrug
+T2	Gene_or_protein	31 89	adding the multidrug resistance gene-1 ( MDR-1 ) modulator
+T3	Chemical	31 178	adding the multidrug resistance gene-1 ( MDR-1 ) modulator valspodar ( PSC 833 ; Novartis Pharmaceuticals , Hanover , NJ ) to chemotherapy provided
+T4	Pharmacodynamic_phenotype	179 207	clinical benefit to patients
+T5	Disease	223 251	acute myeloid leukemia ( AML
+T6	Disease	268 298	myelodysplastic syndrome ( MDS
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	causes	Arg1:T1	Arg2:T4
+R4	treats	Arg1:T1	Arg2:T5
+R5	treats	Arg1:T1	Arg2:T6
+R6	influences	Arg1:T2	Arg2:T1
+R7	influences	Arg1:T2	Arg2:T3
+R8	causes	Arg1:T2	Arg2:T4
+R9	treats	Arg1:T2	Arg2:T5
+R10	treats	Arg1:T2	Arg2:T6
+R11	influences	Arg1:T3	Arg2:T1
+R12	influences	Arg1:T3	Arg2:T2
+R13	causes	Arg1:T3	Arg2:T4
+R14	treats	Arg1:T3	Arg2:T5
+R15	treats	Arg1:T3	Arg2:T6
+R16	influences	Arg1:T4	Arg2:T1
+R17	influences	Arg1:T4	Arg2:T2
+R18	influences	Arg1:T4	Arg2:T3
+R19	treats	Arg1:T4	Arg2:T5
+R20	treats	Arg1:T4	Arg2:T6
+R21	isAssociatedWith	Arg1:T5	Arg2:T1
+R22	influences	Arg1:T5	Arg2:T2
+R23	influences	Arg1:T5	Arg2:T3
+R24	isAssociatedWith	Arg1:T5	Arg2:T4
+R25	treats	Arg1:T5	Arg2:T6
+R26	isAssociatedWith	Arg1:T6	Arg2:T1
+R27	influences	Arg1:T6	Arg2:T2
+R28	influences	Arg1:T6	Arg2:T3
+R29	isAssociatedWith	Arg1:T6	Arg2:T4
+R30	treats	Arg1:T6	Arg2:T5

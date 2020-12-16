@@ -1,0 +1,11 @@
+T1	Limited_variation	27 127	thymidylate synthase ( TYMS ) and UDP-glucoronosyltransferase 1A ( UGT1A ) germline polymorphisms on
+T2	Phenotype	132 153	outcome of colorectal
+T3	Disease	132 177	outcome of colorectal cancer ( CRC ) patients
+T4	Chemical	191 251	irinotecan plus 5-fluorouracil ( irinotecan / 5FU ) is still
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	treats	Arg1:T4	Arg2:T2
+R7	treats	Arg1:T4	Arg2:T3

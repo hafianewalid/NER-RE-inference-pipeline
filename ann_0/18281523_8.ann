@@ -1,0 +1,4 @@
+T1	Chemical	0 138	Gefitinib showed analogous PK properties in each tumor type yet different PD characteristics consistent with the EGFR status of the tumors
+T2	Disease	139 140	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

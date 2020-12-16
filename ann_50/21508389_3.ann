@@ -1,0 +1,15 @@
+T1	Gene_or_protein	36 65	Kirsten ras ( KRAS ) oncogene
+T2	Disease	77 100	colorectal tumour cells
+T3	Chemical	104 135	oxaliplatin and capecitabine in
+T4	Limited_variation	138 190	wild-type tumour suppressor p53 ( TP53 ) - dependent
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T3	Arg2:T1
+R8	treats	Arg1:T3	Arg2:T2
+R9	influences	Arg1:T4	Arg2:T1
+R10	influences	Arg1:T4	Arg2:T2
+R11	influences	Arg1:T4	Arg2:T3

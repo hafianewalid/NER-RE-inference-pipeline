@@ -1,0 +1,16 @@
+T1	Pharmacodynamic_phenotype	20 37	cell cycle arrest
+T2	Chemical	49 58	erlotinib
+T3	Limited_variation	106 124	wild-type EGFR and
+T4	Pharmacodynamic_phenotype	130 159	pharmacodynamic separation of
+R1	causes	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	causes	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T3	Arg2:T1
+R8	influences	Arg1:T3	Arg2:T2
+R9	influences	Arg1:T3	Arg2:T4
+R10	causes	Arg1:T4	Arg2:T1
+R11	influences	Arg1:T4	Arg2:T2
+R12	isAssociatedWith	Arg1:T4	Arg2:T3

@@ -1,0 +1,16 @@
+T1	Phenotype	17 21	B-Cd
+T2	Limited_variation	76 105	MT1A rs11076161 A-alleles was
+T3	Phenotype	119 144	highly polluted group ( p
+T4	Phenotype	209 218	smoking )
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T2	Arg2:T4
+R7	increases	Arg1:T3	Arg2:T1
+R8	increases	Arg1:T3	Arg2:T2
+R9	isAssociatedWith	Arg1:T3	Arg2:T4
+R10	influences	Arg1:T4	Arg2:T1
+R11	isAssociatedWith	Arg1:T4	Arg2:T2
+R12	influences	Arg1:T4	Arg2:T3

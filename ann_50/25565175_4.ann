@@ -1,0 +1,4 @@
+T1	Limited_variation	14 24	HLA-B 5701
+T2	Pharmacodynamic_phenotype	34 69	abacavir hypersensitivity reactions
+R1	decreases	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

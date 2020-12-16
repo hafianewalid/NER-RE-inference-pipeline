@@ -1,0 +1,21 @@
+T1	Limited_variation	60 79	MMP-2 polymorphisms
+T2	Pharmacodynamic_phenotype	85 107	treatment efficacy and
+T3	Disease	126 144	severe toxicity in
+T4	Disease	159 203	nonsmall cell lung cancer ( NSCLC ) who were
+T5	Chemical	227 257	platinum -based chemotherapy .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T2	Arg2:T1
+R6	isAssociatedWith	Arg1:T2	Arg2:T3
+R7	isAssociatedWith	Arg1:T2	Arg2:T4
+R8	isAssociatedWith	Arg1:T2	Arg2:T5
+R9	isAssociatedWith	Arg1:T3	Arg2:T1
+R10	isAssociatedWith	Arg1:T3	Arg2:T2
+R11	isAssociatedWith	Arg1:T3	Arg2:T5
+R12	isAssociatedWith	Arg1:T4	Arg2:T1
+R13	isAssociatedWith	Arg1:T4	Arg2:T2
+R14	isAssociatedWith	Arg1:T4	Arg2:T3
+R15	isAssociatedWith	Arg1:T5	Arg2:T2
+R16	treats	Arg1:T5	Arg2:T4

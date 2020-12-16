@@ -1,0 +1,4 @@
+T1	Chemical	8 18	folic acid
+T2	Limited_variation	86 110	MTHFR C677T polymorphism
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

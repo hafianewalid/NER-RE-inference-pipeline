@@ -1,0 +1,25 @@
+T1	Limited_variation	58 95	coagulation factor XIII polymorphisms
+T2	Limited_variation	98 177	one within subunit A ( Val34Leu ) and one within subunit B ( His95Arg ) , might
+T3	Pharmacodynamic_phenotype	191 228	prothrombotic effects of estrogen and
+T4	Disease	275 307	arterial thrombotic events among
+T5	Chemical	335 364	hormone replacement therapy .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T1	Arg2:T5
+R5	influences	Arg1:T2	Arg2:T1
+R6	influences	Arg1:T2	Arg2:T3
+R7	influences	Arg1:T2	Arg2:T4
+R8	influences	Arg1:T2	Arg2:T5
+R9	influences	Arg1:T3	Arg2:T1
+R10	influences	Arg1:T3	Arg2:T2
+R11	influences	Arg1:T3	Arg2:T4
+R12	influences	Arg1:T3	Arg2:T5
+R13	isAssociatedWith	Arg1:T4	Arg2:T1
+R14	isAssociatedWith	Arg1:T4	Arg2:T2
+R15	isAssociatedWith	Arg1:T4	Arg2:T3
+R16	isAssociatedWith	Arg1:T4	Arg2:T5
+R17	isAssociatedWith	Arg1:T5	Arg2:T1
+R18	isAssociatedWith	Arg1:T5	Arg2:T2
+R19	influences	Arg1:T5	Arg2:T3
+R20	treats	Arg1:T5	Arg2:T4

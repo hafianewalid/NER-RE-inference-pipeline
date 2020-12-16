@@ -1,0 +1,15 @@
+T1	Limited_variation	30 55	SLCO1B1 c.521 T > C could
+T2	Pharmacodynamic_phenotype	81 106	dose reduction of 6-MP in
+T3	Chemical	119 134	chemotherapy in
+T4	Disease	149 150	.
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	treats	Arg1:T2	Arg2:T3
+R5	treats	Arg1:T2	Arg2:T4
+R6	isAssociatedWith	Arg1:T3	Arg2:T1
+R7	influences	Arg1:T3	Arg2:T2
+R8	treats	Arg1:T3	Arg2:T4
+R9	isAssociatedWith	Arg1:T4	Arg2:T1
+R10	influences	Arg1:T4	Arg2:T2
+R11	isAssociatedWith	Arg1:T4	Arg2:T3

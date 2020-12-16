@@ -1,0 +1,9 @@
+T1	Pharmacodynamic_phenotype	58 89	oxaliplatin -induced neuropathy
+T2	Limited_variation	98 126	GSTP1 Ile ( 105 ) Val and AG
+T3	Limited_variation	126 158	XT Ile ( 340 ) Met polymorphisms
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

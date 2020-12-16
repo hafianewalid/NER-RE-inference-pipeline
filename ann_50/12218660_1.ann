@@ -1,0 +1,4 @@
+T1	Limited_variation	23 74	polymorphisms in the serotonin transporter gene and
+T2	Disease	93 117	cocaine dependence among
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

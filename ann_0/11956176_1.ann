@@ -1,0 +1,4 @@
+T1	Chemical	0 190	Cyclosporine a and FK506 inhibit transcriptional activity of the human mineralocorticoid receptor : a cell-based model to investigate partial aldosterone resistance in kidney transplantation
+T2	Disease	191 192	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isEquivalentTo	Arg1:T2	Arg2:T1

@@ -1,0 +1,32 @@
+T1	Chemical	50 58	copper (
+T2	Chemical	59 86	Cu ) , disulfiram ( DSF ) ,
+T3	Chemical	105 132	antialcoholism drug , could
+T4	Disease	150 168	breast cancer cell
+T5	Phenotype	150 186	breast cancer cell growth regardless
+T6	Genomic_variation	198 209	CA status .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	decreases	Arg1:T1	Arg2:T4
+R4	decreases	Arg1:T1	Arg2:T5
+R5	isEquivalentTo	Arg1:T2	Arg2:T1
+R6	decreases	Arg1:T2	Arg2:T4
+R7	decreases	Arg1:T2	Arg2:T5
+R8	isAssociatedWith	Arg1:T2	Arg2:T6
+R9	isAssociatedWith	Arg1:T3	Arg2:T1
+R10	decreases	Arg1:T3	Arg2:T4
+R11	decreases	Arg1:T3	Arg2:T5
+R12	isAssociatedWith	Arg1:T3	Arg2:T6
+R13	isAssociatedWith	Arg1:T4	Arg2:T1
+R14	isAssociatedWith	Arg1:T4	Arg2:T2
+R15	isAssociatedWith	Arg1:T4	Arg2:T3
+R16	isAssociatedWith	Arg1:T4	Arg2:T5
+R17	isAssociatedWith	Arg1:T4	Arg2:T6
+R18	isAssociatedWith	Arg1:T5	Arg2:T1
+R19	influences	Arg1:T5	Arg2:T2
+R20	isAssociatedWith	Arg1:T5	Arg2:T4
+R21	isAssociatedWith	Arg1:T5	Arg2:T6
+R22	isAssociatedWith	Arg1:T6	Arg2:T1
+R23	influences	Arg1:T6	Arg2:T2
+R24	influences	Arg1:T6	Arg2:T3
+R25	influences	Arg1:T6	Arg2:T4
+R26	isAssociatedWith	Arg1:T6	Arg2:T5

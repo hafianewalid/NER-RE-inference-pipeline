@@ -1,0 +1,15 @@
+T1	Phenotype	120 147	UGT1A1 deficiency screening
+T2	Chemical	214 231	irinorecan -based
+T3	Chemical	272 297	irinotecan -based therapy
+T4	Disease	310 329	colorectal cancer .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	treats	Arg1:T2	Arg2:T3
+R6	treats	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T3	Arg2:T1
+R8	influences	Arg1:T3	Arg2:T2
+R9	treats	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	influences	Arg1:T4	Arg2:T2

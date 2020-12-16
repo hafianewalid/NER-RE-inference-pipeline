@@ -1,0 +1,36 @@
+T1	Chemical	56 76	fertility medication
+T2	Chemical	86 150	selective estrogen receptor [ ER ] modulator , gonadotropin , or
+T3	Disease	162 183	infertility treatment
+T4	Disease	230 248	cancer among women
+T5	Limited_variation	262 270	or BRCA2
+T6	Limited_variation	280 281	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T1	Arg2:T6
+R6	influences	Arg1:T2	Arg2:T1
+R7	isAssociatedWith	Arg1:T2	Arg2:T3
+R8	isAssociatedWith	Arg1:T2	Arg2:T4
+R9	isAssociatedWith	Arg1:T2	Arg2:T5
+R10	isAssociatedWith	Arg1:T2	Arg2:T6
+R11	influences	Arg1:T3	Arg2:T1
+R12	isAssociatedWith	Arg1:T3	Arg2:T2
+R13	isAssociatedWith	Arg1:T3	Arg2:T4
+R14	isAssociatedWith	Arg1:T3	Arg2:T5
+R15	isAssociatedWith	Arg1:T3	Arg2:T6
+R16	isAssociatedWith	Arg1:T4	Arg2:T1
+R17	isAssociatedWith	Arg1:T4	Arg2:T2
+R18	isAssociatedWith	Arg1:T4	Arg2:T3
+R19	isAssociatedWith	Arg1:T4	Arg2:T5
+R20	isAssociatedWith	Arg1:T4	Arg2:T6
+R21	influences	Arg1:T5	Arg2:T1
+R22	influences	Arg1:T5	Arg2:T2
+R23	influences	Arg1:T5	Arg2:T3
+R24	influences	Arg1:T5	Arg2:T4
+R25	influences	Arg1:T5	Arg2:T6
+R26	influences	Arg1:T6	Arg2:T1
+R27	influences	Arg1:T6	Arg2:T2
+R28	influences	Arg1:T6	Arg2:T3
+R29	isAssociatedWith	Arg1:T6	Arg2:T4
+R30	isAssociatedWith	Arg1:T6	Arg2:T5

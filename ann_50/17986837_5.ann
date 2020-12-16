@@ -1,0 +1,4 @@
+T1	Limited_variation	0 15	The TPH1 779A/C
+T2	Disease	102 126	nicotine dependence were
+R1	influences	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

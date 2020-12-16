@@ -1,0 +1,36 @@
+T1	Gene_or_protein	26 53	skeletal Na(+) channel isof
+T2	Gene_or_protein	54 64	rm ( SkM1 
+T3	Gene_or_protein	69 110	 the cardiac Na(+) channel isoform ( Nav1
+T4	Limited_variation	187 200	mutation intr
+T5	Limited_variation	205 220	d in Nav1.5 to 
+T6	Pharmacodynamic_phenotype	228 260	 tetrodotoxin ( TTX ) sensitivit
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	increases	Arg1:T1	Arg2:T6
+R6	isEquivalentTo	Arg1:T2	Arg2:T1
+R7	isAssociatedWith	Arg1:T2	Arg2:T3
+R8	isAssociatedWith	Arg1:T2	Arg2:T4
+R9	isAssociatedWith	Arg1:T2	Arg2:T5
+R10	increases	Arg1:T2	Arg2:T6
+R11	isAssociatedWith	Arg1:T3	Arg2:T1
+R12	isAssociatedWith	Arg1:T3	Arg2:T2
+R13	isAssociatedWith	Arg1:T3	Arg2:T4
+R14	isAssociatedWith	Arg1:T3	Arg2:T5
+R15	increases	Arg1:T3	Arg2:T6
+R16	influences	Arg1:T4	Arg2:T1
+R17	influences	Arg1:T4	Arg2:T2
+R18	influences	Arg1:T4	Arg2:T3
+R19	influences	Arg1:T4	Arg2:T5
+R20	increases	Arg1:T4	Arg2:T6
+R21	increases	Arg1:T5	Arg2:T1
+R22	increases	Arg1:T5	Arg2:T2
+R23	increases	Arg1:T5	Arg2:T3
+R24	influences	Arg1:T5	Arg2:T4
+R25	increases	Arg1:T5	Arg2:T6
+R26	isAssociatedWith	Arg1:T6	Arg2:T1
+R27	isAssociatedWith	Arg1:T6	Arg2:T2
+R28	isAssociatedWith	Arg1:T6	Arg2:T3
+R29	isAssociatedWith	Arg1:T6	Arg2:T4
+R30	isAssociatedWith	Arg1:T6	Arg2:T5

@@ -1,0 +1,36 @@
+T1	Chemical	21 62	DNA vaccine encoding a portion of rat HER
+T2	Gene_or_protein	21 74	DNA vaccine encoding a portion of rat HER2 / neu with
+T3	Chemical	21 106	DNA vaccine encoding a portion of rat HER2 / neu with either Imiquimod or S-27609 was
+T4	Disease	153 172	mammary tumours and
+T5	Phenotype	189 214	incidence , in comparison
+T6	Chemical	224 241	vaccination alone
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	treats	Arg1:T1	Arg2:T4
+R4	decreases	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T1	Arg2:T6
+R6	isAssociatedWith	Arg1:T2	Arg2:T1
+R7	influences	Arg1:T2	Arg2:T3
+R8	treats	Arg1:T2	Arg2:T4
+R9	decreases	Arg1:T2	Arg2:T5
+R10	influences	Arg1:T2	Arg2:T6
+R11	isAssociatedWith	Arg1:T3	Arg2:T1
+R12	isAssociatedWith	Arg1:T3	Arg2:T2
+R13	treats	Arg1:T3	Arg2:T4
+R14	decreases	Arg1:T3	Arg2:T5
+R15	influences	Arg1:T3	Arg2:T6
+R16	isAssociatedWith	Arg1:T4	Arg2:T1
+R17	isAssociatedWith	Arg1:T4	Arg2:T2
+R18	isAssociatedWith	Arg1:T4	Arg2:T3
+R19	decreases	Arg1:T4	Arg2:T5
+R20	isAssociatedWith	Arg1:T4	Arg2:T6
+R21	isAssociatedWith	Arg1:T5	Arg2:T1
+R22	isAssociatedWith	Arg1:T5	Arg2:T2
+R23	isAssociatedWith	Arg1:T5	Arg2:T3
+R24	isAssociatedWith	Arg1:T5	Arg2:T4
+R25	isAssociatedWith	Arg1:T5	Arg2:T6
+R26	influences	Arg1:T6	Arg2:T1
+R27	influences	Arg1:T6	Arg2:T2
+R28	influences	Arg1:T6	Arg2:T3
+R29	influences	Arg1:T6	Arg2:T4
+R30	decreases	Arg1:T6	Arg2:T5

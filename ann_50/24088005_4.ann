@@ -1,0 +1,9 @@
+T1	Haplotype	49 65	CYP2C19 * 2 with
+T2	Phenotype	77 103	platelet aggregation after
+T3	Chemical	134 135	.
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

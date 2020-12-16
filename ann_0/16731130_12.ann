@@ -1,0 +1,9 @@
+T1	Phenotype	0 23	The expression of Bcl-2
+T2	Chemical	61 72	CoCl2 group
+T3	Phenotype	154 174	expression was lower
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T2	Arg2:T1
+R4	decreases	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

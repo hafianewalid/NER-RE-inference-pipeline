@@ -1,0 +1,9 @@
+T1	Limited_variation	24 30	CYP3A5
+T2	Limited_variation	35 54	MDR-1 Polymorphisms
+T3	Pharmacokinetic_phenotype	58 85	Tacrolimus Pharmacokinetics
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

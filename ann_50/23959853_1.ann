@@ -1,0 +1,4 @@
+T1	Pharmacokinetic_phenotype	23 48	disposition of cefadroxil
+T2	Limited_variation	80 113	wild-type and PepT1 knockout mice
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

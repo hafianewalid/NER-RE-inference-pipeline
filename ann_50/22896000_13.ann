@@ -1,0 +1,4 @@
+T1	Chemical	0 91	Omacetaxine may provide a safe and effective treatment for CML patients with T315I mutation
+T2	Limited_variation	92 93	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

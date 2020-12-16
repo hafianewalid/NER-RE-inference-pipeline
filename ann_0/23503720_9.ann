@@ -1,0 +1,14 @@
+T1	Chemical	29 38	silibinin
+T2	Phenotype	54 86	translocation of Smad2 and Smad3
+T3	Gene_or_protein	109 124	TGF-b1 -treated
+T4	Disease	130 131	.
+R1	decreases	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T2	Arg2:T4
+R6	decreases	Arg1:T3	Arg2:T2
+R7	causes	Arg1:T3	Arg2:T4
+R8	isAssociatedWith	Arg1:T4	Arg2:T1
+R9	decreases	Arg1:T4	Arg2:T2
+R10	isAssociatedWith	Arg1:T4	Arg2:T3

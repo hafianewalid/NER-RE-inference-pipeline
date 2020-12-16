@@ -1,0 +1,4 @@
+T1	Pharmacodynamic_phenotype	71 100	response to clozapine therapy
+T2	Limited_variation	133 172	dopamine receptor ( DRD4 ) alleles they
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

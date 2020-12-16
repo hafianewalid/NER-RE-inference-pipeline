@@ -1,0 +1,16 @@
+T1	Limited_variation	20 24	MDR1
+T2	Limited_variation	27 36	EPHX1 and
+T3	Limited_variation	37 63	protein Z gene variants in
+T4	Pharmacodynamic_phenotype	64 95	modulation of warfarin dosage ?
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T3	Arg2:T1
+R8	influences	Arg1:T3	Arg2:T2
+R9	influences	Arg1:T3	Arg2:T4
+R10	influences	Arg1:T4	Arg2:T1
+R11	influences	Arg1:T4	Arg2:T2
+R12	influences	Arg1:T4	Arg2:T3

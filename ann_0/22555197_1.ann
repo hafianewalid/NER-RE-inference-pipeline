@@ -1,0 +1,14 @@
+T1	Chemical	58 68	irinotecan
+T2	Chemical	73 79	S-1 in
+T3	Disease	115 155	metastatic colorectal cancer : influence
+T4	Limited_variation	163 206	UGT1A1 and CYP2A6 polymorphisms on clinical
+R1	influences	Arg1:T1	Arg2:T2
+R2	treats	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	treats	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2
+R7	influences	Arg1:T3	Arg2:T4
+R8	influences	Arg1:T4	Arg2:T1
+R9	influences	Arg1:T4	Arg2:T2
+R10	influences	Arg1:T4	Arg2:T3

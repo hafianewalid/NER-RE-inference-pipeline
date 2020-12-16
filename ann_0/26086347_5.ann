@@ -1,0 +1,9 @@
+T1	Limited_variation	24 39	ABCG2 421 CA or
+T2	Limited_variation	40 52	AA genotypes
+T3	Pharmacodynamic_phenotype	94 128	atorvastatin dose-dependent ADRs (
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T2	Arg2:T1
+R4	increases	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

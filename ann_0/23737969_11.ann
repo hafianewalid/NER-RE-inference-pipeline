@@ -1,0 +1,9 @@
+T1	Phenotype	0 25	Body weight > = 40 kg and
+T2	Haplotype	43 58	UGT1A1 * 6 were
+T3	Phenotype	75 97	creatinine elevation (
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

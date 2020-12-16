@@ -1,0 +1,36 @@
+T1	Gene_or_protein	0 18	As cytochrome P450
+T2	Chemical	38 47	yohimbine
+T3	Limited_variation	51 64	450 genotypes
+T4	Gene_or_protein	67 72	CYP2D
+T5	Limited_variation	65 73	( CYP2D6
+T6	Gene_or_protein	65 86	( CYP2D6 and CYP3A4 )
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T1	Arg2:T5
+R5	influences	Arg1:T1	Arg2:T6
+R6	isAssociatedWith	Arg1:T2	Arg2:T1
+R7	isAssociatedWith	Arg1:T2	Arg2:T3
+R8	isAssociatedWith	Arg1:T2	Arg2:T4
+R9	isAssociatedWith	Arg1:T2	Arg2:T5
+R10	isAssociatedWith	Arg1:T2	Arg2:T6
+R11	isAssociatedWith	Arg1:T3	Arg2:T1
+R12	isEquivalentTo	Arg1:T3	Arg2:T2
+R13	isAssociatedWith	Arg1:T3	Arg2:T4
+R14	isAssociatedWith	Arg1:T3	Arg2:T5
+R15	isAssociatedWith	Arg1:T3	Arg2:T6
+R16	isAssociatedWith	Arg1:T4	Arg2:T1
+R17	isAssociatedWith	Arg1:T4	Arg2:T2
+R18	isEquivalentTo	Arg1:T4	Arg2:T3
+R19	isAssociatedWith	Arg1:T4	Arg2:T5
+R20	isAssociatedWith	Arg1:T4	Arg2:T6
+R21	isAssociatedWith	Arg1:T5	Arg2:T1
+R22	influences	Arg1:T5	Arg2:T2
+R23	isEquivalentTo	Arg1:T5	Arg2:T3
+R24	isAssociatedWith	Arg1:T5	Arg2:T4
+R25	isAssociatedWith	Arg1:T5	Arg2:T6
+R26	influences	Arg1:T6	Arg2:T1
+R27	influences	Arg1:T6	Arg2:T2
+R28	isEquivalentTo	Arg1:T6	Arg2:T3
+R29	isAssociatedWith	Arg1:T6	Arg2:T4
+R30	isAssociatedWith	Arg1:T6	Arg2:T5

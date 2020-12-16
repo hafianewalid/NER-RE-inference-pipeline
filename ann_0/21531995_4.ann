@@ -1,0 +1,4 @@
+T1	Limited_variation	0 16	Five SCARB1 SNPs
+T2	Pharmacodynamic_phenotype	36 55	progesterone levels
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

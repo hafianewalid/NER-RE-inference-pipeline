@@ -1,0 +1,16 @@
+T1	Phenotype	28 55	low levels of TPMT activity
+T2	Pharmacodynamic_phenotype	90 123	thiopurine -induced toxicity such
+T3	Pharmacodynamic_phenotype	127 145	myelosuppression ,
+T4	Phenotype	221 241	high activity may be
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T1	Arg2:T4
+R4	increases	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	isAssociatedWith	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	increases	Arg1:T4	Arg2:T2
+R12	increases	Arg1:T4	Arg2:T3

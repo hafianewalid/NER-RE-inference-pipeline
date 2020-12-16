@@ -1,0 +1,4 @@
+T1	Chemical	43 57	CpG ODN during
+T2	Phenotype	141 168	 of Th2 -mediated responses
+R1	decreases	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

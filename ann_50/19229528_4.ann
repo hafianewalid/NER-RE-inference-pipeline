@@ -1,0 +1,23 @@
+T1	Limited_variation	78 86	TPMT and
+T2	Limited_variation	89 114	PA gene polymorphisms and
+T3	Pharmacodynamic_phenotype	115 134	drug intolerance in
+T4	Disease	157 178	transplant recipients
+T5	Chemical	192 209	azathioprine ( AZ
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T2	Arg2:T1
+R6	isAssociatedWith	Arg1:T2	Arg2:T3
+R7	isAssociatedWith	Arg1:T2	Arg2:T4
+R8	isAssociatedWith	Arg1:T2	Arg2:T5
+R9	isAssociatedWith	Arg1:T3	Arg2:T1
+R10	isAssociatedWith	Arg1:T3	Arg2:T2
+R11	isAssociatedWith	Arg1:T3	Arg2:T4
+R12	isAssociatedWith	Arg1:T3	Arg2:T5
+R13	isAssociatedWith	Arg1:T4	Arg2:T1
+R14	isAssociatedWith	Arg1:T4	Arg2:T2
+R15	isAssociatedWith	Arg1:T4	Arg2:T3
+R16	treats	Arg1:T5	Arg2:T2
+R17	treats	Arg1:T5	Arg2:T3
+R18	treats	Arg1:T5	Arg2:T4

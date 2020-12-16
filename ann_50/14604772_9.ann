@@ -1,0 +1,4 @@
+T1	Phenotype	0 33	The TNF-alpha immunoreactive glia
+T2	Chemical	70 81	ibudilast -
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T2	Arg2:T1

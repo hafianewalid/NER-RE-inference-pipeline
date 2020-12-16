@@ -1,0 +1,13 @@
+T1	Phenotype	20 45	P-gp -expressing MDR cell
+T2	Phenotype	54 88	serum from immunized mice restored
+T3	Pharmacodynamic_phenotype	89 142	sensitivity to either doxorubicin or vinblastine , or
+T4	Phenotype	277 278	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T2	Arg2:T4
+R6	treats	Arg1:T3	Arg2:T1
+R7	isAssociatedWith	Arg1:T4	Arg2:T1
+R8	isAssociatedWith	Arg1:T4	Arg2:T2
+R9	isAssociatedWith	Arg1:T4	Arg2:T3

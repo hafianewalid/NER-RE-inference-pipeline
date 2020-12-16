@@ -1,0 +1,9 @@
+T1	Pharmacodynamic_phenotype	43 78	dose-response effects of paroxetine
+T2	Limited_variation	104 179	serotonin transporter gene ( SLC6A4 ) promoter polymorphism ( 5-HTTLPR ) on
+T3	Phenotype	180 199	platelet function .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

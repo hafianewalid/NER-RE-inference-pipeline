@@ -1,0 +1,4 @@
+T1	Chemical	24 44	phosphatidylinositol
+T2	Disease	48 92	c-myc gene-expressed human renal cancer cell
+R1	influences	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

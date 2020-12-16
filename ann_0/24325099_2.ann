@@ -1,0 +1,25 @@
+T1	Limited_variation	45 128	250G/A polymorphism in the promoter region of hepatic lipase gene ( LIPC ) on serum
+T2	Phenotype	43 146	- 250G/A polymorphism in the promoter region of hepatic lipase gene ( LIPC ) on serum lipid profile and
+T3	Phenotype	175 203	- carbohydrate /low-fat ( HC
+T4	Phenotype	207 213	) diet
+T5	Phenotype	223 248	lipid profiles in a young
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T1	Arg2:T5
+R5	influences	Arg1:T2	Arg2:T1
+R6	influences	Arg1:T2	Arg2:T3
+R7	influences	Arg1:T2	Arg2:T4
+R8	influences	Arg1:T2	Arg2:T5
+R9	influences	Arg1:T3	Arg2:T1
+R10	influences	Arg1:T3	Arg2:T2
+R11	influences	Arg1:T3	Arg2:T4
+R12	influences	Arg1:T3	Arg2:T5
+R13	influences	Arg1:T4	Arg2:T1
+R14	influences	Arg1:T4	Arg2:T2
+R15	isEquivalentTo	Arg1:T4	Arg2:T3
+R16	influences	Arg1:T4	Arg2:T5
+R17	isAssociatedWith	Arg1:T5	Arg2:T1
+R18	isAssociatedWith	Arg1:T5	Arg2:T2
+R19	isAssociatedWith	Arg1:T5	Arg2:T3
+R20	isAssociatedWith	Arg1:T5	Arg2:T4

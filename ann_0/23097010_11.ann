@@ -1,0 +1,9 @@
+T1	Limited_variation	22 49	POR 28 genetic polymorphism
+T2	Pharmacodynamic_phenotype	107 140	variability of tacrolimus besides
+T3	Limited_variation	145 176	CYP3A5 3 genetic polymorphism .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

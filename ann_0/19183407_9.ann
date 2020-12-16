@@ -1,0 +1,15 @@
+T1	Chemical	27 34	AKR-501
+T2	Gene_or_protein	55 67	TPO receptor
+T3	Chemical	48 75	active TPO receptor agonist
+T4	Disease	129 147	thrombocytopenia .
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	treats	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	treats	Arg1:T2	Arg2:T4
+R6	isAssociatedWith	Arg1:T3	Arg2:T1
+R7	increases	Arg1:T3	Arg2:T2
+R8	treats	Arg1:T3	Arg2:T4
+R9	isAssociatedWith	Arg1:T4	Arg2:T1
+R10	isAssociatedWith	Arg1:T4	Arg2:T2
+R11	isAssociatedWith	Arg1:T4	Arg2:T3

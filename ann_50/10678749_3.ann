@@ -1,0 +1,4 @@
+T1	Chemical	60 105	D2-like dopamine agonist quinpirole virtually
+T2	Pharmacodynamic_phenotype	116 161	RU-24969 -induced striatal c-Fos expression .
+R1	decreases	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

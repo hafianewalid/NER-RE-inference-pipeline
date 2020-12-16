@@ -1,0 +1,4 @@
+T1	Disease	11 14	PMF
+T2	Gene_or_protein	63 78	JAK2 inhibitors
+R1	influences	Arg1:T1	Arg2:T2
+R2	treats	Arg1:T2	Arg2:T1

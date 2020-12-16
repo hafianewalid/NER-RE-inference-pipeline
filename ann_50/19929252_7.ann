@@ -1,0 +1,3 @@
+T1	Limited_variation	26 44	DRD2 polymorphisms
+T2	Pharmacodynamic_phenotype	113 153	response to dopamine -agonists treatment
+R1	influences	Arg1:T1	Arg2:T2

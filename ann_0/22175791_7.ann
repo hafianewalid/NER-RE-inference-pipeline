@@ -1,0 +1,13 @@
+T1	Limited_variation	29 63	GSTT1 homozygous deletion genotype
+T2	Disease	114 130	AP poisoning and
+T3	Limited_variation	152 189	GSTP1 homozygous variant genotype may
+T4	Disease	226 236	poisoned .
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T4
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	causes	Arg1:T2	Arg2:T4
+R6	decreases	Arg1:T3	Arg2:T4
+R7	isAssociatedWith	Arg1:T4	Arg2:T1
+R8	isAssociatedWith	Arg1:T4	Arg2:T2
+R9	isAssociatedWith	Arg1:T4	Arg2:T3

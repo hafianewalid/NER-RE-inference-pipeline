@@ -1,0 +1,4 @@
+T1	Chemical	36 46	crizotinib
+T2	Disease	71 124	ALK rearranged non-small cell lung cancer ( NSCLC ) .
+R1	treats	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

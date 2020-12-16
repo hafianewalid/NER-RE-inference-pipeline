@@ -1,0 +1,3 @@
+T1	Chemical	35 128	trastuzumab ( Herceptin ) combined with paclitaxel ( Taxol ) or docetaxel ( Taxotere ) in HER
+T2	Disease	128 166	2 -expressing human breast cancer cell
+R1	treats	Arg1:T1	Arg2:T2

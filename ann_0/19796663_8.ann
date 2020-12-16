@@ -1,0 +1,9 @@
+T1	Pharmacodynamic_phenotype	84 120	apomorphine -induced GH response and
+T2	Limited_variation	121 154	SNPs in DRD2 and ANKK1 in alcohol
+T3	Disease	121 174	SNPs in DRD2 and ANKK1 in alcohol -dependent patients
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

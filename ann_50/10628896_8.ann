@@ -1,0 +1,4 @@
+T1	Chemical	0 91	Haloperidol is a substrate of CYP3A4 and an inhibitor , as well as a stimulator , of CYP2D6
+T2	Gene_or_protein	92 93	.
+R1	influences	Arg1:T1	Arg2:T2
+R2	isEquivalentTo	Arg1:T2	Arg2:T1

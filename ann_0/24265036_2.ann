@@ -1,0 +1,14 @@
+T1	Disease	22 35	breast cancer
+T2	Phenotype	63 78	hot flashes may
+T3	Phenotype	108 146	estrogen receptor antagonism dependent
+T4	Limited_variation	150 217	genetic variations of metabolic enzymes and the estrogen receptor .
+R1	isAssociatedWith	Arg1:T1	Arg2:T4
+R2	isAssociatedWith	Arg1:T2	Arg2:T1
+R3	isAssociatedWith	Arg1:T2	Arg2:T3
+R4	isAssociatedWith	Arg1:T2	Arg2:T4
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2
+R7	influences	Arg1:T3	Arg2:T4
+R8	influences	Arg1:T4	Arg2:T1
+R9	influences	Arg1:T4	Arg2:T2
+R10	influences	Arg1:T4	Arg2:T3

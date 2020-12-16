@@ -1,0 +1,35 @@
+T1	Haplotype	31 47	UGT1A haplotypes
+T2	Pharmacokinetic_phenotype	56 137	area under concentration curve ratio ( SN-38 glucuronide / SN -38 ) or toxicities
+T3	Pharmacodynamic_phenotype	56 142	area under concentration curve ratio ( SN-38 glucuronide / SN -38 ) or toxicities were
+T4	Disease	168 183	cancer patients
+T5	Chemical	197 219	irinotecan as a single
+T6	Chemical	257 258	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T1	Arg2:T6
+R6	isAssociatedWith	Arg1:T2	Arg2:T1
+R7	isAssociatedWith	Arg1:T2	Arg2:T3
+R8	isAssociatedWith	Arg1:T2	Arg2:T4
+R9	isAssociatedWith	Arg1:T2	Arg2:T5
+R10	isAssociatedWith	Arg1:T2	Arg2:T6
+R11	isAssociatedWith	Arg1:T3	Arg2:T1
+R12	isAssociatedWith	Arg1:T3	Arg2:T2
+R13	isAssociatedWith	Arg1:T3	Arg2:T4
+R14	isAssociatedWith	Arg1:T3	Arg2:T5
+R15	isAssociatedWith	Arg1:T3	Arg2:T6
+R16	isAssociatedWith	Arg1:T4	Arg2:T1
+R17	isAssociatedWith	Arg1:T4	Arg2:T2
+R18	isAssociatedWith	Arg1:T4	Arg2:T3
+R19	treats	Arg1:T4	Arg2:T6
+R20	treats	Arg1:T5	Arg2:T1
+R21	treats	Arg1:T5	Arg2:T2
+R22	treats	Arg1:T5	Arg2:T3
+R23	treats	Arg1:T5	Arg2:T4
+R24	treats	Arg1:T5	Arg2:T6
+R25	isAssociatedWith	Arg1:T6	Arg2:T1
+R26	isAssociatedWith	Arg1:T6	Arg2:T2
+R27	isAssociatedWith	Arg1:T6	Arg2:T3
+R28	treats	Arg1:T6	Arg2:T4
+R29	influences	Arg1:T6	Arg2:T5

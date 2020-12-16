@@ -1,0 +1,16 @@
+T1	Disease	0 22	In alcoholic cirrhotic
+T2	Limited_variation	38 58	Ala- MnSOD allele is
+T3	Pharmacokinetic_phenotype	75 104	hepatic iron accumulation and
+T4	Disease	126 152	hepatocellular carcinoma .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T1	Arg2:T4
+R4	treats	Arg1:T2	Arg2:T1
+R5	increases	Arg1:T2	Arg2:T3
+R6	increases	Arg1:T2	Arg2:T4
+R7	treats	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	increases	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	isAssociatedWith	Arg1:T4	Arg2:T2
+R12	isAssociatedWith	Arg1:T4	Arg2:T3

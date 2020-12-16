@@ -1,0 +1,4 @@
+T1	Phenotype	23 38	CYP3A4 activity
+T2	Chemical	41 50	midazolam
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

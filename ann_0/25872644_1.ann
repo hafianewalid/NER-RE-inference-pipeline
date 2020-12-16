@@ -1,0 +1,9 @@
+T1	Limited_variation	20 41	ADORA2A polymorphisms
+T2	Pharmacodynamic_phenotype	45 73	levodopa -induced dyskinesia
+T3	Disease	77 105	Parkinson's disease patients
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

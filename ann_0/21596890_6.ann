@@ -1,0 +1,9 @@
+T1	Chemical	17 21	CDCA
+T2	Gene_or_protein	42 51	C /EBPb ,
+T3	Phenotype	137 138	.
+R1	influences	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	increases	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

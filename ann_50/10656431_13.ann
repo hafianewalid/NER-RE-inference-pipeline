@@ -1,0 +1,9 @@
+T1	Pharmacodynamic_phenotype	0 28	The efficiency of paclitaxel
+T2	Phenotype	66 87	lack of G1 arrest due
+T3	Phenotype	92 107	53 deficiency .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	causes	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

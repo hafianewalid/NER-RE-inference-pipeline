@@ -1,0 +1,9 @@
+T1	Phenotype	0 25	Lipoprotein abnormalities
+T2	Phenotype	51 80	lipoprotein lipase deficiency
+T3	Chemical	121 131	orlistat .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	causes	Arg1:T3	Arg2:T1
+R6	treats	Arg1:T3	Arg2:T2

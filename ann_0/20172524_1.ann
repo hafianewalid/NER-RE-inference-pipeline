@@ -1,0 +1,16 @@
+T1	Pharmacodynamic_phenotype	0 55	Protective effects of magnesium lithospermate B against
+T2	Disease	56 80	diabetic atherosclerosis
+T3	Gene_or_protein	85 116	Nrf2 -ARE- NQO1 transcriptional
+T4	Genomic_factor	81 124	via Nrf2 -ARE- NQO1 transcriptional pathway
+R1	causes	Arg1:T1	Arg2:T2
+R2	causes	Arg1:T1	Arg2:T3
+R3	causes	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T3	Arg2:T1
+R8	influences	Arg1:T3	Arg2:T2
+R9	influences	Arg1:T3	Arg2:T4
+R10	influences	Arg1:T4	Arg2:T1
+R11	influences	Arg1:T4	Arg2:T2
+R12	influences	Arg1:T4	Arg2:T3

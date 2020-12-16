@@ -1,0 +1,36 @@
+T1	Chemical	0 10	Drugs that
+T2	Chemical	15 28	substrates of
+T3	Gene_or_protein	15 50	substrates of cytochrome P450 3A4 ,
+T4	Chemical	62 99	inhibitors and inducers of cytochrome
+T5	Gene_or_protein	62 114	inhibitors and inducers of cytochrome P450 3A4 , can
+T6	Pharmacodynamic_phenotype	133 163	interactions with tacrolimus .
+R1	causes	Arg1:T1	Arg2:T2
+R2	causes	Arg1:T1	Arg2:T3
+R3	causes	Arg1:T1	Arg2:T4
+R4	causes	Arg1:T1	Arg2:T5
+R5	causes	Arg1:T1	Arg2:T6
+R6	influences	Arg1:T2	Arg2:T1
+R7	causes	Arg1:T2	Arg2:T3
+R8	causes	Arg1:T2	Arg2:T4
+R9	causes	Arg1:T2	Arg2:T5
+R10	causes	Arg1:T2	Arg2:T6
+R11	influences	Arg1:T3	Arg2:T1
+R12	influences	Arg1:T3	Arg2:T2
+R13	causes	Arg1:T3	Arg2:T4
+R14	causes	Arg1:T3	Arg2:T5
+R15	causes	Arg1:T3	Arg2:T6
+R16	causes	Arg1:T4	Arg2:T1
+R17	causes	Arg1:T4	Arg2:T2
+R18	causes	Arg1:T4	Arg2:T3
+R19	causes	Arg1:T4	Arg2:T5
+R20	causes	Arg1:T4	Arg2:T6
+R21	causes	Arg1:T5	Arg2:T1
+R22	causes	Arg1:T5	Arg2:T2
+R23	causes	Arg1:T5	Arg2:T3
+R24	causes	Arg1:T5	Arg2:T4
+R25	causes	Arg1:T5	Arg2:T6
+R26	causes	Arg1:T6	Arg2:T1
+R27	causes	Arg1:T6	Arg2:T2
+R28	causes	Arg1:T6	Arg2:T3
+R29	causes	Arg1:T6	Arg2:T4
+R30	causes	Arg1:T6	Arg2:T5

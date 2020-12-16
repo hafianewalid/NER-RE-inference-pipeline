@@ -1,0 +1,4 @@
+T1	Phenotype	15 30	CYP2A6 activity
+T2	Pharmacokinetic_phenotype	44 69	shunting of coumarin into
+R1	influences	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T2	Arg2:T1

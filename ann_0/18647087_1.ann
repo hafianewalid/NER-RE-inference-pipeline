@@ -1,0 +1,4 @@
+T1	Chemical	0 35	Functionalized PEG - PEI copolymers
+T2	Phenotype	88 109	dystrophin expression
+R1	increases	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

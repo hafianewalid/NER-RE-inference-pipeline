@@ -1,0 +1,15 @@
+T1	Limited_variation	50 83	MET exon 14 skipping mutation and
+T2	Limited_variation	97 126	PIK3CA - p.Glu545Lys mutation
+T3	Chemical	146 169	crizotinib ; suggesting
+T4	Pharmacodynamic_phenotype	200 201	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	treats	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	isAssociatedWith	Arg1:T4	Arg2:T1
+R10	isAssociatedWith	Arg1:T4	Arg2:T2
+R11	isAssociatedWith	Arg1:T4	Arg2:T3

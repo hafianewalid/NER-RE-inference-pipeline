@@ -1,0 +1,4 @@
+T1	Pharmacokinetic_phenotype	31 51	serotonin metabolism
+T2	Limited_variation	67 96	variation in the 5-HTTLPR may
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

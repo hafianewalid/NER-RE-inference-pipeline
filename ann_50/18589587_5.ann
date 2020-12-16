@@ -1,0 +1,31 @@
+T1	Pharmacokinetic_phenotype	18 34	slow acetylation
+T2	Phenotype	82 138	inhibition of cytochrome P450 ( CYP450 ) isoforms by iso
+T3	Chemical	138 150	niazid ( CYP
+T4	Gene_or_protein	150 160	2C19 y CYP
+T5	Gene_or_protein	161 168	A ) are
+T6	Pharmacodynamic_phenotype	186 211	plasmatic concentration .
+R1	decreases	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T6
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T2	Arg2:T4
+R6	isAssociatedWith	Arg1:T2	Arg2:T6
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	decreases	Arg1:T3	Arg2:T2
+R9	isEquivalentTo	Arg1:T3	Arg2:T4
+R10	decreases	Arg1:T3	Arg2:T5
+R11	isAssociatedWith	Arg1:T4	Arg2:T1
+R12	isAssociatedWith	Arg1:T4	Arg2:T2
+R13	isEquivalentTo	Arg1:T4	Arg2:T3
+R14	isAssociatedWith	Arg1:T4	Arg2:T5
+R15	isAssociatedWith	Arg1:T4	Arg2:T6
+R16	influences	Arg1:T5	Arg2:T1
+R17	decreases	Arg1:T5	Arg2:T2
+R18	influences	Arg1:T5	Arg2:T3
+R19	isEquivalentTo	Arg1:T5	Arg2:T4
+R20	influences	Arg1:T5	Arg2:T6
+R21	influences	Arg1:T6	Arg2:T1
+R22	influences	Arg1:T6	Arg2:T2
+R23	influences	Arg1:T6	Arg2:T3
+R24	influences	Arg1:T6	Arg2:T4
+R25	influences	Arg1:T6	Arg2:T5

@@ -1,0 +1,25 @@
+T1	Chemical	50 61	ITF2357 led
+T2	Limited_variation	111 132	JAK2 (V617F ) as well
+T3	Gene_or_protein	136 159	pSTAT5 and pSTAT3 , but
+T4	Limited_variation	133 162	as pSTAT5 and pSTAT3 , but it
+T5	Limited_variation	187 204	type JAK2 or STAT
+R1	decreases	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	decreases	Arg1:T1	Arg2:T4
+R4	decreases	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T2	Arg2:T1
+R6	decreases	Arg1:T2	Arg2:T3
+R7	isAssociatedWith	Arg1:T2	Arg2:T4
+R8	isAssociatedWith	Arg1:T2	Arg2:T5
+R9	isAssociatedWith	Arg1:T3	Arg2:T1
+R10	decreases	Arg1:T3	Arg2:T2
+R11	isAssociatedWith	Arg1:T3	Arg2:T4
+R12	isAssociatedWith	Arg1:T3	Arg2:T5
+R13	isAssociatedWith	Arg1:T4	Arg2:T1
+R14	decreases	Arg1:T4	Arg2:T2
+R15	isAssociatedWith	Arg1:T4	Arg2:T3
+R16	isAssociatedWith	Arg1:T4	Arg2:T5
+R17	isAssociatedWith	Arg1:T5	Arg2:T1
+R18	isAssociatedWith	Arg1:T5	Arg2:T2
+R19	isAssociatedWith	Arg1:T5	Arg2:T3
+R20	isAssociatedWith	Arg1:T5	Arg2:T4

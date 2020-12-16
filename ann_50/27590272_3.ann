@@ -1,0 +1,60 @@
+T1	Gene_or_protein	73 160	organic cation transporter 2 ( OCT2 ) , multidrug and toxin extrusion 1 ( MATE1 ) , ATP
+T2	Gene_or_protein	161 204	binding cassette subfamily B member 1 ( ABC
+T3	Gene_or_protein	209 218	, and ATP
+T4	Gene_or_protein	227 262	cassette subfamily C member 2 ( ABC
+T5	Limited_variation	269 280	and genetic
+T6	Limited_variation	281 309	polymorphisms in these genes
+T7	Pharmacodynamic_phenotype	324 336	efficacy and
+T8	Pharmacodynamic_phenotype	345 372	effects of platinum drugs .
+R1	influences	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T5
+R3	influences	Arg1:T1	Arg2:T6
+R4	influences	Arg1:T1	Arg2:T7
+R5	influences	Arg1:T1	Arg2:T8
+R6	isEquivalentTo	Arg1:T2	Arg2:T1
+R7	influences	Arg1:T2	Arg2:T3
+R8	influences	Arg1:T2	Arg2:T5
+R9	influences	Arg1:T2	Arg2:T6
+R10	influences	Arg1:T2	Arg2:T7
+R11	influences	Arg1:T2	Arg2:T8
+R12	influences	Arg1:T3	Arg2:T2
+R13	influences	Arg1:T3	Arg2:T4
+R14	isAssociatedWith	Arg1:T3	Arg2:T5
+R15	influences	Arg1:T3	Arg2:T6
+R16	influences	Arg1:T3	Arg2:T7
+R17	influences	Arg1:T3	Arg2:T8
+R18	isEquivalentTo	Arg1:T4	Arg2:T1
+R19	isEquivalentTo	Arg1:T4	Arg2:T2
+R20	isEquivalentTo	Arg1:T4	Arg2:T3
+R21	isAssociatedWith	Arg1:T4	Arg2:T5
+R22	influences	Arg1:T4	Arg2:T6
+R23	influences	Arg1:T4	Arg2:T7
+R24	influences	Arg1:T4	Arg2:T8
+R25	influences	Arg1:T5	Arg2:T1
+R26	influences	Arg1:T5	Arg2:T2
+R27	influences	Arg1:T5	Arg2:T3
+R28	influences	Arg1:T5	Arg2:T4
+R29	influences	Arg1:T5	Arg2:T6
+R30	influences	Arg1:T5	Arg2:T7
+R31	influences	Arg1:T5	Arg2:T8
+R32	influences	Arg1:T6	Arg2:T1
+R33	influences	Arg1:T6	Arg2:T2
+R34	influences	Arg1:T6	Arg2:T3
+R35	influences	Arg1:T6	Arg2:T4
+R36	influences	Arg1:T6	Arg2:T5
+R37	influences	Arg1:T6	Arg2:T7
+R38	influences	Arg1:T6	Arg2:T8
+R39	influences	Arg1:T7	Arg2:T1
+R40	influences	Arg1:T7	Arg2:T2
+R41	influences	Arg1:T7	Arg2:T3
+R42	influences	Arg1:T7	Arg2:T4
+R43	influences	Arg1:T7	Arg2:T5
+R44	influences	Arg1:T7	Arg2:T6
+R45	influences	Arg1:T7	Arg2:T8
+R46	isAssociatedWith	Arg1:T8	Arg2:T1
+R47	isAssociatedWith	Arg1:T8	Arg2:T2
+R48	isAssociatedWith	Arg1:T8	Arg2:T3
+R49	isAssociatedWith	Arg1:T8	Arg2:T4
+R50	isAssociatedWith	Arg1:T8	Arg2:T5
+R51	isAssociatedWith	Arg1:T8	Arg2:T6
+R52	influences	Arg1:T8	Arg2:T7

@@ -1,0 +1,9 @@
+T1	Disease	117 133	tumor suppressor
+T2	Gene_or_protein	139 150	p16INK4a in
+T3	Disease	151 174	pancreatic cancer cells
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	decreases	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

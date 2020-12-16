@@ -1,0 +1,24 @@
+T1	Pharmacodynamic_phenotype	0 31	The adverse events of EGFR -TKI
+T2	Chemical	84 90	EGFR -
+T3	Gene_or_protein	84 92	EGFR -TK
+T4	Chemical	84 98	EGFR -TKI rech
+T5	Chemical	199 213	prednisolone .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	influences	Arg1:T2	Arg2:T1
+R6	influences	Arg1:T2	Arg2:T3
+R7	influences	Arg1:T2	Arg2:T4
+R8	influences	Arg1:T2	Arg2:T5
+R9	influences	Arg1:T3	Arg2:T1
+R10	influences	Arg1:T3	Arg2:T2
+R11	influences	Arg1:T3	Arg2:T4
+R12	influences	Arg1:T3	Arg2:T5
+R13	influences	Arg1:T4	Arg2:T1
+R14	influences	Arg1:T4	Arg2:T2
+R15	influences	Arg1:T4	Arg2:T3
+R16	influences	Arg1:T4	Arg2:T5
+R17	influences	Arg1:T5	Arg2:T2
+R18	influences	Arg1:T5	Arg2:T3
+R19	influences	Arg1:T5	Arg2:T4

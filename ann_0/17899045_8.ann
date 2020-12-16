@@ -1,0 +1,36 @@
+T1	Pharmacodynamic_phenotype	41 64	warfarin dose indicated
+T2	Phenotype	96 103	age ( r
+T3	Phenotype	134 144	weight ( r
+T4	Phenotype	145 148	( 2
+T5	Limited_variation	182 205	genotype ( r ( 2 ) = 0.
+T6	Limited_variation	264 291	1 genotype together ( r ( 2
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T1	Arg2:T5
+R5	influences	Arg1:T1	Arg2:T6
+R6	influences	Arg1:T2	Arg2:T1
+R7	influences	Arg1:T2	Arg2:T3
+R8	influences	Arg1:T2	Arg2:T4
+R9	influences	Arg1:T2	Arg2:T5
+R10	influences	Arg1:T2	Arg2:T6
+R11	influences	Arg1:T3	Arg2:T1
+R12	influences	Arg1:T3	Arg2:T2
+R13	influences	Arg1:T3	Arg2:T4
+R14	influences	Arg1:T3	Arg2:T5
+R15	influences	Arg1:T3	Arg2:T6
+R16	influences	Arg1:T4	Arg2:T1
+R17	isAssociatedWith	Arg1:T4	Arg2:T2
+R18	isEquivalentTo	Arg1:T4	Arg2:T3
+R19	isAssociatedWith	Arg1:T4	Arg2:T5
+R20	influences	Arg1:T4	Arg2:T6
+R21	influences	Arg1:T5	Arg2:T1
+R22	influences	Arg1:T5	Arg2:T2
+R23	influences	Arg1:T5	Arg2:T3
+R24	influences	Arg1:T5	Arg2:T4
+R25	influences	Arg1:T5	Arg2:T6
+R26	influences	Arg1:T6	Arg2:T1
+R27	influences	Arg1:T6	Arg2:T2
+R28	influences	Arg1:T6	Arg2:T3
+R29	influences	Arg1:T6	Arg2:T4
+R30	influences	Arg1:T6	Arg2:T5

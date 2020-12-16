@@ -1,0 +1,16 @@
+T1	Haplotype	22 45	CYP2C19 * 2 / * 2 ( n =
+T2	Pharmacodynamic_phenotype	113 153	plasma concentrations of pantoprazole in
+T3	Limited_variation	168 185	wild-type ( CYP2C
+T4	Haplotype	165 218	to wild-type ( CYP2C19 * 1 / * 1 , n = 6 ) volunteers
+R1	increases	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T3	Arg2:T1
+R8	influences	Arg1:T3	Arg2:T2
+R9	isAssociatedWith	Arg1:T3	Arg2:T4
+R10	influences	Arg1:T4	Arg2:T1
+R11	increases	Arg1:T4	Arg2:T2
+R12	isAssociatedWith	Arg1:T4	Arg2:T3

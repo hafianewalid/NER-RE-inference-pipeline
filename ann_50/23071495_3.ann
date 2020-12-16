@@ -1,0 +1,4 @@
+T1	Pharmacodynamic_phenotype	0 312	Bucindolol is a b-blocker / sympatholytic agent whose efficacy is modulated by polymorphisms in the primary target ( b ( 1 ) adrenergic receptor [ AR ] Arg389 Gly on cardiac myocytes ) and a secondary target modifier ( a ( 2C ) AR Ins [ wild-type ( Wt ) ] 322-325 deletion [ Del ] on cardiac adrenergic neurons )
+T2	Limited_variation	313 314	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isEquivalentTo	Arg1:T2	Arg2:T1

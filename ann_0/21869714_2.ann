@@ -1,0 +1,53 @@
+T1	Disease	68 96	non-small cell lung cancer (
+T2	Disease	97 114	NSCLC ) confirmed
+T3	Pharmacodynamic_phenotype	128 145	response rate and
+T4	Phenotype	146 174	progression-free survival of
+T5	Gene_or_protein	181 248	epidermal growth factor receptor ( EGFR ) tyrosine kinase inhibitor
+T6	Chemical	181 257	epidermal growth factor receptor ( EGFR ) tyrosine kinase inhibitor as first
+T7	Chemical	285 309	chemotherapy in patients
+T8	Limited_variation	341 342	.
+R1	isEquivalentTo	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T1	Arg2:T4
+R4	treats	Arg1:T1	Arg2:T8
+R5	isEquivalentTo	Arg1:T2	Arg2:T1
+R6	increases	Arg1:T2	Arg2:T3
+R7	increases	Arg1:T2	Arg2:T4
+R8	increases	Arg1:T3	Arg2:T4
+R9	isAssociatedWith	Arg1:T3	Arg2:T5
+R10	isAssociatedWith	Arg1:T3	Arg2:T7
+R11	isAssociatedWith	Arg1:T3	Arg2:T8
+R12	isAssociatedWith	Arg1:T4	Arg2:T1
+R13	isAssociatedWith	Arg1:T4	Arg2:T2
+R14	isAssociatedWith	Arg1:T4	Arg2:T3
+R15	isAssociatedWith	Arg1:T4	Arg2:T5
+R16	isAssociatedWith	Arg1:T4	Arg2:T6
+R17	isAssociatedWith	Arg1:T4	Arg2:T7
+R18	isAssociatedWith	Arg1:T4	Arg2:T8
+R19	treats	Arg1:T5	Arg2:T1
+R20	treats	Arg1:T5	Arg2:T2
+R21	increases	Arg1:T5	Arg2:T3
+R22	increases	Arg1:T5	Arg2:T4
+R23	influences	Arg1:T5	Arg2:T6
+R24	influences	Arg1:T5	Arg2:T7
+R25	treats	Arg1:T5	Arg2:T8
+R26	treats	Arg1:T6	Arg2:T1
+R27	treats	Arg1:T6	Arg2:T2
+R28	increases	Arg1:T6	Arg2:T3
+R29	increases	Arg1:T6	Arg2:T4
+R30	influences	Arg1:T6	Arg2:T5
+R31	influences	Arg1:T6	Arg2:T7
+R32	treats	Arg1:T6	Arg2:T8
+R33	treats	Arg1:T7	Arg2:T1
+R34	treats	Arg1:T7	Arg2:T2
+R35	increases	Arg1:T7	Arg2:T3
+R36	influences	Arg1:T7	Arg2:T5
+R37	influences	Arg1:T7	Arg2:T6
+R38	isAssociatedWith	Arg1:T7	Arg2:T8
+R39	isAssociatedWith	Arg1:T8	Arg2:T1
+R40	isAssociatedWith	Arg1:T8	Arg2:T2
+R41	influences	Arg1:T8	Arg2:T3
+R42	influences	Arg1:T8	Arg2:T4
+R43	influences	Arg1:T8	Arg2:T5
+R44	influences	Arg1:T8	Arg2:T6
+R45	isAssociatedWith	Arg1:T8	Arg2:T7

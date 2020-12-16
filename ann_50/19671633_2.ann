@@ -1,0 +1,9 @@
+T1	Limited_variation	68 118	delta-aminolevulinic acid dehydratase ( ALAD ) and
+T2	Limited_variation	119 186	matrix gamma-carboxyglutamic acid ( MGP ) gene polymorphisms in the
+T3	Pharmacodynamic_phenotype	213 214	.
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

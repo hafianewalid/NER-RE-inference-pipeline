@@ -1,0 +1,49 @@
+T1	Chemical	0 17	Both chemotherapy
+T2	Gene_or_protein	22 54	epidermal growth factor receptor
+T3	Chemical	22 81	epidermal growth factor receptor tyrosine kinase inhibitors
+T4	Gene_or_protein	84 91	EGFR TK
+T5	Chemical	84 99	EGFR TKIs ) are
+T6	Disease	136 178	non-small cell lung cancer ( NSCLC ) , but
+T7	Pharmacodynamic_phenotype	183 200	efficacy of these
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T1	Arg2:T5
+R5	treats	Arg1:T1	Arg2:T6
+R6	treats	Arg1:T1	Arg2:T7
+R7	influences	Arg1:T2	Arg2:T1
+R8	influences	Arg1:T2	Arg2:T3
+R9	influences	Arg1:T2	Arg2:T4
+R10	influences	Arg1:T2	Arg2:T5
+R11	treats	Arg1:T2	Arg2:T6
+R12	treats	Arg1:T2	Arg2:T7
+R13	influences	Arg1:T3	Arg2:T1
+R14	influences	Arg1:T3	Arg2:T2
+R15	isEquivalentTo	Arg1:T3	Arg2:T4
+R16	isEquivalentTo	Arg1:T3	Arg2:T5
+R17	treats	Arg1:T3	Arg2:T6
+R18	treats	Arg1:T3	Arg2:T7
+R19	influences	Arg1:T4	Arg2:T1
+R20	isEquivalentTo	Arg1:T4	Arg2:T2
+R21	isEquivalentTo	Arg1:T4	Arg2:T3
+R22	isEquivalentTo	Arg1:T4	Arg2:T5
+R23	treats	Arg1:T4	Arg2:T6
+R24	influences	Arg1:T4	Arg2:T7
+R25	influences	Arg1:T5	Arg2:T1
+R26	isEquivalentTo	Arg1:T5	Arg2:T2
+R27	isEquivalentTo	Arg1:T5	Arg2:T3
+R28	isEquivalentTo	Arg1:T5	Arg2:T4
+R29	treats	Arg1:T5	Arg2:T6
+R30	treats	Arg1:T5	Arg2:T7
+R31	influences	Arg1:T6	Arg2:T1
+R32	influences	Arg1:T6	Arg2:T2
+R33	influences	Arg1:T6	Arg2:T3
+R34	influences	Arg1:T6	Arg2:T4
+R35	influences	Arg1:T6	Arg2:T5
+R36	influences	Arg1:T6	Arg2:T7
+R37	influences	Arg1:T7	Arg2:T1
+R38	influences	Arg1:T7	Arg2:T2
+R39	influences	Arg1:T7	Arg2:T3
+R40	influences	Arg1:T7	Arg2:T4
+R41	influences	Arg1:T7	Arg2:T5
+R42	treats	Arg1:T7	Arg2:T6

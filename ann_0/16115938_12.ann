@@ -1,0 +1,16 @@
+T1	Chemical	7 61	antisense PKA RIalpha and CpG immunomer in combination
+T2	Disease	88 103	tumor -targeted
+T3	Chemical	88 119	tumor -targeted therapeutics to
+T4	Disease	139 140	.
+R1	influences	Arg1:T1	Arg2:T2
+R2	treats	Arg1:T1	Arg2:T3
+R3	treats	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	treats	Arg1:T2	Arg2:T3
+R6	treats	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T3	Arg2:T1
+R8	treats	Arg1:T3	Arg2:T2
+R9	treats	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	isAssociatedWith	Arg1:T4	Arg2:T2
+R12	isAssociatedWith	Arg1:T4	Arg2:T3

@@ -1,0 +1,8 @@
+T1	Pharmacodynamic_phenotype	74 111	hepatotoxic effects of amiodarone and
+T2	Gene_or_protein	126 144	PPARalpha protects
+T3	Pharmacodynamic_phenotype	153 189	amiodarone -induced hepatotoxicity .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	causes	Arg1:T3	Arg2:T1
+R5	influences	Arg1:T3	Arg2:T2

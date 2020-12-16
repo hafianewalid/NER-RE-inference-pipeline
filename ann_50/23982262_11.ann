@@ -1,0 +1,4 @@
+T1	Pharmacokinetic_phenotype	22 38	nevirapine AUC (
+T2	Limited_variation	55 98	CYP2B6 516TT ( rs3745274 ; Q172H ) genotype
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T2	Arg2:T1

@@ -1,0 +1,4 @@
+T1	Chemical	39 50	cilengitide
+T2	Phenotype	61 93	phosphorylation of FAK , Src and
+R1	decreases	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

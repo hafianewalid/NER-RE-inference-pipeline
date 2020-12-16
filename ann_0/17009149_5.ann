@@ -1,0 +1,25 @@
+T1	Phenotype	59 87	unresectable metastases from
+T2	Disease	88 109	colorectal cancer who
+T3	Chemical	124 165	chemotherapy with the FOLFOX regimen were
+T4	Limited_variation	182 247	FR polymorphisms in the MTHFR gene ( 677C-->T , Ala-->Val mutatio
+T5	Limited_variation	255 297	XRCC1 gene ( Arg-->Gln substitution in exo
+R1	treats	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	treats	Arg1:T2	Arg2:T1
+R6	isAssociatedWith	Arg1:T2	Arg2:T3
+R7	isAssociatedWith	Arg1:T2	Arg2:T4
+R8	isAssociatedWith	Arg1:T2	Arg2:T5
+R9	treats	Arg1:T3	Arg2:T1
+R10	treats	Arg1:T3	Arg2:T2
+R11	isAssociatedWith	Arg1:T3	Arg2:T4
+R12	isAssociatedWith	Arg1:T3	Arg2:T5
+R13	isAssociatedWith	Arg1:T4	Arg2:T1
+R14	isAssociatedWith	Arg1:T4	Arg2:T2
+R15	isAssociatedWith	Arg1:T4	Arg2:T3
+R16	isAssociatedWith	Arg1:T4	Arg2:T5
+R17	isAssociatedWith	Arg1:T5	Arg2:T1
+R18	isAssociatedWith	Arg1:T5	Arg2:T2
+R19	isAssociatedWith	Arg1:T5	Arg2:T3
+R20	isAssociatedWith	Arg1:T5	Arg2:T4

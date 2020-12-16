@@ -1,0 +1,24 @@
+T1	Limited_variation	45 61	MDR1 C3435T gene
+T2	Disease	91 116	renal transplant patients
+T3	Chemical	130 152	cyclosporine ( CsA ) ,
+T4	Phenotype	202 220	degree of gingival
+T5	Disease	202 237	degree of gingival hyperplasia ( GH
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T2	Arg2:T1
+R6	isAssociatedWith	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T2	Arg2:T5
+R8	isAssociatedWith	Arg1:T3	Arg2:T1
+R9	treats	Arg1:T3	Arg2:T2
+R10	isAssociatedWith	Arg1:T3	Arg2:T4
+R11	isAssociatedWith	Arg1:T3	Arg2:T5
+R12	isAssociatedWith	Arg1:T4	Arg2:T1
+R13	isAssociatedWith	Arg1:T4	Arg2:T2
+R14	influences	Arg1:T4	Arg2:T3
+R15	isAssociatedWith	Arg1:T4	Arg2:T5
+R16	isAssociatedWith	Arg1:T5	Arg2:T1
+R17	isAssociatedWith	Arg1:T5	Arg2:T2
+R18	isAssociatedWith	Arg1:T5	Arg2:T3
+R19	isAssociatedWith	Arg1:T5	Arg2:T4

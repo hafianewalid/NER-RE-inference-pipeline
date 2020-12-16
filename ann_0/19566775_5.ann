@@ -1,0 +1,9 @@
+T1	Limited_variation	14 133	single nucleotide polymorphisms rs16147 of the NPY gene ( -485C>T ) and rs7687423 of the NPY receptor Y1 ( NPY1R ) gene
+T2	Disease	173 199	amphetamine dependence and
+T3	Disease	200 213	psychosis and
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

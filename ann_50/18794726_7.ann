@@ -1,0 +1,4 @@
+T1	Pharmacodynamic_phenotype	17 47	plasma atenolol concentrations
+T2	Limited_variation	93 158	beta1-AR ( Ser49Gly , Arg389Gly ) and alpha2C-AR ( del322-325 ) .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

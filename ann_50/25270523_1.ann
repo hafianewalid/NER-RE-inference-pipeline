@@ -1,0 +1,9 @@
+T1	Genomic_variation	12 52	anaplastic lymphoma kinase translocation
+T2	Disease	56 80	sarcomatoid carcinoma of
+T3	Pharmacodynamic_phenotype	109 133	effect of crizotinib : A
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	treats	Arg1:T3	Arg2:T2

@@ -1,0 +1,9 @@
+T1	Pharmacodynamic_phenotype	48 90	dose-normalized C ( 12 ) of mizoribine and
+T2	Pharmacokinetic_phenotype	91 119	substitute CL ( MZ ) between
+T3	Limited_variation	124 139	G565A genotypes
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

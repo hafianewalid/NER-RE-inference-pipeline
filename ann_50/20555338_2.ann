@@ -1,0 +1,100 @@
+T1	Limited_variation	108 135	genetic polymorphisms known
+T2	Pharmacodynamic_phenotype	149 169	warfarin dosing ( VK
+T3	Gene_or_protein	169 178	ORC1 rs99
+T4	Limited_variation	149 189	warfarin dosing ( VKORC1 rs9923231 , CYP
+T5	Gene_or_protein	189 198	2C9 rs179
+T6	Limited_variation	149 208	warfarin dosing ( VKORC1 rs9923231 , CYP2C9 rs1799853 , CYP
+T7	Gene_or_protein	208 217	2C9 rs105
+T8	Limited_variation	149 229	warfarin dosing ( VKORC1 rs9923231 , CYP2C9 rs1799853 , CYP2C9 rs1057910 and CYP
+T9	Gene_or_protein	229 238	4F2 rs210
+T10	Limited_variation	149 246	warfarin dosing ( VKORC1 rs9923231 , CYP2C9 rs1799853 , CYP2C9 rs1057910 and CYP4F2 rs2108622 ) .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T1	Arg2:T5
+R5	influences	Arg1:T1	Arg2:T6
+R6	influences	Arg1:T1	Arg2:T7
+R7	influences	Arg1:T1	Arg2:T8
+R8	influences	Arg1:T1	Arg2:T9
+R9	influences	Arg1:T1	Arg2:T10
+R10	influences	Arg1:T2	Arg2:T1
+R11	influences	Arg1:T2	Arg2:T3
+R12	influences	Arg1:T2	Arg2:T4
+R13	influences	Arg1:T2	Arg2:T5
+R14	influences	Arg1:T2	Arg2:T6
+R15	influences	Arg1:T2	Arg2:T7
+R16	influences	Arg1:T2	Arg2:T8
+R17	influences	Arg1:T2	Arg2:T9
+R18	influences	Arg1:T2	Arg2:T10
+R19	influences	Arg1:T3	Arg2:T1
+R20	influences	Arg1:T3	Arg2:T2
+R21	influences	Arg1:T3	Arg2:T4
+R22	influences	Arg1:T3	Arg2:T5
+R23	influences	Arg1:T3	Arg2:T6
+R24	influences	Arg1:T3	Arg2:T7
+R25	influences	Arg1:T3	Arg2:T8
+R26	influences	Arg1:T3	Arg2:T9
+R27	influences	Arg1:T3	Arg2:T10
+R28	influences	Arg1:T4	Arg2:T1
+R29	influences	Arg1:T4	Arg2:T2
+R30	influences	Arg1:T4	Arg2:T3
+R31	influences	Arg1:T4	Arg2:T5
+R32	influences	Arg1:T4	Arg2:T6
+R33	influences	Arg1:T4	Arg2:T7
+R34	influences	Arg1:T4	Arg2:T8
+R35	influences	Arg1:T4	Arg2:T9
+R36	influences	Arg1:T4	Arg2:T10
+R37	influences	Arg1:T5	Arg2:T1
+R38	influences	Arg1:T5	Arg2:T2
+R39	influences	Arg1:T5	Arg2:T3
+R40	influences	Arg1:T5	Arg2:T4
+R41	influences	Arg1:T5	Arg2:T6
+R42	influences	Arg1:T5	Arg2:T7
+R43	influences	Arg1:T5	Arg2:T8
+R44	influences	Arg1:T5	Arg2:T9
+R45	influences	Arg1:T5	Arg2:T10
+R46	influences	Arg1:T6	Arg2:T1
+R47	influences	Arg1:T6	Arg2:T2
+R48	influences	Arg1:T6	Arg2:T3
+R49	influences	Arg1:T6	Arg2:T4
+R50	influences	Arg1:T6	Arg2:T5
+R51	influences	Arg1:T6	Arg2:T7
+R52	influences	Arg1:T6	Arg2:T8
+R53	influences	Arg1:T6	Arg2:T9
+R54	influences	Arg1:T6	Arg2:T10
+R55	influences	Arg1:T7	Arg2:T1
+R56	influences	Arg1:T7	Arg2:T2
+R57	influences	Arg1:T7	Arg2:T3
+R58	influences	Arg1:T7	Arg2:T4
+R59	influences	Arg1:T7	Arg2:T5
+R60	influences	Arg1:T7	Arg2:T6
+R61	influences	Arg1:T7	Arg2:T8
+R62	influences	Arg1:T7	Arg2:T9
+R63	influences	Arg1:T7	Arg2:T10
+R64	influences	Arg1:T8	Arg2:T1
+R65	influences	Arg1:T8	Arg2:T2
+R66	influences	Arg1:T8	Arg2:T3
+R67	influences	Arg1:T8	Arg2:T4
+R68	influences	Arg1:T8	Arg2:T5
+R69	influences	Arg1:T8	Arg2:T6
+R70	influences	Arg1:T8	Arg2:T7
+R71	influences	Arg1:T8	Arg2:T9
+R72	influences	Arg1:T8	Arg2:T10
+R73	influences	Arg1:T9	Arg2:T1
+R74	influences	Arg1:T9	Arg2:T2
+R75	influences	Arg1:T9	Arg2:T3
+R76	influences	Arg1:T9	Arg2:T4
+R77	influences	Arg1:T9	Arg2:T5
+R78	influences	Arg1:T9	Arg2:T6
+R79	influences	Arg1:T9	Arg2:T7
+R80	influences	Arg1:T9	Arg2:T8
+R81	influences	Arg1:T9	Arg2:T10
+R82	influences	Arg1:T10	Arg2:T1
+R83	influences	Arg1:T10	Arg2:T2
+R84	influences	Arg1:T10	Arg2:T3
+R85	influences	Arg1:T10	Arg2:T4
+R86	influences	Arg1:T10	Arg2:T5
+R87	influences	Arg1:T10	Arg2:T6
+R88	influences	Arg1:T10	Arg2:T7
+R89	influences	Arg1:T10	Arg2:T8
+R90	influences	Arg1:T10	Arg2:T9

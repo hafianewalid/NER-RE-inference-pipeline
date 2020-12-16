@@ -1,0 +1,9 @@
+T1	Limited_variation	0 83	A C-to-T mutation in the methylenetetrahydrofolate reductase ( MTHFR ) gene results
+T2	Phenotype	89 109	thermolabile MTHFR ,
+T3	Pharmacodynamic_phenotype	127 156	homocysteine ( Hcy ) levels .
+R1	causes	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

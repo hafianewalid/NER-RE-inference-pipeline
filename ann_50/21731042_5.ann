@@ -1,0 +1,4 @@
+T1	Chemical	0 6	Folate
+T2	Limited_variation	120 142	MTHFR C677T genotyping
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

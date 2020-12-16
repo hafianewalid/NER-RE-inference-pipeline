@@ -1,0 +1,4 @@
+T1	Chemical	13 25	Lansoprazole
+T2	Gene_or_protein	56 76	CYP2C19 and CYP3A4 .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

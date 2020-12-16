@@ -1,0 +1,34 @@
+T1	Phenotype	20 39	expression of MDR-1
+T2	Phenotype	44 49	MCJ ,
+T3	Pharmacodynamic_phenotype	65 112	sensitivity of Sk-Ov-3 cells to paclitaxel were
+T4	Phenotype	130 147	expression of Src
+T5	Phenotype	167 178	) decreased
+T6	Pharmacodynamic_phenotype	183 228	sensitivity of Sk-Ov-3 cells to carboplatin .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	decreases	Arg1:T1	Arg2:T6
+R6	isAssociatedWith	Arg1:T2	Arg2:T1
+R7	isAssociatedWith	Arg1:T2	Arg2:T3
+R8	isAssociatedWith	Arg1:T2	Arg2:T4
+R9	isAssociatedWith	Arg1:T2	Arg2:T5
+R10	decreases	Arg1:T2	Arg2:T6
+R11	isAssociatedWith	Arg1:T3	Arg2:T1
+R12	isAssociatedWith	Arg1:T3	Arg2:T2
+R13	isAssociatedWith	Arg1:T3	Arg2:T4
+R14	isAssociatedWith	Arg1:T3	Arg2:T5
+R15	decreases	Arg1:T3	Arg2:T6
+R16	influences	Arg1:T4	Arg2:T3
+R17	decreases	Arg1:T4	Arg2:T5
+R18	decreases	Arg1:T4	Arg2:T6
+R19	isAssociatedWith	Arg1:T5	Arg2:T1
+R20	isAssociatedWith	Arg1:T5	Arg2:T2
+R21	isAssociatedWith	Arg1:T5	Arg2:T3
+R22	decreases	Arg1:T5	Arg2:T4
+R23	decreases	Arg1:T5	Arg2:T6
+R24	isAssociatedWith	Arg1:T6	Arg2:T1
+R25	isAssociatedWith	Arg1:T6	Arg2:T2
+R26	isAssociatedWith	Arg1:T6	Arg2:T3
+R27	isAssociatedWith	Arg1:T6	Arg2:T4
+R28	isAssociatedWith	Arg1:T6	Arg2:T5

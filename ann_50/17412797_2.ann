@@ -1,0 +1,9 @@
+T1	Gene_or_protein	13 48	Carbohydrate -deficient transferrin
+T2	Gene_or_protein	51 56	CDT )
+T3	Disease	85 100	alcohol abuse .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isEquivalentTo	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

@@ -1,0 +1,9 @@
+T1	Limited_variation	0 119	Genetic polymorphisms in functional regions of the glutamate receptor , N-methyl D-aspartate 2A ( GRIN2A ) gene , which
+T2	Gene_or_protein	135 194	subunit of the N-methyl D-aspartate ( NMDA ) receptor , may
+T3	Disease	220 234	in addiction .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

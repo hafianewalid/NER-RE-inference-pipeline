@@ -1,0 +1,16 @@
+T1	Chemical	70 88	prostratin induces
+T2	Gene_or_protein	89 120	Cyclin T1 / P-TEFb , a cellular
+T3	Gene_or_protein	121 136	kinase composed
+T4	Gene_or_protein	140 193	Cyclin T1 and Cyclin-dependent kinase-9 ( CDK9 ) that
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T3	Arg2:T1
+R8	influences	Arg1:T3	Arg2:T2
+R9	influences	Arg1:T3	Arg2:T4
+R10	influences	Arg1:T4	Arg2:T1
+R11	influences	Arg1:T4	Arg2:T2
+R12	influences	Arg1:T4	Arg2:T3

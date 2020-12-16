@@ -1,0 +1,9 @@
+T1	Limited_variation	15 38	polymorphisms in CYP3A5
+T2	Limited_variation	47 74	polymorphism in CYP3A4 were
+T3	Pharmacodynamic_phenotype	122 148	tacrolimus stable dose ( p
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

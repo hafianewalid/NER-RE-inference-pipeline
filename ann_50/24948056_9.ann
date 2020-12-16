@@ -1,0 +1,16 @@
+T1	Chemical	34 70	EC immunization with PC-BSA plus TLR
+T2	Gene_or_protein	34 78	EC immunization with PC-BSA plus TLR9 ligand
+T3	Chemical	34 86	EC immunization with PC-BSA plus TLR9 ligand CpG may
+T4	Phenotype	116 143	immunity to S. pneumoniae .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T1	Arg2:T4
+R4	causes	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	increases	Arg1:T2	Arg2:T4
+R7	causes	Arg1:T3	Arg2:T1
+R8	influences	Arg1:T3	Arg2:T2
+R9	increases	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	isAssociatedWith	Arg1:T4	Arg2:T2
+R12	isAssociatedWith	Arg1:T4	Arg2:T3

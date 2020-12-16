@@ -1,0 +1,9 @@
+T1	Phenotype	42 82	DNA methylation patterns in gene p53 and
+T2	Phenotype	84 94	16 , which
+T3	Disease	127 128	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

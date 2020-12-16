@@ -1,0 +1,4 @@
+T1	Pharmacodynamic_phenotype	41 67	raltegravir concentrations
+T2	Limited_variation	72 127	single nucleotide polymorphism of ABCB1 and ABCG2 genes
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

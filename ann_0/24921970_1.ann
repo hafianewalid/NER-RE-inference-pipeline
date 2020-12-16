@@ -1,0 +1,16 @@
+T1	Chemical	6 19	molecule EGFR
+T2	Gene_or_protein	6 35	molecule EGFR tyrosine kinase
+T3	Chemical	6 46	molecule EGFR tyrosine kinase inhibitors
+T4	Disease	75 76	.
+R1	decreases	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	treats	Arg1:T1	Arg2:T4
+R4	decreases	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	treats	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T3	Arg2:T1
+R8	decreases	Arg1:T3	Arg2:T2
+R9	treats	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	decreases	Arg1:T4	Arg2:T2
+R12	isAssociatedWith	Arg1:T4	Arg2:T3

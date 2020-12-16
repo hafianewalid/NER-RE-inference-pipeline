@@ -1,0 +1,8 @@
+T1	Limited_variation	56 70	VEGF genotypes
+T2	Disease	88 126	metastatic colorectal cancer receiving
+T3	Chemical	127 179	irinotecan -based chemotherapy plus bevacizumab , in
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T3	Arg2:T1
+R5	treats	Arg1:T3	Arg2:T2

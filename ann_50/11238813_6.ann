@@ -1,0 +1,16 @@
+T1	Pharmacodynamic_phenotype	0 60	The diallyl disulfide -mediated inhibition of H-ras oncogene
+T2	Disease	73 85	tumor growth
+T3	Phenotype	73 96	tumor growth correlated
+T4	Phenotype	106 156	inhibition of p21 ( H-ras ) membrane association .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	isAssociatedWith	Arg1:T3	Arg2:T4
+R10	influences	Arg1:T4	Arg2:T1
+R11	influences	Arg1:T4	Arg2:T2
+R12	influences	Arg1:T4	Arg2:T3

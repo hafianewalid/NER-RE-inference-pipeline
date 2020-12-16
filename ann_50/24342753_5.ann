@@ -1,0 +1,42 @@
+T1	Limited_variation	0 17	Substituting F617
+T2	Limited_variation	20 24	Y621
+T3	Limited_variation	28 60	F624 in TM5 with leucine reduced
+T4	Chemical	98 107	- PDD and
+T5	Limited_variation	146 151	L and
+T6	Limited_variation	156 166	L - showed
+T7	Phenotype	177 218	activation in response to cell swelling .
+R1	decreases	Arg1:T1	Arg2:T4
+R2	increases	Arg1:T1	Arg2:T5
+R3	increases	Arg1:T1	Arg2:T6
+R4	increases	Arg1:T1	Arg2:T7
+R5	influences	Arg1:T2	Arg2:T1
+R6	decreases	Arg1:T2	Arg2:T4
+R7	increases	Arg1:T2	Arg2:T5
+R8	increases	Arg1:T2	Arg2:T6
+R9	increases	Arg1:T2	Arg2:T7
+R10	influences	Arg1:T3	Arg2:T1
+R11	decreases	Arg1:T3	Arg2:T4
+R12	isAssociatedWith	Arg1:T3	Arg2:T5
+R13	increases	Arg1:T3	Arg2:T6
+R14	increases	Arg1:T3	Arg2:T7
+R15	isAssociatedWith	Arg1:T4	Arg2:T1
+R16	isAssociatedWith	Arg1:T4	Arg2:T2
+R17	isAssociatedWith	Arg1:T4	Arg2:T3
+R18	isAssociatedWith	Arg1:T4	Arg2:T5
+R19	isAssociatedWith	Arg1:T4	Arg2:T6
+R20	increases	Arg1:T4	Arg2:T7
+R21	increases	Arg1:T5	Arg2:T2
+R22	increases	Arg1:T5	Arg2:T4
+R23	increases	Arg1:T5	Arg2:T6
+R24	increases	Arg1:T5	Arg2:T7
+R25	increases	Arg1:T6	Arg2:T2
+R26	increases	Arg1:T6	Arg2:T3
+R27	increases	Arg1:T6	Arg2:T4
+R28	isAssociatedWith	Arg1:T6	Arg2:T5
+R29	increases	Arg1:T6	Arg2:T7
+R30	isAssociatedWith	Arg1:T7	Arg2:T1
+R31	isAssociatedWith	Arg1:T7	Arg2:T2
+R32	isAssociatedWith	Arg1:T7	Arg2:T3
+R33	increases	Arg1:T7	Arg2:T4
+R34	isAssociatedWith	Arg1:T7	Arg2:T5
+R35	isAssociatedWith	Arg1:T7	Arg2:T6

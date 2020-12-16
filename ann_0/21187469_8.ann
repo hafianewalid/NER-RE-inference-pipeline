@@ -1,0 +1,4 @@
+T1	Chemical	25 38	5-azacytidine
+T2	Gene_or_protein	56 66	p16INK4a .
+R1	influences	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

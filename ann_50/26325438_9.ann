@@ -1,0 +1,24 @@
+T1	Chemical	0 14	For tacrolimus
+T2	Limited_variation	17 25	rs776746
+T3	Haplotype	26 79	CYP3A5 * 3 / * 3 and CYP3A5 * 3 / * 1 were associated
+T4	Pharmacodynamic_phenotype	92 109	blood levels than
+T5	Haplotype	110 137	CYP3A5 * 1 / * 1 ( P = .002
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T1	Arg2:T4
+R4	increases	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T2	Arg2:T1
+R6	increases	Arg1:T2	Arg2:T3
+R7	increases	Arg1:T2	Arg2:T4
+R8	increases	Arg1:T2	Arg2:T5
+R9	increases	Arg1:T3	Arg2:T1
+R10	increases	Arg1:T3	Arg2:T2
+R11	increases	Arg1:T3	Arg2:T4
+R12	increases	Arg1:T3	Arg2:T5
+R13	increases	Arg1:T4	Arg2:T2
+R14	isAssociatedWith	Arg1:T4	Arg2:T3
+R15	isAssociatedWith	Arg1:T4	Arg2:T5
+R16	influences	Arg1:T5	Arg2:T1
+R17	influences	Arg1:T5	Arg2:T2
+R18	influences	Arg1:T5	Arg2:T3
+R19	increases	Arg1:T5	Arg2:T4

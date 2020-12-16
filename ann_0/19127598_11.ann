@@ -1,0 +1,9 @@
+T1	Phenotype	44 66	COX-2 mRNA suppression
+T2	Phenotype	70 89	21 mRNA stimulation
+T3	Pharmacodynamic_phenotype	94 119	serum isoflavone levels .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

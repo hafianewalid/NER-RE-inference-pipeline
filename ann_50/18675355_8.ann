@@ -1,0 +1,114 @@
+T1	Chemical	0 14	While anti- CD
+T2	Gene_or_protein	0 17	While anti- CD40L
+T3	Phenotype	33 53	T cell proliferation
+T4	Chemical	56 64	anti- LF
+T5	Gene_or_protein	54 75	, anti- LFA-1 reduced
+T6	Phenotype	83 88	4 and
+T7	Phenotype	91 115	8 T cell proliferation ,
+T8	Chemical	120 138	combining anti- LF
+T9	Gene_or_protein	120 146	combining anti- LFA-1 with
+T10	Chemical	120 171	combining anti- LFA-1 with everolimus or DSG had an
+T11	Phenotype	206 228	T cell proliferation .
+R1	influences	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	decreases	Arg1:T1	Arg2:T5
+R4	decreases	Arg1:T1	Arg2:T6
+R5	decreases	Arg1:T1	Arg2:T7
+R6	decreases	Arg1:T1	Arg2:T10
+R7	decreases	Arg1:T1	Arg2:T11
+R8	influences	Arg1:T2	Arg2:T1
+R9	decreases	Arg1:T2	Arg2:T3
+R10	influences	Arg1:T2	Arg2:T4
+R11	decreases	Arg1:T2	Arg2:T5
+R12	decreases	Arg1:T2	Arg2:T6
+R13	decreases	Arg1:T2	Arg2:T7
+R14	decreases	Arg1:T2	Arg2:T10
+R15	decreases	Arg1:T2	Arg2:T11
+R16	isAssociatedWith	Arg1:T3	Arg2:T1
+R17	isAssociatedWith	Arg1:T3	Arg2:T2
+R18	isAssociatedWith	Arg1:T3	Arg2:T4
+R19	isAssociatedWith	Arg1:T3	Arg2:T5
+R20	decreases	Arg1:T3	Arg2:T6
+R21	decreases	Arg1:T3	Arg2:T7
+R22	isAssociatedWith	Arg1:T3	Arg2:T8
+R23	isAssociatedWith	Arg1:T3	Arg2:T9
+R24	isAssociatedWith	Arg1:T3	Arg2:T10
+R25	isAssociatedWith	Arg1:T3	Arg2:T11
+R26	influences	Arg1:T4	Arg2:T1
+R27	influences	Arg1:T4	Arg2:T2
+R28	decreases	Arg1:T4	Arg2:T3
+R29	decreases	Arg1:T4	Arg2:T5
+R30	decreases	Arg1:T4	Arg2:T6
+R31	decreases	Arg1:T4	Arg2:T7
+R32	decreases	Arg1:T4	Arg2:T8
+R33	decreases	Arg1:T4	Arg2:T9
+R34	decreases	Arg1:T4	Arg2:T10
+R35	decreases	Arg1:T4	Arg2:T11
+R36	decreases	Arg1:T5	Arg2:T2
+R37	decreases	Arg1:T5	Arg2:T3
+R38	decreases	Arg1:T5	Arg2:T4
+R39	decreases	Arg1:T5	Arg2:T6
+R40	decreases	Arg1:T5	Arg2:T7
+R41	decreases	Arg1:T5	Arg2:T8
+R42	decreases	Arg1:T5	Arg2:T9
+R43	decreases	Arg1:T5	Arg2:T10
+R44	decreases	Arg1:T5	Arg2:T11
+R45	isAssociatedWith	Arg1:T6	Arg2:T1
+R46	isAssociatedWith	Arg1:T6	Arg2:T2
+R47	decreases	Arg1:T6	Arg2:T3
+R48	isAssociatedWith	Arg1:T6	Arg2:T4
+R49	isAssociatedWith	Arg1:T6	Arg2:T5
+R50	decreases	Arg1:T6	Arg2:T7
+R51	isAssociatedWith	Arg1:T6	Arg2:T8
+R52	isAssociatedWith	Arg1:T6	Arg2:T9
+R53	isAssociatedWith	Arg1:T6	Arg2:T10
+R54	isAssociatedWith	Arg1:T6	Arg2:T11
+R55	isAssociatedWith	Arg1:T7	Arg2:T1
+R56	isAssociatedWith	Arg1:T7	Arg2:T2
+R57	decreases	Arg1:T7	Arg2:T3
+R58	isAssociatedWith	Arg1:T7	Arg2:T4
+R59	isAssociatedWith	Arg1:T7	Arg2:T5
+R60	decreases	Arg1:T7	Arg2:T6
+R61	isAssociatedWith	Arg1:T7	Arg2:T8
+R62	isAssociatedWith	Arg1:T7	Arg2:T9
+R63	isAssociatedWith	Arg1:T7	Arg2:T10
+R64	decreases	Arg1:T7	Arg2:T11
+R65	influences	Arg1:T8	Arg2:T1
+R66	decreases	Arg1:T8	Arg2:T3
+R67	influences	Arg1:T8	Arg2:T4
+R68	decreases	Arg1:T8	Arg2:T5
+R69	decreases	Arg1:T8	Arg2:T6
+R70	decreases	Arg1:T8	Arg2:T7
+R71	isAssociatedWith	Arg1:T8	Arg2:T9
+R72	decreases	Arg1:T8	Arg2:T10
+R73	decreases	Arg1:T8	Arg2:T11
+R74	influences	Arg1:T9	Arg2:T1
+R75	influences	Arg1:T9	Arg2:T2
+R76	decreases	Arg1:T9	Arg2:T3
+R77	influences	Arg1:T9	Arg2:T4
+R78	decreases	Arg1:T9	Arg2:T5
+R79	decreases	Arg1:T9	Arg2:T6
+R80	decreases	Arg1:T9	Arg2:T7
+R81	isAssociatedWith	Arg1:T9	Arg2:T8
+R82	decreases	Arg1:T9	Arg2:T10
+R83	decreases	Arg1:T9	Arg2:T11
+R84	influences	Arg1:T10	Arg2:T1
+R85	decreases	Arg1:T10	Arg2:T2
+R86	decreases	Arg1:T10	Arg2:T3
+R87	influences	Arg1:T10	Arg2:T4
+R88	decreases	Arg1:T10	Arg2:T5
+R89	decreases	Arg1:T10	Arg2:T6
+R90	decreases	Arg1:T10	Arg2:T7
+R91	decreases	Arg1:T10	Arg2:T8
+R92	decreases	Arg1:T10	Arg2:T9
+R93	decreases	Arg1:T10	Arg2:T11
+R94	isAssociatedWith	Arg1:T11	Arg2:T1
+R95	isAssociatedWith	Arg1:T11	Arg2:T2
+R96	isAssociatedWith	Arg1:T11	Arg2:T3
+R97	isAssociatedWith	Arg1:T11	Arg2:T4
+R98	isAssociatedWith	Arg1:T11	Arg2:T5
+R99	isAssociatedWith	Arg1:T11	Arg2:T6
+R100	isAssociatedWith	Arg1:T11	Arg2:T7
+R101	isAssociatedWith	Arg1:T11	Arg2:T8
+R102	isAssociatedWith	Arg1:T11	Arg2:T9
+R103	isAssociatedWith	Arg1:T11	Arg2:T10

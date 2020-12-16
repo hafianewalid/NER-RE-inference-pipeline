@@ -1,0 +1,25 @@
+T1	Phenotype	10 28	Expression of NQO1
+T2	Pharmacodynamic_phenotype	48 72	sensitivity to 17-AAG in
+T3	Disease	77 86	OSCC cell
+T4	Phenotype	138 146	HSP90 at
+T5	Pharmacodynamic_phenotype	177 198	resistant to 17-AAG .
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	decreases	Arg1:T1	Arg2:T4
+R4	increases	Arg1:T1	Arg2:T5
+R5	increases	Arg1:T2	Arg2:T1
+R6	treats	Arg1:T2	Arg2:T3
+R7	decreases	Arg1:T2	Arg2:T4
+R8	increases	Arg1:T2	Arg2:T5
+R9	isAssociatedWith	Arg1:T3	Arg2:T1
+R10	increases	Arg1:T3	Arg2:T2
+R11	decreases	Arg1:T3	Arg2:T4
+R12	isAssociatedWith	Arg1:T3	Arg2:T5
+R13	isAssociatedWith	Arg1:T4	Arg2:T1
+R14	increases	Arg1:T4	Arg2:T2
+R15	isAssociatedWith	Arg1:T4	Arg2:T3
+R16	isAssociatedWith	Arg1:T4	Arg2:T5
+R17	isAssociatedWith	Arg1:T5	Arg2:T1
+R18	increases	Arg1:T5	Arg2:T2
+R19	treats	Arg1:T5	Arg2:T3
+R20	isAssociatedWith	Arg1:T5	Arg2:T4

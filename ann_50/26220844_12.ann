@@ -1,0 +1,14 @@
+T1	Limited_variation	18 43	TT genotype of STMN1 gene
+T2	Chemical	87 105	chemotherapy based
+T3	Chemical	109 148	platinum compounds and vinorelbine , in
+T4	Disease	169 170	.
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T3
+R5	treats	Arg1:T2	Arg2:T4
+R6	influences	Arg1:T3	Arg2:T2
+R7	treats	Arg1:T3	Arg2:T4
+R8	isAssociatedWith	Arg1:T4	Arg2:T1
+R9	influences	Arg1:T4	Arg2:T2
+R10	isAssociatedWith	Arg1:T4	Arg2:T3

@@ -1,0 +1,22 @@
+T1	Chemical	0 13	Oral afatinib
+T2	Chemical	16 24	Gilotrif
+T3	Disease	112 152	non-small-cell lung cancer ( NSCLC ) who
+T4	Disease	158 170	tumours with
+T5	Limited_variation	176 237	exon 19 deletions or exon 21 ( L858R ) substitution mutations
+R1	isEquivalentTo	Arg1:T1	Arg2:T2
+R2	treats	Arg1:T1	Arg2:T3
+R3	treats	Arg1:T1	Arg2:T4
+R4	isEquivalentTo	Arg1:T2	Arg2:T1
+R5	treats	Arg1:T2	Arg2:T3
+R6	treats	Arg1:T2	Arg2:T4
+R7	treats	Arg1:T2	Arg2:T5
+R8	isAssociatedWith	Arg1:T3	Arg2:T4
+R9	isAssociatedWith	Arg1:T3	Arg2:T5
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	isAssociatedWith	Arg1:T4	Arg2:T2
+R12	isAssociatedWith	Arg1:T4	Arg2:T3
+R13	isAssociatedWith	Arg1:T4	Arg2:T5
+R14	isAssociatedWith	Arg1:T5	Arg2:T1
+R15	isAssociatedWith	Arg1:T5	Arg2:T2
+R16	isAssociatedWith	Arg1:T5	Arg2:T3
+R17	isAssociatedWith	Arg1:T5	Arg2:T4

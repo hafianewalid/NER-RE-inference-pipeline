@@ -1,0 +1,4 @@
+T1	Haplotype	0 148	HLA-B * 1502 strongly predicts carbamazepine -induced Stevens-Johnson syndrome and toxic epidermal necrolysis in Thai patients with neuropathic pain
+T2	Disease	149 150	.
+R1	influences	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

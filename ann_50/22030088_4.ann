@@ -1,0 +1,59 @@
+T1	Pharmacodynamic_phenotype	16 57	effect of combining aspirin and celecoxib
+T2	Limited_variation	73 104	UGT1A6 T181A and R184S variants
+T3	Disease	133 151	Adenoma Prevention
+T4	Chemical	157 172	Celecoxib ( APC
+T5	Chemical	234 255	aspirin after removal
+T6	Disease	259 282	adenomas and randomized
+T7	Chemical	286 302	placebo , 200-mg
+T8	Chemical	346 360	ib for 3 years
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T4
+R3	influences	Arg1:T1	Arg2:T5
+R4	influences	Arg1:T1	Arg2:T6
+R5	influences	Arg1:T1	Arg2:T7
+R6	influences	Arg1:T1	Arg2:T8
+R7	isAssociatedWith	Arg1:T2	Arg2:T1
+R8	isAssociatedWith	Arg1:T2	Arg2:T3
+R9	isAssociatedWith	Arg1:T2	Arg2:T4
+R10	isAssociatedWith	Arg1:T2	Arg2:T5
+R11	isAssociatedWith	Arg1:T2	Arg2:T6
+R12	isAssociatedWith	Arg1:T2	Arg2:T7
+R13	isAssociatedWith	Arg1:T2	Arg2:T8
+R14	isAssociatedWith	Arg1:T3	Arg2:T1
+R15	isAssociatedWith	Arg1:T3	Arg2:T2
+R16	influences	Arg1:T3	Arg2:T4
+R17	influences	Arg1:T3	Arg2:T5
+R18	treats	Arg1:T3	Arg2:T6
+R19	influences	Arg1:T3	Arg2:T7
+R20	influences	Arg1:T3	Arg2:T8
+R21	treats	Arg1:T4	Arg2:T3
+R22	influences	Arg1:T4	Arg2:T5
+R23	treats	Arg1:T4	Arg2:T6
+R24	influences	Arg1:T4	Arg2:T7
+R25	influences	Arg1:T4	Arg2:T8
+R26	treats	Arg1:T5	Arg2:T3
+R27	influences	Arg1:T5	Arg2:T4
+R28	influences	Arg1:T5	Arg2:T6
+R29	influences	Arg1:T5	Arg2:T7
+R30	influences	Arg1:T5	Arg2:T8
+R31	isAssociatedWith	Arg1:T6	Arg2:T1
+R32	isAssociatedWith	Arg1:T6	Arg2:T2
+R33	influences	Arg1:T6	Arg2:T3
+R34	influences	Arg1:T6	Arg2:T4
+R35	influences	Arg1:T6	Arg2:T5
+R36	influences	Arg1:T6	Arg2:T7
+R37	influences	Arg1:T6	Arg2:T8
+R38	isAssociatedWith	Arg1:T7	Arg2:T1
+R39	isAssociatedWith	Arg1:T7	Arg2:T2
+R40	treats	Arg1:T7	Arg2:T3
+R41	influences	Arg1:T7	Arg2:T4
+R42	influences	Arg1:T7	Arg2:T5
+R43	treats	Arg1:T7	Arg2:T6
+R44	influences	Arg1:T7	Arg2:T8
+R45	isAssociatedWith	Arg1:T8	Arg2:T1
+R46	isAssociatedWith	Arg1:T8	Arg2:T2
+R47	treats	Arg1:T8	Arg2:T3
+R48	influences	Arg1:T8	Arg2:T4
+R49	influences	Arg1:T8	Arg2:T5
+R50	treats	Arg1:T8	Arg2:T6
+R51	influences	Arg1:T8	Arg2:T7

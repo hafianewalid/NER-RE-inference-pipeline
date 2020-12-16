@@ -1,0 +1,25 @@
+T1	Pharmacodynamic_phenotype	28 47	acquired resistance
+T2	Gene_or_protein	70 138	epidermal growth factor receptor ( EGFR ) tyrosine kinase inhibitors
+T3	Chemical	70 140	epidermal growth factor receptor ( EGFR ) tyrosine kinase inhibitors (
+T4	Chemical	143 150	I ) for
+T5	Disease	174 195	mutant lung cancers .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T1	Arg2:T5
+R5	treats	Arg1:T2	Arg2:T1
+R6	influences	Arg1:T2	Arg2:T3
+R7	treats	Arg1:T2	Arg2:T4
+R8	treats	Arg1:T2	Arg2:T5
+R9	treats	Arg1:T3	Arg2:T1
+R10	isEquivalentTo	Arg1:T3	Arg2:T2
+R11	treats	Arg1:T3	Arg2:T4
+R12	treats	Arg1:T3	Arg2:T5
+R13	treats	Arg1:T4	Arg2:T1
+R14	isEquivalentTo	Arg1:T4	Arg2:T2
+R15	isEquivalentTo	Arg1:T4	Arg2:T3
+R16	treats	Arg1:T4	Arg2:T5
+R17	isAssociatedWith	Arg1:T5	Arg2:T1
+R18	isAssociatedWith	Arg1:T5	Arg2:T2
+R19	isAssociatedWith	Arg1:T5	Arg2:T3
+R20	isAssociatedWith	Arg1:T5	Arg2:T4

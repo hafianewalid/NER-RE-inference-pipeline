@@ -1,0 +1,49 @@
+T1	Disease	69 97	EGFR -mutated NSCLC patients
+T2	Gene_or_protein	118 127	EGFR -TKI
+T3	Chemical	118 132	EGFR -TKI used
+T4	Chemical	322 333	itinib rech
+T5	Disease	350 372	mutated NSCLC patients
+T6	Chemical	410 466	I followed by a subsequent line of treatment ( excluding
+T7	Chemical	475 481	Is ) .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	treats	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T1	Arg2:T6
+R6	isAssociatedWith	Arg1:T1	Arg2:T7
+R7	treats	Arg1:T2	Arg2:T1
+R8	influences	Arg1:T2	Arg2:T3
+R9	influences	Arg1:T2	Arg2:T4
+R10	treats	Arg1:T2	Arg2:T5
+R11	treats	Arg1:T2	Arg2:T6
+R12	treats	Arg1:T2	Arg2:T7
+R13	treats	Arg1:T3	Arg2:T1
+R14	influences	Arg1:T3	Arg2:T2
+R15	influences	Arg1:T3	Arg2:T4
+R16	treats	Arg1:T3	Arg2:T5
+R17	treats	Arg1:T3	Arg2:T6
+R18	treats	Arg1:T3	Arg2:T7
+R19	treats	Arg1:T4	Arg2:T1
+R20	influences	Arg1:T4	Arg2:T2
+R21	influences	Arg1:T4	Arg2:T3
+R22	treats	Arg1:T4	Arg2:T5
+R23	influences	Arg1:T4	Arg2:T6
+R24	influences	Arg1:T4	Arg2:T7
+R25	treats	Arg1:T5	Arg2:T1
+R26	isAssociatedWith	Arg1:T5	Arg2:T2
+R27	isAssociatedWith	Arg1:T5	Arg2:T3
+R28	isAssociatedWith	Arg1:T5	Arg2:T4
+R29	isAssociatedWith	Arg1:T5	Arg2:T6
+R30	isAssociatedWith	Arg1:T5	Arg2:T7
+R31	treats	Arg1:T6	Arg2:T1
+R32	influences	Arg1:T6	Arg2:T2
+R33	influences	Arg1:T6	Arg2:T3
+R34	influences	Arg1:T6	Arg2:T4
+R35	treats	Arg1:T6	Arg2:T5
+R36	treats	Arg1:T6	Arg2:T7
+R37	treats	Arg1:T7	Arg2:T1
+R38	influences	Arg1:T7	Arg2:T2
+R39	influences	Arg1:T7	Arg2:T3
+R40	influences	Arg1:T7	Arg2:T4
+R41	treats	Arg1:T7	Arg2:T5
+R42	influences	Arg1:T7	Arg2:T6

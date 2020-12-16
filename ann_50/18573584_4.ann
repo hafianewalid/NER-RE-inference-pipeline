@@ -1,0 +1,37 @@
+T1	Chemical	52 63	haloperidol
+T2	Chemical	67 78	risperidone
+T3	Disease	111 174	schizophrenia , schizophreniform or schizoaffective disorders ,
+T4	Phenotype	186 212	relapse of these psychotic
+T5	Disease	186 228	relapse of these psychotic disorders after
+T6	Limited_variation	297 323	PR L and S alleles and for
+T7	Limited_variation	347 385	variant within the L alelle ( La/g ) .
+R1	treats	Arg1:T1	Arg2:T2
+R2	treats	Arg1:T1	Arg2:T3
+R3	treats	Arg1:T1	Arg2:T4
+R4	treats	Arg1:T1	Arg2:T5
+R5	treats	Arg1:T2	Arg2:T3
+R6	treats	Arg1:T2	Arg2:T4
+R7	treats	Arg1:T2	Arg2:T5
+R8	treats	Arg1:T3	Arg2:T4
+R9	treats	Arg1:T3	Arg2:T5
+R10	isAssociatedWith	Arg1:T3	Arg2:T6
+R11	isAssociatedWith	Arg1:T3	Arg2:T7
+R12	treats	Arg1:T4	Arg2:T3
+R13	isAssociatedWith	Arg1:T4	Arg2:T6
+R14	isAssociatedWith	Arg1:T4	Arg2:T7
+R15	treats	Arg1:T5	Arg2:T3
+R16	treats	Arg1:T5	Arg2:T4
+R17	isAssociatedWith	Arg1:T5	Arg2:T6
+R18	isAssociatedWith	Arg1:T5	Arg2:T7
+R19	isAssociatedWith	Arg1:T6	Arg2:T1
+R20	isAssociatedWith	Arg1:T6	Arg2:T2
+R21	isAssociatedWith	Arg1:T6	Arg2:T3
+R22	isAssociatedWith	Arg1:T6	Arg2:T4
+R23	isAssociatedWith	Arg1:T6	Arg2:T5
+R24	isAssociatedWith	Arg1:T6	Arg2:T7
+R25	isAssociatedWith	Arg1:T7	Arg2:T1
+R26	isAssociatedWith	Arg1:T7	Arg2:T2
+R27	isAssociatedWith	Arg1:T7	Arg2:T3
+R28	isAssociatedWith	Arg1:T7	Arg2:T4
+R29	isAssociatedWith	Arg1:T7	Arg2:T5
+R30	isAssociatedWith	Arg1:T7	Arg2:T6

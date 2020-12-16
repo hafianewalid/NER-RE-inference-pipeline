@@ -1,0 +1,4 @@
+T1	Limited_variation	0 113	VKORC1 - 1639G/A and 1173 C/T Genetic Polymorphisms Influence Individual Differences in Warfarin Maintenance Dose
+T2	Pharmacodynamic_phenotype	114 115	.
+R1	influences	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

@@ -1,0 +1,4 @@
+T1	Chemical	68 129	SAHA in combination with docetaxel and/or trastuzumab against
+T2	Disease	130 162	Her-2 -amplified breast cancer .
+R1	treats	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

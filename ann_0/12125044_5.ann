@@ -1,0 +1,9 @@
+T1	Gene_or_protein	27 42	35-kDa FRA were
+T2	Chemical	84 97	amphetamine -
+T3	Chemical	137 152	haloperidol was
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	increases	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

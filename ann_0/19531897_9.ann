@@ -1,0 +1,4 @@
+T1	Limited_variation	14 35	CYP2C19 polymorphisms
+T2	Pharmacodynamic_phenotype	71 108	antiplatelet effect of clopidogrel is
+R1	influences	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

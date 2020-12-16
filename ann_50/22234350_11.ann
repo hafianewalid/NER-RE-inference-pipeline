@@ -1,0 +1,7 @@
+T1	Haplotype	51 70	NFATc4 haplotypes ,
+T2	Chemical	87 99	CNI- treated
+T3	Disease	166 177	AT ( hazard
+R1	decreases	Arg1:T1	Arg2:T3
+R2	decreases	Arg1:T2	Arg2:T3
+R3	isAssociatedWith	Arg1:T3	Arg2:T1
+R4	isAssociatedWith	Arg1:T3	Arg2:T2

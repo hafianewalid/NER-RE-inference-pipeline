@@ -1,0 +1,9 @@
+T1	Phenotype	0 28	Nicotine self-administration
+T2	Pharmacokinetic_phenotype	56 86	rates of nicotine inactivation
+T3	Gene_or_protein	90 98	CYP2A5 .
+R1	causes	Arg1:T1	Arg2:T2
+R2	causes	Arg1:T1	Arg2:T3
+R3	causes	Arg1:T2	Arg2:T1
+R4	causes	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	causes	Arg1:T3	Arg2:T2

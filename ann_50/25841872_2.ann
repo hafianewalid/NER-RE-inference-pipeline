@@ -1,0 +1,9 @@
+T1	Chemical	7 16	Ezetimibe
+T2	Pharmacodynamic_phenotype	25 85	plasma levels of low-density lipoprotein ( LDL ) cholesterol
+T3	Gene_or_protein	100 159	Niemann-Pick C1-Like protein 1 ( NPC1L1 ) , the transporter
+R1	decreases	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	decreases	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	decreases	Arg1:T3	Arg2:T2

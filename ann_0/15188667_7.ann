@@ -1,0 +1,16 @@
+T1	Disease	0 10	Most GISTs
+T2	Chemical	22 39	imatinib mesylate
+T3	Gene_or_protein	74 94	KIT and PDGFRA , and
+T4	Disease	164 165	.
+R1	influences	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	treats	Arg1:T2	Arg2:T1
+R5	decreases	Arg1:T2	Arg2:T3
+R6	treats	Arg1:T2	Arg2:T4
+R7	treats	Arg1:T3	Arg2:T1
+R8	influences	Arg1:T3	Arg2:T2
+R9	treats	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	influences	Arg1:T4	Arg2:T2
+R12	isAssociatedWith	Arg1:T4	Arg2:T3

@@ -1,0 +1,4 @@
+T1	Phenotype	0 147	MUC1 levels in primary tumours treated neoadjunctively with 3 weeks of tamoxifen were lower than a comparison group which did not receive tamoxifen
+T2	Chemical	148 149	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

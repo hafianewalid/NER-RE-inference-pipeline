@@ -1,0 +1,80 @@
+T1	Chemical	134 151	propofol required
+T2	Pharmacodynamic_phenotype	168 197	pectral index < 70 and ' time
+T3	Pharmacodynamic_phenotype	198 224	to eye opening ' following
+T4	Chemical	225 242	propofol infusion
+T5	Pharmacodynamic_phenotype	313 362	to achieve bispectral index < 70 ' was influenced
+T6	Limited_variation	375 397	of the sex-linked drug
+T7	Limited_variation	398 411	receptor gene
+T8	Pharmacokinetic_phenotype	473 482	' time to
+T9	Pharmacokinetic_phenotype	483 512	eye opening ' were influenced
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T1	Arg2:T6
+R6	isAssociatedWith	Arg1:T1	Arg2:T7
+R7	isAssociatedWith	Arg1:T1	Arg2:T8
+R8	isAssociatedWith	Arg1:T1	Arg2:T9
+R9	isAssociatedWith	Arg1:T2	Arg2:T1
+R10	isAssociatedWith	Arg1:T2	Arg2:T3
+R11	isAssociatedWith	Arg1:T2	Arg2:T4
+R12	isAssociatedWith	Arg1:T2	Arg2:T5
+R13	isAssociatedWith	Arg1:T2	Arg2:T6
+R14	isAssociatedWith	Arg1:T2	Arg2:T7
+R15	isAssociatedWith	Arg1:T2	Arg2:T8
+R16	isAssociatedWith	Arg1:T2	Arg2:T9
+R17	isAssociatedWith	Arg1:T3	Arg2:T1
+R18	isAssociatedWith	Arg1:T3	Arg2:T2
+R19	isAssociatedWith	Arg1:T3	Arg2:T4
+R20	isAssociatedWith	Arg1:T3	Arg2:T5
+R21	isAssociatedWith	Arg1:T3	Arg2:T6
+R22	isAssociatedWith	Arg1:T3	Arg2:T7
+R23	isAssociatedWith	Arg1:T3	Arg2:T8
+R24	isAssociatedWith	Arg1:T3	Arg2:T9
+R25	isAssociatedWith	Arg1:T4	Arg2:T1
+R26	isAssociatedWith	Arg1:T4	Arg2:T2
+R27	isAssociatedWith	Arg1:T4	Arg2:T3
+R28	isAssociatedWith	Arg1:T4	Arg2:T5
+R29	isAssociatedWith	Arg1:T4	Arg2:T6
+R30	isAssociatedWith	Arg1:T4	Arg2:T7
+R31	isAssociatedWith	Arg1:T4	Arg2:T8
+R32	isAssociatedWith	Arg1:T4	Arg2:T9
+R33	isAssociatedWith	Arg1:T5	Arg2:T1
+R34	isAssociatedWith	Arg1:T5	Arg2:T2
+R35	isAssociatedWith	Arg1:T5	Arg2:T3
+R36	isAssociatedWith	Arg1:T5	Arg2:T4
+R37	isAssociatedWith	Arg1:T5	Arg2:T6
+R38	isAssociatedWith	Arg1:T5	Arg2:T7
+R39	isAssociatedWith	Arg1:T5	Arg2:T8
+R40	isAssociatedWith	Arg1:T5	Arg2:T9
+R41	influences	Arg1:T6	Arg2:T1
+R42	influences	Arg1:T6	Arg2:T2
+R43	influences	Arg1:T6	Arg2:T3
+R44	influences	Arg1:T6	Arg2:T4
+R45	influences	Arg1:T6	Arg2:T5
+R46	influences	Arg1:T6	Arg2:T7
+R47	influences	Arg1:T6	Arg2:T8
+R48	influences	Arg1:T6	Arg2:T9
+R49	influences	Arg1:T7	Arg2:T1
+R50	influences	Arg1:T7	Arg2:T2
+R51	influences	Arg1:T7	Arg2:T3
+R52	influences	Arg1:T7	Arg2:T4
+R53	influences	Arg1:T7	Arg2:T5
+R54	influences	Arg1:T7	Arg2:T8
+R55	influences	Arg1:T7	Arg2:T9
+R56	isAssociatedWith	Arg1:T8	Arg2:T1
+R57	isAssociatedWith	Arg1:T8	Arg2:T2
+R58	isAssociatedWith	Arg1:T8	Arg2:T3
+R59	isAssociatedWith	Arg1:T8	Arg2:T4
+R60	isAssociatedWith	Arg1:T8	Arg2:T5
+R61	isAssociatedWith	Arg1:T8	Arg2:T6
+R62	isAssociatedWith	Arg1:T8	Arg2:T7
+R63	isAssociatedWith	Arg1:T8	Arg2:T9
+R64	influences	Arg1:T9	Arg2:T1
+R65	isAssociatedWith	Arg1:T9	Arg2:T2
+R66	influences	Arg1:T9	Arg2:T3
+R67	isAssociatedWith	Arg1:T9	Arg2:T4
+R68	influences	Arg1:T9	Arg2:T5
+R69	isAssociatedWith	Arg1:T9	Arg2:T6
+R70	isAssociatedWith	Arg1:T9	Arg2:T7
+R71	influences	Arg1:T9	Arg2:T8

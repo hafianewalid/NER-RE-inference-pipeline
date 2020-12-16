@@ -1,0 +1,9 @@
+T1	Limited_variation	20 63	dopamine receptor D1 gene DdeI polymorphism
+T2	Phenotype	68 85	sensation seeking
+T3	Disease	89 111	alcohol -dependent men
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

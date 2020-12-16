@@ -1,0 +1,42 @@
+T1	Limited_variation	41 90	single nucleotide polymorphisms ( SNPs ) in XDH ,
+T2	Limited_variation	94 101	1 , and
+T3	Limited_variation	104 113	COS genes
+T4	Pharmacodynamic_phenotype	166 190	side effects in a cohort
+T5	Disease	194 222	kidney transplant recipients
+T6	Chemical	236 266	azathioprine ( AZA ) as a part
+T7	Chemical	279 306	immunosuppressive regimen .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T1	Arg2:T6
+R6	isAssociatedWith	Arg1:T1	Arg2:T7
+R7	isAssociatedWith	Arg1:T2	Arg2:T1
+R8	isAssociatedWith	Arg1:T2	Arg2:T3
+R9	isAssociatedWith	Arg1:T2	Arg2:T4
+R10	isAssociatedWith	Arg1:T2	Arg2:T5
+R11	isAssociatedWith	Arg1:T2	Arg2:T6
+R12	isAssociatedWith	Arg1:T2	Arg2:T7
+R13	isAssociatedWith	Arg1:T3	Arg2:T1
+R14	isAssociatedWith	Arg1:T3	Arg2:T2
+R15	isAssociatedWith	Arg1:T3	Arg2:T4
+R16	isAssociatedWith	Arg1:T3	Arg2:T5
+R17	isAssociatedWith	Arg1:T3	Arg2:T6
+R18	isAssociatedWith	Arg1:T3	Arg2:T7
+R19	isAssociatedWith	Arg1:T4	Arg2:T1
+R20	isAssociatedWith	Arg1:T4	Arg2:T2
+R21	isAssociatedWith	Arg1:T4	Arg2:T3
+R22	isAssociatedWith	Arg1:T4	Arg2:T6
+R23	isAssociatedWith	Arg1:T4	Arg2:T7
+R24	isAssociatedWith	Arg1:T5	Arg2:T1
+R25	isAssociatedWith	Arg1:T5	Arg2:T2
+R26	isAssociatedWith	Arg1:T5	Arg2:T3
+R27	isAssociatedWith	Arg1:T5	Arg2:T4
+R28	treats	Arg1:T6	Arg2:T4
+R29	treats	Arg1:T6	Arg2:T5
+R30	isAssociatedWith	Arg1:T7	Arg2:T1
+R31	isAssociatedWith	Arg1:T7	Arg2:T2
+R32	isAssociatedWith	Arg1:T7	Arg2:T3
+R33	isAssociatedWith	Arg1:T7	Arg2:T4
+R34	treats	Arg1:T7	Arg2:T5
+R35	influences	Arg1:T7	Arg2:T6

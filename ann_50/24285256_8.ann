@@ -1,0 +1,4 @@
+T1	Pharmacokinetic_phenotype	30 51	sirolimus C0/D ratios
+T2	Limited_variation	80 127	ABCB1 1236C>T , 2677G>T /A and 3435C>T genotype
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

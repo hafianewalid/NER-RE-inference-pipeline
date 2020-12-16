@@ -1,0 +1,3 @@
+T1	Disease	14 32	KRAS -mutant NSCLC
+T2	Chemical	83 111	erlotinib and chemotherapy .
+R1	treats	Arg1:T2	Arg2:T1

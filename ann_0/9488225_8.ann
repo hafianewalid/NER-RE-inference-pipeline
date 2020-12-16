@@ -1,0 +1,9 @@
+T1	Chemical	26 35	captopril
+T2	Disease	122 135	SBP in either
+T3	Limited_variation	139 151	r - / - or J
+R1	decreases	Arg1:T1	Arg2:T2
+R2	treats	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

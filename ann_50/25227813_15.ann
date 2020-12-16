@@ -1,0 +1,16 @@
+T1	Limited_variation	14 34	mutant EGFR genotype
+T2	Pharmacodynamic_phenotype	46 68	icotinib concentration
+T3	Phenotype	90 97	PFS and
+T4	Disease	111 129	tumor metastasis .
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	decreases	Arg1:T1	Arg2:T4
+R4	treats	Arg1:T2	Arg2:T1
+R5	increases	Arg1:T2	Arg2:T3
+R6	decreases	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	increases	Arg1:T3	Arg2:T2
+R9	decreases	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	isAssociatedWith	Arg1:T4	Arg2:T2
+R12	isAssociatedWith	Arg1:T4	Arg2:T3

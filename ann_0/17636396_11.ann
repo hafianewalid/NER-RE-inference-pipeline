@@ -1,0 +1,14 @@
+T1	Chemical	80 143	anthracycline -based and taxane -based adjuvant chemotherapy is
+T2	Phenotype	161 181	2 /neu status , with
+T3	Disease	201 231	/neu -positive cancers benefit
+T4	Disease	283 306	neu -negative cancers .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	treats	Arg1:T1	Arg2:T3
+R3	treats	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	influences	Arg1:T4	Arg2:T1
+R10	isAssociatedWith	Arg1:T4	Arg2:T2

@@ -1,0 +1,35 @@
+T1	Phenotype	60 83	alpha-globin deficiency
+T2	Phenotype	86 107	high Hb H levels were
+T3	Disease	128 138	anaemia by
+T4	Phenotype	162 186	tissue oxygenation , and
+T5	Limited_variation	195 247	H and alpha-thalassaemic haemoglobin variants appear
+T6	Phenotype	262 282	cell survival within
+R1	influences	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	decreases	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T1	Arg2:T5
+R5	decreases	Arg1:T1	Arg2:T6
+R6	influences	Arg1:T2	Arg2:T1
+R7	increases	Arg1:T2	Arg2:T3
+R8	decreases	Arg1:T2	Arg2:T4
+R9	decreases	Arg1:T2	Arg2:T6
+R10	isAssociatedWith	Arg1:T3	Arg2:T1
+R11	isAssociatedWith	Arg1:T3	Arg2:T2
+R12	decreases	Arg1:T3	Arg2:T4
+R13	isAssociatedWith	Arg1:T3	Arg2:T5
+R14	decreases	Arg1:T3	Arg2:T6
+R15	isAssociatedWith	Arg1:T4	Arg2:T1
+R16	isAssociatedWith	Arg1:T4	Arg2:T2
+R17	increases	Arg1:T4	Arg2:T3
+R18	isAssociatedWith	Arg1:T4	Arg2:T5
+R19	decreases	Arg1:T4	Arg2:T6
+R20	influences	Arg1:T5	Arg2:T1
+R21	influences	Arg1:T5	Arg2:T2
+R22	increases	Arg1:T5	Arg2:T3
+R23	decreases	Arg1:T5	Arg2:T4
+R24	decreases	Arg1:T5	Arg2:T6
+R25	isAssociatedWith	Arg1:T6	Arg2:T1
+R26	isAssociatedWith	Arg1:T6	Arg2:T2
+R27	isAssociatedWith	Arg1:T6	Arg2:T3
+R28	decreases	Arg1:T6	Arg2:T4
+R29	isAssociatedWith	Arg1:T6	Arg2:T5

@@ -1,0 +1,9 @@
+T1	Phenotype	46 67	expression of KROX-24
+T2	Chemical	92 113	MK-801 administration
+T3	Phenotype	135 176	expression pattern similar to that of FOS
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	decreases	Arg1:T2	Arg2:T1
+R4	decreases	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

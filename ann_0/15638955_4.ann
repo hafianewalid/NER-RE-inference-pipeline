@@ -1,0 +1,60 @@
+T1	Gene_or_protein	18 50	epidermal growth factor receptor
+T2	Gene_or_protein	53 59	EGFR )
+T3	Chemical	65 86	monoclonal antibodies
+T4	Chemical	105 131	inhibitors of the tyrosine
+T5	Gene_or_protein	105 152	inhibitors of the tyrosine kinase ( TK ) domain
+T6	Chemical	105 173	inhibitors of the tyrosine kinase ( TK ) domain of the receptor have
+T7	Pharmacodynamic_phenotype	217 249	antitumor activities in patients
+T8	Disease	255 293	non-small-cell lung cancer ( NSCLC ) .
+R1	isEquivalentTo	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T1	Arg2:T6
+R6	isAssociatedWith	Arg1:T1	Arg2:T7
+R7	isAssociatedWith	Arg1:T1	Arg2:T8
+R8	isEquivalentTo	Arg1:T2	Arg2:T1
+R9	isAssociatedWith	Arg1:T2	Arg2:T3
+R10	isAssociatedWith	Arg1:T2	Arg2:T4
+R11	isAssociatedWith	Arg1:T2	Arg2:T5
+R12	isAssociatedWith	Arg1:T2	Arg2:T6
+R13	isAssociatedWith	Arg1:T2	Arg2:T7
+R14	isAssociatedWith	Arg1:T2	Arg2:T8
+R15	decreases	Arg1:T3	Arg2:T1
+R16	decreases	Arg1:T3	Arg2:T2
+R17	treats	Arg1:T3	Arg2:T4
+R18	treats	Arg1:T3	Arg2:T5
+R19	treats	Arg1:T3	Arg2:T6
+R20	influences	Arg1:T3	Arg2:T7
+R21	treats	Arg1:T3	Arg2:T8
+R22	decreases	Arg1:T4	Arg2:T1
+R23	decreases	Arg1:T4	Arg2:T2
+R24	influences	Arg1:T4	Arg2:T3
+R25	influences	Arg1:T4	Arg2:T5
+R26	influences	Arg1:T4	Arg2:T6
+R27	influences	Arg1:T4	Arg2:T7
+R28	treats	Arg1:T4	Arg2:T8
+R29	decreases	Arg1:T5	Arg2:T1
+R30	decreases	Arg1:T5	Arg2:T2
+R31	influences	Arg1:T5	Arg2:T3
+R32	influences	Arg1:T5	Arg2:T4
+R33	influences	Arg1:T5	Arg2:T6
+R34	influences	Arg1:T5	Arg2:T7
+R35	treats	Arg1:T5	Arg2:T8
+R36	decreases	Arg1:T6	Arg2:T1
+R37	decreases	Arg1:T6	Arg2:T2
+R38	influences	Arg1:T6	Arg2:T3
+R39	influences	Arg1:T6	Arg2:T4
+R40	influences	Arg1:T6	Arg2:T5
+R41	influences	Arg1:T6	Arg2:T7
+R42	treats	Arg1:T6	Arg2:T8
+R43	decreases	Arg1:T7	Arg2:T1
+R44	decreases	Arg1:T7	Arg2:T2
+R45	influences	Arg1:T7	Arg2:T3
+R46	influences	Arg1:T7	Arg2:T4
+R47	influences	Arg1:T7	Arg2:T6
+R48	treats	Arg1:T7	Arg2:T8
+R49	decreases	Arg1:T8	Arg2:T1
+R50	decreases	Arg1:T8	Arg2:T2
+R51	influences	Arg1:T8	Arg2:T3
+R52	isAssociatedWith	Arg1:T8	Arg2:T7

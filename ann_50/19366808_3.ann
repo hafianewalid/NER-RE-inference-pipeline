@@ -1,0 +1,15 @@
+T1	Chemical	24 55	multikinase inhibitor sorafenib
+T2	Phenotype	91 103	apoptosis at
+T3	Gene_or_protein	183 195	BCR/ABL than
+T4	Gene_or_protein	211 226	interleukin-3 .
+R1	causes	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T2	Arg2:T4
+R6	influences	Arg1:T3	Arg2:T1
+R7	influences	Arg1:T3	Arg2:T2
+R8	influences	Arg1:T3	Arg2:T4
+R9	influences	Arg1:T4	Arg2:T1
+R10	influences	Arg1:T4	Arg2:T2
+R11	influences	Arg1:T4	Arg2:T3

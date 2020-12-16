@@ -1,0 +1,4 @@
+T1	Limited_variation	0 37	This combination of R and L genotypes
+T2	Pharmacokinetic_phenotype	64 97	PON1 activity towards diazoxon in
+R1	decreases	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

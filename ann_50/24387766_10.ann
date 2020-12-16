@@ -1,0 +1,9 @@
+T1	Chemical	44 76	black soyabean extract regulates
+T2	Pharmacokinetic_phenotype	77 93	Fe metabolism by
+T3	Phenotype	109 133	expression of hepcidin .
+R1	influences	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	decreases	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

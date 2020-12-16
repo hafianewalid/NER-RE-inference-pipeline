@@ -1,0 +1,33 @@
+T1	Chemical	26 32	MnCl(2
+T2	Phenotype	79 111	nuclear accumulation of Nrf2 and
+T3	Phenotype	125 161	binding of Nrf2 to the HO-1 gene ARE
+T4	Phenotype	185 205	expression of an Nrf
+T5	Gene_or_protein	205 227	2 -regulated gene , HO
+T6	Gene_or_protein	230 231	.
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	causes	Arg1:T1	Arg2:T4
+R4	causes	Arg1:T1	Arg2:T5
+R5	causes	Arg1:T1	Arg2:T6
+R6	increases	Arg1:T2	Arg2:T1
+R7	increases	Arg1:T2	Arg2:T3
+R8	causes	Arg1:T2	Arg2:T4
+R9	increases	Arg1:T2	Arg2:T5
+R10	increases	Arg1:T2	Arg2:T6
+R11	isAssociatedWith	Arg1:T3	Arg2:T1
+R12	increases	Arg1:T3	Arg2:T2
+R13	causes	Arg1:T3	Arg2:T4
+R14	increases	Arg1:T3	Arg2:T5
+R15	causes	Arg1:T4	Arg2:T1
+R16	causes	Arg1:T4	Arg2:T2
+R17	causes	Arg1:T4	Arg2:T3
+R18	causes	Arg1:T4	Arg2:T5
+R19	causes	Arg1:T4	Arg2:T6
+R20	isAssociatedWith	Arg1:T5	Arg2:T1
+R21	isAssociatedWith	Arg1:T5	Arg2:T2
+R22	causes	Arg1:T5	Arg2:T4
+R23	isAssociatedWith	Arg1:T5	Arg2:T6
+R24	influences	Arg1:T6	Arg2:T1
+R25	isAssociatedWith	Arg1:T6	Arg2:T2
+R26	causes	Arg1:T6	Arg2:T4
+R27	isEquivalentTo	Arg1:T6	Arg2:T5

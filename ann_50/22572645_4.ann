@@ -1,0 +1,16 @@
+T1	Pharmacodynamic_phenotype	51 68	folate status and
+T2	Phenotype	69 86	child problems is
+T3	Chemical	113 134	folic acid supplement
+T4	Limited_variation	164 180	MTHFR genotype .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	causes	Arg1:T2	Arg2:T3
+R6	causes	Arg1:T2	Arg2:T4
+R7	causes	Arg1:T3	Arg2:T1
+R8	causes	Arg1:T3	Arg2:T2
+R9	causes	Arg1:T3	Arg2:T4
+R10	causes	Arg1:T4	Arg2:T1
+R11	causes	Arg1:T4	Arg2:T2
+R12	causes	Arg1:T4	Arg2:T3

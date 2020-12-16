@@ -1,0 +1,9 @@
+T1	Pharmacokinetic_phenotype	9 37	oral clearance of S-warfarin
+T2	Limited_variation	79 110	rs7089580 allele ( T ) compared
+T3	Limited_variation	116 139	wild-type homozygotes (
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

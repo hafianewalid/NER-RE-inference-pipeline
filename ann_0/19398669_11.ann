@@ -1,0 +1,25 @@
+T1	Limited_variation	14 59	Genetic polymorphism 677 C>T on MTHFR affects
+T2	Chemical	69 77	5-MTHF (
+T3	Chemical	86 100	homocysteine )
+T4	Pharmacodynamic_phenotype	147 186	chronic effects of vascular 5-MTHF from
+T5	Pharmacodynamic_phenotype	187 218	homocysteine on vascular wall .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T2	Arg2:T1
+R6	influences	Arg1:T2	Arg2:T3
+R7	influences	Arg1:T2	Arg2:T4
+R8	isAssociatedWith	Arg1:T2	Arg2:T5
+R9	isAssociatedWith	Arg1:T3	Arg2:T1
+R10	influences	Arg1:T3	Arg2:T2
+R11	influences	Arg1:T3	Arg2:T4
+R12	influences	Arg1:T3	Arg2:T5
+R13	influences	Arg1:T4	Arg2:T1
+R14	influences	Arg1:T4	Arg2:T2
+R15	influences	Arg1:T4	Arg2:T3
+R16	influences	Arg1:T4	Arg2:T5
+R17	influences	Arg1:T5	Arg2:T1
+R18	influences	Arg1:T5	Arg2:T2
+R19	influences	Arg1:T5	Arg2:T3
+R20	influences	Arg1:T5	Arg2:T4

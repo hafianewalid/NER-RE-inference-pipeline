@@ -1,0 +1,8 @@
+T1	Chemical	55 96	small molecule kinase inhibitors directed
+T2	Gene_or_protein	116 135	PDGFR receptor have
+T3	Chemical	186 208	quinazoline template I
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1

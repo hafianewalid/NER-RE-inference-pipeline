@@ -1,0 +1,4 @@
+T1	Chemical	0 121	Crizotinib continued to be developed as an ALK and MET inhibitor in other tumor types driven by alteration in ALK and MET
+T2	Limited_variation	122 123	.
+R1	causes	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

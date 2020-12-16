@@ -1,0 +1,9 @@
+T1	Gene_or_protein	57 62	GATA4
+T2	Disease	67 85	alcohol dependence
+T3	Limited_variation	142 154	rs13273672 .
+R1	influences	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

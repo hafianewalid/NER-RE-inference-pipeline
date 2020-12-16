@@ -1,0 +1,4 @@
+T1	Chemical	0 240	Itraconazole and other potent inhibitors of CYP3A4 could drastically increase exposure to drugs like midazolam , triazolam , buspirone , lovastatin , simvastatin and oxycodone , whereas rifampicin greatly reduced their plasma concentrations
+T2	Pharmacodynamic_phenotype	241 242	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isEquivalentTo	Arg1:T2	Arg2:T1

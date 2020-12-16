@@ -1,0 +1,9 @@
+T1	Phenotype	34 61	expression of c-erbB-2 mRNA
+T2	Chemical	141 173	chemotherapy with carboplatin or
+T3	Chemical	174 208	cisplatin and cyclophosphamide ( P
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

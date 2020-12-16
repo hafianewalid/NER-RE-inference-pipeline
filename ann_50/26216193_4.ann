@@ -1,0 +1,16 @@
+T1	Pharmacokinetic_phenotype	53 78	5-fluorouracil metabolism
+T2	Pharmacokinetic_phenotype	96 137	degradation rate of 5-fluorouracil-5-FUDR
+T3	Limited_variation	159 221	polymorphisms in the dihydropyrimidine dehydrogenase gene ( DP
+T4	Gene_or_protein	221 227	YD ) .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	isAssociatedWith	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	isAssociatedWith	Arg1:T4	Arg2:T2
+R12	isEquivalentTo	Arg1:T4	Arg2:T3

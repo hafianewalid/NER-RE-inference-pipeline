@@ -1,0 +1,4 @@
+T1	Phenotype	10 37	f MDR1 polymorphic expressi
+T2	Pharmacokinetic_phenotype	58 77	n of cyclosporine A
+R1	influences	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

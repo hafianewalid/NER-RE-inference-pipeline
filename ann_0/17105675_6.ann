@@ -1,0 +1,63 @@
+T1	Limited_variation	33 39	A-241G
+T2	Pharmacodynamic_phenotype	64 100	efficacy of risperidone treatment on
+T3	Limited_variation	136 149	allele showed
+T4	Limited_variation	192 205	allele on the
+T5	Limited_variation	345 388	Ins/Del , TaqIB , rs1076562 , T939C and Taq
+T6	Limited_variation	388 396	IA , did
+T7	Limited_variation	397 405	not show
+T8	Pharmacodynamic_phenotype	431 456	response to risperidone .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T1	Arg2:T6
+R6	isAssociatedWith	Arg1:T1	Arg2:T7
+R7	isAssociatedWith	Arg1:T1	Arg2:T8
+R8	influences	Arg1:T2	Arg2:T1
+R9	isAssociatedWith	Arg1:T2	Arg2:T4
+R10	isAssociatedWith	Arg1:T2	Arg2:T5
+R11	isAssociatedWith	Arg1:T2	Arg2:T6
+R12	isAssociatedWith	Arg1:T2	Arg2:T7
+R13	isAssociatedWith	Arg1:T2	Arg2:T8
+R14	isAssociatedWith	Arg1:T3	Arg2:T1
+R15	influences	Arg1:T3	Arg2:T2
+R16	increases	Arg1:T3	Arg2:T4
+R17	isAssociatedWith	Arg1:T3	Arg2:T5
+R18	isAssociatedWith	Arg1:T3	Arg2:T6
+R19	isAssociatedWith	Arg1:T3	Arg2:T7
+R20	isAssociatedWith	Arg1:T3	Arg2:T8
+R21	isAssociatedWith	Arg1:T4	Arg2:T1
+R22	influences	Arg1:T4	Arg2:T2
+R23	isAssociatedWith	Arg1:T4	Arg2:T3
+R24	isAssociatedWith	Arg1:T4	Arg2:T5
+R25	isAssociatedWith	Arg1:T4	Arg2:T6
+R26	isAssociatedWith	Arg1:T4	Arg2:T7
+R27	isAssociatedWith	Arg1:T4	Arg2:T8
+R28	isAssociatedWith	Arg1:T5	Arg2:T1
+R29	isAssociatedWith	Arg1:T5	Arg2:T2
+R30	isAssociatedWith	Arg1:T5	Arg2:T3
+R31	isAssociatedWith	Arg1:T5	Arg2:T4
+R32	isAssociatedWith	Arg1:T5	Arg2:T6
+R33	isAssociatedWith	Arg1:T5	Arg2:T7
+R34	isAssociatedWith	Arg1:T5	Arg2:T8
+R35	isAssociatedWith	Arg1:T6	Arg2:T1
+R36	isAssociatedWith	Arg1:T6	Arg2:T2
+R37	isAssociatedWith	Arg1:T6	Arg2:T3
+R38	isAssociatedWith	Arg1:T6	Arg2:T4
+R39	isAssociatedWith	Arg1:T6	Arg2:T5
+R40	isAssociatedWith	Arg1:T6	Arg2:T7
+R41	isAssociatedWith	Arg1:T6	Arg2:T8
+R42	isAssociatedWith	Arg1:T7	Arg2:T1
+R43	influences	Arg1:T7	Arg2:T2
+R44	isAssociatedWith	Arg1:T7	Arg2:T3
+R45	isAssociatedWith	Arg1:T7	Arg2:T4
+R46	isAssociatedWith	Arg1:T7	Arg2:T5
+R47	isAssociatedWith	Arg1:T7	Arg2:T6
+R48	isAssociatedWith	Arg1:T7	Arg2:T8
+R49	isAssociatedWith	Arg1:T8	Arg2:T1
+R50	isAssociatedWith	Arg1:T8	Arg2:T2
+R51	isAssociatedWith	Arg1:T8	Arg2:T3
+R52	isAssociatedWith	Arg1:T8	Arg2:T4
+R53	isAssociatedWith	Arg1:T8	Arg2:T5
+R54	isAssociatedWith	Arg1:T8	Arg2:T6
+R55	isAssociatedWith	Arg1:T8	Arg2:T7

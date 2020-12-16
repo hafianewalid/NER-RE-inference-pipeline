@@ -1,0 +1,45 @@
+T1	Chemical	47 51	AZ ,
+T2	Pharmacodynamic_phenotype	59 84	values of tacrolimus were
+T3	Haplotype	113 136	CYP3A5 * 3 / * 3 allele
+T4	Haplotype	156 168	5 * 1 allele
+T5	Pharmacodynamic_phenotype	200 218	doses of Tac-QD in
+T6	Haplotype	242 268	3 / * 3 were significantly
+T7	Haplotype	313 316	( P
+R1	increases	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	decreases	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T2	Arg2:T1
+R6	isAssociatedWith	Arg1:T2	Arg2:T3
+R7	isAssociatedWith	Arg1:T2	Arg2:T4
+R8	isAssociatedWith	Arg1:T2	Arg2:T6
+R9	isAssociatedWith	Arg1:T2	Arg2:T7
+R10	increases	Arg1:T3	Arg2:T1
+R11	increases	Arg1:T3	Arg2:T2
+R12	isAssociatedWith	Arg1:T3	Arg2:T4
+R13	decreases	Arg1:T3	Arg2:T5
+R14	increases	Arg1:T3	Arg2:T6
+R15	increases	Arg1:T3	Arg2:T7
+R16	influences	Arg1:T4	Arg2:T1
+R17	influences	Arg1:T4	Arg2:T2
+R18	influences	Arg1:T4	Arg2:T3
+R19	influences	Arg1:T4	Arg2:T5
+R20	influences	Arg1:T4	Arg2:T6
+R21	influences	Arg1:T4	Arg2:T7
+R22	isAssociatedWith	Arg1:T5	Arg2:T1
+R23	isAssociatedWith	Arg1:T5	Arg2:T2
+R24	isAssociatedWith	Arg1:T5	Arg2:T3
+R25	isAssociatedWith	Arg1:T5	Arg2:T4
+R26	isAssociatedWith	Arg1:T5	Arg2:T6
+R27	isAssociatedWith	Arg1:T5	Arg2:T7
+R28	influences	Arg1:T6	Arg2:T1
+R29	isAssociatedWith	Arg1:T6	Arg2:T3
+R30	isAssociatedWith	Arg1:T6	Arg2:T4
+R31	decreases	Arg1:T6	Arg2:T5
+R32	isAssociatedWith	Arg1:T6	Arg2:T7
+R33	influences	Arg1:T7	Arg2:T1
+R34	influences	Arg1:T7	Arg2:T2
+R35	isAssociatedWith	Arg1:T7	Arg2:T3
+R36	isAssociatedWith	Arg1:T7	Arg2:T4
+R37	influences	Arg1:T7	Arg2:T5
+R38	isAssociatedWith	Arg1:T7	Arg2:T6

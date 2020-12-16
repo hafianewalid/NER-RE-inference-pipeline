@@ -1,0 +1,100 @@
+T1	Limited_variation	49 80	polymorphisms in genes involved
+T2	Pharmacokinetic_phenotype	84 117	6-mercaptopurine detoxification (
+T3	Gene_or_protein	118 126	TPMT ) ;
+T4	Pharmacokinetic_phenotype	127 168	methotrexate ( MTX ) metabolism including
+T5	Gene_or_protein	169 179	ABCB1 ( or
+T6	Gene_or_protein	185 192	) , ABC
+T7	Gene_or_protein	193 204	2 , SLC19A1
+T8	Gene_or_protein	205 212	( or RF
+T9	Gene_or_protein	231 244	; and the MTX
+T10	Pharmacodynamic_phenotype	336 361	treatment toxicity and/or
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T1	Arg2:T5
+R5	influences	Arg1:T1	Arg2:T6
+R6	influences	Arg1:T1	Arg2:T7
+R7	influences	Arg1:T1	Arg2:T8
+R8	influences	Arg1:T1	Arg2:T9
+R9	influences	Arg1:T1	Arg2:T10
+R10	influences	Arg1:T2	Arg2:T1
+R11	influences	Arg1:T2	Arg2:T3
+R12	influences	Arg1:T2	Arg2:T4
+R13	influences	Arg1:T2	Arg2:T5
+R14	influences	Arg1:T2	Arg2:T6
+R15	influences	Arg1:T2	Arg2:T7
+R16	influences	Arg1:T2	Arg2:T8
+R17	influences	Arg1:T2	Arg2:T9
+R18	influences	Arg1:T2	Arg2:T10
+R19	influences	Arg1:T3	Arg2:T1
+R20	influences	Arg1:T3	Arg2:T2
+R21	influences	Arg1:T3	Arg2:T4
+R22	influences	Arg1:T3	Arg2:T5
+R23	influences	Arg1:T3	Arg2:T6
+R24	influences	Arg1:T3	Arg2:T7
+R25	influences	Arg1:T3	Arg2:T8
+R26	influences	Arg1:T3	Arg2:T9
+R27	influences	Arg1:T3	Arg2:T10
+R28	influences	Arg1:T4	Arg2:T1
+R29	influences	Arg1:T4	Arg2:T2
+R30	influences	Arg1:T4	Arg2:T3
+R31	influences	Arg1:T4	Arg2:T5
+R32	influences	Arg1:T4	Arg2:T6
+R33	influences	Arg1:T4	Arg2:T7
+R34	influences	Arg1:T4	Arg2:T8
+R35	influences	Arg1:T4	Arg2:T9
+R36	influences	Arg1:T4	Arg2:T10
+R37	influences	Arg1:T5	Arg2:T1
+R38	influences	Arg1:T5	Arg2:T2
+R39	influences	Arg1:T5	Arg2:T3
+R40	influences	Arg1:T5	Arg2:T4
+R41	influences	Arg1:T5	Arg2:T6
+R42	influences	Arg1:T5	Arg2:T7
+R43	influences	Arg1:T5	Arg2:T8
+R44	influences	Arg1:T5	Arg2:T9
+R45	influences	Arg1:T5	Arg2:T10
+R46	influences	Arg1:T6	Arg2:T1
+R47	influences	Arg1:T6	Arg2:T2
+R48	influences	Arg1:T6	Arg2:T3
+R49	influences	Arg1:T6	Arg2:T4
+R50	influences	Arg1:T6	Arg2:T5
+R51	influences	Arg1:T6	Arg2:T7
+R52	influences	Arg1:T6	Arg2:T8
+R53	influences	Arg1:T6	Arg2:T9
+R54	influences	Arg1:T6	Arg2:T10
+R55	influences	Arg1:T7	Arg2:T1
+R56	influences	Arg1:T7	Arg2:T2
+R57	influences	Arg1:T7	Arg2:T3
+R58	influences	Arg1:T7	Arg2:T4
+R59	influences	Arg1:T7	Arg2:T5
+R60	influences	Arg1:T7	Arg2:T6
+R61	influences	Arg1:T7	Arg2:T8
+R62	influences	Arg1:T7	Arg2:T9
+R63	influences	Arg1:T7	Arg2:T10
+R64	influences	Arg1:T8	Arg2:T1
+R65	influences	Arg1:T8	Arg2:T2
+R66	influences	Arg1:T8	Arg2:T3
+R67	influences	Arg1:T8	Arg2:T4
+R68	influences	Arg1:T8	Arg2:T5
+R69	influences	Arg1:T8	Arg2:T6
+R70	isEquivalentTo	Arg1:T8	Arg2:T7
+R71	influences	Arg1:T8	Arg2:T9
+R72	influences	Arg1:T8	Arg2:T10
+R73	influences	Arg1:T9	Arg2:T1
+R74	influences	Arg1:T9	Arg2:T2
+R75	influences	Arg1:T9	Arg2:T3
+R76	influences	Arg1:T9	Arg2:T4
+R77	influences	Arg1:T9	Arg2:T5
+R78	influences	Arg1:T9	Arg2:T6
+R79	influences	Arg1:T9	Arg2:T7
+R80	influences	Arg1:T9	Arg2:T8
+R81	influences	Arg1:T9	Arg2:T10
+R82	influences	Arg1:T10	Arg2:T1
+R83	influences	Arg1:T10	Arg2:T2
+R84	influences	Arg1:T10	Arg2:T3
+R85	influences	Arg1:T10	Arg2:T4
+R86	influences	Arg1:T10	Arg2:T5
+R87	influences	Arg1:T10	Arg2:T6
+R88	influences	Arg1:T10	Arg2:T7
+R89	influences	Arg1:T10	Arg2:T8
+R90	influences	Arg1:T10	Arg2:T9

@@ -1,0 +1,25 @@
+T1	Chemical	69 78	PEG - IFN
+T2	Gene_or_protein	69 83	PEG - IFNa-2 a
+T3	Chemical	69 86	PEG - IFNa-2 a is
+T4	Disease	112 126	HCC occurrence
+T5	Limited_variation	147 173	IL28B SNP , at least for a
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	decreases	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	influences	Arg1:T2	Arg2:T1
+R6	influences	Arg1:T2	Arg2:T3
+R7	decreases	Arg1:T2	Arg2:T4
+R8	isAssociatedWith	Arg1:T2	Arg2:T5
+R9	influences	Arg1:T3	Arg2:T1
+R10	influences	Arg1:T3	Arg2:T2
+R11	decreases	Arg1:T3	Arg2:T4
+R12	isAssociatedWith	Arg1:T3	Arg2:T5
+R13	isAssociatedWith	Arg1:T4	Arg2:T1
+R14	isAssociatedWith	Arg1:T4	Arg2:T2
+R15	isAssociatedWith	Arg1:T4	Arg2:T3
+R16	isAssociatedWith	Arg1:T4	Arg2:T5
+R17	influences	Arg1:T5	Arg2:T1
+R18	influences	Arg1:T5	Arg2:T2
+R19	influences	Arg1:T5	Arg2:T3
+R20	influences	Arg1:T5	Arg2:T4

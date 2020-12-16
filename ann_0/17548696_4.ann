@@ -1,0 +1,36 @@
+T1	Phenotype	32 44	skin lesions
+T2	Limited_variation	79 178	polymorphisms in the glutathione S-transferase omega1 and methylenetetrahydrofolate reductase genes
+T3	Phenotype	185 229	percentage of monomethylarsonous acid ( % MM
+T4	Phenotype	231 265	) and dimethylarsinic acid ( % DMA
+T5	Phenotype	266 286	) in urine , and the
+T6	Phenotype	299 325	A to inorganic arsenic and
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T1	Arg2:T6
+R6	influences	Arg1:T2	Arg2:T1
+R7	influences	Arg1:T2	Arg2:T3
+R8	influences	Arg1:T2	Arg2:T4
+R9	influences	Arg1:T2	Arg2:T5
+R10	influences	Arg1:T2	Arg2:T6
+R11	influences	Arg1:T3	Arg2:T1
+R12	isAssociatedWith	Arg1:T3	Arg2:T2
+R13	isAssociatedWith	Arg1:T3	Arg2:T4
+R14	isAssociatedWith	Arg1:T3	Arg2:T5
+R15	influences	Arg1:T3	Arg2:T6
+R16	influences	Arg1:T4	Arg2:T1
+R17	isAssociatedWith	Arg1:T4	Arg2:T2
+R18	isEquivalentTo	Arg1:T4	Arg2:T3
+R19	isAssociatedWith	Arg1:T4	Arg2:T5
+R20	isAssociatedWith	Arg1:T4	Arg2:T6
+R21	influences	Arg1:T5	Arg2:T1
+R22	influences	Arg1:T5	Arg2:T2
+R23	influences	Arg1:T5	Arg2:T3
+R24	isEquivalentTo	Arg1:T5	Arg2:T4
+R25	influences	Arg1:T5	Arg2:T6
+R26	influences	Arg1:T6	Arg2:T1
+R27	isAssociatedWith	Arg1:T6	Arg2:T2
+R28	isAssociatedWith	Arg1:T6	Arg2:T3
+R29	isAssociatedWith	Arg1:T6	Arg2:T4
+R30	isAssociatedWith	Arg1:T6	Arg2:T5

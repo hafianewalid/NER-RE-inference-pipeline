@@ -1,0 +1,16 @@
+T1	Chemical	13 19	GUT-70
+T2	Disease	64 84	MCL with mt- p53 , a
+T3	Disease	122 135	MCL , through
+T4	Phenotype	139 154	90 inhibition .
+R1	treats	Arg1:T1	Arg2:T2
+R2	causes	Arg1:T1	Arg2:T3
+R3	causes	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	causes	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T3	Arg2:T1
+R8	causes	Arg1:T3	Arg2:T2
+R9	causes	Arg1:T3	Arg2:T4
+R10	influences	Arg1:T4	Arg2:T1
+R11	causes	Arg1:T4	Arg2:T2
+R12	isAssociatedWith	Arg1:T4	Arg2:T3

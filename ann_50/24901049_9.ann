@@ -1,0 +1,4 @@
+T1	Chemical	0 167	Dabrafenib decreased the RIP3 -mediated Ser358 phosphorylation of mixed lineage kinase domain-like protein ( MLKL ) and disrupted the interaction between RIP3 and MLKL
+T2	Phenotype	168 169	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isEquivalentTo	Arg1:T2	Arg2:T1

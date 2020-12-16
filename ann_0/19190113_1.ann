@@ -1,0 +1,15 @@
+T1	Limited_variation	0 33	Common variation in the DIO2 gene
+T2	Phenotype	52 76	psychological well-being
+T3	Pharmacodynamic_phenotype	81 136	response to combination thyroxine plus triiodothyronine
+T4	Disease	148 168	hypothyroid patients
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	treats	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T3	Arg2:T2
+R8	treats	Arg1:T3	Arg2:T4
+R9	isAssociatedWith	Arg1:T4	Arg2:T1
+R10	influences	Arg1:T4	Arg2:T2
+R11	influences	Arg1:T4	Arg2:T3

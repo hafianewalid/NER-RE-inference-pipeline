@@ -1,0 +1,4 @@
+T1	Pharmacodynamic_phenotype	0 108	Salmeterol response is not affected by beta2-adrenergic receptor genotype in subjects with persistent asthma
+T2	Disease	109 110	.
+R1	influences	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

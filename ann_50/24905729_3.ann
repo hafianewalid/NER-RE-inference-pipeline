@@ -1,0 +1,13 @@
+T1	Disease	38 81	persistent hepatocellular secretory failure
+T2	Disease	84 94	PHSF ) and
+T3	Gene_or_protein	117 152	pregnane X receptor ( PXR ) agonist
+T4	Chemical	113 167	the pregnane X receptor ( PXR ) agonist , rifampicin .
+R1	influences	Arg1:T1	Arg2:T3
+R2	influences	Arg1:T2	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T4
+R4	treats	Arg1:T3	Arg2:T1
+R5	treats	Arg1:T3	Arg2:T2
+R6	influences	Arg1:T3	Arg2:T4
+R7	treats	Arg1:T4	Arg2:T1
+R8	treats	Arg1:T4	Arg2:T2
+R9	influences	Arg1:T4	Arg2:T3

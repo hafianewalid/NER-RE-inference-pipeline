@@ -1,0 +1,45 @@
+T1	Gene_or_protein	46 64	EGFR and PKAI with
+T2	Chemical	74 98	pharmacological agents ,
+T3	Chemical	107 117	anti- EGFR
+T4	Gene_or_protein	104 126	as anti- EGFR blocking
+T5	Chemical	104 135	as anti- EGFR blocking MAbs and
+T6	Chemical	136 156	cAMP analogues , has
+T7	Pharmacodynamic_phenotype	159 198	cooperative antiproliferative effect on
+T8	Disease	205 216	cancer cell
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T1	Arg2:T6
+R6	isAssociatedWith	Arg1:T1	Arg2:T7
+R7	isAssociatedWith	Arg1:T1	Arg2:T8
+R8	isAssociatedWith	Arg1:T2	Arg2:T1
+R9	treats	Arg1:T2	Arg2:T6
+R10	causes	Arg1:T2	Arg2:T7
+R11	treats	Arg1:T2	Arg2:T8
+R12	isAssociatedWith	Arg1:T3	Arg2:T1
+R13	treats	Arg1:T3	Arg2:T6
+R14	causes	Arg1:T3	Arg2:T7
+R15	treats	Arg1:T3	Arg2:T8
+R16	isAssociatedWith	Arg1:T4	Arg2:T1
+R17	decreases	Arg1:T4	Arg2:T3
+R18	treats	Arg1:T4	Arg2:T8
+R19	isAssociatedWith	Arg1:T5	Arg2:T1
+R20	treats	Arg1:T5	Arg2:T6
+R21	treats	Arg1:T5	Arg2:T8
+R22	causes	Arg1:T6	Arg2:T7
+R23	treats	Arg1:T6	Arg2:T8
+R24	isAssociatedWith	Arg1:T7	Arg2:T1
+R25	influences	Arg1:T7	Arg2:T2
+R26	influences	Arg1:T7	Arg2:T3
+R27	influences	Arg1:T7	Arg2:T4
+R28	influences	Arg1:T7	Arg2:T5
+R29	isAssociatedWith	Arg1:T7	Arg2:T6
+R30	treats	Arg1:T7	Arg2:T8
+R31	isAssociatedWith	Arg1:T8	Arg2:T1
+R32	isAssociatedWith	Arg1:T8	Arg2:T2
+R33	isAssociatedWith	Arg1:T8	Arg2:T3
+R34	isAssociatedWith	Arg1:T8	Arg2:T4
+R35	isAssociatedWith	Arg1:T8	Arg2:T5
+R36	isAssociatedWith	Arg1:T8	Arg2:T6
+R37	causes	Arg1:T8	Arg2:T7

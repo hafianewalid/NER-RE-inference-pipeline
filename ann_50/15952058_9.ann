@@ -1,0 +1,15 @@
+T1	Chemical	0 9	Tamoxifen
+T2	Limited_variation	33 64	UGT2B15 high activity genotypes
+T3	Phenotype	84 101	of recurrence and
+T4	Phenotype	118 119	.
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	increases	Arg1:T2	Arg2:T3
+R6	increases	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T2
+R8	isAssociatedWith	Arg1:T3	Arg2:T4
+R9	isAssociatedWith	Arg1:T4	Arg2:T1
+R10	isAssociatedWith	Arg1:T4	Arg2:T2
+R11	isAssociatedWith	Arg1:T4	Arg2:T3

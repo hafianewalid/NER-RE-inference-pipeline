@@ -1,0 +1,9 @@
+T1	Pharmacodynamic_phenotype	0 17	The response rate
+T2	Disease	35 62	non- EGFR mutant tumors was
+T3	Chemical	99 111	everolimus .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	treats	Arg1:T3	Arg2:T2

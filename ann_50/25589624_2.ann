@@ -1,0 +1,11 @@
+T1	Chemical	10 19	Veliparib
+T2	Chemical	24 38	PARP inhibitor
+T3	Chemical	72 113	in combination with oral cyclophosphamide
+T4	Disease	131 159	BRCA -mutant solid tumors in
+R1	influences	Arg1:T1	Arg2:T3
+R2	treats	Arg1:T1	Arg2:T4
+R3	influences	Arg1:T2	Arg2:T3
+R4	treats	Arg1:T2	Arg2:T4
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2
+R7	treats	Arg1:T3	Arg2:T4

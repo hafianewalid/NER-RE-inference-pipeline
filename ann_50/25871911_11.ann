@@ -1,0 +1,28 @@
+T1	Disease	77 91	ER -positive ,
+T2	Chemical	92 111	endocrine therapy -
+T3	Disease	124 151	HER2 -negative metastases ,
+T4	Pharmacodynamic_phenotype	199 231	sensitivity to 5-fluorouracil is
+T5	Genomic_factor	244 284	deficiencies in chromatin remodeling and
+T6	Genomic_variation	244 317	deficiencies in chromatin remodeling and homologous recombination genes .
+R1	isAssociatedWith	Arg1:T1	Arg2:T4
+R2	isAssociatedWith	Arg1:T1	Arg2:T5
+R3	isAssociatedWith	Arg1:T1	Arg2:T6
+R4	treats	Arg1:T2	Arg2:T1
+R5	treats	Arg1:T2	Arg2:T3
+R6	treats	Arg1:T3	Arg2:T1
+R7	isAssociatedWith	Arg1:T3	Arg2:T4
+R8	isAssociatedWith	Arg1:T3	Arg2:T5
+R9	isAssociatedWith	Arg1:T3	Arg2:T6
+R10	treats	Arg1:T4	Arg2:T1
+R11	increases	Arg1:T4	Arg2:T3
+R12	increases	Arg1:T4	Arg2:T5
+R13	increases	Arg1:T4	Arg2:T6
+R14	treats	Arg1:T5	Arg2:T1
+R15	increases	Arg1:T5	Arg2:T2
+R16	increases	Arg1:T5	Arg2:T3
+R17	increases	Arg1:T5	Arg2:T4
+R18	increases	Arg1:T5	Arg2:T6
+R19	treats	Arg1:T6	Arg2:T1
+R20	influences	Arg1:T6	Arg2:T2
+R21	treats	Arg1:T6	Arg2:T3
+R22	increases	Arg1:T6	Arg2:T4

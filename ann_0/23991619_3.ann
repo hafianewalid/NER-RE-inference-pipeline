@@ -1,0 +1,9 @@
+T1	Phenotype	26 76	overexpressed PML / RARa ( bcr1 ) and WT1 genes in
+T2	Genomic_variation	97 167	Fms-like tyrosine kinase -internal tandem duplication mutation , while
+T3	Genomic_variation	192 247	2 ; 3 ) ( p25 ; q21 ) and t ( 15 ; 17 ) ( q22 ; q21 ) .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

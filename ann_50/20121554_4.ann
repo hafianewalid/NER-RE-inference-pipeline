@@ -1,0 +1,22 @@
+T1	Disease	57 89	acute lymphoblastic leukemia and
+T2	Limited_variation	92 159	homozygous methylenetetrahydrofolate reductase C677T mutation , who
+T3	Pharmacodynamic_phenotype	179 213	methotrexate -induced toxicity and
+T4	Disease	214 246	cerebral venous thrombosis after
+T5	Chemical	282 283	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T2	Arg2:T5
+R8	treats	Arg1:T3	Arg2:T1
+R9	isAssociatedWith	Arg1:T3	Arg2:T2
+R10	influences	Arg1:T3	Arg2:T5
+R11	isAssociatedWith	Arg1:T4	Arg2:T2
+R12	influences	Arg1:T4	Arg2:T3
+R13	influences	Arg1:T4	Arg2:T5
+R14	treats	Arg1:T5	Arg2:T1
+R15	isAssociatedWith	Arg1:T5	Arg2:T2
+R16	isAssociatedWith	Arg1:T5	Arg2:T3
+R17	isAssociatedWith	Arg1:T5	Arg2:T4

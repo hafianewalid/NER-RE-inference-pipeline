@@ -1,0 +1,9 @@
+T1	Limited_variation	22 50	FIP1L1 -PDGFRalpha T674I CEL
+T2	Disease	19 71	of FIP1L1 -PDGFRalpha T674I CEL in blast crisis that
+T3	Chemical	85 108	sorafenib ( Nexavar ) .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	treats	Arg1:T3	Arg2:T1
+R6	treats	Arg1:T3	Arg2:T2

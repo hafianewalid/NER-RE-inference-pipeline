@@ -1,0 +1,4 @@
+T1	Chemical	14 32	VPA / HU treatment
+T2	Phenotype	74 104	surface localization of EGFR .
+R1	decreases	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

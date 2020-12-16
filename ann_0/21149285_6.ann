@@ -1,0 +1,24 @@
+T1	Limited_variation	35 48	HLA-A alleles
+T2	Pharmacodynamic_phenotype	92 100	cADRs by
+T3	Chemical	121 127	Z ( CB
+T4	Haplotype	169 189	A * 3101 was present
+T5	Pharmacodynamic_phenotype	236 263	induced cADRs , but in only
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T2	Arg2:T1
+R6	influences	Arg1:T2	Arg2:T3
+R7	isAssociatedWith	Arg1:T2	Arg2:T4
+R8	isAssociatedWith	Arg1:T2	Arg2:T5
+R9	causes	Arg1:T3	Arg2:T2
+R10	isAssociatedWith	Arg1:T3	Arg2:T4
+R11	treats	Arg1:T3	Arg2:T5
+R12	isAssociatedWith	Arg1:T4	Arg2:T1
+R13	influences	Arg1:T4	Arg2:T2
+R14	influences	Arg1:T4	Arg2:T3
+R15	influences	Arg1:T4	Arg2:T5
+R16	isAssociatedWith	Arg1:T5	Arg2:T1
+R17	isAssociatedWith	Arg1:T5	Arg2:T2
+R18	influences	Arg1:T5	Arg2:T3
+R19	isAssociatedWith	Arg1:T5	Arg2:T4

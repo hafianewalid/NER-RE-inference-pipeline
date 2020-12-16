@@ -1,0 +1,14 @@
+T1	Chemical	81 93	temozolomide
+T2	Phenotype	127 138	survival in
+T3	Genomic_variation	202 217	1p/19q analyses
+T4	Phenotype	227 256	promotor methylation status .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1
+R3	isAssociatedWith	Arg1:T2	Arg2:T3
+R4	isAssociatedWith	Arg1:T2	Arg2:T4
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2
+R7	influences	Arg1:T3	Arg2:T4
+R8	influences	Arg1:T4	Arg2:T1
+R9	influences	Arg1:T4	Arg2:T2
+R10	isAssociatedWith	Arg1:T4	Arg2:T3

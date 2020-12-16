@@ -1,0 +1,9 @@
+T1	Phenotype	26 99	hypermethylation of the promoter of the dopamine transporter ( DAT ) gene
+T2	Disease	131 153	alcohol dependence and
+T3	Disease	181 198	alcohol craving .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

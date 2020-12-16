@@ -1,0 +1,4 @@
+T1	Pharmacodynamic_phenotype	18 59	safety of spinosad and milbemycin 5-oxime
+T2	Limited_variation	100 120	MDR1 gene mutation .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

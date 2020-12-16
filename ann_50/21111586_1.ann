@@ -1,0 +1,25 @@
+T1	Chemical	0 20	A methylene chloride
+T2	Chemical	33 51	Saururus chinensis
+T3	Phenotype	82 108	activation of caspase-3 in
+T4	Disease	109 121	prostate and
+T5	Disease	122 141	breast cancer cells
+R1	influences	Arg1:T1	Arg2:T2
+R2	causes	Arg1:T1	Arg2:T3
+R3	causes	Arg1:T1	Arg2:T4
+R4	causes	Arg1:T1	Arg2:T5
+R5	causes	Arg1:T2	Arg2:T1
+R6	causes	Arg1:T2	Arg2:T3
+R7	causes	Arg1:T2	Arg2:T4
+R8	causes	Arg1:T2	Arg2:T5
+R9	causes	Arg1:T3	Arg2:T1
+R10	causes	Arg1:T3	Arg2:T2
+R11	causes	Arg1:T3	Arg2:T4
+R12	causes	Arg1:T3	Arg2:T5
+R13	isAssociatedWith	Arg1:T4	Arg2:T1
+R14	isAssociatedWith	Arg1:T4	Arg2:T2
+R15	isAssociatedWith	Arg1:T4	Arg2:T3
+R16	isAssociatedWith	Arg1:T4	Arg2:T5
+R17	isAssociatedWith	Arg1:T5	Arg2:T1
+R18	isAssociatedWith	Arg1:T5	Arg2:T2
+R19	causes	Arg1:T5	Arg2:T3
+R20	isAssociatedWith	Arg1:T5	Arg2:T4

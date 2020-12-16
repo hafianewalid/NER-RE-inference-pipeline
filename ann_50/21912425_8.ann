@@ -1,0 +1,4 @@
+T1	Limited_variation	19 28	rs9263726
+T2	Pharmacodynamic_phenotype	61 103	allopurinol -related SJS / TEN in Japanese
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

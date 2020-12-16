@@ -1,0 +1,8 @@
+T1	Limited_variation	11 23	mutated IDH1
+T2	Chemical	54 61	NADPH ,
+T3	Pharmacodynamic_phenotype	83 100	NADPH levels even
+R1	influences	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	decreases	Arg1:T2	Arg2:T3
+R5	decreases	Arg1:T3	Arg2:T2

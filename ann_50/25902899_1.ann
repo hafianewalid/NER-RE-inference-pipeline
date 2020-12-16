@@ -1,0 +1,10 @@
+T1	Chemical	23 47	pazopanib and everolimus
+T2	Limited_variation	51 95	PIK3CA mutation positive/ PTEN loss patients
+T3	Disease	110 122	solid tumors
+T4	Pharmacodynamic_phenotype	110 155	solid tumors refractory to standard therapy .
+R1	influences	Arg1:T1	Arg2:T2
+R2	treats	Arg1:T1	Arg2:T3
+R3	treats	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T4
+R6	treats	Arg1:T4	Arg2:T3

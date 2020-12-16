@@ -1,0 +1,22 @@
+T1	Haplotype	0 24	The CYP2C19 * 2 genotype
+T2	Disease	74 86	ST following
+T3	Disease	87 117	coronary stent placement among
+T4	Disease	140 173	coronary artery disease receiving
+T5	Chemical	186 187	.
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	treats	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T2	Arg2:T5
+R8	isAssociatedWith	Arg1:T3	Arg2:T1
+R9	isAssociatedWith	Arg1:T3	Arg2:T2
+R10	treats	Arg1:T3	Arg2:T4
+R11	influences	Arg1:T3	Arg2:T5
+R12	isAssociatedWith	Arg1:T4	Arg2:T1
+R13	treats	Arg1:T4	Arg2:T5
+R14	influences	Arg1:T5	Arg2:T1
+R15	influences	Arg1:T5	Arg2:T2
+R16	influences	Arg1:T5	Arg2:T3
+R17	influences	Arg1:T5	Arg2:T4

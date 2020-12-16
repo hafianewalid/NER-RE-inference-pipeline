@@ -1,0 +1,8 @@
+T1	Haplotype	69 102	CHRNA4 haplotype , GCTATA , which
+T2	Disease	170 191	nicotine addiction as
+T3	Phenotype	328 331	= -
+R1	decreases	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	decreases	Arg1:T2	Arg2:T3
+R4	isAssociatedWith	Arg1:T3	Arg2:T1
+R5	decreases	Arg1:T3	Arg2:T2

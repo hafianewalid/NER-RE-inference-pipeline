@@ -1,0 +1,9 @@
+T1	Phenotype	58 74	suicide attempts
+T2	Limited_variation	83 100	5-HTTLPR S allele
+T3	Disease	104 131	alcohol -dependent subjects
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

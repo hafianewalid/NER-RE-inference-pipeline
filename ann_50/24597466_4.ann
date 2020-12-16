@@ -1,0 +1,32 @@
+T1	Haplotype	28 41	HLA-B * 15:02
+T2	Pharmacodynamic_phenotype	79 172	Z -induced Stevens-Johnson syndrome / toxic epidermal necrolysis ( SJS / TEN ) in populations
+T3	Limited_variation	183 202	B * 15:02 is common
+T4	Pharmacodynamic_phenotype	218 256	induced hypersensitivity syndrome ( HS
+T5	Pharmacodynamic_phenotype	258 266	) or mac
+T6	Disease	266 288	ulopapular exanthema (
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T1	Arg2:T4
+R4	increases	Arg1:T1	Arg2:T5
+R5	increases	Arg1:T1	Arg2:T6
+R6	isAssociatedWith	Arg1:T2	Arg2:T1
+R7	isAssociatedWith	Arg1:T2	Arg2:T3
+R8	influences	Arg1:T3	Arg2:T1
+R9	increases	Arg1:T3	Arg2:T2
+R10	influences	Arg1:T3	Arg2:T4
+R11	influences	Arg1:T3	Arg2:T5
+R12	isAssociatedWith	Arg1:T4	Arg2:T1
+R13	isAssociatedWith	Arg1:T4	Arg2:T2
+R14	isAssociatedWith	Arg1:T4	Arg2:T3
+R15	isAssociatedWith	Arg1:T4	Arg2:T5
+R16	isAssociatedWith	Arg1:T4	Arg2:T6
+R17	isAssociatedWith	Arg1:T5	Arg2:T1
+R18	isAssociatedWith	Arg1:T5	Arg2:T2
+R19	isAssociatedWith	Arg1:T5	Arg2:T3
+R20	isEquivalentTo	Arg1:T5	Arg2:T4
+R21	isAssociatedWith	Arg1:T5	Arg2:T6
+R22	isAssociatedWith	Arg1:T6	Arg2:T1
+R23	isAssociatedWith	Arg1:T6	Arg2:T2
+R24	isAssociatedWith	Arg1:T6	Arg2:T3
+R25	isAssociatedWith	Arg1:T6	Arg2:T4
+R26	isEquivalentTo	Arg1:T6	Arg2:T5

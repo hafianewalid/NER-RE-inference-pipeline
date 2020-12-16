@@ -1,0 +1,16 @@
+T1	Disease	13 35	Breast cancer patients
+T2	Phenotype	51 78	reduced CYP2D6 activity and
+T3	Pharmacodynamic_phenotype	96 116	endoxifen levels may
+T4	Chemical	135 154	tamoxifen treatment
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	treats	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	influences	Arg1:T3	Arg2:T4
+R10	treats	Arg1:T4	Arg2:T1
+R11	isAssociatedWith	Arg1:T4	Arg2:T2
+R12	influences	Arg1:T4	Arg2:T3

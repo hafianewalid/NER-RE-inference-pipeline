@@ -1,0 +1,9 @@
+T1	Genomic_variation	14 34	nonfunctional ICAM-1
+T2	Phenotype	103 123	antitumor immunity ,
+T3	Chemical	148 155	DMXAA .
+R1	causes	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	causes	Arg1:T2	Arg2:T1
+R4	causes	Arg1:T2	Arg2:T3
+R5	treats	Arg1:T3	Arg2:T1
+R6	causes	Arg1:T3	Arg2:T2
