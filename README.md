@@ -20,11 +20,14 @@ The output annotation will be created in the brat format.
 ### Download Models
 
 NER-Model (SciBERT uncased token classifier for NER)
+
 `$ gdown https://drive.google.com/uc?id=1nwq1BLRv5lruhA0R_jerm2OGxQGnFGx7`
 
 RE-Model (SciBERT-MCNN-segmentation for RE)
+
 `$ gdown https://drive.google.com/uc?id=1XB0AriPdZUNiJF4FJ3B2TR1Jfq0nWPVc`
 
 ### Inference Exemple 
-`$ python main.py -input data/PGxCorpus -output PGxAnnotation_77 -conf_threshold 77'
+
+`$ python main.py -input data/PGxCorpus -output PGxAnnotation_77 -conf_threshold 77`
 
