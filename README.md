@@ -31,3 +31,17 @@ RE-Model (SciBERT-MCNN-segmentation for RE)
 
 `$ python main.py -input data/PGxCorpus -output PGxAnnotation_77 -conf_threshold 77`
 
+For exemple the annotation for the file 10585223_5.txt is in 10585223_5.ann file and should be as follows :
+
+```
+T1	Pharmacokinetic_phenotype	0 33	Brain concentration-time profiles
+T2	Limited_variation	37 84	mdr1a ( + / + ) and mdr1a ( - / - ) mice showed
+T3	Pharmacokinetic_phenotype	160 180	oxin accumulation in
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2
+```
+
