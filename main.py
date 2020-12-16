@@ -23,7 +23,7 @@ parser.add_argument('-conf_threshold', default=0, type=int, choices=range(0,101)
 param = parser.parse_args()
 data_path= param.data_path
 output_path= param.outputs_path
-c_threshold=param.c_threshold
+c_threshold=param.c_threshold*0.01
 
 use_gpu = torch.cuda.is_available()
 if use_gpu:

@@ -590,8 +590,8 @@ class Bert_finetuning_CNN_Entity(nn.Module):
             a3.append(activity_layers[i, e2end:, :])
 
             if a2[-1].size()[0] == 0:
-                #a2[-1] = torch.FloatTensor([[0.] * (768 * 1)] * 3).cuda()
-                a2[-1] = torch.FloatTensor([[0.] * (768 * 1)] * 3)
+                a2[-1] = torch.FloatTensor([[0.] * (768 * 1)] * 3).cuda()
+                #a2[-1] = torch.FloatTensor([[0.] * (768 * 1)] * 3)
             '''
             print(a1[-1].size())
             print(e1[-1].size())
