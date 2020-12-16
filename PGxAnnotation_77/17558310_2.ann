@@ -1,0 +1,22 @@
+T1	Limited_variation	0 59	The 1976C>T polymorphism in the adenosine A2A receptor gene
+T2	Gene_or_protein	62 71	ADORA2A )
+T3	Pharmacodynamic_phenotype	86 111	psychological response to
+T4	Gene_or_protein	134 163	adenosine receptor antagonist
+T5	Chemical	134 174	adenosine receptor antagonist caffeine .
+R1	influences	Arg1:T1	Arg2:T3
+R2	influences	Arg1:T1	Arg2:T4
+R3	influences	Arg1:T1	Arg2:T5
+R4	isEquivalentTo	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T2	Arg2:T5
+R8	influences	Arg1:T3	Arg2:T1
+R9	influences	Arg1:T3	Arg2:T2
+R10	influences	Arg1:T3	Arg2:T4
+R11	influences	Arg1:T3	Arg2:T5
+R12	influences	Arg1:T4	Arg2:T3
+R13	influences	Arg1:T4	Arg2:T5
+R14	influences	Arg1:T5	Arg2:T1
+R15	influences	Arg1:T5	Arg2:T2
+R16	influences	Arg1:T5	Arg2:T3
+R17	influences	Arg1:T5	Arg2:T4

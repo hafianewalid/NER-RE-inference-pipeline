@@ -1,0 +1,8 @@
+T1	Haplotype	82 102	ADH2 * 2 , an allele
+T2	Gene_or_protein	109 135	alcohol dehydrogenase gene
+T3	Phenotype	158 174	heavy drinking .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	decreases	Arg1:T2	Arg2:T3
+R4	isAssociatedWith	Arg1:T3	Arg2:T1
+R5	isAssociatedWith	Arg1:T3	Arg2:T2

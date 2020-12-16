@@ -1,0 +1,4 @@
+T1	Pharmacodynamic_phenotype	137 161	warfarin stable dose and
+T2	Limited_variation	162 201	genetic variants in VKORC1 and CYP2C9 .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

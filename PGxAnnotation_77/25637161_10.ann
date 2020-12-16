@@ -1,0 +1,6 @@
+T1	Phenotype	7 44	overexpression of antiapoptotic BCL-2
+T2	Pharmacodynamic_phenotype	81 113	BEZ235 / CQ -induced apoptosis ,
+T3	Pharmacodynamic_phenotype	195 225	235 / CQ -induced cell death .
+R1	decreases	Arg1:T1	Arg2:T2
+R2	causes	Arg1:T3	Arg2:T1
+R3	decreases	Arg1:T3	Arg2:T2

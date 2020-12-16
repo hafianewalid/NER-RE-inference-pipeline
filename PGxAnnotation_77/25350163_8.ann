@@ -1,0 +1,88 @@
+T1	Disease	39 76	F508del - CFTR homozygous CF patients
+T2	Chemical	83 126	combination of cysteamine and EGCG restored
+T3	Phenotype	127 160	BECN1 , reduced SQSTM1 levels and
+T4	Phenotype	170 188	CFTR function from
+T5	Pharmacodynamic_phenotype	253 295	chloride concentrations in sweat , as well
+T6	Phenotype	323 375	abundance of TNF / TNF-alpha ( tumor necrosis factor
+T7	Gene_or_protein	323 387	abundance of TNF / TNF-alpha ( tumor necrosis factor ) and CXCL8
+T8	Gene_or_protein	390 436	chemokine [C-X-C motif] ligand 8 ) transcripts
+T9	Phenotype	437 445	in nasal
+T10	Phenotype	473 501	protein levels in the sputum
+R1	influences	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T1	Arg2:T4
+R4	decreases	Arg1:T1	Arg2:T5
+R5	decreases	Arg1:T1	Arg2:T6
+R6	decreases	Arg1:T1	Arg2:T7
+R7	decreases	Arg1:T1	Arg2:T8
+R8	isAssociatedWith	Arg1:T1	Arg2:T9
+R9	decreases	Arg1:T1	Arg2:T10
+R10	treats	Arg1:T2	Arg2:T1
+R11	increases	Arg1:T2	Arg2:T4
+R12	decreases	Arg1:T2	Arg2:T5
+R13	decreases	Arg1:T2	Arg2:T6
+R14	decreases	Arg1:T2	Arg2:T7
+R15	decreases	Arg1:T2	Arg2:T8
+R16	decreases	Arg1:T2	Arg2:T9
+R17	decreases	Arg1:T2	Arg2:T10
+R18	treats	Arg1:T3	Arg2:T1
+R19	influences	Arg1:T3	Arg2:T2
+R20	increases	Arg1:T3	Arg2:T4
+R21	decreases	Arg1:T3	Arg2:T5
+R22	decreases	Arg1:T3	Arg2:T6
+R23	decreases	Arg1:T3	Arg2:T7
+R24	decreases	Arg1:T3	Arg2:T8
+R25	decreases	Arg1:T3	Arg2:T10
+R26	decreases	Arg1:T4	Arg2:T5
+R27	decreases	Arg1:T4	Arg2:T6
+R28	decreases	Arg1:T4	Arg2:T7
+R29	decreases	Arg1:T4	Arg2:T8
+R30	isAssociatedWith	Arg1:T4	Arg2:T9
+R31	decreases	Arg1:T4	Arg2:T10
+R32	isAssociatedWith	Arg1:T5	Arg2:T1
+R33	influences	Arg1:T5	Arg2:T2
+R34	isAssociatedWith	Arg1:T5	Arg2:T3
+R35	increases	Arg1:T5	Arg2:T4
+R36	decreases	Arg1:T5	Arg2:T6
+R37	decreases	Arg1:T5	Arg2:T7
+R38	decreases	Arg1:T5	Arg2:T8
+R39	isAssociatedWith	Arg1:T5	Arg2:T9
+R40	decreases	Arg1:T5	Arg2:T10
+R41	isAssociatedWith	Arg1:T6	Arg2:T1
+R42	isAssociatedWith	Arg1:T6	Arg2:T3
+R43	isAssociatedWith	Arg1:T6	Arg2:T4
+R44	decreases	Arg1:T6	Arg2:T5
+R45	decreases	Arg1:T6	Arg2:T8
+R46	isAssociatedWith	Arg1:T6	Arg2:T9
+R47	decreases	Arg1:T6	Arg2:T10
+R48	isAssociatedWith	Arg1:T7	Arg2:T1
+R49	isAssociatedWith	Arg1:T7	Arg2:T2
+R50	isAssociatedWith	Arg1:T7	Arg2:T3
+R51	isAssociatedWith	Arg1:T7	Arg2:T4
+R52	decreases	Arg1:T7	Arg2:T5
+R53	isAssociatedWith	Arg1:T7	Arg2:T6
+R54	isAssociatedWith	Arg1:T7	Arg2:T8
+R55	isAssociatedWith	Arg1:T7	Arg2:T9
+R56	decreases	Arg1:T7	Arg2:T10
+R57	isAssociatedWith	Arg1:T8	Arg2:T3
+R58	decreases	Arg1:T8	Arg2:T5
+R59	isEquivalentTo	Arg1:T8	Arg2:T6
+R60	isEquivalentTo	Arg1:T8	Arg2:T7
+R61	isEquivalentTo	Arg1:T8	Arg2:T9
+R62	decreases	Arg1:T8	Arg2:T10
+R63	isAssociatedWith	Arg1:T9	Arg2:T1
+R64	isAssociatedWith	Arg1:T9	Arg2:T2
+R65	isAssociatedWith	Arg1:T9	Arg2:T3
+R66	isAssociatedWith	Arg1:T9	Arg2:T4
+R67	decreases	Arg1:T9	Arg2:T5
+R68	decreases	Arg1:T9	Arg2:T6
+R69	isEquivalentTo	Arg1:T9	Arg2:T8
+R70	isAssociatedWith	Arg1:T9	Arg2:T10
+R71	isAssociatedWith	Arg1:T10	Arg2:T1
+R72	isAssociatedWith	Arg1:T10	Arg2:T2
+R73	isAssociatedWith	Arg1:T10	Arg2:T3
+R74	decreases	Arg1:T10	Arg2:T5
+R75	decreases	Arg1:T10	Arg2:T6
+R76	decreases	Arg1:T10	Arg2:T7
+R77	isAssociatedWith	Arg1:T10	Arg2:T8
+R78	isAssociatedWith	Arg1:T10	Arg2:T9

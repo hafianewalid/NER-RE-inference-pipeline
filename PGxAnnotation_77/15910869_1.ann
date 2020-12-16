@@ -1,0 +1,9 @@
+T1	Limited_variation	0 57	A promoter polymorphism in cholesterol 7alpha-hydroxylase
+T2	Limited_variation	73 101	apolipoprotein E genotype in
+T3	Pharmacodynamic_phenotype	106 145	LDL-lowering response to atorvastatin .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

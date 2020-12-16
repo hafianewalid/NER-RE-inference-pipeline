@@ -1,0 +1,32 @@
+T1	Haplotype	13 26	DPYD * 5 gene
+T2	Phenotype	59 83	DPYD enzyme activity and
+T3	Pharmacokinetic_phenotype	84 106	5-FU dyes metabolism ,
+T4	Pharmacokinetic_phenotype	132 156	accumulation of 5-FU and
+T5	Pharmacodynamic_phenotype	157 185	chemotherapeutic toxicity in
+T6	Disease	200 231	gastric and colonic carcinoma .
+R1	decreases	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	causes	Arg1:T1	Arg2:T4
+R4	causes	Arg1:T1	Arg2:T5
+R5	causes	Arg1:T1	Arg2:T6
+R6	isAssociatedWith	Arg1:T2	Arg2:T1
+R7	decreases	Arg1:T2	Arg2:T3
+R8	isAssociatedWith	Arg1:T2	Arg2:T4
+R9	isAssociatedWith	Arg1:T2	Arg2:T5
+R10	isAssociatedWith	Arg1:T3	Arg2:T1
+R11	isAssociatedWith	Arg1:T3	Arg2:T2
+R12	isAssociatedWith	Arg1:T3	Arg2:T4
+R13	isAssociatedWith	Arg1:T3	Arg2:T5
+R14	causes	Arg1:T4	Arg2:T1
+R15	decreases	Arg1:T4	Arg2:T2
+R16	decreases	Arg1:T4	Arg2:T3
+R17	causes	Arg1:T4	Arg2:T5
+R18	treats	Arg1:T4	Arg2:T6
+R19	isAssociatedWith	Arg1:T5	Arg2:T1
+R20	decreases	Arg1:T5	Arg2:T2
+R21	decreases	Arg1:T5	Arg2:T3
+R22	causes	Arg1:T5	Arg2:T4
+R23	treats	Arg1:T5	Arg2:T6
+R24	isAssociatedWith	Arg1:T6	Arg2:T1
+R25	decreases	Arg1:T6	Arg2:T2
+R26	decreases	Arg1:T6	Arg2:T3

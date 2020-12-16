@@ -1,0 +1,4 @@
+T1	Chemical	31 37	VX-770
+T2	Gene_or_protein	55 72	CFTR incorporated
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

@@ -1,0 +1,31 @@
+T1	Haplotype	51 105	CYP2D6 alleles * 4 , * 5 , * 10 , * 41 -all associated
+T2	Pharmacodynamic_phenotype	111 161	impaired formation of antiestrogenic metabolites -
+T3	Phenotype	184 205	recurrences of breast
+T4	Disease	184 222	recurrences of breast cancer , shorter
+T5	Phenotype	223 252	relapse-free periods ( hazard
+T6	Phenotype	333 364	survival rates ( HR , 1.89 ; 95
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T1	Arg2:T4
+R4	decreases	Arg1:T1	Arg2:T5
+R5	decreases	Arg1:T1	Arg2:T6
+R6	increases	Arg1:T2	Arg2:T3
+R7	increases	Arg1:T2	Arg2:T4
+R8	decreases	Arg1:T2	Arg2:T5
+R9	decreases	Arg1:T2	Arg2:T6
+R10	isAssociatedWith	Arg1:T3	Arg2:T2
+R11	decreases	Arg1:T3	Arg2:T5
+R12	decreases	Arg1:T3	Arg2:T6
+R13	isAssociatedWith	Arg1:T4	Arg2:T2
+R14	decreases	Arg1:T4	Arg2:T5
+R15	decreases	Arg1:T4	Arg2:T6
+R16	isAssociatedWith	Arg1:T5	Arg2:T1
+R17	isAssociatedWith	Arg1:T5	Arg2:T2
+R18	isAssociatedWith	Arg1:T5	Arg2:T3
+R19	isAssociatedWith	Arg1:T5	Arg2:T4
+R20	decreases	Arg1:T5	Arg2:T6
+R21	isAssociatedWith	Arg1:T6	Arg2:T1
+R22	isAssociatedWith	Arg1:T6	Arg2:T2
+R23	isAssociatedWith	Arg1:T6	Arg2:T3
+R24	isAssociatedWith	Arg1:T6	Arg2:T4
+R25	decreases	Arg1:T6	Arg2:T5

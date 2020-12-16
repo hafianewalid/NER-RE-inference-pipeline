@@ -1,0 +1,53 @@
+T1	Limited_variation	66 156	Cholesteryl Ester Transfer Protein polymorphism , Stromelysin-1 polymorphism , -455G/A and
+T2	Limited_variation	160 210	I polymorphisms of the beta-fibrinogen gene , apoE
+T3	Gene_or_protein	160 217	I polymorphisms of the beta-fibrinogen gene , apoE4 , Asp
+T4	Limited_variation	217 269	(9)Asn mutation in the lipoprotein lipase gene , the
+T5	Limited_variation	275 325	CT polymorphism in the hepatic lipase gene and the
+T6	Limited_variation	330 360	deletion type gene ) that have
+T7	Pharmacodynamic_phenotype	392 414	statins in the general
+T8	Limited_variation	426 427	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T1	Arg2:T6
+R6	influences	Arg1:T1	Arg2:T7
+R7	isAssociatedWith	Arg1:T1	Arg2:T8
+R8	isAssociatedWith	Arg1:T2	Arg2:T1
+R9	isAssociatedWith	Arg1:T2	Arg2:T3
+R10	isAssociatedWith	Arg1:T2	Arg2:T4
+R11	influences	Arg1:T2	Arg2:T6
+R12	influences	Arg1:T2	Arg2:T7
+R13	influences	Arg1:T2	Arg2:T8
+R14	isAssociatedWith	Arg1:T3	Arg2:T1
+R15	isAssociatedWith	Arg1:T3	Arg2:T2
+R16	influences	Arg1:T3	Arg2:T6
+R17	influences	Arg1:T3	Arg2:T7
+R18	influences	Arg1:T3	Arg2:T8
+R19	isAssociatedWith	Arg1:T4	Arg2:T2
+R20	influences	Arg1:T4	Arg2:T5
+R21	influences	Arg1:T4	Arg2:T6
+R22	influences	Arg1:T4	Arg2:T7
+R23	influences	Arg1:T4	Arg2:T8
+R24	influences	Arg1:T5	Arg2:T1
+R25	influences	Arg1:T5	Arg2:T2
+R26	influences	Arg1:T5	Arg2:T3
+R27	influences	Arg1:T5	Arg2:T4
+R28	influences	Arg1:T5	Arg2:T6
+R29	influences	Arg1:T5	Arg2:T7
+R30	influences	Arg1:T5	Arg2:T8
+R31	influences	Arg1:T6	Arg2:T1
+R32	influences	Arg1:T6	Arg2:T2
+R33	influences	Arg1:T6	Arg2:T3
+R34	influences	Arg1:T6	Arg2:T4
+R35	influences	Arg1:T6	Arg2:T5
+R36	influences	Arg1:T6	Arg2:T7
+R37	influences	Arg1:T6	Arg2:T8
+R38	influences	Arg1:T7	Arg2:T8
+R39	isAssociatedWith	Arg1:T8	Arg2:T1
+R40	isAssociatedWith	Arg1:T8	Arg2:T2
+R41	isAssociatedWith	Arg1:T8	Arg2:T3
+R42	isAssociatedWith	Arg1:T8	Arg2:T4
+R43	influences	Arg1:T8	Arg2:T5
+R44	influences	Arg1:T8	Arg2:T6
+R45	influences	Arg1:T8	Arg2:T7

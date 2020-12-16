@@ -1,0 +1,15 @@
+T1	Genomic_variation	18 38	CREB -haplodeficient
+T2	Phenotype	66 92	preference for ethanol but
+T3	Phenotype	101 117	sucrose solution
+T4	Genomic_variation	123 134	wild-type (
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T4
+R6	isAssociatedWith	Arg1:T3	Arg2:T1
+R7	increases	Arg1:T3	Arg2:T2
+R8	isAssociatedWith	Arg1:T3	Arg2:T4
+R9	influences	Arg1:T4	Arg2:T1
+R10	influences	Arg1:T4	Arg2:T2
+R11	influences	Arg1:T4	Arg2:T3

@@ -1,0 +1,8 @@
+T1	Disease	0 22	Breast cancer patients
+T2	Limited_variation	54 92	Asp299Gly polymorphism of TLR4 relapse
+T3	Chemical	118 153	anthracycline -based chemotherapy .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	treats	Arg1:T3	Arg2:T1

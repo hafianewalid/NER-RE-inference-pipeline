@@ -1,0 +1,8 @@
+T1	Limited_variation	20 40	KIT exon 8 mutations
+T2	Phenotype	83 100	kinase activation
+T3	Pharmacodynamic_phenotype	146 174	concentrations of imatinib .
+R1	causes	Arg1:T1	Arg2:T2
+R2	causes	Arg1:T1	Arg2:T3
+R3	causes	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	decreases	Arg1:T3	Arg2:T2

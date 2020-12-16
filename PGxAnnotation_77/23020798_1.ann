@@ -1,0 +1,27 @@
+T1	Limited_variation	0 22	Polymorphisms in ERCC1
+T2	Limited_variation	25 29	GSTs
+T3	Limited_variation	39 44	MTHFR
+T4	Phenotype	53 81	clinical outcomes of gastric
+T5	Disease	53 97	clinical outcomes of gastric cancer patients
+T6	Chemical	111 147	platinum /5-Fu -based chemotherapy :
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T1	Arg2:T5
+R5	influences	Arg1:T1	Arg2:T6
+R6	isAssociatedWith	Arg1:T2	Arg2:T1
+R7	isAssociatedWith	Arg1:T2	Arg2:T3
+R8	influences	Arg1:T2	Arg2:T4
+R9	influences	Arg1:T2	Arg2:T5
+R10	isAssociatedWith	Arg1:T3	Arg2:T1
+R11	isAssociatedWith	Arg1:T3	Arg2:T2
+R12	influences	Arg1:T3	Arg2:T4
+R13	influences	Arg1:T3	Arg2:T5
+R14	influences	Arg1:T3	Arg2:T6
+R15	isAssociatedWith	Arg1:T4	Arg2:T1
+R16	isAssociatedWith	Arg1:T4	Arg2:T2
+R17	isAssociatedWith	Arg1:T4	Arg2:T3
+R18	isAssociatedWith	Arg1:T5	Arg2:T1
+R19	isAssociatedWith	Arg1:T5	Arg2:T2
+R20	isAssociatedWith	Arg1:T5	Arg2:T3
+R21	influences	Arg1:T6	Arg2:T4

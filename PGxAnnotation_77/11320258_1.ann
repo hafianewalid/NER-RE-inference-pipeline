@@ -1,0 +1,4 @@
+T1	Genomic_variation	63 104	serotonin transporter knockouts eliminate
+T2	Phenotype	105 131	cocaine place preference .
+R1	influences	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

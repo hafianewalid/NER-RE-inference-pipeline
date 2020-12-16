@@ -1,0 +1,11 @@
+T1	Limited_variation	30 78	polymorphisms in the dopamine receptor genes and
+T2	Limited_variation	79 117	in the dopamine transporter gene ( DAT
+T3	Gene_or_protein	79 123	in the dopamine transporter gene ( DAT ) are
+T4	Pharmacodynamic_phenotype	138 167	adverse effects of L - dopa .
+R1	influences	Arg1:T1	Arg2:T3
+R2	influences	Arg1:T1	Arg2:T4
+R3	isEquivalentTo	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T2	Arg2:T4
+R6	influences	Arg1:T3	Arg2:T2
+R7	influences	Arg1:T3	Arg2:T4

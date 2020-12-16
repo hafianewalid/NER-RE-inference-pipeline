@@ -1,0 +1,8 @@
+T1	Limited_variation	18 31	HFE mutations
+T2	Chemical	34 45	anastrozole
+T3	Disease	144 170	breast cancer is discussed
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	treats	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1

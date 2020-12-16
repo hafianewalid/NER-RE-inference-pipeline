@@ -1,0 +1,15 @@
+T1	Limited_variation	63 90	DA D4 receptor ( DRD4 ) and
+T2	Limited_variation	95 145	serotonin transporter ( 5-HTT ) genotype and their
+T3	Disease	172 183	alcohol and
+T4	Chemical	184 207	tobacco experimentation
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T2
+R8	influences	Arg1:T3	Arg2:T4
+R9	isAssociatedWith	Arg1:T4	Arg2:T1
+R10	isAssociatedWith	Arg1:T4	Arg2:T2
+R11	influences	Arg1:T4	Arg2:T3

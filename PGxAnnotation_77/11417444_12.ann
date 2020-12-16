@@ -1,0 +1,8 @@
+T1	Chemical	25 37	azathioprine
+T2	Phenotype	44 57	TPMT activity
+T3	Chemical	124 140	azathioprine was
+R1	increases	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1
+R3	isAssociatedWith	Arg1:T2	Arg2:T3
+R4	influences	Arg1:T3	Arg2:T1
+R5	increases	Arg1:T3	Arg2:T2

@@ -1,0 +1,9 @@
+T1	Gene_or_protein	27 30	CDT
+T2	Disease	47 64	alcohol abuse may
+T3	Limited_variation	134 165	transferrin genetic variants do
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

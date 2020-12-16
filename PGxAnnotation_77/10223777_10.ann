@@ -1,0 +1,23 @@
+T1	Pharmacodynamic_phenotype	39 67	plasma concentration profile
+T2	Pharmacokinetic_phenotype	71 118	urinary alpha-hydroxymetoprolol excretion could
+T3	Limited_variation	148 168	R296C polymorphism (
+T4	Haplotype	169 185	CYP2D6 * 1 / CYP
+T5	Haplotype	187 196	6 * 2 ) .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T2	Arg2:T1
+R6	isAssociatedWith	Arg1:T2	Arg2:T3
+R7	isAssociatedWith	Arg1:T2	Arg2:T4
+R8	isAssociatedWith	Arg1:T2	Arg2:T5
+R9	influences	Arg1:T3	Arg2:T1
+R10	influences	Arg1:T3	Arg2:T2
+R11	influences	Arg1:T3	Arg2:T5
+R12	influences	Arg1:T4	Arg2:T1
+R13	influences	Arg1:T4	Arg2:T2
+R14	isEquivalentTo	Arg1:T4	Arg2:T3
+R15	influences	Arg1:T4	Arg2:T5
+R16	influences	Arg1:T5	Arg2:T1
+R17	influences	Arg1:T5	Arg2:T2
+R18	isAssociatedWith	Arg1:T5	Arg2:T4

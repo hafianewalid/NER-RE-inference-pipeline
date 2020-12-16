@@ -1,0 +1,9 @@
+T1	Haplotype	50 67	Cyp3a5 * 1 Donors
+T2	Pharmacodynamic_phenotype	72 106	Need More Doses of Tacrolimus From
+T3	Disease	145 146	.
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

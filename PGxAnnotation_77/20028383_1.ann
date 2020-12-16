@@ -1,0 +1,9 @@
+T1	Chemical	17 45	irinotecan and doxifluridine
+T2	Disease	50 87	metastatic colorectal cancer focusing
+T3	Haplotype	95 119	UGT1A1 * 28 polymorphism
+R1	treats	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

@@ -1,0 +1,3 @@
+T1	Phenotype	22 81	overexpression of the Kv1.5 channel gene ( KCNA5 ) in human
+T2	Pharmacodynamic_phenotype	189 219	sensitive to 4-aminopyridine .
+R1	isAssociatedWith	Arg1:T2	Arg2:T1

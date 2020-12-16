@@ -1,0 +1,7 @@
+T1	Limited_variation	45 82	FCER2 single nucleotide polymorphisms
+T2	Chemical	130 143	budesonide as
+T3	Disease	156 183	Childhood Asthma Management
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	treats	Arg1:T2	Arg2:T3
+R4	influences	Arg1:T3	Arg2:T2

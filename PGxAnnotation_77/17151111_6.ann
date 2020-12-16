@@ -1,0 +1,7 @@
+T1	Limited_variation	15 79	mutation of one of the two N -linked GP2 glycosylation sites was
+T2	Phenotype	106 122	antigenicity and
+T3	Phenotype	123 145	immunogenicity of GP .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T3	Arg2:T1

@@ -1,0 +1,7 @@
+T1	Limited_variation	32 55	GNB3 C825T polymorphism
+T2	Disease	103 120	obese individuals
+T3	Chemical	143 164	sibutramine treatment
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	treats	Arg1:T3	Arg2:T2

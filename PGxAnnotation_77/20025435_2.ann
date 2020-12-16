@@ -1,0 +1,64 @@
+T1	Limited_variation	39 77	polymorphisms in alcohol dehydrogenase
+T2	Gene_or_protein	80 94	ADH2 / ADH1B )
+T3	Limited_variation	78 98	( ADH2 / ADH1B ) and
+T4	Limited_variation	99 128	aldehyde dehydrogenase ( ALDH
+T5	Gene_or_protein	99 131	aldehyde dehydrogenase ( ALDH2 )
+T6	Limited_variation	99 137	aldehyde dehydrogenase ( ALDH2 ) genes
+T7	Disease	142 164	alcohol dependence was
+T8	Disease	234 260	alcohol dependence and 184
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T1	Arg2:T6
+R6	isAssociatedWith	Arg1:T1	Arg2:T7
+R7	isAssociatedWith	Arg1:T1	Arg2:T8
+R8	isEquivalentTo	Arg1:T2	Arg2:T1
+R9	isAssociatedWith	Arg1:T2	Arg2:T3
+R10	isAssociatedWith	Arg1:T2	Arg2:T4
+R11	isAssociatedWith	Arg1:T2	Arg2:T5
+R12	isAssociatedWith	Arg1:T2	Arg2:T6
+R13	isAssociatedWith	Arg1:T2	Arg2:T7
+R14	isAssociatedWith	Arg1:T2	Arg2:T8
+R15	isAssociatedWith	Arg1:T3	Arg2:T1
+R16	isAssociatedWith	Arg1:T3	Arg2:T2
+R17	isAssociatedWith	Arg1:T3	Arg2:T4
+R18	isAssociatedWith	Arg1:T3	Arg2:T5
+R19	isAssociatedWith	Arg1:T3	Arg2:T6
+R20	isAssociatedWith	Arg1:T3	Arg2:T7
+R21	isAssociatedWith	Arg1:T3	Arg2:T8
+R22	isAssociatedWith	Arg1:T4	Arg2:T1
+R23	isAssociatedWith	Arg1:T4	Arg2:T2
+R24	isEquivalentTo	Arg1:T4	Arg2:T3
+R25	isAssociatedWith	Arg1:T4	Arg2:T5
+R26	isAssociatedWith	Arg1:T4	Arg2:T6
+R27	isAssociatedWith	Arg1:T4	Arg2:T7
+R28	isAssociatedWith	Arg1:T4	Arg2:T8
+R29	isAssociatedWith	Arg1:T5	Arg2:T1
+R30	isAssociatedWith	Arg1:T5	Arg2:T2
+R31	isEquivalentTo	Arg1:T5	Arg2:T3
+R32	isAssociatedWith	Arg1:T5	Arg2:T4
+R33	isAssociatedWith	Arg1:T5	Arg2:T6
+R34	isAssociatedWith	Arg1:T5	Arg2:T7
+R35	isAssociatedWith	Arg1:T5	Arg2:T8
+R36	isAssociatedWith	Arg1:T6	Arg2:T1
+R37	isAssociatedWith	Arg1:T6	Arg2:T2
+R38	isEquivalentTo	Arg1:T6	Arg2:T3
+R39	isAssociatedWith	Arg1:T6	Arg2:T4
+R40	isAssociatedWith	Arg1:T6	Arg2:T5
+R41	isAssociatedWith	Arg1:T6	Arg2:T7
+R42	isAssociatedWith	Arg1:T6	Arg2:T8
+R43	isAssociatedWith	Arg1:T7	Arg2:T1
+R44	isAssociatedWith	Arg1:T7	Arg2:T2
+R45	isAssociatedWith	Arg1:T7	Arg2:T3
+R46	isAssociatedWith	Arg1:T7	Arg2:T4
+R47	isAssociatedWith	Arg1:T7	Arg2:T5
+R48	isAssociatedWith	Arg1:T7	Arg2:T6
+R49	isAssociatedWith	Arg1:T7	Arg2:T8
+R50	isAssociatedWith	Arg1:T8	Arg2:T1
+R51	isAssociatedWith	Arg1:T8	Arg2:T2
+R52	isAssociatedWith	Arg1:T8	Arg2:T3
+R53	isAssociatedWith	Arg1:T8	Arg2:T4
+R54	isAssociatedWith	Arg1:T8	Arg2:T5
+R55	isAssociatedWith	Arg1:T8	Arg2:T6
+R56	isAssociatedWith	Arg1:T8	Arg2:T7

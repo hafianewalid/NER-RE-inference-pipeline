@@ -1,0 +1,9 @@
+T1	Chemical	14 22	lycopene
+T2	Phenotype	42 101	expression of costimulatory molecules ( CD80 and CD86 ) and
+T3	Phenotype	102 154	major histocompatibility complex type II molecules .
+R1	decreases	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

@@ -1,0 +1,55 @@
+T1	Chemical	25 33	sirtinol
+T2	Gene_or_protein	44 59	SIRT1 inhibitor
+T3	Genomic_variation	65 87	knocking down SIRT1 by
+T4	Gene_or_protein	108 121	SIRT1 plasmid
+T5	Gene_or_protein	124 147	SIRT1 shRNA ) augmented
+T6	Gene_or_protein	152 165	alpha release
+T7	Gene_or_protein	198 218	SIRT1 may contribute
+T8	Phenotype	226 241	alpha secretion
+R1	decreases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T4
+R3	increases	Arg1:T1	Arg2:T5
+R4	increases	Arg1:T1	Arg2:T6
+R5	decreases	Arg1:T1	Arg2:T7
+R6	causes	Arg1:T1	Arg2:T8
+R7	decreases	Arg1:T2	Arg2:T3
+R8	increases	Arg1:T2	Arg2:T5
+R9	increases	Arg1:T2	Arg2:T6
+R10	decreases	Arg1:T2	Arg2:T7
+R11	causes	Arg1:T2	Arg2:T8
+R12	decreases	Arg1:T3	Arg2:T2
+R13	increases	Arg1:T3	Arg2:T4
+R14	increases	Arg1:T3	Arg2:T5
+R15	increases	Arg1:T3	Arg2:T6
+R16	decreases	Arg1:T3	Arg2:T7
+R17	decreases	Arg1:T4	Arg2:T2
+R18	increases	Arg1:T4	Arg2:T5
+R19	increases	Arg1:T4	Arg2:T6
+R20	decreases	Arg1:T4	Arg2:T7
+R21	causes	Arg1:T4	Arg2:T8
+R22	increases	Arg1:T5	Arg2:T1
+R23	increases	Arg1:T5	Arg2:T3
+R24	isEquivalentTo	Arg1:T5	Arg2:T4
+R25	increases	Arg1:T5	Arg2:T6
+R26	increases	Arg1:T5	Arg2:T8
+R27	isAssociatedWith	Arg1:T6	Arg2:T1
+R28	isAssociatedWith	Arg1:T6	Arg2:T2
+R29	isAssociatedWith	Arg1:T6	Arg2:T3
+R30	isAssociatedWith	Arg1:T6	Arg2:T4
+R31	isAssociatedWith	Arg1:T6	Arg2:T5
+R32	isAssociatedWith	Arg1:T6	Arg2:T7
+R33	causes	Arg1:T6	Arg2:T8
+R34	influences	Arg1:T7	Arg2:T1
+R35	influences	Arg1:T7	Arg2:T2
+R36	influences	Arg1:T7	Arg2:T3
+R37	influences	Arg1:T7	Arg2:T4
+R38	influences	Arg1:T7	Arg2:T5
+R39	influences	Arg1:T7	Arg2:T6
+R40	influences	Arg1:T7	Arg2:T8
+R41	isAssociatedWith	Arg1:T8	Arg2:T1
+R42	isAssociatedWith	Arg1:T8	Arg2:T2
+R43	isAssociatedWith	Arg1:T8	Arg2:T3
+R44	isAssociatedWith	Arg1:T8	Arg2:T4
+R45	isAssociatedWith	Arg1:T8	Arg2:T5
+R46	isAssociatedWith	Arg1:T8	Arg2:T6
+R47	isAssociatedWith	Arg1:T8	Arg2:T7

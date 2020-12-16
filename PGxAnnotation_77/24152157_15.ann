@@ -1,0 +1,15 @@
+T1	Pharmacodynamic_phenotype	34 63	Type B adverse drug reactions
+T2	Pharmacodynamic_phenotype	87 115	allopurinol hypersensitivity
+T3	Pharmacodynamic_phenotype	139 180	oxypurinol -specific T cell response in a
+T4	Haplotype	239 255	B * 58:01 allele
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T3	Arg2:T1
+R8	influences	Arg1:T3	Arg2:T2
+R9	influences	Arg1:T4	Arg2:T1
+R10	influences	Arg1:T4	Arg2:T2
+R11	influences	Arg1:T4	Arg2:T3

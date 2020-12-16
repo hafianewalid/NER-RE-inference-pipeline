@@ -1,0 +1,7 @@
+T1	Pharmacokinetic_phenotype	46 68	oseltamivir activation
+T2	Limited_variation	182 199	1 variants , such
+T3	Limited_variation	213 214	.
+R1	influences	Arg1:T2	Arg2:T1
+R2	influences	Arg1:T2	Arg2:T3
+R3	influences	Arg1:T3	Arg2:T1
+R4	isAssociatedWith	Arg1:T3	Arg2:T2

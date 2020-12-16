@@ -1,0 +1,19 @@
+T1	Genomic_variation	32 44	11q deletion
+T2	Limited_variation	49 61	ATM mutation
+T3	Disease	65 71	CLL is
+T4	Phenotype	139 157	survival following
+T5	Chemical	184 222	alkylating agents and purine analogs .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T4
+R3	influences	Arg1:T1	Arg2:T5
+R4	influences	Arg1:T2	Arg2:T1
+R5	decreases	Arg1:T2	Arg2:T4
+R6	influences	Arg1:T2	Arg2:T5
+R7	influences	Arg1:T3	Arg2:T1
+R8	influences	Arg1:T3	Arg2:T2
+R9	decreases	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	isAssociatedWith	Arg1:T4	Arg2:T2
+R12	treats	Arg1:T4	Arg2:T3
+R13	treats	Arg1:T5	Arg2:T3
+R14	decreases	Arg1:T5	Arg2:T4

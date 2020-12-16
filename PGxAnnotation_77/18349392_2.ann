@@ -1,0 +1,12 @@
+T1	Gene_or_protein	24 56	epidermal growth factor receptor
+T2	Gene_or_protein	59 75	EGFR ) signaling
+T3	Pharmacodynamic_phenotype	129 170	activity of cetuximab therapy in patients
+T4	Disease	176 215	metastatic colorectal cancer ( MCRC ) .
+R1	influences	Arg1:T1	Arg2:T3
+R2	influences	Arg1:T1	Arg2:T4
+R3	isEquivalentTo	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T2	Arg2:T4
+R6	influences	Arg1:T3	Arg2:T1
+R7	influences	Arg1:T3	Arg2:T2
+R8	treats	Arg1:T3	Arg2:T4

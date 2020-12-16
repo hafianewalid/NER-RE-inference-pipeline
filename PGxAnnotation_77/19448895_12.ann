@@ -1,0 +1,15 @@
+T1	Limited_variation	52 58	AC and
+T2	Limited_variation	59 88	CC CYP7A1 genotypes accounted
+T3	Pharmacodynamic_phenotype	110 143	triglyceride concentration during
+T4	Pharmacodynamic_phenotype	188 229	triglyceride concentration , respectively
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	isAssociatedWith	Arg1:T4	Arg2:T1
+R10	isAssociatedWith	Arg1:T4	Arg2:T2
+R11	isAssociatedWith	Arg1:T4	Arg2:T3

@@ -1,0 +1,4 @@
+T1	Chemical	26 33	AZD4619
+T2	Phenotype	44 67	ALT1 protein expression
+R1	increases	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

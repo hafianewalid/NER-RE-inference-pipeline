@@ -1,0 +1,4 @@
+T1	Limited_variation	27 44	MDR1 polymorphism
+T2	Pharmacokinetic_phenotype	48 82	digoxin pharmacokinetic parameters
+R1	influences	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

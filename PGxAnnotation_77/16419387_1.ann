@@ -1,0 +1,9 @@
+T1	Haplotype	75 105	cytochrome P450 3A4 * 1B and 3
+T2	Haplotype	106 118	5 * 3 for 25
+T3	Chemical	123 133	anyl cases
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

@@ -1,0 +1,7 @@
+T1	Limited_variation	14 25	MTHFR C677T
+T2	Limited_variation	30 42	ABCB1 C3435T
+T3	Pharmacodynamic_phenotype	93 118	MTX plasma concentrations
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T2	Arg2:T3
+R4	isAssociatedWith	Arg1:T3	Arg2:T1

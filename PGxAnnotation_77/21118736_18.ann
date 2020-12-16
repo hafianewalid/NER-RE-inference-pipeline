@@ -1,0 +1,24 @@
+T1	Haplotype	14 33	CYP3A5 * 3 carriers
+T2	Pharmacodynamic_phenotype	63 97	rolimus dose requirements remained
+T3	Disease	127 136	F , while
+T4	Haplotype	140 159	CYP3A5 * 1 carriers
+T5	Pharmacodynamic_phenotype	198 224	requirements were observed
+R1	decreases	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	decreases	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T2	Arg2:T1
+R6	isAssociatedWith	Arg1:T2	Arg2:T3
+R7	isAssociatedWith	Arg1:T2	Arg2:T4
+R8	decreases	Arg1:T2	Arg2:T5
+R9	decreases	Arg1:T3	Arg2:T2
+R10	isAssociatedWith	Arg1:T3	Arg2:T4
+R11	decreases	Arg1:T3	Arg2:T5
+R12	isAssociatedWith	Arg1:T4	Arg2:T1
+R13	decreases	Arg1:T4	Arg2:T2
+R14	influences	Arg1:T4	Arg2:T3
+R15	decreases	Arg1:T4	Arg2:T5
+R16	isAssociatedWith	Arg1:T5	Arg2:T1
+R17	isAssociatedWith	Arg1:T5	Arg2:T2
+R18	isAssociatedWith	Arg1:T5	Arg2:T3
+R19	isAssociatedWith	Arg1:T5	Arg2:T4

@@ -1,0 +1,4 @@
+T1	Chemical	0 227	Vemurafenib , a selective BRAF ( v-raf murine sarcoma viral oncogene homologue B1 ) kinase inhibitor , is a new targeted biotherapy that improves survival in patients with metastatic melanomas harbouring the BRAF V600E mutation
+T2	Limited_variation	228 229	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isEquivalentTo	Arg1:T2	Arg2:T1

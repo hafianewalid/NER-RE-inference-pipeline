@@ -1,0 +1,13 @@
+T1	Gene_or_protein	56 69	MEK inhibitor
+T2	Chemical	70 93	RO4987655 ( CH4987655 )
+T3	Disease	129 140	cancer with
+T4	Limited_variation	141 161	RAS- RAF mutations .
+R1	treats	Arg1:T1	Arg2:T3
+R2	treats	Arg1:T1	Arg2:T4
+R3	isEquivalentTo	Arg1:T2	Arg2:T1
+R4	treats	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T2	Arg2:T4
+R6	isAssociatedWith	Arg1:T3	Arg2:T4
+R7	isAssociatedWith	Arg1:T4	Arg2:T1
+R8	isAssociatedWith	Arg1:T4	Arg2:T2
+R9	isAssociatedWith	Arg1:T4	Arg2:T3

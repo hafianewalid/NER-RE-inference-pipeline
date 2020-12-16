@@ -1,0 +1,22 @@
+T1	Gene_or_protein	0 17	Inhibiting CYP2A6
+T2	Chemical	25 40	tranylcypromine
+T3	Chemical	43 54	methoxsalen
+T4	Phenotype	67 78	smoking and
+T5	Phenotype	83 111	activation of procarcinogens
+R1	decreases	Arg1:T1	Arg2:T4
+R2	decreases	Arg1:T1	Arg2:T5
+R3	decreases	Arg1:T2	Arg2:T1
+R4	decreases	Arg1:T2	Arg2:T4
+R5	decreases	Arg1:T2	Arg2:T5
+R6	decreases	Arg1:T3	Arg2:T1
+R7	isEquivalentTo	Arg1:T3	Arg2:T2
+R8	decreases	Arg1:T3	Arg2:T4
+R9	decreases	Arg1:T3	Arg2:T5
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	isAssociatedWith	Arg1:T4	Arg2:T2
+R12	isAssociatedWith	Arg1:T4	Arg2:T3
+R13	decreases	Arg1:T4	Arg2:T5
+R14	isAssociatedWith	Arg1:T5	Arg2:T1
+R15	isAssociatedWith	Arg1:T5	Arg2:T2
+R16	isAssociatedWith	Arg1:T5	Arg2:T3
+R17	isAssociatedWith	Arg1:T5	Arg2:T4

@@ -1,0 +1,12 @@
+T1	Gene_or_protein	0 10	For VKORC1
+T2	Pharmacodynamic_phenotype	23 40	warfarin dose was
+T3	Limited_variation	108 150	rs9923231 , rs9934438 and rs2884737 , with
+T4	Pharmacodynamic_phenotype	186 221	requiring the highest dose compared
+R1	isAssociatedWith	Arg1:T1	Arg2:T3
+R2	increases	Arg1:T1	Arg2:T4
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	increases	Arg1:T3	Arg2:T2
+R6	increases	Arg1:T3	Arg2:T4
+R7	increases	Arg1:T4	Arg2:T2
+R8	increases	Arg1:T4	Arg2:T3

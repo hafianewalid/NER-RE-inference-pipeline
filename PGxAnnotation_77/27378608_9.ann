@@ -1,0 +1,7 @@
+T1	Limited_variation	34 51	FcyRIIIa V allele
+T2	Chemical	92 121	trastuzumab plus lapatinib in
+T3	Disease	122 136	HER2 + BC .The
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	treats	Arg1:T2	Arg2:T3
+R4	isAssociatedWith	Arg1:T3	Arg2:T1

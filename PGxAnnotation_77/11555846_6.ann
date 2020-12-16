@@ -1,0 +1,9 @@
+T1	Limited_variation	47 158	Gln27Glu beta ( 2 ) - adrenergic receptor or Pro12Ala peroxisome proliferator-activated receptor gamma variants
+T2	Pharmacokinetic_phenotype	163 173	glucose or
+T3	Pharmacokinetic_phenotype	174 202	insulin kinetic parameters .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

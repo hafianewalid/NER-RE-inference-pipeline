@@ -1,0 +1,13 @@
+T1	Chemical	65 72	CPP ( 0
+T2	Limited_variation	99 120	WT hippocampal slices
+T3	Limited_variation	141 179	alpha CaMKII ( T286A + / - ) slices in
+T4	Phenotype	180 236	hippocampal long-term potentiation ( LTP ) , a mechanism
+R1	treats	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	decreases	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2
+R7	influences	Arg1:T4	Arg2:T1
+R8	isAssociatedWith	Arg1:T4	Arg2:T2
+R9	isAssociatedWith	Arg1:T4	Arg2:T3

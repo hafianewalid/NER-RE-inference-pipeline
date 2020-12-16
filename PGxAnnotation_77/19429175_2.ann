@@ -1,0 +1,15 @@
+T1	Pharmacodynamic_phenotype	0 17	Although morphine
+T2	Pharmacodynamic_phenotype	22 38	heroin analgesia
+T3	Gene_or_protein	54 73	mu-opioid receptors
+T4	Gene_or_protein	89 99	MOR-1 gene
+R1	causes	Arg1:T1	Arg2:T2
+R2	causes	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	causes	Arg1:T2	Arg2:T1
+R5	causes	Arg1:T2	Arg2:T3
+R6	causes	Arg1:T2	Arg2:T4
+R7	causes	Arg1:T3	Arg2:T1
+R8	causes	Arg1:T3	Arg2:T2
+R9	influences	Arg1:T4	Arg2:T1
+R10	influences	Arg1:T4	Arg2:T2
+R11	influences	Arg1:T4	Arg2:T3

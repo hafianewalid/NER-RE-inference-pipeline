@@ -1,0 +1,30 @@
+T1	Haplotype	0 20	In CYP3A5 * 1 allele
+T2	Phenotype	32 49	CYP3A5 expressers
+T3	Pharmacokinetic_phenotype	80 93	clearance was
+T4	Phenotype	332 356	non-expressers ; however
+T5	Limited_variation	378 391	variation did
+T6	Pharmacokinetic_phenotype	417 441	chronopharmacokinetics .
+R1	decreases	Arg1:T1	Arg2:T3
+R2	influences	Arg1:T1	Arg2:T6
+R3	isEquivalentTo	Arg1:T2	Arg2:T1
+R4	decreases	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T2	Arg2:T6
+R6	isAssociatedWith	Arg1:T3	Arg2:T1
+R7	isAssociatedWith	Arg1:T3	Arg2:T2
+R8	isAssociatedWith	Arg1:T3	Arg2:T4
+R9	isAssociatedWith	Arg1:T3	Arg2:T5
+R10	influences	Arg1:T4	Arg2:T1
+R11	influences	Arg1:T4	Arg2:T2
+R12	decreases	Arg1:T4	Arg2:T3
+R13	influences	Arg1:T4	Arg2:T5
+R14	influences	Arg1:T4	Arg2:T6
+R15	influences	Arg1:T5	Arg2:T1
+R16	influences	Arg1:T5	Arg2:T2
+R17	influences	Arg1:T5	Arg2:T3
+R18	influences	Arg1:T5	Arg2:T4
+R19	influences	Arg1:T5	Arg2:T6
+R20	isAssociatedWith	Arg1:T6	Arg2:T1
+R21	isAssociatedWith	Arg1:T6	Arg2:T2
+R22	decreases	Arg1:T6	Arg2:T3
+R23	isAssociatedWith	Arg1:T6	Arg2:T4
+R24	isAssociatedWith	Arg1:T6	Arg2:T5

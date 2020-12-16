@@ -1,0 +1,7 @@
+T1	Disease	84 108	thromboembolic disease ,
+T2	Gene_or_protein	137 149	CYP2C9 , one
+T3	Gene_or_protein	157 185	hepatic microsomal enzymes .
+R1	influences	Arg1:T2	Arg2:T1
+R2	influences	Arg1:T2	Arg2:T3
+R3	influences	Arg1:T3	Arg2:T1
+R4	influences	Arg1:T3	Arg2:T2

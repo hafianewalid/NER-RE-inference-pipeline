@@ -1,0 +1,4 @@
+T1	Phenotype	0 49	Intercellular adhesion molecule-1 gene expression
+T2	Chemical	181 212	Tat combined with METH compared
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T2	Arg2:T1

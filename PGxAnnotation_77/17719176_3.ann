@@ -1,0 +1,55 @@
+T1	Limited_variation	25 43	WFS1 polymorphisms
+T2	Disease	47 76	medication overuse headache (
+T3	Disease	77 84	MOH ) ,
+T4	Disease	87 121	chronic headache condition related
+T5	Disease	137 155	drugs overuse , we
+T6	Limited_variation	194 222	His611Arg polymorphism , and
+T7	Phenotype	254 278	clinical features of Arg
+T8	Limited_variation	281 296	Arg ( R/R ) and
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T1	Arg2:T5
+R5	influences	Arg1:T1	Arg2:T6
+R6	influences	Arg1:T1	Arg2:T7
+R7	influences	Arg1:T1	Arg2:T8
+R8	isAssociatedWith	Arg1:T2	Arg2:T1
+R9	causes	Arg1:T2	Arg2:T3
+R10	causes	Arg1:T2	Arg2:T4
+R11	isAssociatedWith	Arg1:T2	Arg2:T6
+R12	isAssociatedWith	Arg1:T2	Arg2:T7
+R13	isAssociatedWith	Arg1:T2	Arg2:T8
+R14	isAssociatedWith	Arg1:T3	Arg2:T1
+R15	isEquivalentTo	Arg1:T3	Arg2:T2
+R16	isAssociatedWith	Arg1:T3	Arg2:T6
+R17	isAssociatedWith	Arg1:T3	Arg2:T7
+R18	isAssociatedWith	Arg1:T3	Arg2:T8
+R19	isAssociatedWith	Arg1:T4	Arg2:T1
+R20	isAssociatedWith	Arg1:T4	Arg2:T5
+R21	isAssociatedWith	Arg1:T4	Arg2:T6
+R22	isAssociatedWith	Arg1:T4	Arg2:T7
+R23	isAssociatedWith	Arg1:T4	Arg2:T8
+R24	isAssociatedWith	Arg1:T5	Arg2:T1
+R25	influences	Arg1:T5	Arg2:T2
+R26	causes	Arg1:T5	Arg2:T4
+R27	isAssociatedWith	Arg1:T5	Arg2:T6
+R28	isAssociatedWith	Arg1:T5	Arg2:T7
+R29	isAssociatedWith	Arg1:T5	Arg2:T8
+R30	influences	Arg1:T6	Arg2:T1
+R31	influences	Arg1:T6	Arg2:T2
+R32	influences	Arg1:T6	Arg2:T3
+R33	influences	Arg1:T6	Arg2:T4
+R34	influences	Arg1:T6	Arg2:T5
+R35	isAssociatedWith	Arg1:T6	Arg2:T7
+R36	isAssociatedWith	Arg1:T6	Arg2:T8
+R37	isAssociatedWith	Arg1:T7	Arg2:T1
+R38	influences	Arg1:T7	Arg2:T2
+R39	influences	Arg1:T7	Arg2:T3
+R40	influences	Arg1:T7	Arg2:T5
+R41	isAssociatedWith	Arg1:T7	Arg2:T6
+R42	isAssociatedWith	Arg1:T7	Arg2:T8
+R43	influences	Arg1:T8	Arg2:T1
+R44	influences	Arg1:T8	Arg2:T2
+R45	influences	Arg1:T8	Arg2:T3
+R46	influences	Arg1:T8	Arg2:T4
+R47	influences	Arg1:T8	Arg2:T5

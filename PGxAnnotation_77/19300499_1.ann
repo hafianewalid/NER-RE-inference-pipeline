@@ -1,0 +1,14 @@
+T1	Gene_or_protein	41 47	VKORC1
+T2	Gene_or_protein	50 56	CYP2C9
+T3	Gene_or_protein	63 72	CYP4F2 as
+T4	Pharmacodynamic_phenotype	107 122	warfarin dose .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T3	Arg2:T1
+R8	influences	Arg1:T3	Arg2:T2
+R9	influences	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T4	Arg2:T2

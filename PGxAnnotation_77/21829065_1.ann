@@ -1,0 +1,13 @@
+T1	Limited_variation	38 62	S gene mutation status a
+T2	Pharmacodynamic_phenotype	75 106	t of cetuximab plus irinotecan 
+T3	Chemical	118 134	ine chemotherapy
+T4	Disease	176 194	tic colorectal can
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	treats	Arg1:T2	Arg2:T4
+R6	treats	Arg1:T3	Arg2:T4
+R7	isAssociatedWith	Arg1:T4	Arg2:T1
+R8	isAssociatedWith	Arg1:T4	Arg2:T2
+R9	isAssociatedWith	Arg1:T4	Arg2:T3

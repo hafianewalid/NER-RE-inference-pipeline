@@ -1,0 +1,4 @@
+T1	Pharmacokinetic_phenotype	29 56	doxorubicin pharmacokinetic
+T2	Limited_variation	101 128	ABCG2 c.421C>A polymorphism
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

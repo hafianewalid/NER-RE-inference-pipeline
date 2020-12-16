@@ -1,0 +1,42 @@
+T1	Chemical	33 40	4-HNE ,
+T2	Genomic_factor	92 142	complex I - or complex II- driven respiration , to
+T3	Gene_or_protein	177 182	- ARE
+T4	Genomic_factor	177 184	- ARE -
+T5	Chemical	184 210	activating compounds would
+T6	Pharmacodynamic_phenotype	224 250	resistance of the isolated
+T7	Pharmacodynamic_phenotype	276 288	4-HNE 's mit
+R1	decreases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T6
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T2	Arg2:T4
+R6	isAssociatedWith	Arg1:T2	Arg2:T5
+R7	increases	Arg1:T2	Arg2:T6
+R8	influences	Arg1:T3	Arg2:T1
+R9	decreases	Arg1:T3	Arg2:T2
+R10	influences	Arg1:T3	Arg2:T4
+R11	increases	Arg1:T3	Arg2:T6
+R12	influences	Arg1:T3	Arg2:T7
+R13	influences	Arg1:T4	Arg2:T1
+R14	decreases	Arg1:T4	Arg2:T2
+R15	influences	Arg1:T4	Arg2:T3
+R16	increases	Arg1:T4	Arg2:T6
+R17	influences	Arg1:T4	Arg2:T7
+R18	influences	Arg1:T5	Arg2:T1
+R19	decreases	Arg1:T5	Arg2:T2
+R20	influences	Arg1:T5	Arg2:T3
+R21	influences	Arg1:T5	Arg2:T4
+R22	increases	Arg1:T5	Arg2:T6
+R23	influences	Arg1:T5	Arg2:T7
+R24	isAssociatedWith	Arg1:T6	Arg2:T1
+R25	decreases	Arg1:T6	Arg2:T2
+R26	isAssociatedWith	Arg1:T6	Arg2:T3
+R27	isAssociatedWith	Arg1:T6	Arg2:T4
+R28	isAssociatedWith	Arg1:T6	Arg2:T5
+R29	isAssociatedWith	Arg1:T6	Arg2:T7
+R30	influences	Arg1:T7	Arg2:T1
+R31	decreases	Arg1:T7	Arg2:T2
+R32	causes	Arg1:T7	Arg2:T3
+R33	causes	Arg1:T7	Arg2:T4
+R34	causes	Arg1:T7	Arg2:T5
+R35	causes	Arg1:T7	Arg2:T6

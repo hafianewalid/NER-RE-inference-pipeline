@@ -1,0 +1,28 @@
+T1	Chemical	34 85	group I mGluR agonist (S)-3,5-dihydroxyphenylglycin
+T2	Chemical	87 100	( DHPG ) reli
+T3	Disease	109 115	ced LT
+T4	Limited_variation	153 162	ild-type 
+T5	Limited_variation	165 185	emizygous Drd1 -eGFP
+T6	Limited_variation	192 201	Drd2 -eGF
+R1	causes	Arg1:T1	Arg2:T2
+R2	causes	Arg1:T1	Arg2:T4
+R3	causes	Arg1:T1	Arg2:T5
+R4	isEquivalentTo	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T3	Arg2:T1
+R7	isAssociatedWith	Arg1:T3	Arg2:T2
+R8	isAssociatedWith	Arg1:T3	Arg2:T4
+R9	isAssociatedWith	Arg1:T3	Arg2:T5
+R10	isAssociatedWith	Arg1:T3	Arg2:T6
+R11	influences	Arg1:T4	Arg2:T1
+R12	influences	Arg1:T4	Arg2:T2
+R13	influences	Arg1:T4	Arg2:T3
+R14	influences	Arg1:T5	Arg2:T1
+R15	influences	Arg1:T5	Arg2:T2
+R16	influences	Arg1:T5	Arg2:T3
+R17	influences	Arg1:T5	Arg2:T4
+R18	influences	Arg1:T5	Arg2:T6
+R19	influences	Arg1:T6	Arg2:T1
+R20	influences	Arg1:T6	Arg2:T2
+R21	influences	Arg1:T6	Arg2:T3
+R22	influences	Arg1:T6	Arg2:T4

@@ -1,0 +1,6 @@
+T1	Chemical	16 44	cobimetinib plus vemurafenib
+T2	Disease	77 124	BRAF ( V600 ) mutation-positive unresectable or
+T3	Disease	125 146	metastatic melanoma .
+R1	treats	Arg1:T1	Arg2:T2
+R2	treats	Arg1:T1	Arg2:T3
+R3	treats	Arg1:T2	Arg2:T3

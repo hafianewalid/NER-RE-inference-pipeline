@@ -1,0 +1,14 @@
+T1	Chemical	23 35	azathioprine
+T2	Limited_variation	99 109	coding and
+T3	Limited_variation	110 147	promoter TPMT polymorphisms influence
+T4	Pharmacodynamic_phenotype	152 168	dose tolerated .
+R1	influences	Arg1:T1	Arg2:T4
+R2	influences	Arg1:T2	Arg2:T1
+R3	influences	Arg1:T2	Arg2:T3
+R4	influences	Arg1:T2	Arg2:T4
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2
+R7	influences	Arg1:T3	Arg2:T4
+R8	isAssociatedWith	Arg1:T4	Arg2:T1
+R9	isAssociatedWith	Arg1:T4	Arg2:T2
+R10	isAssociatedWith	Arg1:T4	Arg2:T3

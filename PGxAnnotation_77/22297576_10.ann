@@ -1,0 +1,14 @@
+T1	Phenotype	0 26	Modulation of 5-HT neurons
+T2	Chemical	57 63	GABA ,
+T3	Chemical	64 77	glutamate and
+T4	Phenotype	102 124	aggressive behaviors .
+R1	influences	Arg1:T1	Arg2:T4
+R2	causes	Arg1:T2	Arg2:T1
+R3	causes	Arg1:T2	Arg2:T3
+R4	influences	Arg1:T2	Arg2:T4
+R5	causes	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2
+R7	influences	Arg1:T3	Arg2:T4
+R8	causes	Arg1:T4	Arg2:T1
+R9	influences	Arg1:T4	Arg2:T2
+R10	influences	Arg1:T4	Arg2:T3

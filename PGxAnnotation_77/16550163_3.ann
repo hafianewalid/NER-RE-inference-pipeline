@@ -1,0 +1,3 @@
+T1	Chemical	79 94	thiopurine drug
+T2	Limited_variation	250 251	.
+R1	influences	Arg1:T2	Arg2:T1

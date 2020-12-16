@@ -1,0 +1,8 @@
+T1	Disease	14 28	NSCLC patients
+T2	Limited_variation	59 78	EGFR L858R mutation
+T3	Pharmacodynamic_phenotype	104 137	response to gefitinib treatment .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	decreases	Arg1:T2	Arg2:T3
+R4	isAssociatedWith	Arg1:T3	Arg2:T1
+R5	isAssociatedWith	Arg1:T3	Arg2:T2

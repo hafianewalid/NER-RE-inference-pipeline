@@ -1,0 +1,4 @@
+T1	Disease	0 110	Pompe disease is caused by the deficiency of acid a-glucosidase ( GAA ) , which degrades glycogen into glucose
+T2	Chemical	111 112	.
+R1	influences	Arg1:T1	Arg2:T2
+R2	isEquivalentTo	Arg1:T2	Arg2:T1

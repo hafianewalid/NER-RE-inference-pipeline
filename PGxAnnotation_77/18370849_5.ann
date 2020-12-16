@@ -1,0 +1,4 @@
+T1	Pharmacodynamic_phenotype	29 59	carbamazepine hypersensitivity
+T2	Haplotype	64 80	HLA-B * 1502 has
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

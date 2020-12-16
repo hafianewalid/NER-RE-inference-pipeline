@@ -1,0 +1,24 @@
+T1	Chemical	10 13	SJW
+T2	Pharmacokinetic_phenotype	24 37	talinolol AUC
+T3	Phenotype	82 99	MDR1 expression ,
+T4	Chemical	116 123	SJW has
+T5	Gene_or_protein	178 179	.
+R1	decreases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	causes	Arg1:T1	Arg2:T4
+R4	causes	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T2	Arg2:T1
+R6	increases	Arg1:T2	Arg2:T3
+R7	isAssociatedWith	Arg1:T2	Arg2:T4
+R8	isAssociatedWith	Arg1:T2	Arg2:T5
+R9	isAssociatedWith	Arg1:T3	Arg2:T1
+R10	decreases	Arg1:T3	Arg2:T2
+R11	isAssociatedWith	Arg1:T3	Arg2:T4
+R12	causes	Arg1:T4	Arg2:T1
+R13	decreases	Arg1:T4	Arg2:T2
+R14	increases	Arg1:T4	Arg2:T3
+R15	causes	Arg1:T4	Arg2:T5
+R16	isAssociatedWith	Arg1:T5	Arg2:T1
+R17	isAssociatedWith	Arg1:T5	Arg2:T2
+R18	isAssociatedWith	Arg1:T5	Arg2:T3
+R19	isAssociatedWith	Arg1:T5	Arg2:T4

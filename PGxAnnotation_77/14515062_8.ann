@@ -1,0 +1,4 @@
+T1	Limited_variation	34 57	IL-1B allele 2 carriers
+T2	Pharmacodynamic_phenotype	105 156	adenosine -stimulated myocardial flow ( ASMF ) , at
+R1	influences	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

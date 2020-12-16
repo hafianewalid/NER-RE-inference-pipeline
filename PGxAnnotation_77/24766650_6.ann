@@ -1,0 +1,16 @@
+T1	Limited_variation	0 13	Fourteen SNPs
+T2	Disease	60 76	heroin addiction
+T3	Limited_variation	125 212	missense SNP rs5376 ( Asn334Ser ) in the galanin receptor type 1 gene ( GALR1 ) and the
+T4	Limited_variation	230 254	intronic SNP rs1360780 .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	isAssociatedWith	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	isAssociatedWith	Arg1:T4	Arg2:T2
+R12	isAssociatedWith	Arg1:T4	Arg2:T3

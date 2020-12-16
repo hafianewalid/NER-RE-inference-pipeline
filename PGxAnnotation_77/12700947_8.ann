@@ -1,0 +1,4 @@
+T1	Chemical	25 56	3H1 mixed with CpG ODN 1826 was
+T2	Phenotype	89 110	anti- CEA immunity in
+R1	causes	Arg1:T1	Arg2:T2
+R2	causes	Arg1:T2	Arg2:T1

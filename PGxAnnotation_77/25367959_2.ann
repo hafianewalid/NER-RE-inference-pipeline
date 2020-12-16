@@ -1,0 +1,7 @@
+T1	Chemical	16 44	of erlotinib and bevacizumab
+T2	Phenotype	54 60	PFS in
+T3	Disease	75 95	EGFR -mutant NSCLC .
+R1	increases	Arg1:T1	Arg2:T2
+R2	treats	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T3	Arg2:T1

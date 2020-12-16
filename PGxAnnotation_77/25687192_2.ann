@@ -1,0 +1,21 @@
+T1	Limited_variation	26 93	single-nucleotide polymorphism ( SNP ) rs12979860 in the IL28B gene
+T2	Pharmacodynamic_phenotype	129 204	virological response to treatment of chronic hepatitis C ( CHC ) than other
+T3	Limited_variation	251 277	favorable C allele can not
+T4	Pharmacodynamic_phenotype	310 323	response when
+T5	Chemical	337 367	peginterferon plus ribavirin .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T4
+R3	influences	Arg1:T1	Arg2:T5
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T2	Arg2:T5
+R8	isAssociatedWith	Arg1:T3	Arg2:T1
+R9	influences	Arg1:T3	Arg2:T2
+R10	influences	Arg1:T3	Arg2:T4
+R11	influences	Arg1:T3	Arg2:T5
+R12	isAssociatedWith	Arg1:T4	Arg2:T1
+R13	isAssociatedWith	Arg1:T4	Arg2:T3
+R14	influences	Arg1:T5	Arg2:T2
+R15	isAssociatedWith	Arg1:T5	Arg2:T3
+R16	influences	Arg1:T5	Arg2:T4

@@ -1,0 +1,8 @@
+T1	Limited_variation	62 105	CES1 c.428G>A ( p.Gly143Glu , rs121912777 )
+T2	Chemical	156 171	oseltamivir was
+T3	Limited_variation	187 204	c.428G>A carriers
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T2

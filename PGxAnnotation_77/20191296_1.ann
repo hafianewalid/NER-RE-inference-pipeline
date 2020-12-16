@@ -1,0 +1,9 @@
+T1	Phenotype	0 41	DNA methylation of the POMC gene promoter
+T2	Phenotype	61 79	craving in alcohol
+T3	Disease	56 92	with craving in alcohol dependence .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

@@ -1,0 +1,14 @@
+T1	Disease	39 66	dependent on nicotine alone
+T2	Disease	70 83	alcohol alone
+T3	Haplotype	116 139	CYP2E1 * 1D frequencies
+T4	Disease	233 266	dependent on nicotine was greater
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T1	Arg2:T4
+R4	increases	Arg1:T2	Arg2:T3
+R5	increases	Arg1:T2	Arg2:T4
+R6	isAssociatedWith	Arg1:T3	Arg2:T1
+R7	isAssociatedWith	Arg1:T3	Arg2:T2
+R8	isAssociatedWith	Arg1:T3	Arg2:T4
+R9	isAssociatedWith	Arg1:T4	Arg2:T1
+R10	increases	Arg1:T4	Arg2:T3

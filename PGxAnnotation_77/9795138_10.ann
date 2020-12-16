@@ -1,0 +1,3 @@
+T1	Phenotype	60 129	average number of cells/animal which expressed zif/268 mRNA following
+T2	Chemical	149 166	P and oPRL at all
+R1	increases	Arg1:T2	Arg2:T1

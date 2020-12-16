@@ -1,0 +1,7 @@
+T1	Pharmacodynamic_phenotype	18 45	daily dosage of Tac -QD was
+T2	Haplotype	95 120	CYP3A5 * 3 / * 3 than the
+T3	Haplotype	126 138	5 * 1 allele
+R1	isAssociatedWith	Arg1:T1	Arg2:T3
+R2	increases	Arg1:T2	Arg2:T1
+R3	influences	Arg1:T3	Arg2:T1
+R4	influences	Arg1:T3	Arg2:T2

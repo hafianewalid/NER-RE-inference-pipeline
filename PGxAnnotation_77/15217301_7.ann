@@ -1,0 +1,9 @@
+T1	Limited_variation	33 63	polymorphisms of the MDR1 gene
+T2	Pharmacokinetic_phenotype	129 153	disposition kinetics and
+T3	Chemical	217 266	oxin , fexofenadine , ciclosporin and talinolol .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

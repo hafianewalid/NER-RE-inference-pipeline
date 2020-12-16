@@ -1,0 +1,46 @@
+T1	Pharmacokinetic_phenotype	69 117	area under the plasma concentration-time curve (
+T2	Pharmacodynamic_phenotype	145 169	plasma concentration ( C
+T3	Pharmacodynamic_phenotype	178 201	) of tacrolimus between
+T4	Limited_variation	202 225	CYP2C19 genotype groups
+T5	Limited_variation	275 298	CYP3A5 genotypes groups
+T6	Chemical	504 514	azole ( 74
+T7	Chemical	515 535	5 34 0 vs. 52 4 27 4
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T1	Arg2:T6
+R6	isAssociatedWith	Arg1:T1	Arg2:T7
+R7	isAssociatedWith	Arg1:T2	Arg2:T1
+R8	isAssociatedWith	Arg1:T2	Arg2:T3
+R9	isAssociatedWith	Arg1:T2	Arg2:T4
+R10	isAssociatedWith	Arg1:T2	Arg2:T5
+R11	isAssociatedWith	Arg1:T2	Arg2:T6
+R12	isAssociatedWith	Arg1:T2	Arg2:T7
+R13	isAssociatedWith	Arg1:T3	Arg2:T1
+R14	isEquivalentTo	Arg1:T3	Arg2:T2
+R15	isAssociatedWith	Arg1:T3	Arg2:T4
+R16	isAssociatedWith	Arg1:T3	Arg2:T5
+R17	isAssociatedWith	Arg1:T3	Arg2:T6
+R18	isAssociatedWith	Arg1:T3	Arg2:T7
+R19	influences	Arg1:T4	Arg2:T1
+R20	influences	Arg1:T4	Arg2:T2
+R21	influences	Arg1:T4	Arg2:T3
+R22	influences	Arg1:T4	Arg2:T6
+R23	influences	Arg1:T4	Arg2:T7
+R24	influences	Arg1:T5	Arg2:T1
+R25	influences	Arg1:T5	Arg2:T2
+R26	influences	Arg1:T5	Arg2:T3
+R27	influences	Arg1:T5	Arg2:T6
+R28	influences	Arg1:T5	Arg2:T7
+R29	influences	Arg1:T6	Arg2:T1
+R30	influences	Arg1:T6	Arg2:T3
+R31	isAssociatedWith	Arg1:T6	Arg2:T4
+R32	isAssociatedWith	Arg1:T6	Arg2:T5
+R33	isAssociatedWith	Arg1:T6	Arg2:T7
+R34	isAssociatedWith	Arg1:T7	Arg2:T1
+R35	isAssociatedWith	Arg1:T7	Arg2:T2
+R36	isAssociatedWith	Arg1:T7	Arg2:T3
+R37	isAssociatedWith	Arg1:T7	Arg2:T4
+R38	isAssociatedWith	Arg1:T7	Arg2:T5
+R39	isAssociatedWith	Arg1:T7	Arg2:T6

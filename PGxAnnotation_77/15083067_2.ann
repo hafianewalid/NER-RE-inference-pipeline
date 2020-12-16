@@ -1,0 +1,3 @@
+T1	Chemical	0 165	Bupropion is primarily metabolized in human liver by cytochrome P450 ( CYP ) 2B6 , an isoform that shows high interindividual variability in expression and catalysis
+T2	Pharmacokinetic_phenotype	166 167	.
+R1	isEquivalentTo	Arg1:T2	Arg2:T1

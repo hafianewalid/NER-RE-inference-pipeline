@@ -1,0 +1,21 @@
+T1	Haplotype	30 45	CYP2D6 * 4 ( MA
+T2	Phenotype	107 131	clinical outcomes , were
+T3	Phenotype	166 179	S , in either
+T4	Chemical	184 200	tamoxifen or non
+T5	Chemical	202 218	tamoxifen groups
+R1	decreases	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T2	Arg2:T1
+R6	isAssociatedWith	Arg1:T2	Arg2:T3
+R7	isAssociatedWith	Arg1:T2	Arg2:T4
+R8	isAssociatedWith	Arg1:T2	Arg2:T5
+R9	decreases	Arg1:T3	Arg2:T2
+R10	influences	Arg1:T3	Arg2:T4
+R11	influences	Arg1:T3	Arg2:T5
+R12	decreases	Arg1:T4	Arg2:T2
+R13	influences	Arg1:T4	Arg2:T5
+R14	decreases	Arg1:T5	Arg2:T2
+R15	influences	Arg1:T5	Arg2:T3
+R16	influences	Arg1:T5	Arg2:T4

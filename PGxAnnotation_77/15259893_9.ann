@@ -1,0 +1,9 @@
+T1	Pharmacodynamic_phenotype	0 40	Resistance during exposure to amprenavir
+T2	Limited_variation	67 73	I50V ,
+T3	Pharmacodynamic_phenotype	96 121	resistance to lopinavir .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	causes	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	causes	Arg1:T2	Arg2:T3
+R5	causes	Arg1:T3	Arg2:T1
+R6	causes	Arg1:T3	Arg2:T2

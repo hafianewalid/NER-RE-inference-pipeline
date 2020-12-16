@@ -1,0 +1,9 @@
+T1	Pharmacokinetic_phenotype	41 62	MPAG pharmacokinetics
+T2	Limited_variation	96 133	SLCO1B1 and SLCO1B3 polymorphisms and
+T3	Limited_variation	159 160	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

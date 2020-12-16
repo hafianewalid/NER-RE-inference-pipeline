@@ -1,0 +1,9 @@
+T1	Limited_variation	0 26	Genetic variation in NOS2A
+T2	Pharmacodynamic_phenotype	48 122	sustained virological response to peginterferon plus ribavirin therapy for
+T3	Disease	123 145	chronic hepatitis C in
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	treats	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

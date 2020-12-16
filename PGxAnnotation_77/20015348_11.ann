@@ -1,0 +1,4 @@
+T1	Chemical	59 80	BI-TK / GCV treatment
+T2	Phenotype	112 144	caspase3 protein expression than
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T2	Arg2:T1

@@ -1,0 +1,3 @@
+T1	Limited_variation	252 328	thiopurine S-methyltransferase ( TPMT ) gene polymorphisms and hematological
+T2	Pharmacodynamic_phenotype	244 361	between thiopurine S-methyltransferase ( TPMT ) gene polymorphisms and hematological toxicity of thiopurine treatment
+R1	isAssociatedWith	Arg1:T2	Arg2:T1

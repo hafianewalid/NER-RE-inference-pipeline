@@ -1,0 +1,9 @@
+T1	Limited_variation	34 57	C/T genotype of BAG-1 ,
+T2	Limited_variation	80 121	C/C genotype at Bag-1 codon 324 exhibited
+T3	Pharmacodynamic_phenotype	129 172	responses to platinum -based chemotherapy .
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	increases	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

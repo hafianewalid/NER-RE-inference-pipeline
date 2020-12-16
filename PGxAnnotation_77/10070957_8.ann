@@ -1,0 +1,33 @@
+T1	Limited_variation	41 55	A2/A2 genotype
+T2	Pharmacodynamic_phenotype	73 94	levels of estrone ( +
+T3	Pharmacodynamic_phenotype	116 129	estradiol ( +
+T4	Pharmacodynamic_phenotype	151 172	testosterone ( +8.6 %
+T5	Pharmacodynamic_phenotype	188 215	androstenedione ( +17.1 % ,
+T6	Pharmacodynamic_phenotype	229 263	dehydroepiandrosterone ( +14.4 % ,
+T7	Pharmacodynamic_phenotype	281 322	dehydroepiandrosterone sulfate ( +7.2 % ,
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T1	Arg2:T4
+R4	increases	Arg1:T1	Arg2:T5
+R5	increases	Arg1:T1	Arg2:T6
+R6	increases	Arg1:T1	Arg2:T7
+R7	increases	Arg1:T2	Arg2:T3
+R8	increases	Arg1:T2	Arg2:T4
+R9	increases	Arg1:T2	Arg2:T5
+R10	increases	Arg1:T2	Arg2:T6
+R11	increases	Arg1:T2	Arg2:T7
+R12	isAssociatedWith	Arg1:T3	Arg2:T1
+R13	increases	Arg1:T3	Arg2:T5
+R14	increases	Arg1:T3	Arg2:T6
+R15	isAssociatedWith	Arg1:T4	Arg2:T1
+R16	isAssociatedWith	Arg1:T5	Arg2:T1
+R17	isAssociatedWith	Arg1:T5	Arg2:T4
+R18	isAssociatedWith	Arg1:T6	Arg2:T1
+R19	isAssociatedWith	Arg1:T6	Arg2:T4
+R20	isAssociatedWith	Arg1:T6	Arg2:T5
+R21	isAssociatedWith	Arg1:T6	Arg2:T7
+R22	isAssociatedWith	Arg1:T7	Arg2:T1
+R23	isAssociatedWith	Arg1:T7	Arg2:T3
+R24	isAssociatedWith	Arg1:T7	Arg2:T4
+R25	isAssociatedWith	Arg1:T7	Arg2:T5
+R26	isAssociatedWith	Arg1:T7	Arg2:T6

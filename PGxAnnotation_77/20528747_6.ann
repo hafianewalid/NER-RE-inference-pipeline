@@ -1,0 +1,12 @@
+T1	Phenotype	24 81	protein expression of membrane type-1 MMP ( MT1-MMP ) and
+T2	Phenotype	99 170	protein expression of tissue inhibitor of MMP-2 ( TIMP-2 ) , suggesting
+T3	Chemical	171 195	theaflavin 's inhibitory
+T4	Phenotype	210 224	2 activation .
+R1	causes	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T2	Arg2:T1
+R3	decreases	Arg1:T3	Arg2:T1
+R4	increases	Arg1:T3	Arg2:T2
+R5	causes	Arg1:T3	Arg2:T4
+R6	decreases	Arg1:T4	Arg2:T1
+R7	isAssociatedWith	Arg1:T4	Arg2:T2
+R8	isAssociatedWith	Arg1:T4	Arg2:T3

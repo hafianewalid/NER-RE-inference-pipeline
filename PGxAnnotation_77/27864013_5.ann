@@ -1,0 +1,11 @@
+T1	Disease	143 174	BRAF ( V600E ) - mutant or BRAF
+T2	Disease	177 226	V600K ) - mutant metastatic melanoma who received
+T3	Chemical	248 265	dabrafenib 150 mg
+T4	Chemical	283 303	trametinib 2 mg once
+R1	isEquivalentTo	Arg1:T2	Arg2:T1
+R2	treats	Arg1:T3	Arg2:T1
+R3	treats	Arg1:T3	Arg2:T2
+R4	influences	Arg1:T3	Arg2:T4
+R5	treats	Arg1:T4	Arg2:T1
+R6	treats	Arg1:T4	Arg2:T2
+R7	influences	Arg1:T4	Arg2:T3

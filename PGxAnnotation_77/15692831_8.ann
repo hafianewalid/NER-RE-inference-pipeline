@@ -1,0 +1,23 @@
+T1	Pharmacokinetic_phenotype	0 42	Using plasma CBZ-diol / CBZ-epoxide ratios
+T2	Pharmacokinetic_phenotype	45 68	diol / epoxide ratios )
+T3	Phenotype	87 105	mEH activity , the
+T4	Genomic_variation	121 156	diplotypes in each EPHX1 block were
+T5	Pharmacokinetic_phenotype	169 193	CBZ-epoxide metabolism .
+R1	isEquivalentTo	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isEquivalentTo	Arg1:T2	Arg2:T1
+R6	isAssociatedWith	Arg1:T2	Arg2:T3
+R7	isAssociatedWith	Arg1:T2	Arg2:T4
+R8	influences	Arg1:T3	Arg2:T1
+R9	influences	Arg1:T3	Arg2:T2
+R10	influences	Arg1:T3	Arg2:T4
+R11	influences	Arg1:T3	Arg2:T5
+R12	influences	Arg1:T4	Arg2:T1
+R13	influences	Arg1:T4	Arg2:T2
+R14	influences	Arg1:T4	Arg2:T3
+R15	influences	Arg1:T4	Arg2:T5
+R16	isAssociatedWith	Arg1:T5	Arg2:T2
+R17	isAssociatedWith	Arg1:T5	Arg2:T3
+R18	isAssociatedWith	Arg1:T5	Arg2:T4

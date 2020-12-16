@@ -1,0 +1,8 @@
+T1	Gene_or_protein	0 9	Cyclin D1
+T2	Gene_or_protein	36 47	Ras pathway
+T3	Chemical	73 84	celecoxib .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	decreases	Arg1:T3	Arg2:T1

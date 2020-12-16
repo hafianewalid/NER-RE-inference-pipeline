@@ -1,0 +1,9 @@
+T1	Chemical	18 42	epigallocatechin-gallate
+T2	Phenotype	69 94	huntingtin misfolding and
+T3	Disease	103 142	toxicity in Huntington's disease models
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

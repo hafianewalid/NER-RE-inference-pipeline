@@ -1,0 +1,21 @@
+T1	Limited_variation	47 62	MAO-A genotypes
+T2	Pharmacokinetic_phenotype	99 112	serotonin and
+T3	Pharmacokinetic_phenotype	116 154	norepinephrine availability negatively
+T4	Pharmacodynamic_phenotype	165 205	antidepressant treatment response during
+T5	Disease	279 297	Major Depression .
+R1	decreases	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	decreases	Arg1:T1	Arg2:T4
+R4	treats	Arg1:T1	Arg2:T5
+R5	decreases	Arg1:T2	Arg2:T3
+R6	decreases	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	decreases	Arg1:T3	Arg2:T2
+R9	influences	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	decreases	Arg1:T4	Arg2:T2
+R12	decreases	Arg1:T4	Arg2:T3
+R13	treats	Arg1:T4	Arg2:T5
+R14	isAssociatedWith	Arg1:T5	Arg2:T1
+R15	decreases	Arg1:T5	Arg2:T2
+R16	decreases	Arg1:T5	Arg2:T3

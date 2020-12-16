@@ -1,0 +1,8 @@
+T1	Limited_variation	11 41	CYP1A2 deficiency polymorphism
+T2	Pharmacokinetic_phenotype	67 169	pharmacokinetics of 4-cyclohexyl-1-ethyl-7-methylpyrido[2,3-D]-pyrimidine-2-(1H)-one ( YM-64227 ) , a 
+T3	Chemical	162 197	 ) , a phosphodiesterase type 4 inh
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isEquivalentTo	Arg1:T2	Arg2:T3
+R5	isEquivalentTo	Arg1:T3	Arg2:T2

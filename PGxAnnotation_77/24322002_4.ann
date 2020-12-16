@@ -1,0 +1,12 @@
+T1	Limited_variation	71 93	FCGR3A polymorphism on
+T2	Phenotype	108 131	lymphocyte depletion in
+T3	Disease	132 158	kidney transplant patients
+T4	Chemical	172 213	rabbit antithymocyte globulin ( r-ATG ) .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	treats	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T3	Arg2:T1
+R7	influences	Arg1:T4	Arg2:T2
+R8	treats	Arg1:T4	Arg2:T3

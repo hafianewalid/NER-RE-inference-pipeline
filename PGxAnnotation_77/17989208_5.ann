@@ -1,0 +1,16 @@
+T1	Genomic_variation	55 166	substitutions into the descending portion of the P loop ( residues 339-345 ) of HCN1 -R ( where R is resistance
+T2	Pharmacodynamic_phenotype	55 208	substitutions into the descending portion of the P loop ( residues 339-345 ) of HCN1 -R ( where R is resistance to sulfhydryl -reactive agents ) channels
+T3	Genomic_variation	55 219	substitutions into the descending portion of the P loop ( residues 339-345 ) of HCN1 -R ( where R is resistance to sulfhydryl -reactive agents ) channels , in which
+T4	Genomic_variation	287 288	.
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T3	Arg2:T1
+R8	influences	Arg1:T3	Arg2:T2
+R9	influences	Arg1:T3	Arg2:T4
+R10	influences	Arg1:T4	Arg2:T1
+R11	influences	Arg1:T4	Arg2:T2
+R12	influences	Arg1:T4	Arg2:T3

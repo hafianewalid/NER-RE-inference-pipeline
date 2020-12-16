@@ -1,0 +1,16 @@
+T1	Gene_or_protein	61 99	glucocorticoid receptor immunoreactive
+T2	Chemical	124 150	synthetic glucocorticoid ,
+T3	Chemical	151 169	dexamethasone , on
+T4	Phenotype	192 198	LI was
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	causes	Arg1:T1	Arg2:T4
+R4	causes	Arg1:T2	Arg2:T1
+R5	causes	Arg1:T2	Arg2:T3
+R6	causes	Arg1:T2	Arg2:T4
+R7	causes	Arg1:T3	Arg2:T1
+R8	causes	Arg1:T3	Arg2:T2
+R9	causes	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	causes	Arg1:T4	Arg2:T2
+R12	isAssociatedWith	Arg1:T4	Arg2:T3

@@ -1,0 +1,15 @@
+T1	Pharmacodynamic_phenotype	30 66	resistance to 5-HT ( 3 ) antagonists
+T2	Limited_variation	90 144	single-nucleotide polymorphism ( 3435C>T ) in the gene
+T3	Gene_or_protein	169 202	efflux transporter adenosine trip
+T4	Limited_variation	169 261	efflux transporter adenosine triphosphate -binding cassette subfamily B member 1 ( ABCB1 ) .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	isAssociatedWith	Arg1:T4	Arg2:T1
+R10	isAssociatedWith	Arg1:T4	Arg2:T2
+R11	influences	Arg1:T4	Arg2:T3

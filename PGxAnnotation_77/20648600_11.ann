@@ -1,0 +1,4 @@
+T1	Pharmacodynamic_phenotype	0 14	LAM resistance
+T2	Limited_variation	0 57	LAM resistance substitutions ( rt L180M + rt M204V ) were
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

@@ -1,0 +1,4 @@
+T1	Limited_variation	34 48	rs622342 A > C
+T2	Phenotype	85 109	HbA1c lowering effect in
+R1	influences	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

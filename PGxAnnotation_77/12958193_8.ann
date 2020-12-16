@@ -1,0 +1,4 @@
+T1	Pharmacodynamic_phenotype	33 70	induction of CYP3a13 by dexamethasone
+T2	Genomic_variation	89 118	pregnane X receptor null mice
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

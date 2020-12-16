@@ -1,0 +1,14 @@
+T1	Gene_or_protein	115 130	AhR antagonists
+T2	Chemical	115 136	AhR antagonists , and
+T3	Pharmacodynamic_phenotype	207 233	antioxidative activity and
+T4	Chemical	234 254	polyphenol content .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T4
+R6	influences	Arg1:T3	Arg2:T1
+R7	influences	Arg1:T3	Arg2:T2
+R8	influences	Arg1:T3	Arg2:T4
+R9	influences	Arg1:T4	Arg2:T1
+R10	influences	Arg1:T4	Arg2:T2

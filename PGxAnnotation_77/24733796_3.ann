@@ -1,0 +1,6 @@
+T1	Disease	37 51	HER2 -positive
+T2	Disease	69 94	breast cancer or MBC were
+T3	Chemical	125 145	plus pertuzumab ( 84
+R1	treats	Arg1:T2	Arg2:T1
+R2	treats	Arg1:T3	Arg2:T1
+R3	treats	Arg1:T3	Arg2:T2

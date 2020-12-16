@@ -1,0 +1,28 @@
+T1	Limited_variation	12 40	TNF-a promoter polymorphisms
+T2	Disease	63 81	multiple myeloma (
+T3	Disease	82 91	MM ) were
+T4	Phenotype	167 188	clinical outcome were
+T5	Chemical	227 263	thalidomide and dexamethasone ( Thal
+T6	Chemical	264 279	+ Dex ) regimen
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T1	Arg2:T5
+R5	influences	Arg1:T1	Arg2:T6
+R6	isAssociatedWith	Arg1:T2	Arg2:T1
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	isEquivalentTo	Arg1:T3	Arg2:T2
+R9	influences	Arg1:T3	Arg2:T4
+R10	influences	Arg1:T3	Arg2:T5
+R11	isAssociatedWith	Arg1:T4	Arg2:T1
+R12	isAssociatedWith	Arg1:T4	Arg2:T3
+R13	influences	Arg1:T4	Arg2:T5
+R14	influences	Arg1:T4	Arg2:T6
+R15	treats	Arg1:T5	Arg2:T2
+R16	treats	Arg1:T5	Arg2:T3
+R17	influences	Arg1:T5	Arg2:T4
+R18	influences	Arg1:T5	Arg2:T6
+R19	treats	Arg1:T6	Arg2:T2
+R20	treats	Arg1:T6	Arg2:T3
+R21	influences	Arg1:T6	Arg2:T4
+R22	isEquivalentTo	Arg1:T6	Arg2:T5

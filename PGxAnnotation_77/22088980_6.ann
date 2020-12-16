@@ -1,0 +1,4 @@
+T1	Haplotype	32 48	CYP2C19 * 2 loss
+T2	Chemical	107 122	clopidogrel ( 2
+R1	influences	Arg1:T1	Arg2:T2
+R2	treats	Arg1:T2	Arg2:T1

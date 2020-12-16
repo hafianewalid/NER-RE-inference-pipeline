@@ -1,0 +1,9 @@
+T1	Pharmacokinetic_phenotype	45 74	hydroxylation of lansoprazole
+T2	Pharmacokinetic_phenotype	120 149	S-mephenytoin 4'-hydroxylatio
+T3	Limited_variation	109 174	determined S-mephenytoin 4'-hydroxylation ( CYP2C19 ) polymorphis
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

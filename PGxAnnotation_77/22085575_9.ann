@@ -1,0 +1,4 @@
+T1	Genomic_variation	49 73	EML4 - ALK translocation
+T2	Chemical	114 138	inhibitor , crozotinib .
+R1	influences	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

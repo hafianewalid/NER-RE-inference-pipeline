@@ -1,0 +1,8 @@
+T1	Phenotype	29 39	MSI status
+T2	Pharmacodynamic_phenotype	48 65	efficacy of first
+T3	Pharmacodynamic_phenotype	68 108	line oxaliplatin -based chemotherapy was
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T3	Arg2:T1
+R5	influences	Arg1:T3	Arg2:T2

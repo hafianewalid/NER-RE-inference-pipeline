@@ -1,0 +1,46 @@
+T1	Phenotype	0 46	BRAF mutation -selective inhibition of thyroid
+T2	Disease	0 53	BRAF mutation -selective inhibition of thyroid cancer
+T3	Phenotype	0 62	BRAF mutation -selective inhibition of thyroid cancer cells by
+T4	Gene_or_protein	73 86	MEK inhibitor
+T5	Chemical	73 98	MEK inhibitor RDEA119 and
+T6	Phenotype	99 133	genetic-potentiated synergism with
+T7	Gene_or_protein	138 152	mTOR inhibitor
+T8	Chemical	138 167	mTOR inhibitor temsirolimus .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	causes	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T5
+R4	causes	Arg1:T1	Arg2:T6
+R5	isAssociatedWith	Arg1:T2	Arg2:T1
+R6	causes	Arg1:T2	Arg2:T3
+R7	isAssociatedWith	Arg1:T2	Arg2:T4
+R8	isAssociatedWith	Arg1:T2	Arg2:T5
+R9	isAssociatedWith	Arg1:T2	Arg2:T6
+R10	isAssociatedWith	Arg1:T2	Arg2:T8
+R11	causes	Arg1:T3	Arg2:T1
+R12	causes	Arg1:T3	Arg2:T2
+R13	causes	Arg1:T3	Arg2:T6
+R14	causes	Arg1:T4	Arg2:T1
+R15	causes	Arg1:T4	Arg2:T2
+R16	causes	Arg1:T4	Arg2:T3
+R17	causes	Arg1:T4	Arg2:T6
+R18	causes	Arg1:T5	Arg2:T1
+R19	causes	Arg1:T5	Arg2:T2
+R20	causes	Arg1:T5	Arg2:T3
+R21	influences	Arg1:T5	Arg2:T4
+R22	causes	Arg1:T5	Arg2:T6
+R23	causes	Arg1:T6	Arg2:T1
+R24	causes	Arg1:T6	Arg2:T2
+R25	causes	Arg1:T6	Arg2:T3
+R26	influences	Arg1:T6	Arg2:T4
+R27	influences	Arg1:T6	Arg2:T5
+R28	influences	Arg1:T6	Arg2:T7
+R29	causes	Arg1:T7	Arg2:T2
+R30	causes	Arg1:T7	Arg2:T3
+R31	influences	Arg1:T7	Arg2:T4
+R32	causes	Arg1:T7	Arg2:T6
+R33	causes	Arg1:T8	Arg2:T1
+R34	causes	Arg1:T8	Arg2:T2
+R35	causes	Arg1:T8	Arg2:T3
+R36	influences	Arg1:T8	Arg2:T4
+R37	causes	Arg1:T8	Arg2:T6
+R38	influences	Arg1:T8	Arg2:T7

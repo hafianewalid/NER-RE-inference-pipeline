@@ -1,0 +1,47 @@
+T1	Limited_variation	8 17	rs1260326
+T2	Limited_variation	32 41	rs1799884
+T3	Gene_or_protein	61 93	glucokinase regulatory protein (
+T4	Gene_or_protein	96 104	KR ) and
+T5	Gene_or_protein	109 121	okinase ( GC
+T6	Gene_or_protein	121 130	K ) genes
+T7	Pharmacodynamic_phenotype	202 226	glucose concentrations .
+R1	isEquivalentTo	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T1	Arg2:T5
+R5	influences	Arg1:T1	Arg2:T6
+R6	influences	Arg1:T1	Arg2:T7
+R7	influences	Arg1:T2	Arg2:T3
+R8	influences	Arg1:T2	Arg2:T4
+R9	influences	Arg1:T2	Arg2:T5
+R10	influences	Arg1:T2	Arg2:T6
+R11	influences	Arg1:T2	Arg2:T7
+R12	isEquivalentTo	Arg1:T3	Arg2:T2
+R13	influences	Arg1:T3	Arg2:T4
+R14	influences	Arg1:T3	Arg2:T5
+R15	influences	Arg1:T3	Arg2:T6
+R16	influences	Arg1:T3	Arg2:T7
+R17	influences	Arg1:T4	Arg2:T1
+R18	isEquivalentTo	Arg1:T4	Arg2:T2
+R19	isEquivalentTo	Arg1:T4	Arg2:T3
+R20	influences	Arg1:T4	Arg2:T5
+R21	influences	Arg1:T4	Arg2:T6
+R22	influences	Arg1:T4	Arg2:T7
+R23	influences	Arg1:T5	Arg2:T1
+R24	isEquivalentTo	Arg1:T5	Arg2:T2
+R25	influences	Arg1:T5	Arg2:T3
+R26	influences	Arg1:T5	Arg2:T4
+R27	influences	Arg1:T5	Arg2:T6
+R28	influences	Arg1:T5	Arg2:T7
+R29	influences	Arg1:T6	Arg2:T1
+R30	isEquivalentTo	Arg1:T6	Arg2:T2
+R31	influences	Arg1:T6	Arg2:T3
+R32	influences	Arg1:T6	Arg2:T4
+R33	isEquivalentTo	Arg1:T6	Arg2:T5
+R34	influences	Arg1:T6	Arg2:T7
+R35	isAssociatedWith	Arg1:T7	Arg2:T1
+R36	isAssociatedWith	Arg1:T7	Arg2:T2
+R37	isAssociatedWith	Arg1:T7	Arg2:T3
+R38	isAssociatedWith	Arg1:T7	Arg2:T4
+R39	isAssociatedWith	Arg1:T7	Arg2:T5
+R40	isAssociatedWith	Arg1:T7	Arg2:T6

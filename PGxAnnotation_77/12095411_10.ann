@@ -1,0 +1,8 @@
+T1	Limited_variation	77 120	235T allele of the angiotensinogen gene and
+T2	Chemical	125 141	cholesterol drug
+T3	Phenotype	189 207	stenosis at follow
+R1	influences	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T2	Arg2:T3
+R4	isAssociatedWith	Arg1:T3	Arg2:T1
+R5	isAssociatedWith	Arg1:T3	Arg2:T2

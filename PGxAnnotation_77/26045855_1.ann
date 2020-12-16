@@ -1,0 +1,4 @@
+T1	Disease	0 46	BRAF (V600 ) mutant non-small-cell lung cancer
+T2	Pharmacodynamic_phenotype	0 71	BRAF (V600 ) mutant non-small-cell lung cancer resistant to Vemurafenib
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

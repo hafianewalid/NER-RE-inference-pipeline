@@ -1,0 +1,4 @@
+T1	Limited_variation	64 88	SNPs in the POR gene may
+T2	Pharmacodynamic_phenotype	138 165	warfarin maintenance dose .
+R1	influences	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

@@ -1,0 +1,3 @@
+T1	Phenotype	22 33	IGF-1 value
+T2	Chemical	54 67	rGH treatment
+R1	isAssociatedWith	Arg1:T1	Arg2:T2

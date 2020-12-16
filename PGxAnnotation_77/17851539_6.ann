@@ -1,0 +1,25 @@
+T1	Phenotype	27 43	c-Fos activation
+T2	Chemical	67 82	ethanol seeking
+T3	Gene_or_protein	177 186	Jun ) and
+T4	Gene_or_protein	200 242	extracellular signal-regulated kinases and
+T5	Gene_or_protein	245 272	Jun N -terminal kinases ) .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	causes	Arg1:T2	Arg2:T1
+R6	causes	Arg1:T2	Arg2:T3
+R7	causes	Arg1:T2	Arg2:T4
+R8	causes	Arg1:T2	Arg2:T5
+R9	influences	Arg1:T3	Arg2:T1
+R10	influences	Arg1:T3	Arg2:T2
+R11	isAssociatedWith	Arg1:T3	Arg2:T4
+R12	isAssociatedWith	Arg1:T3	Arg2:T5
+R13	isAssociatedWith	Arg1:T4	Arg2:T1
+R14	isAssociatedWith	Arg1:T4	Arg2:T2
+R15	isEquivalentTo	Arg1:T4	Arg2:T3
+R16	isAssociatedWith	Arg1:T4	Arg2:T5
+R17	isAssociatedWith	Arg1:T5	Arg2:T1
+R18	isAssociatedWith	Arg1:T5	Arg2:T2
+R19	isAssociatedWith	Arg1:T5	Arg2:T3
+R20	isEquivalentTo	Arg1:T5	Arg2:T4

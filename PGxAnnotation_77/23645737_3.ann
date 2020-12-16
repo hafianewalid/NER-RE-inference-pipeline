@@ -1,0 +1,9 @@
+T1	Gene_or_protein	36 60	adenosine deaminase-like
+T2	Gene_or_protein	63 77	ADAL ) protein
+T3	Pharmacokinetic_phenotype	85 122	intracellular activation of GS-9219 .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	isEquivalentTo	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

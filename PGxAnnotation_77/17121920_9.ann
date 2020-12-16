@@ -1,0 +1,23 @@
+T1	Gene_or_protein	80 93	XIAP promoter
+T2	Genomic_factor	76 104	the XIAP promoter constructs
+T3	Chemical	115 133	mithramycin A down
+T4	Phenotype	148 182	transcription of XIAP gene through
+T5	Phenotype	199 226	1 binding to its promoter .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	decreases	Arg1:T1	Arg2:T4
+R4	decreases	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T2	Arg2:T1
+R6	isAssociatedWith	Arg1:T2	Arg2:T3
+R7	decreases	Arg1:T2	Arg2:T4
+R8	decreases	Arg1:T2	Arg2:T5
+R9	decreases	Arg1:T3	Arg2:T4
+R10	decreases	Arg1:T3	Arg2:T5
+R11	isAssociatedWith	Arg1:T4	Arg2:T1
+R12	isAssociatedWith	Arg1:T4	Arg2:T2
+R13	influences	Arg1:T4	Arg2:T3
+R14	decreases	Arg1:T4	Arg2:T5
+R15	isAssociatedWith	Arg1:T5	Arg2:T1
+R16	isAssociatedWith	Arg1:T5	Arg2:T2
+R17	isAssociatedWith	Arg1:T5	Arg2:T3
+R18	decreases	Arg1:T5	Arg2:T4

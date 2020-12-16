@@ -1,0 +1,23 @@
+T1	Limited_variation	48 69	genotypes of MDR1 and
+T2	Limited_variation	70 103	cytochrome P450 (CYP) 3A in donor
+T3	Phenotype	158 177	mRNA expression and
+T4	Pharmacodynamic_phenotype	185 239	rolimus concentration/dose ( C/D ) ratio in recipients
+T5	Disease	262 279	transplantation (
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T2	Arg2:T5
+R8	isAssociatedWith	Arg1:T3	Arg2:T1
+R9	isAssociatedWith	Arg1:T3	Arg2:T2
+R10	influences	Arg1:T3	Arg2:T4
+R11	isAssociatedWith	Arg1:T3	Arg2:T5
+R12	isAssociatedWith	Arg1:T4	Arg2:T1
+R13	isAssociatedWith	Arg1:T4	Arg2:T2
+R14	influences	Arg1:T4	Arg2:T3
+R15	treats	Arg1:T4	Arg2:T5
+R16	isAssociatedWith	Arg1:T5	Arg2:T1
+R17	isAssociatedWith	Arg1:T5	Arg2:T2
+R18	influences	Arg1:T5	Arg2:T3

@@ -1,0 +1,9 @@
+T1	Gene_or_protein	22 53	tryptophan hydroxylase 2 showed
+T2	Disease	82 93	suicide and
+T3	Phenotype	94 120	alcohol -related suicide .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

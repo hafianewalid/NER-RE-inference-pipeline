@@ -1,0 +1,19 @@
+T1	Disease	42 59	melanoma patients
+T2	Disease	65 81	tumors harboring
+T3	Limited_variation	82 114	BRAF V600E and V600K mutations ,
+T4	Chemical	115 135	BRAF inhibitors such
+T5	Chemical	139 153	dabrafenib are
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T3
+R4	isAssociatedWith	Arg1:T2	Arg2:T4
+R5	isAssociatedWith	Arg1:T2	Arg2:T5
+R6	isAssociatedWith	Arg1:T3	Arg2:T2
+R7	influences	Arg1:T3	Arg2:T4
+R8	influences	Arg1:T3	Arg2:T5
+R9	treats	Arg1:T4	Arg2:T1
+R10	treats	Arg1:T4	Arg2:T2
+R11	isAssociatedWith	Arg1:T4	Arg2:T3
+R12	treats	Arg1:T5	Arg2:T1
+R13	treats	Arg1:T5	Arg2:T2
+R14	isAssociatedWith	Arg1:T5	Arg2:T3

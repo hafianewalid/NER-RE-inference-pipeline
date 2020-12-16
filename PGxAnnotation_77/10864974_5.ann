@@ -1,0 +1,23 @@
+T1	Phenotype	30 79	unilateral lesions of nigrostriatal DA neurons on
+T2	Disease	80 99	oral dyskinesia and
+T3	Phenotype	100 130	Fos protein expression induced
+T4	Chemical	152 197	5-HT(2C ) agonist 1-(m-chlorophenyl)piperazin
+T5	Chemical	201 211	m-CPP ) we
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T2	Arg2:T1
+R6	isAssociatedWith	Arg1:T2	Arg2:T3
+R7	isAssociatedWith	Arg1:T2	Arg2:T4
+R8	isAssociatedWith	Arg1:T2	Arg2:T5
+R9	isAssociatedWith	Arg1:T3	Arg2:T1
+R10	causes	Arg1:T3	Arg2:T4
+R11	causes	Arg1:T4	Arg2:T1
+R12	causes	Arg1:T4	Arg2:T2
+R13	causes	Arg1:T4	Arg2:T3
+R14	causes	Arg1:T4	Arg2:T5
+R15	causes	Arg1:T5	Arg2:T1
+R16	causes	Arg1:T5	Arg2:T2
+R17	causes	Arg1:T5	Arg2:T3
+R18	isEquivalentTo	Arg1:T5	Arg2:T4

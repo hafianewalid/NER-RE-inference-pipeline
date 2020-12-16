@@ -1,0 +1,4 @@
+T1	Haplotype	74 109	ALDH1A1 * 2 and ALDH1A1 * 3 alleles
+T2	Disease	142 156	alcoholics ( p
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T2	Arg2:T1

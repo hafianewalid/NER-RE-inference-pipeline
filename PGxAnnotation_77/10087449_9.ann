@@ -1,0 +1,3 @@
+T1	Phenotype	0 143	PACAP -induced expression of the c-fos gene was significantly reduced by pretreatment with a PACAP receptor antagonist , PACAP - ( 6-38 ) - NH2
+T2	Chemical	144 145	.
+R1	isEquivalentTo	Arg1:T2	Arg2:T1

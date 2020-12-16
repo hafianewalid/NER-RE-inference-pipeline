@@ -1,0 +1,7 @@
+T1	Gene_or_protein	81 97	MARCKS increases
+T2	Phenotype	102 125	content of PI(4,5)P2 in
+T3	Phenotype	164 191	behavioral abnormalities in
+R1	increases	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1
+R3	isAssociatedWith	Arg1:T3	Arg2:T1
+R4	increases	Arg1:T3	Arg2:T2

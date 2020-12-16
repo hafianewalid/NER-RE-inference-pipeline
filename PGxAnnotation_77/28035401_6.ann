@@ -1,0 +1,4 @@
+T1	Gene_or_protein	35 43	HDAC6 in
+T2	Pharmacodynamic_phenotype	44 68	vemurafenib resistance .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

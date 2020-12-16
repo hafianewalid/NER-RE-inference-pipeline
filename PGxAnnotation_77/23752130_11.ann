@@ -1,0 +1,14 @@
+T1	Chemical	32 48	butyric acid has
+T2	Pharmacodynamic_phenotype	61 93	anti-inflammatory effects partly
+T3	Gene_or_protein	98 107	MFG-E8 on
+T4	Pharmacodynamic_phenotype	108 150	DSS -induced murine experimental colitis .
+R1	causes	Arg1:T1	Arg2:T2
+R2	causes	Arg1:T1	Arg2:T3
+R3	causes	Arg1:T2	Arg2:T1
+R4	causes	Arg1:T2	Arg2:T3
+R5	causes	Arg1:T2	Arg2:T4
+R6	influences	Arg1:T3	Arg2:T1
+R7	causes	Arg1:T3	Arg2:T2
+R8	influences	Arg1:T3	Arg2:T4
+R9	causes	Arg1:T4	Arg2:T2
+R10	influences	Arg1:T4	Arg2:T3

@@ -1,0 +1,23 @@
+T1	Chemical	44 56	posaconazole
+T2	Chemical	97 108	IPA against
+T3	Limited_variation	151 172	51 wild-type isolates
+T4	Limited_variation	200 219	51 mutations confer
+T5	Pharmacodynamic_phenotype	226 242	ole resistance .
+R1	causes	Arg1:T1	Arg2:T4
+R2	causes	Arg1:T1	Arg2:T5
+R3	influences	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	causes	Arg1:T2	Arg2:T4
+R6	causes	Arg1:T2	Arg2:T5
+R7	influences	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	causes	Arg1:T3	Arg2:T4
+R10	causes	Arg1:T3	Arg2:T5
+R11	causes	Arg1:T4	Arg2:T1
+R12	causes	Arg1:T4	Arg2:T2
+R13	causes	Arg1:T4	Arg2:T3
+R14	causes	Arg1:T4	Arg2:T5
+R15	isAssociatedWith	Arg1:T5	Arg2:T1
+R16	isAssociatedWith	Arg1:T5	Arg2:T2
+R17	isAssociatedWith	Arg1:T5	Arg2:T3
+R18	isAssociatedWith	Arg1:T5	Arg2:T4

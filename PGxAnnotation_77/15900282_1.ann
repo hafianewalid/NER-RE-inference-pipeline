@@ -1,0 +1,8 @@
+T1	Limited_variation	0 55	Common genetic variants of microsomal epoxide hydrolase
+T2	Pharmacodynamic_phenotype	63 89	warfarin dose requirements
+T3	Pharmacodynamic_phenotype	101 132	effect of cytochrome P450 2C9 .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T3
+R4	influences	Arg1:T3	Arg2:T1
+R5	influences	Arg1:T3	Arg2:T2

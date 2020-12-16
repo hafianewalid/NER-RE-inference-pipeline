@@ -1,0 +1,22 @@
+T1	Disease	23 27	BAFs
+T2	Chemical	33 52	prostaglandin E2 or
+T3	Chemical	86 160	dibutyryl ( Bt2 ) cAMP plus phorbol 12, 13-diacetate ( PDA ) significantly
+T4	Phenotype	169 185	BRCA1 levels and
+T5	Phenotype	198 217	atase mRNA levels .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T4
+R3	treats	Arg1:T2	Arg2:T1
+R4	decreases	Arg1:T2	Arg2:T4
+R5	increases	Arg1:T2	Arg2:T5
+R6	treats	Arg1:T3	Arg2:T1
+R7	influences	Arg1:T3	Arg2:T2
+R8	decreases	Arg1:T3	Arg2:T4
+R9	increases	Arg1:T3	Arg2:T5
+R10	treats	Arg1:T4	Arg2:T1
+R11	influences	Arg1:T4	Arg2:T2
+R12	decreases	Arg1:T4	Arg2:T3
+R13	causes	Arg1:T4	Arg2:T5
+R14	isAssociatedWith	Arg1:T5	Arg2:T1
+R15	isAssociatedWith	Arg1:T5	Arg2:T2
+R16	isAssociatedWith	Arg1:T5	Arg2:T3
+R17	decreases	Arg1:T5	Arg2:T4

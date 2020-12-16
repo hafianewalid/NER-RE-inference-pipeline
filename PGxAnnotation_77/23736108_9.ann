@@ -1,0 +1,23 @@
+T1	Gene_or_protein	83 94	TAPBP rs207
+T2	Limited_variation	80 100	of TAPBP rs2071888 C
+T3	Limited_variation	192 205	rs1059288 T>C
+T4	Disease	255 262	D group
+T5	Disease	284 311	tolerant asthma group , and
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T2	Arg2:T1
+R6	isAssociatedWith	Arg1:T2	Arg2:T3
+R7	isAssociatedWith	Arg1:T2	Arg2:T4
+R8	isAssociatedWith	Arg1:T2	Arg2:T5
+R9	isAssociatedWith	Arg1:T3	Arg2:T1
+R10	isAssociatedWith	Arg1:T3	Arg2:T2
+R11	isAssociatedWith	Arg1:T3	Arg2:T4
+R12	isAssociatedWith	Arg1:T3	Arg2:T5
+R13	increases	Arg1:T4	Arg2:T1
+R14	increases	Arg1:T4	Arg2:T2
+R15	increases	Arg1:T4	Arg2:T3
+R16	increases	Arg1:T4	Arg2:T5
+R17	isAssociatedWith	Arg1:T5	Arg2:T3
+R18	isAssociatedWith	Arg1:T5	Arg2:T4

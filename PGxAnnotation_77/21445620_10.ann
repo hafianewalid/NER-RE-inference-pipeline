@@ -1,0 +1,9 @@
+T1	Limited_variation	34 63	COMT Val ( 158/108 ) Met does
+T2	Pharmacokinetic_phenotype	109 126	CG absorption and
+T3	Pharmacokinetic_phenotype	139 140	.
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

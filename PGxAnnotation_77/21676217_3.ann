@@ -1,0 +1,3 @@
+T1	Gene_or_protein	0 122	HER2 -related target drugs trastuzumab and lapatinib have been the foundation of treatment of HER2 -- positive breast canc
+T2	Disease	122 123	e
+R1	isEquivalentTo	Arg1:T2	Arg2:T1

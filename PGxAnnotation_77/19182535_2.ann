@@ -1,0 +1,23 @@
+T1	Gene_or_protein	0 36	The tyrosine kinase ( TK ) inhibitor
+T2	Disease	80 97	malignancies that
+T3	Gene_or_protein	132 151	kinases , c-abl , c
+T4	Gene_or_protein	152 164	kit and PDGF
+T5	Gene_or_protein	167 168	.
+R1	treats	Arg1:T1	Arg2:T2
+R2	treats	Arg1:T1	Arg2:T5
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T2	Arg2:T4
+R6	isAssociatedWith	Arg1:T2	Arg2:T5
+R7	influences	Arg1:T3	Arg2:T1
+R8	treats	Arg1:T3	Arg2:T2
+R9	influences	Arg1:T3	Arg2:T4
+R10	influences	Arg1:T3	Arg2:T5
+R11	influences	Arg1:T4	Arg2:T1
+R12	treats	Arg1:T4	Arg2:T2
+R13	isEquivalentTo	Arg1:T4	Arg2:T3
+R14	influences	Arg1:T4	Arg2:T5
+R15	influences	Arg1:T5	Arg2:T1
+R16	isAssociatedWith	Arg1:T5	Arg2:T2
+R17	isAssociatedWith	Arg1:T5	Arg2:T3
+R18	isEquivalentTo	Arg1:T5	Arg2:T4

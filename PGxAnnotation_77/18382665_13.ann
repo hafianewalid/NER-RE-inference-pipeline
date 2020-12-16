@@ -1,0 +1,4 @@
+T1	Limited_variation	121 162	ADH1B regulatory region polymorphism than
+T2	Haplotype	202 217	ADH1B * 47His .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

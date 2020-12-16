@@ -1,0 +1,4 @@
+T1	Chemical	0 222	SSRIs can increase MDMA plasma levels , clinical effects ( e.g. blood pressure , heart rate , body temperature ) can be reduced , possibly due to a pharmacodynamic interaction at the serotonin reuptake transporter ( SERT )
+T2	Pharmacodynamic_phenotype	223 224	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isEquivalentTo	Arg1:T2	Arg2:T1

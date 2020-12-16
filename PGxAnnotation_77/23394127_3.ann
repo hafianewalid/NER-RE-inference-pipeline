@@ -1,0 +1,8 @@
+T1	Gene_or_protein	39 74	N-acetyl transferase 2 ( NAT2 ) and
+T2	Gene_or_protein	75 108	cytochrome P450 2E1 ( CYP2E1 ) in
+T3	Pharmacodynamic_phenotype	113 162	hepatotoxicity of patients treated with INH in an
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1

@@ -1,0 +1,49 @@
+T1	Gene_or_protein	18 50	epidermal growth factor receptor
+T2	Gene_or_protein	53 59	EGFR )
+T3	Chemical	65 86	monoclonal antibodies
+T4	Chemical	105 131	inhibitors of the tyrosine
+T5	Gene_or_protein	105 152	inhibitors of the tyrosine kinase ( TK ) domain
+T6	Chemical	105 173	inhibitors of the tyrosine kinase ( TK ) domain of the receptor have
+T7	Pharmacodynamic_phenotype	217 249	antitumor activities in patients
+T8	Disease	255 293	non-small-cell lung cancer ( NSCLC ) .
+R1	isEquivalentTo	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T1	Arg2:T6
+R6	isAssociatedWith	Arg1:T1	Arg2:T7
+R7	isEquivalentTo	Arg1:T2	Arg2:T1
+R8	isAssociatedWith	Arg1:T2	Arg2:T3
+R9	isAssociatedWith	Arg1:T2	Arg2:T4
+R10	isAssociatedWith	Arg1:T2	Arg2:T5
+R11	isAssociatedWith	Arg1:T2	Arg2:T6
+R12	isAssociatedWith	Arg1:T2	Arg2:T7
+R13	isAssociatedWith	Arg1:T2	Arg2:T8
+R14	decreases	Arg1:T3	Arg2:T1
+R15	decreases	Arg1:T3	Arg2:T2
+R16	influences	Arg1:T3	Arg2:T7
+R17	treats	Arg1:T3	Arg2:T8
+R18	decreases	Arg1:T4	Arg2:T1
+R19	decreases	Arg1:T4	Arg2:T2
+R20	influences	Arg1:T4	Arg2:T3
+R21	influences	Arg1:T4	Arg2:T7
+R22	treats	Arg1:T4	Arg2:T8
+R23	decreases	Arg1:T5	Arg2:T1
+R24	decreases	Arg1:T5	Arg2:T2
+R25	influences	Arg1:T5	Arg2:T3
+R26	influences	Arg1:T5	Arg2:T4
+R27	influences	Arg1:T5	Arg2:T7
+R28	treats	Arg1:T5	Arg2:T8
+R29	decreases	Arg1:T6	Arg2:T1
+R30	decreases	Arg1:T6	Arg2:T2
+R31	influences	Arg1:T6	Arg2:T3
+R32	influences	Arg1:T6	Arg2:T4
+R33	influences	Arg1:T6	Arg2:T5
+R34	influences	Arg1:T6	Arg2:T7
+R35	treats	Arg1:T6	Arg2:T8
+R36	decreases	Arg1:T7	Arg2:T1
+R37	decreases	Arg1:T7	Arg2:T2
+R38	influences	Arg1:T7	Arg2:T3
+R39	treats	Arg1:T7	Arg2:T8
+R40	decreases	Arg1:T8	Arg2:T1
+R41	decreases	Arg1:T8	Arg2:T2

@@ -1,0 +1,9 @@
+T1	Pharmacodynamic_phenotype	6 45	individual variability in drug response
+T2	Limited_variation	67 143	genetic polymorphism in genes encoding different drug metabolizing enzymes ,
+T3	Limited_variation	144 176	drug transporters ( P-gp ) , and
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

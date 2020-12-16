@@ -1,0 +1,16 @@
+T1	Limited_variation	43 68	mutation in the SGCE gene
+T2	Disease	77 99	myoclonus dystonia and
+T3	Disease	125 146	myoclonus dystonia to
+T4	Pharmacodynamic_phenotype	160 187	alcohol -induced dystonia .
+R1	causes	Arg1:T1	Arg2:T2
+R2	causes	Arg1:T1	Arg2:T3
+R3	causes	Arg1:T1	Arg2:T4
+R4	causes	Arg1:T2	Arg2:T1
+R5	causes	Arg1:T2	Arg2:T3
+R6	causes	Arg1:T2	Arg2:T4
+R7	causes	Arg1:T3	Arg2:T1
+R8	causes	Arg1:T3	Arg2:T2
+R9	causes	Arg1:T3	Arg2:T4
+R10	causes	Arg1:T4	Arg2:T1
+R11	causes	Arg1:T4	Arg2:T2
+R12	causes	Arg1:T4	Arg2:T3

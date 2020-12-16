@@ -1,0 +1,15 @@
+T1	Phenotype	56 69	FPG reduction
+T2	Chemical	84 135	sulphonylurea treatment in addition to metformin in
+T3	Disease	150 176	type 2 diabetes is related
+T4	Limited_variation	184 204	variation in KCNQ1 .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	decreases	Arg1:T2	Arg2:T1
+R5	treats	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T3	Arg2:T2
+R8	isAssociatedWith	Arg1:T3	Arg2:T4
+R9	influences	Arg1:T4	Arg2:T1
+R10	influences	Arg1:T4	Arg2:T2
+R11	influences	Arg1:T4	Arg2:T3

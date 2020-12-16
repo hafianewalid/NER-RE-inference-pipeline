@@ -1,0 +1,16 @@
+T1	Pharmacokinetic_phenotype	21 48	nitric oxide ( NO ) release
+T2	Limited_variation	64 126	genetic variation in endothelial NO synthase ( eNOS ) function
+T3	Disease	145 188	hypertension , thrombosis , vasospasm , and
+T4	Disease	189 210	atherosclerosis , all
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	decreases	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	decreases	Arg1:T3	Arg2:T1
+R8	influences	Arg1:T3	Arg2:T2
+R9	influences	Arg1:T3	Arg2:T4
+R10	decreases	Arg1:T4	Arg2:T1
+R11	influences	Arg1:T4	Arg2:T2
+R12	influences	Arg1:T4	Arg2:T3

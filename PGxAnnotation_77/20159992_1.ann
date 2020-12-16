@@ -1,0 +1,13 @@
+T1	Limited_variation	0 45	The FLT3 internal tandem duplication mutation
+T2	Gene_or_protein	75 100	aurora B kinase inhibitor
+T3	Chemical	71 116	the aurora B kinase inhibitor AZD1152-HQPA in
+T4	Disease	117 149	acute myelogenous leukemia cells
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T2	Arg2:T1
+R5	treats	Arg1:T2	Arg2:T4
+R6	influences	Arg1:T3	Arg2:T1
+R7	treats	Arg1:T3	Arg2:T4
+R8	influences	Arg1:T4	Arg2:T2
+R9	isEquivalentTo	Arg1:T4	Arg2:T3

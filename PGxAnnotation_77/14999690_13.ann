@@ -1,0 +1,25 @@
+T1	Phenotype	55 92	hepatocellular oxidative stress leads
+T2	Phenotype	96 110	cell death and
+T3	Phenotype	116 151	TNFalpha -induced Ras activation is
+T4	Phenotype	165 189	hepatic proliferation in
+T5	Pharmacodynamic_phenotype	202 233	ethanol -induced liver injury .
+R1	causes	Arg1:T1	Arg2:T2
+R2	causes	Arg1:T1	Arg2:T3
+R3	causes	Arg1:T1	Arg2:T4
+R4	causes	Arg1:T1	Arg2:T5
+R5	causes	Arg1:T2	Arg2:T1
+R6	influences	Arg1:T2	Arg2:T3
+R7	influences	Arg1:T2	Arg2:T4
+R8	causes	Arg1:T2	Arg2:T5
+R9	influences	Arg1:T3	Arg2:T1
+R10	causes	Arg1:T3	Arg2:T2
+R11	influences	Arg1:T3	Arg2:T4
+R12	influences	Arg1:T3	Arg2:T5
+R13	influences	Arg1:T4	Arg2:T1
+R14	causes	Arg1:T4	Arg2:T2
+R15	influences	Arg1:T4	Arg2:T3
+R16	causes	Arg1:T4	Arg2:T5
+R17	causes	Arg1:T5	Arg2:T1
+R18	causes	Arg1:T5	Arg2:T2
+R19	causes	Arg1:T5	Arg2:T3
+R20	causes	Arg1:T5	Arg2:T4

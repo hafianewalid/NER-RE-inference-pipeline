@@ -1,0 +1,11 @@
+T1	Disease	110 121	AML treated
+T2	Chemical	137 170	cytarabine / anthracycline -based
+T3	Disease	193 218	Cancer and Leukemia Group
+T4	Limited_variation	265 288	mutations by polymerase
+R1	isAssociatedWith	Arg1:T1	Arg2:T4
+R2	treats	Arg1:T2	Arg2:T1
+R3	treats	Arg1:T2	Arg2:T3
+R4	treats	Arg1:T3	Arg2:T1
+R5	isAssociatedWith	Arg1:T4	Arg2:T1
+R6	isAssociatedWith	Arg1:T4	Arg2:T2
+R7	isAssociatedWith	Arg1:T4	Arg2:T3

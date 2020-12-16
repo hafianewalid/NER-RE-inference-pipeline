@@ -1,0 +1,26 @@
+T1	Disease	65 91	anaplastic lymphoma kinase
+T2	Chemical	62 122	an anaplastic lymphoma kinase inhibitor ( crizotinib ) based
+T3	Pharmacodynamic_phenotype	148 164	response rate in
+T4	Disease	188 219	small cell lung cancer patients
+T5	Disease	226 239	tumors harbor
+T6	Genomic_variation	245 269	4 / ALK translocations .
+R1	influences	Arg1:T1	Arg2:T2
+R2	treats	Arg1:T1	Arg2:T4
+R3	isAssociatedWith	Arg1:T1	Arg2:T6
+R4	decreases	Arg1:T2	Arg2:T1
+R5	treats	Arg1:T2	Arg2:T4
+R6	isAssociatedWith	Arg1:T3	Arg2:T1
+R7	isAssociatedWith	Arg1:T3	Arg2:T2
+R8	treats	Arg1:T3	Arg2:T4
+R9	isAssociatedWith	Arg1:T3	Arg2:T5
+R10	isAssociatedWith	Arg1:T3	Arg2:T6
+R11	isAssociatedWith	Arg1:T4	Arg2:T5
+R12	isAssociatedWith	Arg1:T4	Arg2:T6
+R13	influences	Arg1:T5	Arg2:T2
+R14	isAssociatedWith	Arg1:T5	Arg2:T3
+R15	isAssociatedWith	Arg1:T5	Arg2:T4
+R16	isAssociatedWith	Arg1:T5	Arg2:T6
+R17	influences	Arg1:T6	Arg2:T2
+R18	influences	Arg1:T6	Arg2:T3
+R19	isAssociatedWith	Arg1:T6	Arg2:T4
+R20	isAssociatedWith	Arg1:T6	Arg2:T5

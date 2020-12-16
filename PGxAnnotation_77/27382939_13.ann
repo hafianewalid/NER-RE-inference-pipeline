@@ -1,0 +1,7 @@
+T1	Gene_or_protein	13 18	IL28B
+T2	Pharmacodynamic_phenotype	32 48	PEG-IFN response
+T3	Disease	66 81	CHD infection .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	treats	Arg1:T2	Arg2:T3
+R4	isAssociatedWith	Arg1:T3	Arg2:T1

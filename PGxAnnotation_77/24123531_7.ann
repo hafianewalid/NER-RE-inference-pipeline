@@ -1,0 +1,21 @@
+T1	Limited_variation	32 54	wild-type for EGFR and
+T2	Limited_variation	55 70	KRAS regardless
+T3	Pharmacodynamic_phenotype	74 97	erlotinib sensitivity ;
+T4	Pharmacodynamic_phenotype	110 145	erlotinib -resistant cell line ( HN
+T5	Limited_variation	167 182	G12D mutation .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T2
+R8	isAssociatedWith	Arg1:T3	Arg2:T5
+R9	isAssociatedWith	Arg1:T4	Arg2:T1
+R10	isAssociatedWith	Arg1:T4	Arg2:T2
+R11	influences	Arg1:T4	Arg2:T3
+R12	isAssociatedWith	Arg1:T4	Arg2:T5
+R13	isAssociatedWith	Arg1:T5	Arg2:T1
+R14	isAssociatedWith	Arg1:T5	Arg2:T2
+R15	isAssociatedWith	Arg1:T5	Arg2:T3
+R16	isAssociatedWith	Arg1:T5	Arg2:T4

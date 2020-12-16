@@ -1,0 +1,14 @@
+T1	Limited_variation	0 19	Whereas GST-M1 null
+T2	Pharmacodynamic_phenotype	34 59	cyclophosphamide efficacy
+T3	Limited_variation	62 81	GST-P1 polymorphism
+T4	Phenotype	114 150	susceptibility to further relapses .
+R1	decreases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T4
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	increases	Arg1:T2	Arg2:T4
+R6	influences	Arg1:T3	Arg2:T1
+R7	increases	Arg1:T3	Arg2:T2
+R8	increases	Arg1:T3	Arg2:T4
+R9	increases	Arg1:T4	Arg2:T2
+R10	increases	Arg1:T4	Arg2:T3

@@ -1,0 +1,9 @@
+T1	Chemical	0 3	PTH
+T2	Pharmacodynamic_phenotype	66 77	serum Pi in
+T3	Pharmacodynamic_phenotype	96 110	serum Pi in DD
+R1	decreases	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	decreases	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	decreases	Arg1:T3	Arg2:T2

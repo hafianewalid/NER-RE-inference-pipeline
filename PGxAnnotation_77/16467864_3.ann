@@ -1,0 +1,9 @@
+T1	Limited_variation	0 23	Although AML1 mutations
+T2	Disease	83 105	MDS /AML , acquisition
+T3	Genomic_variation	120 142	genetic alterations is
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

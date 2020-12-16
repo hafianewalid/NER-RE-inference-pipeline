@@ -1,0 +1,4 @@
+T1	Pharmacodynamic_phenotype	68 115	hypersensitivity reaction to abacavir presented
+T2	Haplotype	120 139	HLA-B * 5701 allele
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

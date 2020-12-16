@@ -1,0 +1,16 @@
+T1	Limited_variation	43 48	D123G
+T2	Limited_variation	51 56	F227L
+T3	Limited_variation	63 76	T369I emerged
+T4	Phenotype	126 156	concentrations of VRX-480773 .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	isAssociatedWith	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	isAssociatedWith	Arg1:T3	Arg2:T4
+R10	causes	Arg1:T4	Arg2:T1
+R11	causes	Arg1:T4	Arg2:T2
+R12	causes	Arg1:T4	Arg2:T3

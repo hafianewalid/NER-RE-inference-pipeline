@@ -1,0 +1,9 @@
+T1	Pharmacodynamic_phenotype	11 20	C/D ratio
+T2	Chemical	36 41	TAC -
+T3	Genomic_variation	63 78	MDR-1 -3435CC (
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T2	Arg2:T1
+R4	treats	Arg1:T2	Arg2:T3
+R5	increases	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

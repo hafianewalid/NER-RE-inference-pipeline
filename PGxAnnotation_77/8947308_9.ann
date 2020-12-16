@@ -1,0 +1,8 @@
+T1	Limited_variation	73 104	deletion of the GST M1 gene may
+T2	Disease	163 178	liver damage in
+T3	Pharmacodynamic_phenotype	195 221	toxic effects of ethanol .
+R1	increases	Arg1:T1	Arg2:T2
+R2	causes	Arg1:T2	Arg2:T1
+R3	causes	Arg1:T2	Arg2:T3
+R4	causes	Arg1:T3	Arg2:T1
+R5	causes	Arg1:T3	Arg2:T2

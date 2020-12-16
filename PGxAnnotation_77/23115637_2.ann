@@ -1,0 +1,9 @@
+T1	Limited_variation	42 83	polymorphisms of the GABRA2 gene encoding
+T2	Gene_or_protein	88 113	GABA ( A ) a2-subunit are
+T3	Disease	130 150	ethanol dependence .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

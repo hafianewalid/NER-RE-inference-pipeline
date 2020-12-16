@@ -1,0 +1,9 @@
+T1	Limited_variation	0 50	Immunoglobulin G fragment C receptor polymorphisms
+T2	Pharmacodynamic_phenotype	55 126	efficacy of preoperative chemotherapy plus trastuzumab and lapatinib in
+T3	Disease	127 157	HER2 -positive breast cancer .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	treats	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

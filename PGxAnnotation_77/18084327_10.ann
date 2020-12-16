@@ -1,0 +1,9 @@
+T1	Chemical	38 45	AZD1152
+T2	Disease	65 75	tumor cell
+T3	Disease	156 179	-deficient cancer cells
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

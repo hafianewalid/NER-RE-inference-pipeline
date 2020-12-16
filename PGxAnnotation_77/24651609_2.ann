@@ -1,0 +1,15 @@
+T1	Chemical	56 76	N-oleoylethanolamine
+T2	Chemical	79 86	OEA ) ,
+T3	Gene_or_protein	130 193	peroxisome proliferator-activated receptor alpha ( PPARa ) , we
+T4	Chemical	203 226	sulfamoyl analogs based
+R1	influences	Arg1:T1	Arg2:T3
+R2	influences	Arg1:T1	Arg2:T4
+R3	isEquivalentTo	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T2	Arg2:T4
+R6	influences	Arg1:T3	Arg2:T1
+R7	influences	Arg1:T3	Arg2:T2
+R8	influences	Arg1:T3	Arg2:T4
+R9	influences	Arg1:T4	Arg2:T1
+R10	influences	Arg1:T4	Arg2:T2
+R11	influences	Arg1:T4	Arg2:T3

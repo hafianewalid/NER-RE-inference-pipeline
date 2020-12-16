@@ -1,0 +1,12 @@
+T1	Chemical	31 39	T0901317
+T2	Gene_or_protein	54 68	LXR -selective
+T3	Chemical	44 78	synthetic LXR -selective agonist ,
+T4	Phenotype	89 136	levels of plasma lipids and Angptl3 mRNA in the
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T1	Arg2:T4
+R4	increases	Arg1:T2	Arg2:T3
+R5	increases	Arg1:T2	Arg2:T4
+R6	increases	Arg1:T3	Arg2:T2
+R7	increases	Arg1:T3	Arg2:T4
+R8	isAssociatedWith	Arg1:T4	Arg2:T1

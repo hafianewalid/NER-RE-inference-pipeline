@@ -1,0 +1,7 @@
+T1	Genomic_variation	62 77	KIT alterations
+T2	Chemical	95 120	imatinib mesylate results
+T3	Pharmacodynamic_phenotype	136 157	clinical responses in
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T3	Arg2:T1
+R4	influences	Arg1:T3	Arg2:T2

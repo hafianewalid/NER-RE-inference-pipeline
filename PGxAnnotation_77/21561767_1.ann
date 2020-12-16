@@ -1,0 +1,9 @@
+T1	Chemical	13 56	5-(arenethynyl) hetero-monocyclic derivativ
+T2	Gene_or_protein	81 98	f BCR-ABL includi
+T3	Limited_variation	105 128	T315I gatekeeper mutant
+R1	decreases	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	decreases	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

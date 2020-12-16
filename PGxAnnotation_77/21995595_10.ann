@@ -1,0 +1,15 @@
+T1	Gene_or_protein	26 30	ENO2
+T2	Disease	61 80	heroin dependence ,
+T3	Phenotype	85 117	reduced ENO2 gene expression may
+T4	Disease	143 162	heroin dependence .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	increases	Arg1:T2	Arg2:T4
+R6	increases	Arg1:T3	Arg2:T1
+R7	increases	Arg1:T3	Arg2:T2
+R8	increases	Arg1:T3	Arg2:T4
+R9	isAssociatedWith	Arg1:T4	Arg2:T1
+R10	isAssociatedWith	Arg1:T4	Arg2:T2
+R11	increases	Arg1:T4	Arg2:T3

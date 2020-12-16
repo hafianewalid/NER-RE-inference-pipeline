@@ -1,0 +1,49 @@
+T1	Gene_or_protein	0 8	The CREB
+T2	Phenotype	42 73	gene expression changes related
+T3	Phenotype	77 125	chronic use of multiple drugs of abuse including
+T4	Chemical	130 145	amphetamine and
+T5	Gene_or_protein	188 202	CREB signaling
+T6	Phenotype	230 270	frequency of methamphetamine use as well
+T7	Pharmacodynamic_phenotype	274 308	outcomes of outpatient treatment .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T1	Arg2:T5
+R5	influences	Arg1:T1	Arg2:T6
+R6	influences	Arg1:T1	Arg2:T7
+R7	influences	Arg1:T2	Arg2:T1
+R8	isAssociatedWith	Arg1:T2	Arg2:T3
+R9	isAssociatedWith	Arg1:T2	Arg2:T4
+R10	isAssociatedWith	Arg1:T2	Arg2:T5
+R11	influences	Arg1:T2	Arg2:T6
+R12	influences	Arg1:T2	Arg2:T7
+R13	influences	Arg1:T3	Arg2:T1
+R14	influences	Arg1:T3	Arg2:T2
+R15	causes	Arg1:T3	Arg2:T4
+R16	influences	Arg1:T3	Arg2:T5
+R17	influences	Arg1:T3	Arg2:T6
+R18	influences	Arg1:T3	Arg2:T7
+R19	influences	Arg1:T4	Arg2:T1
+R20	influences	Arg1:T4	Arg2:T2
+R21	causes	Arg1:T4	Arg2:T3
+R22	influences	Arg1:T4	Arg2:T5
+R23	influences	Arg1:T4	Arg2:T6
+R24	influences	Arg1:T4	Arg2:T7
+R25	influences	Arg1:T5	Arg2:T1
+R26	influences	Arg1:T5	Arg2:T2
+R27	influences	Arg1:T5	Arg2:T3
+R28	influences	Arg1:T5	Arg2:T4
+R29	influences	Arg1:T5	Arg2:T6
+R30	influences	Arg1:T5	Arg2:T7
+R31	influences	Arg1:T6	Arg2:T1
+R32	influences	Arg1:T6	Arg2:T2
+R33	influences	Arg1:T6	Arg2:T3
+R34	influences	Arg1:T6	Arg2:T4
+R35	influences	Arg1:T6	Arg2:T5
+R36	influences	Arg1:T6	Arg2:T7
+R37	influences	Arg1:T7	Arg2:T1
+R38	influences	Arg1:T7	Arg2:T2
+R39	influences	Arg1:T7	Arg2:T3
+R40	influences	Arg1:T7	Arg2:T4
+R41	influences	Arg1:T7	Arg2:T5
+R42	influences	Arg1:T7	Arg2:T6

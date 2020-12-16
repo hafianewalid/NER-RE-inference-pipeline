@@ -1,0 +1,4 @@
+T1	Chemical	0 186	Codeine is bioactivated to morphine , a strong opioid agonist , by the hepatic cytochrome P450 2D6 ( CYP2D6 ) ; hence , the efficacy and safety of codeine are governed by CYP2D6 activity
+T2	Phenotype	187 188	.
+R1	influences	Arg1:T1	Arg2:T2
+R2	isEquivalentTo	Arg1:T2	Arg2:T1

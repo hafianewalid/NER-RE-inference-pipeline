@@ -1,0 +1,4 @@
+T1	Chemical	0 14	Norepinephrine
+T2	Phenotype	70 88	CRH neurons in the
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

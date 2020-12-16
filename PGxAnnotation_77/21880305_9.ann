@@ -1,0 +1,4 @@
+T1	Limited_variation	31 59	A allele of rs6265 responded
+T2	Pharmacodynamic_phenotype	31 92	A allele of rs6265 responded better to sertraline treatment (
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T2	Arg2:T1

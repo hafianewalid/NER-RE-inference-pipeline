@@ -1,0 +1,4 @@
+T1	Gene_or_protein	0 78	Catechol-O-methyltransferase ( COMT ) is involved in the catabolism of Ecstasy
+T2	Pharmacokinetic_phenotype	79 80	.
+R1	influences	Arg1:T1	Arg2:T2
+R2	isEquivalentTo	Arg1:T2	Arg2:T1

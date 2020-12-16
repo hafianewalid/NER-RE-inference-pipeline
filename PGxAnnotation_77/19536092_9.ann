@@ -1,0 +1,8 @@
+T1	Gene_or_protein	29 48	ATM and ERCC5 genes
+T2	Pharmacodynamic_phenotype	72 95	oxaliplatin efficacy in
+T3	Disease	100 101	.
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T3	Arg2:T1
+R5	isAssociatedWith	Arg1:T3	Arg2:T2

@@ -1,0 +1,3 @@
+T1	Haplotype	0 286	CYP2C9 ( * ) 2 ( p.R144C ) , CYP2C9 ( * ) 3 ( p.I359L ) , and the VKORC1 promoter ( g.-1639G-->A ) polymorphisms occur frequently in patients who are warfarin " sensitive " and require lower doses , whereas patients with VKORC1 missense mutations are warfarin " resistant " and require 
+T2	Pharmacodynamic_phenotype	286 287	h
+R1	isAssociatedWith	Arg1:T1	Arg2:T2

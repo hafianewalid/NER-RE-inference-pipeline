@@ -1,0 +1,16 @@
+T1	Chemical	0 13	Selective Abl
+T2	Gene_or_protein	0 20	Selective Abl kinase
+T3	Chemical	0 31	Selective Abl kinase inhibitors
+T4	Phenotype	88 100	Ph (+) leuke
+T5	Disease	92 101	+) leukem
+R1	decreases	Arg1:T1	Arg2:T2
+R2	treats	Arg1:T1	Arg2:T4
+R3	treats	Arg1:T1	Arg2:T5
+R4	decreases	Arg1:T2	Arg2:T1
+R5	treats	Arg1:T2	Arg2:T4
+R6	treats	Arg1:T2	Arg2:T5
+R7	decreases	Arg1:T3	Arg2:T2
+R8	treats	Arg1:T3	Arg2:T4
+R9	treats	Arg1:T3	Arg2:T5
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	isEquivalentTo	Arg1:T5	Arg2:T4

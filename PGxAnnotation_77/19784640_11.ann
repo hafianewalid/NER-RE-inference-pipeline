@@ -1,0 +1,19 @@
+T1	Haplotype	22 49	CYP3A4 * 1G / * 1G genotype
+T2	Chemical	62 72	fentanyl (
+T3	Phenotype	110 122	pain control
+T4	Haplotype	150 178	CYP3A4 * 1 / * 1 ( 381.6 + /
+T5	Haplotype	211 235	/ * 1G ( 371.9 + / - 180
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T5
+R3	treats	Arg1:T2	Arg2:T1
+R4	treats	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T5
+R8	influences	Arg1:T4	Arg2:T1
+R9	influences	Arg1:T4	Arg2:T2
+R10	influences	Arg1:T4	Arg2:T3
+R11	influences	Arg1:T4	Arg2:T5
+R12	isAssociatedWith	Arg1:T5	Arg2:T1
+R13	influences	Arg1:T5	Arg2:T2
+R14	influences	Arg1:T5	Arg2:T3

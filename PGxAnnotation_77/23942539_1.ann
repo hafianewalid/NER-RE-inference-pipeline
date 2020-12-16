@@ -1,0 +1,7 @@
+T1	Limited_variation	13 54	dihydropyrimidine dehydrogenase genotypes
+T2	Chemical	72 86	5-fluorouracil
+T3	Disease	101 127	colorectal cancer patients
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	treats	Arg1:T2	Arg2:T3
+R4	isAssociatedWith	Arg1:T3	Arg2:T1

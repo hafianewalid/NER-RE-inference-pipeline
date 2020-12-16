@@ -1,0 +1,25 @@
+T1	Chemical	0 12	Homocysteine
+T2	Phenotype	21 43	VCAM-1 gene expression
+T3	Phenotype	52 61	NF-kappaB
+T4	Phenotype	66 92	NAD(P)H oxidase activation
+T5	Chemical	133 160	polyphenolic antioxidants .
+R1	causes	Arg1:T1	Arg2:T2
+R2	causes	Arg1:T1	Arg2:T3
+R3	causes	Arg1:T1	Arg2:T4
+R4	causes	Arg1:T1	Arg2:T5
+R5	causes	Arg1:T2	Arg2:T1
+R6	causes	Arg1:T2	Arg2:T3
+R7	causes	Arg1:T2	Arg2:T4
+R8	causes	Arg1:T2	Arg2:T5
+R9	causes	Arg1:T3	Arg2:T1
+R10	causes	Arg1:T3	Arg2:T2
+R11	influences	Arg1:T3	Arg2:T4
+R12	influences	Arg1:T3	Arg2:T5
+R13	causes	Arg1:T4	Arg2:T1
+R14	causes	Arg1:T4	Arg2:T2
+R15	causes	Arg1:T4	Arg2:T3
+R16	isAssociatedWith	Arg1:T4	Arg2:T5
+R17	influences	Arg1:T5	Arg2:T1
+R18	causes	Arg1:T5	Arg2:T2
+R19	influences	Arg1:T5	Arg2:T3
+R20	influences	Arg1:T5	Arg2:T4

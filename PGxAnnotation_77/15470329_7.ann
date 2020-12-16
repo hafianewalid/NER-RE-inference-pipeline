@@ -1,0 +1,23 @@
+T1	Limited_variation	0 50	beta 1 -Adrenergic receptor polymorphisms Ser49Gly
+T2	Limited_variation	55 70	Arg 389Gly were
+T3	Pharmacodynamic_phenotype	121 179	pharmacokinetic - pharmacodynamic relationship of metoprol
+T4	Pharmacokinetic_phenotype	121 181	pharmacokinetic - pharmacodynamic relationship of metoprolol
+T5	Pharmacodynamic_phenotype	182 183	.
+R1	influences	Arg1:T1	Arg2:T3
+R2	influences	Arg1:T1	Arg2:T4
+R3	influences	Arg1:T1	Arg2:T5
+R4	influences	Arg1:T2	Arg2:T1
+R5	influences	Arg1:T2	Arg2:T3
+R6	influences	Arg1:T2	Arg2:T4
+R7	influences	Arg1:T2	Arg2:T5
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	influences	Arg1:T3	Arg2:T4
+R10	influences	Arg1:T3	Arg2:T5
+R11	isAssociatedWith	Arg1:T4	Arg2:T1
+R12	isAssociatedWith	Arg1:T4	Arg2:T2
+R13	influences	Arg1:T4	Arg2:T3
+R14	influences	Arg1:T4	Arg2:T5
+R15	isAssociatedWith	Arg1:T5	Arg2:T1
+R16	isAssociatedWith	Arg1:T5	Arg2:T2
+R17	influences	Arg1:T5	Arg2:T3
+R18	influences	Arg1:T5	Arg2:T4

@@ -1,0 +1,9 @@
+T1	Limited_variation	31 56	DPYSL2 gene polymorphisms
+T2	Disease	76 96	alcohol dependence (
+T3	Disease	97 103	AD ) .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isEquivalentTo	Arg1:T3	Arg2:T2

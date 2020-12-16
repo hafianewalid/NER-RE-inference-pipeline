@@ -1,0 +1,24 @@
+T1	Disease	56 63	CD with
+T2	Disease	70 97	drugs of abuse , additional
+T3	Limited_variation	141 169	polymorphisms in CNR1 induce
+T4	Pharmacodynamic_phenotype	180 225	susceptibility to substance dependence or are
+T5	Disease	238 257	cocaine addiction .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	causes	Arg1:T1	Arg2:T4
+R4	causes	Arg1:T1	Arg2:T5
+R5	influences	Arg1:T2	Arg2:T1
+R6	causes	Arg1:T2	Arg2:T3
+R7	causes	Arg1:T2	Arg2:T4
+R8	causes	Arg1:T2	Arg2:T5
+R9	causes	Arg1:T3	Arg2:T1
+R10	causes	Arg1:T3	Arg2:T2
+R11	causes	Arg1:T3	Arg2:T4
+R12	causes	Arg1:T3	Arg2:T5
+R13	causes	Arg1:T4	Arg2:T1
+R14	causes	Arg1:T4	Arg2:T2
+R15	influences	Arg1:T4	Arg2:T3
+R16	causes	Arg1:T4	Arg2:T5
+R17	causes	Arg1:T5	Arg2:T2
+R18	isAssociatedWith	Arg1:T5	Arg2:T3
+R19	causes	Arg1:T5	Arg2:T4

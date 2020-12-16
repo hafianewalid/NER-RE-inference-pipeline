@@ -1,0 +1,8 @@
+T1	Chemical	39 49	naringenin
+T2	Gene_or_protein	60 66	CYP1B1
+T3	Phenotype	91 108	CYP1A1 activity .
+R1	decreases	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T3
+R4	isAssociatedWith	Arg1:T3	Arg2:T1
+R5	isAssociatedWith	Arg1:T3	Arg2:T2

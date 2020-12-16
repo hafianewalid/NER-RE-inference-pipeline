@@ -1,0 +1,3 @@
+T1	Chemical	34 43	clonidine
+T2	Limited_variation	76 103	COMT low-activity alleles .
+R1	influences	Arg1:T2	Arg2:T1

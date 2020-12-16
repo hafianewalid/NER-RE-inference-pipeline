@@ -1,0 +1,4 @@
+T1	Limited_variation	29 39	NRXN3 SNPs
+T2	Disease	45 117	borderline personality disorder phenotypes in heroin dependent cases and
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

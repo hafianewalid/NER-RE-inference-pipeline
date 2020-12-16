@@ -1,0 +1,9 @@
+T1	Gene_or_protein	32 46	hTERT promoter
+T2	Pharmacodynamic_phenotype	79 145	effects of tea polyphenols , (-)-epigallocatechin-3-gallate ( EGCG
+T3	Pharmacodynamic_phenotype	149 176	nd (-)-epigallocatechin ( E
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

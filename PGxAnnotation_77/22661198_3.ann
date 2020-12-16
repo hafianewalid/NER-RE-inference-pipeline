@@ -1,0 +1,4 @@
+T1	Limited_variation	56 133	T102C polymorphism in the 5-HT receptor subtype 2A gene ( HTR2A ) and alcohol
+T2	Disease	48 148	between T102C polymorphism in the 5-HT receptor subtype 2A gene ( HTR2A ) and alcohol dependence was
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

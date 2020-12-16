@@ -1,0 +1,19 @@
+T1	Disease	110 143	major depressive disorder , based
+T2	Limited_variation	156 177	Val66Met polymorphism
+T3	Chemical	180 191	SSRI should
+T4	Limited_variation	215 227	Val patients
+T5	Chemical	238 249	TCA for Met
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T4
+R3	influences	Arg1:T2	Arg2:T3
+R4	influences	Arg1:T2	Arg2:T4
+R5	influences	Arg1:T2	Arg2:T5
+R6	treats	Arg1:T3	Arg2:T1
+R7	treats	Arg1:T3	Arg2:T4
+R8	treats	Arg1:T3	Arg2:T5
+R9	treats	Arg1:T4	Arg2:T1
+R10	influences	Arg1:T4	Arg2:T2
+R11	influences	Arg1:T4	Arg2:T3
+R12	influences	Arg1:T4	Arg2:T5
+R13	treats	Arg1:T5	Arg2:T1
+R14	influences	Arg1:T5	Arg2:T3

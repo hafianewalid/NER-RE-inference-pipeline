@@ -1,0 +1,9 @@
+T1	Phenotype	25 45	replication capacity
+T2	Limited_variation	77 122	zidovudine -associated mutation and M184V was
+T3	Limited_variation	159 174	wild-type virus
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	decreases	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

@@ -1,0 +1,8 @@
+T1	Limited_variation	16 32	GNB3 CC genotype
+T2	Phenotype	57 66	SVR rates
+T3	Limited_variation	96 117	non- CC genotype ( 52
+R1	decreases	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1
+R3	isAssociatedWith	Arg1:T2	Arg2:T3
+R4	influences	Arg1:T3	Arg2:T1
+R5	decreases	Arg1:T3	Arg2:T2

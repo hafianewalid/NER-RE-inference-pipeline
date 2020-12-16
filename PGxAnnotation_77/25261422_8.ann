@@ -1,0 +1,9 @@
+T1	Chemical	64 73	tenofovir
+T2	Chemical	78 91	emtricitabine
+T3	Disease	139 166	HIV-1 harbouring M41L ( n =
+R1	influences	Arg1:T1	Arg2:T2
+R2	treats	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	treats	Arg1:T2	Arg2:T3
+R5	influences	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

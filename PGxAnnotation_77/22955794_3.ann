@@ -1,0 +1,9 @@
+T1	Limited_variation	0 61	Variation in the cytochrome P450 2C19 ( CYP2C19 ) gene coding
+T2	Gene_or_protein	70 84	CYP2C19 enzyme
+T3	Pharmacodynamic_phenotype	135 160	response to clopidogrel .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T1
+R4	influences	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	isAssociatedWith	Arg1:T3	Arg2:T2

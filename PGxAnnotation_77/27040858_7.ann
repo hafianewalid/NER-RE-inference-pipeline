@@ -1,0 +1,22 @@
+T1	Pharmacodynamic_phenotype	30 50	response to Icotinib
+T2	Pharmacodynamic_phenotype	59 69	crizotinib
+T3	Limited_variation	92 109	EGFR mutation was
+T4	Gene_or_protein	135 150	ROS1 fusion and
+T5	Limited_variation	151 168	KRAS mutation not
+R1	isAssociatedWith	Arg1:T1	Arg2:T5
+R2	influences	Arg1:T2	Arg2:T1
+R3	influences	Arg1:T2	Arg2:T3
+R4	influences	Arg1:T2	Arg2:T4
+R5	influences	Arg1:T2	Arg2:T5
+R6	influences	Arg1:T3	Arg2:T1
+R7	influences	Arg1:T3	Arg2:T2
+R8	influences	Arg1:T3	Arg2:T4
+R9	influences	Arg1:T3	Arg2:T5
+R10	influences	Arg1:T4	Arg2:T1
+R11	influences	Arg1:T4	Arg2:T2
+R12	influences	Arg1:T4	Arg2:T3
+R13	influences	Arg1:T4	Arg2:T5
+R14	influences	Arg1:T5	Arg2:T1
+R15	influences	Arg1:T5	Arg2:T2
+R16	isAssociatedWith	Arg1:T5	Arg2:T3
+R17	isAssociatedWith	Arg1:T5	Arg2:T4

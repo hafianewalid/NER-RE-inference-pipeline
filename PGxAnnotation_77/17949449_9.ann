@@ -1,0 +1,29 @@
+T1	Disease	30 61	Dukes ' C colorectal cancer who
+T2	Disease	81 102	surgical resection of
+T3	Disease	115 132	tumour , followed
+T4	Chemical	138 173	FU -based adjuvant chemotherapy , p
+T5	Limited_variation	173 203	53 mutation status as assessed
+T6	Phenotype	253 291	overall and metastasis-free survival .
+R1	isAssociatedWith	Arg1:T1	Arg2:T5
+R2	treats	Arg1:T2	Arg2:T1
+R3	treats	Arg1:T2	Arg2:T3
+R4	influences	Arg1:T2	Arg2:T4
+R5	influences	Arg1:T2	Arg2:T6
+R6	treats	Arg1:T3	Arg2:T1
+R7	influences	Arg1:T3	Arg2:T4
+R8	isAssociatedWith	Arg1:T3	Arg2:T5
+R9	influences	Arg1:T3	Arg2:T6
+R10	treats	Arg1:T4	Arg2:T1
+R11	influences	Arg1:T4	Arg2:T2
+R12	treats	Arg1:T4	Arg2:T3
+R13	isAssociatedWith	Arg1:T4	Arg2:T5
+R14	influences	Arg1:T4	Arg2:T6
+R15	influences	Arg1:T5	Arg2:T2
+R16	influences	Arg1:T5	Arg2:T3
+R17	influences	Arg1:T5	Arg2:T4
+R18	influences	Arg1:T5	Arg2:T6
+R19	isAssociatedWith	Arg1:T6	Arg2:T1
+R20	isAssociatedWith	Arg1:T6	Arg2:T2
+R21	isAssociatedWith	Arg1:T6	Arg2:T3
+R22	isAssociatedWith	Arg1:T6	Arg2:T4
+R23	isAssociatedWith	Arg1:T6	Arg2:T5

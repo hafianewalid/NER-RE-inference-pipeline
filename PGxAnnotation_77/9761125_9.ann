@@ -1,0 +1,8 @@
+T1	Limited_variation	26 38	p53 mutation
+T2	Phenotype	98 116	phenacetin abuse ,
+T3	Phenotype	117 135	smoking or neither
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T2	Arg2:T3
+R4	influences	Arg1:T3	Arg2:T1
+R5	influences	Arg1:T3	Arg2:T2

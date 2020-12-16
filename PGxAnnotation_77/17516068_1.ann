@@ -1,0 +1,7 @@
+T1	Chemical	20 48	trastuzumab and capecitabine
+T2	Disease	67 114	HER2 -overexpressing metastatic breast cancer :
+T3	Disease	121 143	Breast Cancer Research
+R1	treats	Arg1:T1	Arg2:T2
+R2	treats	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T3	Arg2:T1
+R4	treats	Arg1:T3	Arg2:T2

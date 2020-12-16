@@ -1,0 +1,15 @@
+T1	Chemical	11 14	MVA
+T2	Pharmacodynamic_phenotype	54 61	CD4 and
+T3	Pharmacodynamic_phenotype	64 84	8 T cell responses ,
+T4	Pharmacodynamic_phenotype	99 121	anti- Env Ab titers by
+R1	increases	Arg1:T1	Arg2:T2
+R2	increases	Arg1:T1	Arg2:T3
+R3	increases	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	isAssociatedWith	Arg1:T2	Arg2:T3
+R6	increases	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	increases	Arg1:T3	Arg2:T4
+R10	isAssociatedWith	Arg1:T4	Arg2:T1
+R11	increases	Arg1:T4	Arg2:T2

@@ -1,0 +1,16 @@
+T1	Limited_variation	45 72	polymorphisms of KIF3A were
+T2	Disease	103 110	AIA ( P
+T3	Phenotype	174 211	forced expiratory volume at 1 s ( FEV
+T4	Phenotype	218 232	) % by aspirin
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	decreases	Arg1:T1	Arg2:T3
+R3	causes	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T1
+R5	decreases	Arg1:T2	Arg2:T3
+R6	causes	Arg1:T2	Arg2:T4
+R7	isAssociatedWith	Arg1:T3	Arg2:T1
+R8	isAssociatedWith	Arg1:T3	Arg2:T2
+R9	causes	Arg1:T3	Arg2:T4
+R10	causes	Arg1:T4	Arg2:T1
+R11	causes	Arg1:T4	Arg2:T2
+R12	causes	Arg1:T4	Arg2:T3

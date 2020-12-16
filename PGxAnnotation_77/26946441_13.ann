@@ -1,0 +1,9 @@
+T1	Pharmacodynamic_phenotype	70 103	analgesic response of oxycodone ,
+T2	Phenotype	147 172	muscle cuff pressure with
+T3	Limited_variation	177 202	OPRK1 SNPs was identified
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T2	Arg2:T1
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T3	Arg2:T1
+R6	influences	Arg1:T3	Arg2:T2

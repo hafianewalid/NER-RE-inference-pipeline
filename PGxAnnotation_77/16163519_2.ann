@@ -1,0 +1,24 @@
+T1	Gene_or_protein	12 37	Dopamine beta-hydroxylase
+T2	Gene_or_protein	40 45	DBH )
+T3	Chemical	66 73	DA ) to
+T4	Chemical	91 97	NE ) ,
+T5	Pharmacokinetic_phenotype	130 156	catecholamine metabolism .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T1	Arg2:T3
+R3	influences	Arg1:T1	Arg2:T4
+R4	influences	Arg1:T1	Arg2:T5
+R5	isEquivalentTo	Arg1:T2	Arg2:T1
+R6	influences	Arg1:T2	Arg2:T3
+R7	influences	Arg1:T2	Arg2:T4
+R8	influences	Arg1:T2	Arg2:T5
+R9	influences	Arg1:T3	Arg2:T1
+R10	influences	Arg1:T3	Arg2:T4
+R11	influences	Arg1:T3	Arg2:T5
+R12	influences	Arg1:T4	Arg2:T1
+R13	influences	Arg1:T4	Arg2:T2
+R14	isAssociatedWith	Arg1:T4	Arg2:T3
+R15	influences	Arg1:T4	Arg2:T5
+R16	influences	Arg1:T5	Arg2:T1
+R17	influences	Arg1:T5	Arg2:T2
+R18	influences	Arg1:T5	Arg2:T3
+R19	influences	Arg1:T5	Arg2:T4

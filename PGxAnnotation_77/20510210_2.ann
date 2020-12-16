@@ -1,0 +1,4 @@
+T1	Limited_variation	120 181	cytochrome P450 2C19 ( CYP2C19 ) polymorphism on antiplatelet
+T2	Pharmacodynamic_phenotype	120 206	cytochrome P450 2C19 ( CYP2C19 ) polymorphism on antiplatelet effects of clopidogrel .
+R1	influences	Arg1:T1	Arg2:T2
+R2	influences	Arg1:T2	Arg2:T1

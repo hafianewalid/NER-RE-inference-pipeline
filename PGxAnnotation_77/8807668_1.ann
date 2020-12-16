@@ -1,0 +1,4 @@
+T1	Pharmacokinetic_phenotype	14 49	poor metabolizers of (S)-mephenytoi
+T2	Haplotype	84 106	 of CYP2C19 in Japanes
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T2	Arg2:T1

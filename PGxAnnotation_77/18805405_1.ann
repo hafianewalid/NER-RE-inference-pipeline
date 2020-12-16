@@ -1,0 +1,3 @@
+T1	Gene_or_protein	0 89	PXR -mediated transcriptional activation of CYP3A4 by cryptotanshinone and tanshinone IIA
+T2	Chemical	90 91	.
+R1	isEquivalentTo	Arg1:T2	Arg2:T1

@@ -1,0 +1,14 @@
+T1	Phenotype	0 15	Levels of c-fos
+T2	Phenotype	20 34	c-jun proteins
+T3	Gene_or_protein	58 70	TNF alpha or
+T4	Chemical	103 104	.
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T2	Arg2:T3
+R5	isAssociatedWith	Arg1:T2	Arg2:T4
+R6	increases	Arg1:T3	Arg2:T1
+R7	increases	Arg1:T3	Arg2:T2
+R8	influences	Arg1:T4	Arg2:T1
+R9	influences	Arg1:T4	Arg2:T2
+R10	influences	Arg1:T4	Arg2:T3

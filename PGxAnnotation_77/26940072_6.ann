@@ -1,0 +1,49 @@
+T1	Chemical	65 78	warfarin were
+T2	Haplotype	93 117	CYP2C9 * 1 , * 2 and * 3
+T3	Gene_or_protein	127 135	1 rs9923
+T4	Limited_variation	127 143	1 rs9923231 , rs
+T5	Gene_or_protein	127 145	1 rs9923231 , rs99
+T6	Limited_variation	127 155	1 rs9923231 , rs9934438 , rs
+T7	Limited_variation	157 175	94 and rs2884737 .
+R1	isAssociatedWith	Arg1:T1	Arg2:T2
+R2	isAssociatedWith	Arg1:T1	Arg2:T3
+R3	isAssociatedWith	Arg1:T1	Arg2:T4
+R4	isAssociatedWith	Arg1:T1	Arg2:T5
+R5	isAssociatedWith	Arg1:T1	Arg2:T6
+R6	isAssociatedWith	Arg1:T1	Arg2:T7
+R7	isAssociatedWith	Arg1:T2	Arg2:T1
+R8	isAssociatedWith	Arg1:T2	Arg2:T3
+R9	isAssociatedWith	Arg1:T2	Arg2:T4
+R10	isAssociatedWith	Arg1:T2	Arg2:T5
+R11	isAssociatedWith	Arg1:T2	Arg2:T6
+R12	isAssociatedWith	Arg1:T2	Arg2:T7
+R13	isAssociatedWith	Arg1:T3	Arg2:T1
+R14	isAssociatedWith	Arg1:T3	Arg2:T2
+R15	isAssociatedWith	Arg1:T3	Arg2:T4
+R16	isAssociatedWith	Arg1:T3	Arg2:T5
+R17	isAssociatedWith	Arg1:T3	Arg2:T6
+R18	isAssociatedWith	Arg1:T3	Arg2:T7
+R19	isAssociatedWith	Arg1:T4	Arg2:T1
+R20	isAssociatedWith	Arg1:T4	Arg2:T2
+R21	isAssociatedWith	Arg1:T4	Arg2:T3
+R22	isAssociatedWith	Arg1:T4	Arg2:T5
+R23	isAssociatedWith	Arg1:T4	Arg2:T6
+R24	isAssociatedWith	Arg1:T4	Arg2:T7
+R25	isAssociatedWith	Arg1:T5	Arg2:T1
+R26	isAssociatedWith	Arg1:T5	Arg2:T2
+R27	isAssociatedWith	Arg1:T5	Arg2:T3
+R28	isAssociatedWith	Arg1:T5	Arg2:T4
+R29	isAssociatedWith	Arg1:T5	Arg2:T6
+R30	isAssociatedWith	Arg1:T5	Arg2:T7
+R31	isAssociatedWith	Arg1:T6	Arg2:T1
+R32	isAssociatedWith	Arg1:T6	Arg2:T2
+R33	isAssociatedWith	Arg1:T6	Arg2:T3
+R34	isAssociatedWith	Arg1:T6	Arg2:T4
+R35	isAssociatedWith	Arg1:T6	Arg2:T5
+R36	isAssociatedWith	Arg1:T6	Arg2:T7
+R37	isAssociatedWith	Arg1:T7	Arg2:T1
+R38	isAssociatedWith	Arg1:T7	Arg2:T2
+R39	isAssociatedWith	Arg1:T7	Arg2:T3
+R40	isAssociatedWith	Arg1:T7	Arg2:T4
+R41	isAssociatedWith	Arg1:T7	Arg2:T5
+R42	isAssociatedWith	Arg1:T7	Arg2:T6
