@@ -125,9 +125,7 @@ def ner_annotation(data,path,threshold=0):
 
         # conf filter
         conf_select=[c>=threshold for c in conf]
-        print(label)
         label=[l if c else 0 for c,l in zip(conf_select,label)]
-        print(label)
 
         # dilatation
         for i in range(1,len(tokens)-1):
