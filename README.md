@@ -27,7 +27,7 @@ RE-Model (SciBERT-MCNN-segmentation for RE)
 
 `$ gdown https://drive.google.com/uc?id=1XB0AriPdZUNiJF4FJ3B2TR1Jfq0nWPVc`
 
-### Inference Exemple 
+### Inference Example 
 
 `$ python main.py -input data/PGxCorpus -output PGxAnnotation_77 -conf_threshold 77`
 
